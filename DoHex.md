@@ -34,7 +34,8 @@ There is no such thing as complex project in this perspective. S
 
 ### Object Oriented Programming
 ![OO Programmer](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/ooprogrammer.png)
-Give this a chance 
+Give this a chance.
+Alan Kay 
 
 ### Data Oriented Programming
 
@@ -54,11 +55,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNj
-U3MjA1NTUsLTY3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2
-LC05MjQ3MzM0NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3Mz
-Q0NzYsLTEwMTU2OTk0OTUsODQ5MjA3NDE5LC0xNDI0NjEyODk4
-LDIxMTA3MTc4MzQsNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1MTY1OD
-M5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgy
-XX0=
+eyJoaXN0b3J5IjpbLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLTM1Mj
+g4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0Njk2
+LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMxMyw1MTA4MD
+gzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQxOSwt
+MTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0OCwzMzcxMz
+k0NzUsNTE2NTgzOTgyLC0xODc1Mzc4OTcwLDczNTc2NTczNF19
+
 -->
