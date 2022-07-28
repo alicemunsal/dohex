@@ -8,7 +8,9 @@ I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
 ### Hexagonal Architecture
-![App and Outside World (IO Devices)](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
+![Hex1](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
+
+    App and outside World (IO Devices)
 
 #### Dichotomy of Control
 
@@ -38,11 +40,11 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NTk4MjQ4LDk1NzI0MzMxMyw1MTA4MD
-gzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQxOSwt
-MTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0OCwzMzcxMz
-k0NzUsNTE2NTgzOTgyLC0xODc1Mzc4OTcwLDczNTc2NTczNCwt
-MTUzNjEwNTg4MiwxMDc2MzkwNDk5LC0xMDEwNDQyMTU5LDY4OT
-E5MjcyNCwtODUyMDk1MzA0LDcwOTk4NjIyNiwzMjY0MTgxMV19
-
+eyJoaXN0b3J5IjpbLTEzNDk2NDk3OTYsOTU3MjQzMzEzLDUxMD
+gwODM0LC00NDI3MzQ0NzYsLTEwMTU2OTk0OTUsODQ5MjA3NDE5
+LC0xNDI0NjEyODk4LDIxMTA3MTc4MzQsNjY2NzQzOTQ4LDMzNz
+EzOTQ3NSw1MTY1ODM5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0
+LC0xNTM2MTA1ODgyLDEwNzYzOTA0OTksLTEwMTA0NDIxNTksNj
+g5MTkyNzI0LC04NTIwOTUzMDQsNzA5OTg2MjI2LDMyNjQxODEx
+XX0=
 -->
