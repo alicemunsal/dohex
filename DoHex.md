@@ -8,6 +8,7 @@ I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
 ### Hexagonal Architecture
+![enter image description here](https://github.com/alicemunsal/dohex/blob/master/diagrams/1.drawio.png)
 
 #### Dichotomy of Control
 
@@ -37,11 +38,11 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3Mz
-Q0NzYsLTEwMTU2OTk0OTUsODQ5MjA3NDE5LC0xNDI0NjEyODk4
-LDIxMTA3MTc4MzQsNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1MTY1OD
-M5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgy
-LDEwNzYzOTA0OTksLTEwMTA0NDIxNTksNjg5MTkyNzI0LC04NT
-IwOTUzMDQsNzA5OTg2MjI2LDMyNjQxODExLC03Mjg4NTMxMDFd
+eyJoaXN0b3J5IjpbMTA0OTMyNjgwMCw5NTcyNDMzMTMsNTEwOD
+A4MzQsLTQ0MjczNDQ3NiwtMTAxNTY5OTQ5NSw4NDkyMDc0MTks
+LTE0MjQ2MTI4OTgsMjExMDcxNzgzNCw2NjY3NDM5NDgsMzM3MT
+M5NDc1LDUxNjU4Mzk4MiwtMTg3NTM3ODk3MCw3MzU3NjU3MzQs
+LTE1MzYxMDU4ODIsMTA3NjM5MDQ5OSwtMTAxMDQ0MjE1OSw2OD
+kxOTI3MjQsLTg1MjA5NTMwNCw3MDk5ODYyMjYsMzI2NDE4MTFd
 fQ==
 -->
