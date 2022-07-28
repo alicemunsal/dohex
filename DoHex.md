@@ -35,7 +35,7 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Threading
 Single Thread Per Request
-Non Blocking IO --> Actor style, Akka, go goroutines, kotlin corutines
+Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corutines
 
 ### Scaling
 
@@ -44,11 +44,11 @@ Non Blocking IO --> Actor style, Akka, go goroutines, kotlin corutines
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0Nz
-MzNDYwLDk1NzI0MzMxMyw1MTA4MDgzNCwtNDQyNzM0NDc2LC0x
-MDE1Njk5NDk1LDg0OTIwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNz
-E3ODM0LDY2Njc0Mzk0OCwzMzcxMzk0NzUsNTE2NTgzOTgyLC0x
-ODc1Mzc4OTcwLDczNTc2NTczNCwtMTUzNjEwNTg4MiwxMDc2Mz
-kwNDk5LC0xMDEwNDQyMTU5LDY4OTE5MjcyNCwtODUyMDk1MzA0
+eyJoaXN0b3J5IjpbLTY3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMz
+IwMTQ2LC05MjQ3MzM0NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00
+NDI3MzQ0NzYsLTEwMTU2OTk0OTUsODQ5MjA3NDE5LC0xNDI0Nj
+EyODk4LDIxMTA3MTc4MzQsNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1
+MTY1ODM5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MT
+A1ODgyLDEwNzYzOTA0OTksLTEwMTA0NDIxNTksNjg5MTkyNzI0
 XX0=
 -->
