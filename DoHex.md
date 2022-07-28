@@ -26,6 +26,7 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Object Oriented Programming
 ![OO Programmer](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/ooprogrammer.png)
+Give this a chance 
 
 ### Data Oriented Programming
 
@@ -45,11 +46,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcyMDU1NSwtNjcyMjIyNzA0LDM2Mj
-kwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2MCw5NTcyNDMzMTMs
-NTEwODA4MzQsLTQ0MjczNDQ3NiwtMTAxNTY5OTQ5NSw4NDkyMD
-c0MTksLTE0MjQ2MTI4OTgsMjExMDcxNzgzNCw2NjY3NDM5NDgs
-MzM3MTM5NDc1LDUxNjU4Mzk4MiwtMTg3NTM3ODk3MCw3MzU3Nj
-U3MzQsLTE1MzYxMDU4ODIsMTA3NjM5MDQ5OSwtMTAxMDQ0MjE1
-OV19
+eyJoaXN0b3J5IjpbLTM1Mjg4MjgzNywtMTY1NzIwNTU1LC02Nz
+IyMjI3MDQsMzYyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYw
+LDk1NzI0MzMxMyw1MTA4MDgzNCwtNDQyNzM0NDc2LC0xMDE1Nj
+k5NDk1LDg0OTIwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNzE3ODM0
+LDY2Njc0Mzk0OCwzMzcxMzk0NzUsNTE2NTgzOTgyLC0xODc1Mz
+c4OTcwLDczNTc2NTczNCwtMTUzNjEwNTg4MiwxMDc2MzkwNDk5
+XX0=
 -->
