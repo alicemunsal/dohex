@@ -21,7 +21,7 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Data Oriented Programming
 
-###
+### Threading
 
 ### Test Driven Development
 
@@ -32,9 +32,9 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDI3NzM1NSw1MTY1ODM5ODIsLTE4Nz
-UzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgyLDEwNzYzOTA0
-OTksLTEwMTA0NDIxNTksNjg5MTkyNzI0LC04NTIwOTUzMDQsNz
-A5OTg2MjI2LDMyNjQxODExLC03Mjg4NTMxMDEsLTM4MDE0Mjg1
-MV19
+eyJoaXN0b3J5IjpbMzM3MTM5NDc1LDUxNjU4Mzk4MiwtMTg3NT
+M3ODk3MCw3MzU3NjU3MzQsLTE1MzYxMDU4ODIsMTA3NjM5MDQ5
+OSwtMTAxMDQ0MjE1OSw2ODkxOTI3MjQsLTg1MjA5NTMwNCw3MD
+k5ODYyMjYsMzI2NDE4MTEsLTcyODg1MzEwMSwtMzgwMTQyODUx
+XX0=
 -->
