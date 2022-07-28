@@ -34,7 +34,8 @@ Nowadays we are developing web interfaces mostly as a Single Page Applications(S
 ### Project Structure
 There is no such thing as complex project in this perspective. S
 Components
-
+Lib: 
+Acl: Anti-Corruption Layer 
 
 ### Object Oriented Programming
 ![OO Programmer](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/ooprogrammer.png)
@@ -59,11 +60,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQyMzEyNDMsLTExMjg2MDcxNTMsND
-EwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUw
-NTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNjcyMjIyNzA0LD
-M2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2MCw5NTcyNDMz
-MTMsNTEwODA4MzQsLTQ0MjczNDQ3NiwtMTAxNTY5OTQ5NSw4ND
-kyMDc0MTksLTE0MjQ2MTI4OTgsMjExMDcxNzgzNCw2NjY3NDM5
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MT
+AwMzA2MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1
+NDgsLTM1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMz
+YyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMx
+Myw1MTA4MDgzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OT
+IwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0
+OF19
 -->
