@@ -2,7 +2,7 @@
 
 ### Intro
 
-Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3], Explicit Architecture[4] all circle around the same concept.  
+Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] all circle around the same concept.  
  
 I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
@@ -39,11 +39,11 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUwNzQ5ODMsLTkyNDczMzQ2MCw5NT
-cyNDMzMTMsNTEwODA4MzQsLTQ0MjczNDQ3NiwtMTAxNTY5OTQ5
-NSw4NDkyMDc0MTksLTE0MjQ2MTI4OTgsMjExMDcxNzgzNCw2Nj
-Y3NDM5NDgsMzM3MTM5NDc1LDUxNjU4Mzk4MiwtMTg3NTM3ODk3
-MCw3MzU3NjU3MzQsLTE1MzYxMDU4ODIsMTA3NjM5MDQ5OSwtMT
-AxMDQ0MjE1OSw2ODkxOTI3MjQsLTg1MjA5NTMwNCw3MDk5ODYy
-MjZdfQ==
+eyJoaXN0b3J5IjpbNDgyMzIwMTQ2LC05MjQ3MzM0NjAsOTU3Mj
+QzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYsLTEwMTU2OTk0OTUs
+ODQ5MjA3NDE5LC0xNDI0NjEyODk4LDIxMTA3MTc4MzQsNjY2Nz
+QzOTQ4LDMzNzEzOTQ3NSw1MTY1ODM5ODIsLTE4NzUzNzg5NzAs
+NzM1NzY1NzM0LC0xNTM2MTA1ODgyLDEwNzYzOTA0OTksLTEwMT
+A0NDIxNTksNjg5MTkyNzI0LC04NTIwOTUzMDQsNzA5OTg2MjI2
+XX0=
 -->
