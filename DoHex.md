@@ -27,7 +27,8 @@ Famous blue book, Bounded Context
 
 ### Adapter Organization
 
-### Single Page Application
+### Web Application
+This is a different application connected to the our backend services. 
 
 ### Project Structure
 There is no such thing as complex project in this perspective. S
@@ -55,11 +56,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLTM1Mj
-g4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0Njk2
-LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMxMyw1MTA4MD
-gzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQxOSwt
-MTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0OCwzMzcxMz
-k0NzUsNTE2NTgzOTgyLC0xODc1Mzc4OTcwLDczNTc2NTczNF19
-
+eyJoaXN0b3J5IjpbLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OT
+A2NTA1NDgsLTM1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3
+MDQsMzYyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1Nz
+I0MzMxMyw1MTA4MDgzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1
+LDg0OTIwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Nj
+c0Mzk0OCwzMzcxMzk0NzUsNTE2NTgzOTgyLC0xODc1Mzc4OTcw
+XX0=
 -->
