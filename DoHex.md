@@ -1,12 +1,12 @@
 ## DoHex - Data Oriented Hexagonal Architecture 
 
-10 yıldan fazladır, Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] 
+10 yıldan fazladır, Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] gibi farklı isimlerle tekrar karşımıza çıkan bu yazılım mimarisinin 
 
 ### References
 [1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTI5Nzk2LDMyNjQxODExLC03Mjg4NT
+eyJoaXN0b3J5IjpbNzA5OTg2MjI2LDMyNjQxODExLC03Mjg4NT
 MxMDEsLTM4MDE0Mjg1MV19
 -->
