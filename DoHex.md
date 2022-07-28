@@ -30,7 +30,11 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Test Driven Development
 
+### Deployment
+
+
 ### Threading
+Non Blocking IO --Actor style, Akka, go goroutines, kotlin corutines
 
 ### Scaling
 
@@ -39,11 +43,11 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMzIwMTQ2LC05MjQ3MzM0NjAsOTU3Mj
-QzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYsLTEwMTU2OTk0OTUs
-ODQ5MjA3NDE5LC0xNDI0NjEyODk4LDIxMTA3MTc4MzQsNjY2Nz
-QzOTQ4LDMzNzEzOTQ3NSw1MTY1ODM5ODIsLTE4NzUzNzg5NzAs
-NzM1NzY1NzM0LC0xNTM2MTA1ODgyLDEwNzYzOTA0OTksLTEwMT
-A0NDIxNTksNjg5MTkyNzI0LC04NTIwOTUzMDQsNzA5OTg2MjI2
-XX0=
+eyJoaXN0b3J5IjpbLTMyNTA0MjA4NCw0ODIzMjAxNDYsLTkyND
+czMzQ2MCw5NTcyNDMzMTMsNTEwODA4MzQsLTQ0MjczNDQ3Niwt
+MTAxNTY5OTQ5NSw4NDkyMDc0MTksLTE0MjQ2MTI4OTgsMjExMD
+cxNzgzNCw2NjY3NDM5NDgsMzM3MTM5NDc1LDUxNjU4Mzk4Miwt
+MTg3NTM3ODk3MCw3MzU3NjU3MzQsLTE1MzYxMDU4ODIsMTA3Nj
+M5MDQ5OSwtMTAxMDQ0MjE1OSw2ODkxOTI3MjQsLTg1MjA5NTMw
+NF19
 -->
