@@ -8,7 +8,7 @@ I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
 ### Hexagonal Architecture
-![App vs IO](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
+![App and Outside World (IO Devices)](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
 
 #### Dichotomy of Control
 
@@ -38,7 +38,7 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MjQ5MTM3LDk1NzI0MzMxMyw1MTA4MD
+eyJoaXN0b3J5IjpbOTM2NTk4MjQ4LDk1NzI0MzMxMyw1MTA4MD
 gzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQxOSwt
 MTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0OCwzMzcxMz
 k0NzUsNTE2NTgzOTgyLC0xODc1Mzc4OTcwLDczNTc2NTczNCwt
