@@ -28,7 +28,7 @@ Famous blue book, Bounded Context
 ### Adapter Organization
 
 ### Web Application
-Nowadays we are developing web interfaces as AnThis is a different application connected to the our backend services or maybe we are using GraphQL as a backend. Either way we have a separate application running in browser. 
+Nowadays we are developing web interfaces as Single Page Applications(SPA) like React, Vue, Angular. This is a different application connected to the our backend services or maybe we are using GraphQL as a backend. Either way we have a separate application running in browser. 
 
 ### Project Structure
 There is no such thing as complex project in this perspective. S
@@ -56,11 +56,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NDYxMzgsLTEzNTYzMTcyNDcsLTc4Nj
-I4Mjc5LDE2OTA2NTA1NDgsLTM1Mjg4MjgzNywtMTY1NzIwNTU1
-LC02NzIyMjI3MDQsMzYyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0Nz
-MzNDYwLDk1NzI0MzMxMyw1MTA4MDgzNCwtNDQyNzM0NDc2LC0x
-MDE1Njk5NDk1LDg0OTIwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNz
-E3ODM0LDY2Njc0Mzk0OCwzMzcxMzk0NzUsNTE2NTgzOTgyXX0=
-
+eyJoaXN0b3J5IjpbLTEwNTY2MDY3MiwtMTM1NjMxNzI0NywtNz
+g2MjgyNzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1
+NTUsLTY3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05Mj
+Q3MzM0NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYs
+LTEwMTU2OTk0OTUsODQ5MjA3NDE5LC0xNDI0NjEyODk4LDIxMT
+A3MTc4MzQsNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1MTY1ODM5ODJd
+fQ==
 -->
