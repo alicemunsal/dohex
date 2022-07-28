@@ -20,6 +20,8 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Component Diagram 
 
+What is a component anyway. In Famous blue book
+
 ### Component Communication
 
 ### Adapter Organization
@@ -51,11 +53,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTU4MDYzNSwtMzUyODgyODM3LC0xNj
-U3MjA1NTUsLTY3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2
-LC05MjQ3MzM0NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3Mz
-Q0NzYsLTEwMTU2OTk0OTUsODQ5MjA3NDE5LC0xNDI0NjEyODk4
-LDIxMTA3MTc4MzQsNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1MTY1OD
-M5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgy
-XX0=
+eyJoaXN0b3J5IjpbLTEwNDUzNjU1ODksLTM1Mjg4MjgzNywtMT
+Y1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0Njk2LDQ4MjMyMDE0
+NiwtOTI0NzMzNDYwLDk1NzI0MzMxMyw1MTA4MDgzNCwtNDQyNz
+M0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQxOSwtMTQyNDYxMjg5
+OCwyMTEwNzE3ODM0LDY2Njc0Mzk0OCwzMzcxMzk0NzUsNTE2NT
+gzOTgyLC0xODc1Mzc4OTcwLDczNTc2NTczNCwtMTUzNjEwNTg4
+Ml19
 -->
