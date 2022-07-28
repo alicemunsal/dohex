@@ -11,7 +11,9 @@ Over a decade, we are continuously reviving a particular style of software archi
 > *The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.*  
 > — Epictetus. Discourses. II.5  
 
-This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy.  
+This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy. 
+
+### Component Diagram 
 
 ### Component Communication
 
@@ -21,9 +23,9 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 ### Data Oriented Programming
 
-### Threading
-
 ### Test Driven Development
+
+### Threading
 
 ### Scaling
 
@@ -32,9 +34,9 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MTM5NDc1LDUxNjU4Mzk4MiwtMTg3NT
-M3ODk3MCw3MzU3NjU3MzQsLTE1MzYxMDU4ODIsMTA3NjM5MDQ5
-OSwtMTAxMDQ0MjE1OSw2ODkxOTI3MjQsLTg1MjA5NTMwNCw3MD
-k5ODYyMjYsMzI2NDE4MTEsLTcyODg1MzEwMSwtMzgwMTQyODUx
-XX0=
+eyJoaXN0b3J5IjpbNjY2NzQzOTQ4LDMzNzEzOTQ3NSw1MTY1OD
+M5ODIsLTE4NzUzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgy
+LDEwNzYzOTA0OTksLTEwMTA0NDIxNTksNjg5MTkyNzI0LC04NT
+IwOTUzMDQsNzA5OTg2MjI2LDMyNjQxODExLC03Mjg4NTMxMDEs
+LTM4MDE0Mjg1MV19
 -->
