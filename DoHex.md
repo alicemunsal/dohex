@@ -2,7 +2,7 @@
 
 ### Intro
 
-Over a decade, we are facing a particular style of software architectural pattern with different names and different interpretations. Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] all  
+Over a decade, we are facing a particular style of software architectural pattern with different names and different interpretations. Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] all circle around the same concept.  
  
 10 yıldan fazladır, Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] gibi farklı isimlerle karşımıza çıkan bu yazılım mimarisinin yeni bir yorumunu tekrar sunmak istiyorum.
 Amaçlarım:
@@ -16,7 +16,7 @@ Amaçlarım:
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM1MTg3Myw2ODkxOTI3MjQsLTg1Mj
-A5NTMwNCw3MDk5ODYyMjYsMzI2NDE4MTEsLTcyODg1MzEwMSwt
-MzgwMTQyODUxXX0=
+eyJoaXN0b3J5IjpbLTEwMTA0NDIxNTksNjg5MTkyNzI0LC04NT
+IwOTUzMDQsNzA5OTg2MjI2LDMyNjQxODExLC03Mjg4NTMxMDEs
+LTM4MDE0Mjg1MV19
 -->
