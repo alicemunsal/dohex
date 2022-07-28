@@ -13,20 +13,28 @@ Over a decade, we are continuously reviving a particular style of software archi
 
 This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy.  
 
+### Component Communication
 
 ### Project Structure
 
 ### Object Oriented Programming
 
+### Data Oriented Programming
+
+###
+
 ### Test Driven Development
+
+### Scaling
 
 ### References
 [1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NTgzOTgyLC0xODc1Mzc4OTcwLDczNT
-c2NTczNCwtMTUzNjEwNTg4MiwxMDc2MzkwNDk5LC0xMDEwNDQy
-MTU5LDY4OTE5MjcyNCwtODUyMDk1MzA0LDcwOTk4NjIyNiwzMj
-Y0MTgxMSwtNzI4ODUzMTAxLC0zODAxNDI4NTFdfQ==
+eyJoaXN0b3J5IjpbMTEzNDI3NzM1NSw1MTY1ODM5ODIsLTE4Nz
+UzNzg5NzAsNzM1NzY1NzM0LC0xNTM2MTA1ODgyLDEwNzYzOTA0
+OTksLTEwMTA0NDIxNTksNjg5MTkyNzI0LC04NTIwOTUzMDQsNz
+A5OTg2MjI2LDMyNjQxODExLC03Mjg4NTMxMDEsLTM4MDE0Mjg1
+MV19
 -->
