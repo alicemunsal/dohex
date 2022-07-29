@@ -18,12 +18,12 @@ Consistent and simple design and development strategy for
 
 This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy. 
 
-### Component Diagram 
+### Component 
 
 What is a component anyway. 
 Famous blue book, Bounded Context
-* **Simple F:** Email Sender or message logger.  
-* **Group of functionalities:** Notification service (sends Email, SMS, Mobile notifications) or  CRUD interface for school assets.
+* **Simple Function:** Email Sender or message logger.  
+* **Group of Functionalities:** Notification service (sends Email, SMS, Mobile notifications) or  CRUD interface for school assets.
 * **Bounded Context in DDD:** Support Context, Sales Context
 * **Whole Application:** Embedded software that reads data from sensors and sends to MQTT Broker. 
 
@@ -67,7 +67,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTYyODkwNiwyMDk5NDUxMTk2LDE2ND
+eyJoaXN0b3J5IjpbMTM3OTIzNDIyNywyMDk5NDUxMTk2LDE2ND
 cyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3
 NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC
 03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcy
