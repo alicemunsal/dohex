@@ -9,19 +9,21 @@ Consistent and simple design and development strategy for
  
 ### Hexagonal Architecture
 ![Hex1](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
-*App and outside world (IO Devices)*
+
 
 #### Dichotomy of Control
 
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
-> — Epictetus
+> -- Epictetus
 
 This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
 
 Hexagonal Architecture has the same concept, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
-> Hexagonal Architecture allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
-> Alistair Cockburn
+*App and outside world (IO Devices)*
+
+> Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+> -- Alistair Cockburn
 
 ### Component 
 
@@ -72,11 +74,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE1NTY2NTksNTk2MTUzNzQ5LDEyNz
-YzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDcz
-ODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLT
-ExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYy
-ODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NS
-wtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDcz
-MzQ2MF19
+eyJoaXN0b3J5IjpbODU3MTU3MDEsNTk2MTUzNzQ5LDEyNzYzND
+U4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQs
+LTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMj
+g2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3
+OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNj
+cyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2
+MF19
 -->
