@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T07:43:19.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xQ9SBpnYPTWTBf3WSFfu" version="20.2.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-29T15:55:22.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Bx0aMtJuOXYtr4sP4nL1" version="20.2.2" type="github" pages="8">
   <diagram id="197FKwCF_T1x4Uy-kO40" name="App">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="01W9tkIO_FNPxwmTyG0n-1" value="APP" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="305" y="160" width="155" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="01W9tkIO_FNPxwmTyG0n-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="186.01999999999998" y="140" width="60" height="80" as="geometry" />
+          <mxGeometry x="199.02999999999997" y="150" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="01W9tkIO_FNPxwmTyG0n-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="488.26" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="01W9tkIO_FNPxwmTyG0n-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" parent="1" vertex="1">
-          <mxGeometry x="506" y="150" width="84.51" height="60" as="geometry" />
+          <mxGeometry x="506" y="160" width="84.51" height="60" as="geometry" />
         </mxCell>
         <mxCell id="01W9tkIO_FNPxwmTyG0n-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.monitor;" parent="1" vertex="1">
-          <mxGeometry x="173.01" y="260" width="86.02" height="80" as="geometry" />
+          <mxGeometry x="186.01999999999998" y="260" width="86.02" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl8cawExGORLvvyTG9R3-1" value="APP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -611,7 +611,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ELXSGDfXa7wz36hdUW_" name="Adapter Organization">
-    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
