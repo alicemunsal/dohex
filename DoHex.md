@@ -24,7 +24,7 @@ What is a component anyway.
 Famous blue book, Bounded Context
 It may be a simple component that sends email
 Or more complex notification service that sends email, sms and mobile notifications.
-Or 
+Or full functional single application
 
 ### Component Communication
 
@@ -65,7 +65,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Njg1MjEyMCwxNjMyODUxODcyLC03Nz
+eyJoaXN0b3J5IjpbLTI3MTQ3NDgyOCwxNjMyODUxODcyLC03Nz
 c3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3
 MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLT
 E2NTcyMDU1NSwtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAx
