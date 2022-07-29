@@ -18,7 +18,7 @@ Consistent and simple design and development strategy for
 
 This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy.
 
-The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control. 
+This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control. 
 
 ### Component 
 
@@ -69,7 +69,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzkzOTg3MiwxMjc2MzQ1ODYsLTE2MD
+eyJoaXN0b3J5IjpbMTE1MjA0NDgxNiwxMjc2MzQ1ODYsLTE2MD
 Q1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0LC03MDM0MjE2
 MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMTI4NjA3MTUzLD
 QxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2MjgyNzksMTY5MDY1
