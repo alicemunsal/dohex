@@ -20,6 +20,9 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 
 Hexagonal Architecture has the same concept, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
+> Hexagonal Architecture allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+> 
+
 ### Component 
 
 What is a component anyway. 
@@ -69,11 +72,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMTYwND
-U1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYz
-NSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsND
-EwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUw
-NTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNjcyMjIyNzA0LD
-M2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2MCw5NTcyNDMz
-MTNdfQ==
+eyJoaXN0b3J5IjpbMzM3MTk0OTE1LDU5NjE1Mzc0OSwxMjc2Mz
+Q1ODYsLTE2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0
+LC03MDM0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMT
+I4NjA3MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2Mjgy
+NzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLT
+Y3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0
+NjBdfQ==
 -->
