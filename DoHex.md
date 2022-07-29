@@ -77,13 +77,15 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
 [] Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
 [] Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
+[] The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDAwMjA0ODcsLTExNDIzNjc3MzIsMT
-kzMTQyNTk5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3
-MDgsNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMD
-k5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNjMyODUx
-ODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC
-0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4
-ODI4MzddfQ==
+eyJoaXN0b3J5IjpbMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMT
+E0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQz
+MDExLDkwNTcyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2LC0xNj
+A0NTU3NjU5LDIwOTk0NTExOTYsMTY0NzIwNzM4NCwtNzAzNDIx
+NjM1LDE2MzI4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1My
+w0MTAwMzA2MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2
+NTA1NDhdfQ==
 -->
