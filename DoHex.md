@@ -75,13 +75,14 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer  
 [] The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
 [] Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
+[] Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTQyNTk5NCw2NzU2MDEyNzEsMTU0Nj
-U0MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5LDEyNzYzNDU4Niwt
-MTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMz
-QyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMjg2MDcx
-NTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNj
-kwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNjcyMjIy
-NzA0XX0=
+eyJoaXN0b3J5IjpbLTExNDIzNjc3MzIsMTkzMTQyNTk5NCw2Nz
+U2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5
+LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2ND
+cyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3
+NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC
+03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcy
+MDU1NV19
 -->
