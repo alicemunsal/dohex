@@ -14,7 +14,7 @@ Consistent and simple design and development strategy for
 
 This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
 
-Hexagonal Architecture has the same concept, we must separate our application code (within our control), and IO Devices (outside of our control)  
+Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
 *App and outside world (IO Devices)*  
@@ -71,11 +71,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDQ4MzYwNiw5MDU3MjE3MDgsNTk2MT
-UzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2
-LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nz
-c3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3
-MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLT
-E2NTcyMDU1NSwtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAx
-NDZdfQ==
+eyJoaXN0b3J5IjpbNjU4Mzc4NDc5LDkwNTcyMTcwOCw1OTYxNT
+M3NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5LDIwOTk0NTExOTYs
+MTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4NTE4NzIsLTc3Nz
+cyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2MDksLTEzNTYzMTcy
+NDcsLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLTM1Mjg4MjgzNywtMT
+Y1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0Njk2LDQ4MjMyMDE0
+Nl19
 -->
