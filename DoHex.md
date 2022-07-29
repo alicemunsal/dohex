@@ -8,8 +8,6 @@ I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
 ### Hexagonal Architecture
-![Hex1](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1.drawio.png)
-
 
 #### Dichotomy of Control
 
@@ -20,8 +18,9 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 
 Hexagonal Architecture has the same concept, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
-*App and outside world (IO Devices)*
-
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
+*App and outside world (IO Devices)*  
+  
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn
 
@@ -74,11 +73,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MTU3MDEsNTk2MTUzNzQ5LDEyNzYzND
-U4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQs
-LTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMj
-g2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3
-OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNj
-cyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2
-MF19
+eyJoaXN0b3J5IjpbOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2Mz
+Q1ODYsLTE2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0
+LC03MDM0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMT
+I4NjA3MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2Mjgy
+NzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLT
+Y3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0
+NjBdfQ==
 -->
