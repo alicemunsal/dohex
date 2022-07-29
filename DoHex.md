@@ -16,7 +16,9 @@ Consistent and simple design and development strategy for
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
 > — Epictetus
 
-This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control. Like 
+This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
+
+The same as   
 
 ### Component 
 
@@ -67,11 +69,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTIzMjMwNywxMjc2MzQ1ODYsLTE2MD
-Q1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0LC03MDM0MjE2
-MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMTI4NjA3MTUzLD
-QxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2MjgyNzksMTY5MDY1
-MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLTY3MjIyMjcwNC
-wzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0NjAsOTU3MjQz
-MzEzXX0=
+eyJoaXN0b3J5IjpbODM2MjQyNTY1LDEyNzYzNDU4NiwtMTYwND
+U1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYz
+NSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsND
+EwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUw
+NTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNjcyMjIyNzA0LD
+M2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2MCw5NTcyNDMz
+MTNdfQ==
 -->
