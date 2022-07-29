@@ -14,7 +14,7 @@ Consistent and simple design and development strategy for
 #### Dichotomy of Control
 
 > *The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.*  
-> — Epictetus. Discourses. II.5  
+> — Epictetus
 
 This concept within Stoic philosophy is referred to as the Dichotomy of Control (“DOC”), the understanding of what is and what is not within our control, and it is one of the most important tenets of the philosophy. 
 
@@ -67,11 +67,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNj
-Q3MjA3Mzg0LC03MDM0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIz
-NzUxLC0xMTI4NjA3MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0Ny
-wtNzg2MjgyNzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3
-MjA1NTUsLTY3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC
-05MjQ3MzM0NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3MzQ0
-NzZdfQ==
+eyJoaXN0b3J5IjpbMTI3NjM0NTg2LC0xNjA0NTU3NjU5LDIwOT
+k0NTExOTYsMTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4NTE4
+NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2MDksLT
+EzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLTM1Mjg4
+MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0Njk2LD
+Q4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMxMyw1MTA4MDgz
+NF19
 -->
