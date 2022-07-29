@@ -59,12 +59,14 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
+[] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MT
-AwMzA2MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1
-NDgsLTM1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMz
-YyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMx
-Myw1MTA4MDgzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OT
-IwNzQxOSwtMTQyNDYxMjg5OCwyMTEwNzE3ODM0LDY2Njc0Mzk0
-OF19
+eyJoaXN0b3J5IjpbMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMT
+I4NjA3MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2Mjgy
+NzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLT
+Y3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0
+NjAsOTU3MjQzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYsLTEwMT
+U2OTk0OTUsODQ5MjA3NDE5LC0xNDI0NjEyODk4LDIxMTA3MTc4
+MzRdfQ==
 -->
