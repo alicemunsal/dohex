@@ -22,9 +22,9 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 What is a component anyway. 
 Famous blue book, Bounded Context
-* Simple: Sends email or calculate interest.  
-* Group of functionalities: Notification service (sends email, sms, mobile notifications) or  CRUD interface for library assets.
-* Bounded Context: Support Context, Sales Context
+* **Simple:** Email Sender or logger.  
+* **Group of functionalities:** Notification service (sends email, sms, mobile notifications) or  CRUD interface for library assets.
+* **Bounded Context in DDD:** Support Context, Sales Context
 
 
 ### Component Communication
@@ -66,7 +66,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTQ3NzI0NiwtNzAzNDIxNjM1LDE2Mz
+eyJoaXN0b3J5IjpbLTE5NjY3NDYxMSwtNzAzNDIxNjM1LDE2Mz
 I4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2
 MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLT
 M1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0
