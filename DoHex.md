@@ -25,7 +25,7 @@ Famous blue book, Bounded Context
 * **Simple:** Email Sender or logger.  
 * **Group of functionalities:** Notification service (sends email, sms, mobile notifications) or  CRUD interface for library assets.
 * **Bounded Context in DDD:** Support Context, Sales Context
-* **Whole Application:** 
+* **Whole Application:** Embedded software that reads data from sensors and sends to MQTT 
 
 
 ### Component Communication
@@ -67,11 +67,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2Mz
-I4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2
-MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLT
-M1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0
-Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0MzMxMyw1MT
-A4MDgzNCwtNDQyNzM0NDc2LC0xMDE1Njk5NDk1LDg0OTIwNzQx
-OV19
+eyJoaXN0b3J5IjpbMTc1MjIxOTEwMSwxNjQ3MjA3Mzg0LC03MD
+M0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMTI4NjA3
+MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2MjgyNzksMT
+Y5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLTY3MjIy
+MjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0NjAsOT
+U3MjQzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYsLTEwMTU2OTk0
+OTVdfQ==
 -->
