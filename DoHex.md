@@ -22,7 +22,7 @@ This concept within Stoic philosophy is referred to as the Dichotomy of Control 
 
 What is a component anyway. 
 Famous blue book, Bounded Context
-* **Simple:** Email Sender or message logger.  
+* **Simple F:** Email Sender or message logger.  
 * **Group of functionalities:** Notification service (sends Email, SMS, Mobile notifications) or  CRUD interface for school assets.
 * **Bounded Context in DDD:** Support Context, Sales Context
 * **Whole Application:** Embedded software that reads data from sensors and sends to MQTT Broker. 
@@ -67,11 +67,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0LC03MD
-M0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMTI4NjA3
-MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2MjgyNzksMT
-Y5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLTY3MjIy
-MjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0NjAsOT
-U3MjQzMzEzLDUxMDgwODM0LC00NDI3MzQ0NzYsLTEwMTU2OTk0
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTYzMTYyODkwNiwyMDk5NDUxMTk2LDE2ND
+cyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3
+NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC
+03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcy
+MDU1NSwtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAxNDYsLT
+kyNDczMzQ2MCw5NTcyNDMzMTMsNTEwODA4MzQsLTQ0MjczNDQ3
+Nl19
 -->
