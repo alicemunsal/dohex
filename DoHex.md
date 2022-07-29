@@ -7,9 +7,7 @@ Over a decade, we are continuously reviving a particular style of software archi
 I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
-### Hexagonal Architecture
-
-#### Dichotomy of Control
+### Hexagonal Architecture  
 
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
 > -- Epictetus
@@ -73,11 +71,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2Mz
-Q1ODYsLTE2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0
-LC03MDM0MjE2MzUsMTYzMjg1MTg3MiwtNzc3NzIzNzUxLC0xMT
-I4NjA3MTUzLDQxMDAzMDYwOSwtMTM1NjMxNzI0NywtNzg2Mjgy
-NzksMTY5MDY1MDU0OCwtMzUyODgyODM3LC0xNjU3MjA1NTUsLT
-Y3MjIyMjcwNCwzNjI5MDQ2OTYsNDgyMzIwMTQ2LC05MjQ3MzM0
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTQ1NDQ4MzYwNiw5MDU3MjE3MDgsNTk2MT
+UzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2
+LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nz
+c3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3
+MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLT
+E2NTcyMDU1NSwtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAx
+NDZdfQ==
 -->
