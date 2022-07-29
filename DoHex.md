@@ -18,7 +18,7 @@ Consistent and simple design and development strategy for
 
 This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
 
-The same as   
+Hexagonal Architecture has the same concept, we must separate our application code (within   
 
 ### Component 
 
@@ -69,11 +69,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MjQyNTY1LDEyNzYzNDU4NiwtMTYwND
-U1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYz
-NSwxNjMyODUxODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsND
-EwMDMwNjA5LC0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUw
-NTQ4LC0zNTI4ODI4MzcsLTE2NTcyMDU1NSwtNjcyMjIyNzA0LD
-M2MjkwNDY5Niw0ODIzMjAxNDYsLTkyNDczMzQ2MCw5NTcyNDMz
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTExOTkzNTQzNTUsMTI3NjM0NTg2LC0xNj
+A0NTU3NjU5LDIwOTk0NTExOTYsMTY0NzIwNzM4NCwtNzAzNDIx
+NjM1LDE2MzI4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1My
+w0MTAwMzA2MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2
+NTA1NDgsLTM1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MD
+QsMzYyOTA0Njk2LDQ4MjMyMDE0NiwtOTI0NzMzNDYwLDk1NzI0
+MzMxM119
 -->
