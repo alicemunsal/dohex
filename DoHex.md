@@ -71,13 +71,15 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
+[] Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
+[] Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2MT
-UzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2
-LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nz
-c3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3
-MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLT
-E2NTcyMDU1NSwtNjcyMjIyNzA0LDM2MjkwNDY5Niw0ODIzMjAx
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTY5ODAzNDAwNCwxNTQ2NTQzMDExLDkwNT
+cyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5
+LDIwOTk0NTExOTYsMTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2Mz
+I4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2
+MDksLTEzNTYzMTcyNDcsLTc4NjI4Mjc5LDE2OTA2NTA1NDgsLT
+M1Mjg4MjgzNywtMTY1NzIwNTU1LC02NzIyMjI3MDQsMzYyOTA0
+Njk2XX0=
 -->
