@@ -72,17 +72,18 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 [] Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
+[] C4 Model https://c4model.com/  
 [] Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer  
 [] The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
 [] Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
 [] Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIzNjc3MzIsMTkzMTQyNTk5NCw2Nz
-U2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5
-LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2ND
-cyMDczODQsLTcwMzQyMTYzNSwxNjMyODUxODcyLC03Nzc3MjM3
-NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC0xMzU2MzE3MjQ3LC
-03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4ODI4MzcsLTE2NTcy
-MDU1NV19
+eyJoaXN0b3J5IjpbLTE3NDAwMjA0ODcsLTExNDIzNjc3MzIsMT
+kzMTQyNTk5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3
+MDgsNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMD
+k5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNjMyODUx
+ODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMwNjA5LC
+0xMzU2MzE3MjQ3LC03ODYyODI3OSwxNjkwNjUwNTQ4LC0zNTI4
+ODI4MzddfQ==
 -->
