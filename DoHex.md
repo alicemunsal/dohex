@@ -26,7 +26,8 @@ Simplest code
 
 ### Component 
 
-What is a component anyway. Component is overly used terminology in the software industry.  
+Component is overly used terminology in the software industry. In the context of this post:  
+A component is a group of related functionality that resides behind a nice and clean interface. 
 * ~~**Simple Function:** Email Sender, Message logger.~~  
 * ~~**Group of Functionalities:** Notification service (sends Email, SMS, Mobile notifications),  CRUD interface for school assets.~~
 * ~~**Bounded Context in DDD:** Support Context, Sales Context~~
@@ -80,7 +81,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTI2MjczOCwxNTcwNzkxODExLC0xNz
+eyJoaXN0b3J5IjpbMTgwMzI2NDc1OSwxNTcwNzkxODExLC0xNz
 QwMDIwNDg3LC0xMTQyMzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAx
 MjcxLDE1NDY1NDMwMTEsOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMj
 c2MzQ1ODYsLTE2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3
