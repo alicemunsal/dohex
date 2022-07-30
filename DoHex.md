@@ -87,15 +87,15 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 []: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 []: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 []: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
-[]: Entity Component S https://en.wikipedia.org/wiki/Entity_component_system
+[]: Entity Component System https://en.wikipedia.org/wiki/Entity_component_system
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzg2ODgwMyw3NDEyOTE4OTQsNzM1Nz
-UyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLTEzNzcyNjgx
-NDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5ODkwNiwtNj
-g1MDQ2NDkwLC0xMDU3OTA4Njg5LC0xOTUwNzA2MzgxLDIxMzE0
-OTg2MjksLTU4NjcyNTc5LDcwNjg0MzY4NywxODAzMjY0NzU5LD
-E1NzA3OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIzNjc3MzIsMTkz
-MTQyNTk5NF19
+eyJoaXN0b3J5IjpbNjU4MDM3MTQ3LDc0MTI5MTg5NCw3MzU3NT
+IyMDUsLTE1NTUwMDg4MCwtMTU2NzIyOTc0OCwtMTM3NzI2ODE0
+MywtNjIxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4OTA2LC02OD
+UwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMjEzMTQ5
+ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMT
+U3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMx
+NDI1OTk0XX0=
 -->
