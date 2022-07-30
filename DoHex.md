@@ -85,28 +85,28 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 ### Scaling
 
 ### References
-[^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/  
-[^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
-[^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
+[^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
+[^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+[^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 
-[^4]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm  
-[^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
-[^]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
-[^]: C4 Model https://c4model.com/  
-[^]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer  
-[^]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
-[^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
-[^]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
-[^]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0  
-[^]: Entity Component System https://en.wikipedia.org/wiki/Entity_component_system  
+[^4]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+[^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
+[^]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+[^]: C4 Model https://c4model.com/
+[^]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc
+[^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
+[^]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
+[^]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
+[^]: Entity Component System https://en.wikipedia.org/wiki/Entity_component_system
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDYyMjgwNywtMTQ2NzA5Nzg1NSwyMD
-AxMjk5MjgsNzQxMjkxODk0LDczNTc1MjIwNSwtMTU1NTAwODgw
-LC0xNTY3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEzODQ1NTAsNT
-IzNjI3MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1Nzkw
-ODY4OSwtMTk1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OS
-w3MDY4NDM2ODcsMTgwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQw
-MDIwNDg3XX0=
+eyJoaXN0b3J5IjpbOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMD
+EyOTkyOCw3NDEyOTE4OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAs
+LTE1NjcyMjk3NDgsLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1Mj
+M2MjcxNjQsLTI2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4
+Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LD
+cwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAw
+MjA0ODddfQ==
 -->
