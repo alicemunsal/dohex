@@ -22,7 +22,8 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn  
 
-##### The Simplest Implementation
+#### The Simplest Implementation
+
 
 ### Component 
 
@@ -78,11 +79,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMzMzYxODQsMTgwMzI2NDc1OSwxNT
-cwNzkxODExLC0xNzQwMDIwNDg3LC0xMTQyMzY3NzMyLDE5MzE0
-MjU5OTQsNjc1NjAxMjcxLDE1NDY1NDMwMTEsOTA1NzIxNzA4LD
-U5NjE1Mzc0OSwxMjc2MzQ1ODYsLTE2MDQ1NTc2NTksMjA5OTQ1
-MTE5NiwxNjQ3MjA3Mzg0LC03MDM0MjE2MzUsMTYzMjg1MTg3Mi
-wtNzc3NzIzNzUxLC0xMTI4NjA3MTUzLDQxMDAzMDYwOSwtMTM1
-NjMxNzI0N119
+eyJoaXN0b3J5IjpbNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MD
+c5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMxNDI1
+OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcyMTcwOCw1OT
+YxNTM3NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5LDIwOTk0NTEx
+OTYsMTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4NTE4NzIsLT
+c3NzcyMzc1MSwtMTEyODYwNzE1Myw0MTAwMzA2MDksLTEzNTYz
+MTcyNDddfQ==
 -->
