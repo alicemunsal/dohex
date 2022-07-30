@@ -32,7 +32,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. Wen can do that without modifying application's source code. This is an example to the Open-Closed Principle[^4] of the SOLID acronym; _software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification 
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. Wen can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
 ### Component 
 
@@ -104,7 +104,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjMyOTYxNSwzNzIzMTE5NjAsLTE1MT
+eyJoaXN0b3J5IjpbLTQxOTM5OTA2MCwzNzIzMTE5NjAsLTE1MT
 A1MTE1MjEsLTE2ODE3MzA0NzAsNDAxODE2ODQwLDkyMzk0Njk4
 NSwtMTQ2NzA5Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0LDczNT
 c1MjIwNSwtMTU1NTAwODgwLC0xNTY3MjI5NzQ4LC0xMzc3MjY4
