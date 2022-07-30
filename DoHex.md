@@ -36,8 +36,8 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ### Component 
 
-Component is overly used terminology in the software industry. In the context of this post:  
-A component is a group of related functionality that resides behind a nice and clean interface. 
+Component is over saturated terminology in the software industry. In the context of this post:  
+A component is a group of related functionality that resides behind a nice and clean interface that exposes use cases. 
 
 ### Libraries  
 A library is a **Side Effect** free functionality 
@@ -90,11 +90,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1Nj
-cyMjk3NDgsLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1MjM2Mjcx
-NjQsLTI2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4Njg5LC
-0xOTUwNzA2MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LDcwNjg0
-MzY4NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAwMjA0OD
-csLTExNDIzNjc3MzIsMTkzMTQyNTk5NCw2NzU2MDEyNzEsMTU0
-NjU0MzAxMV19
+eyJoaXN0b3J5IjpbNzQxMjkxODk0LDczNTc1MjIwNSwtMTU1NT
+AwODgwLC0xNTY3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEzODQ1
+NTAsNTIzNjI3MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5MCwtMT
+A1NzkwODY4OSwtMTk1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3
+MjU3OSw3MDY4NDM2ODcsMTgwMzI2NDc1OSwxNTcwNzkxODExLC
+0xNzQwMDIwNDg3LC0xMTQyMzY3NzMyLDE5MzE0MjU5OTQsNjc1
+NjAxMjcxXX0=
 -->
