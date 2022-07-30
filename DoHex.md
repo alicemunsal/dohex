@@ -74,25 +74,26 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 ### Scaling
 
 ### References
-[^1]: Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
-[^2]: Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
-[^3]: Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
-[]: Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
-[]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
-[]: C4 Model https://c4model.com/  
-[]: Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer  
-[]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
+[^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
+[^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+[^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+[]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+[]: Enterprise integration patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
+[]: Screaming architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
+[]: C4 model https://c4model.com/  
+[]: Anti-corruption layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer  
+[]: The origin of complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
 []: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
 []: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
 []: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjcyMjk3NDgsLTEzNzcyNjgxNDMsLT
-YyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5ODkwNiwtNjg1MDQ2
-NDkwLC0xMDU3OTA4Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2Mj
-ksLTU4NjcyNTc5LDcwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3
-OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIzNjc3MzIsMTkzMTQyNT
-k5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2
-MTUzNzQ5XX0=
+eyJoaXN0b3J5IjpbLTcxMDQ3MjE3NiwtMTU2NzIyOTc0OCwtMT
+M3NzI2ODE0MywtNjIxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4
+OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzOD
+EsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMy
+NjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2Nz
+czMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkw
+NTcyMTcwOF19
 -->
