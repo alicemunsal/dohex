@@ -46,7 +46,11 @@ A library is a **Side Effect** free functionality
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
+
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
 
 ### Adapter Organization
 
@@ -97,11 +101,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjQ4NjY2MywyMDAxMjk5MjgsNzQxMj
-kxODk0LDczNTc1MjIwNSwtMTU1NTAwODgwLC0xNTY3MjI5NzQ4
-LC0xMzc3MjY4MTQzLC02MjEzODQ1NTAsNTIzNjI3MTY0LC0yNj
-YxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMTk1MDcw
-NjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2ODcsMT
-gwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwNDg3LC0xMTQy
-MzY3NzMyXX0=
+eyJoaXN0b3J5IjpbLTE0NjcwOTc4NTUsMjAwMTI5OTI4LDc0MT
+I5MTg5NCw3MzU3NTIyMDUsLTE1NTUwMDg4MCwtMTU2NzIyOTc0
+OCwtMTM3NzI2ODE0MywtNjIxMzg0NTUwLDUyMzYyNzE2NCwtMj
+Y2MTk4OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3
+MDYzODEsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LD
+E4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0
+MjM2NzczMl19
 -->
