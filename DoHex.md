@@ -28,11 +28,11 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
-"addUser" is the only usecase of our application. The usecase has a business rule to check whether name is empty and save this user to the repository.   
+"addUser" is the only "Use case" of our application. The use case has a business rule to check whether name is empty and save this user to the repository.   
 
-We can build our entire usecases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
+We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-"Driving Adapter" calls our application usecases. We can swap it with CLI application or REST service. Also we can swap our "Driven Adapter" with MongoDB, PostgreSQL or a Web Service. 
+"Driving Adapter" calls our application use cases. We can swap it with CLI application or REST service. Also we can swap our "Driven Adapter" with MongoDB, PostgreSQL or a Web Service. 
 
 ### Component 
 
@@ -88,11 +88,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1Mj
-M2MjcxNjQsLTI2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4
-Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LD
-cwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAw
-MjA0ODcsLTExNDIzNjc3MzIsMTkzMTQyNTk5NCw2NzU2MDEyNz
-EsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5LDEyNzYz
-NDU4Nl19
+eyJoaXN0b3J5IjpbLTQ0ODg1NzIwOSwtMTM3NzI2ODE0MywtNj
+IxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4OTA2LC02ODUwNDY0
+OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMjEzMTQ5ODYyOS
+wtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5
+MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMxNDI1OT
+k0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcyMTcwOCw1OTYx
+NTM3NDldfQ==
 -->
