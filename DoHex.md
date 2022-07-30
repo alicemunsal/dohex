@@ -46,6 +46,8 @@ A library is a **Side Effect** free functionality
 
 ### Adapter Organization
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Adapter%20Organization.png)
+
 ### Web Applications
 
 Nowadays we are developing web interfaces mostly as a Single Page Applications(SPA) using React, Vue, Svelte,... This is a different application connected to the our backend services (or maybe we are using GraphQL or Firebase as a backend). Nonetheless we have a separate application running in the browser. We can use the same architecture in javascript and we can connect our UI components through adapters.
@@ -91,7 +93,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4MDM3MTQ3LDc0MTI5MTg5NCw3MzU3NT
+eyJoaXN0b3J5IjpbMjAwMTI5OTI4LDc0MTI5MTg5NCw3MzU3NT
 IyMDUsLTE1NTUwMDg4MCwtMTU2NzIyOTc0OCwtMTM3NzI2ODE0
 MywtNjIxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4OTA2LC02OD
 UwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMjEzMTQ5
