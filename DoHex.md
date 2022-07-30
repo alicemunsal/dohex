@@ -24,8 +24,6 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 > -- Alistair Cockburn  
 
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
-
 #### The Simplest Implementation
 
 
@@ -83,7 +81,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzczNDU5ODgsLTE5NTA3MDYzODEsMj
+eyJoaXN0b3J5IjpbLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMj
 EzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3
 NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMi
 wxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcy
