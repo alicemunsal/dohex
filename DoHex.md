@@ -5,7 +5,7 @@ Over a decade, we are continuously reviving a particular style of software archi
 I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
-### Hexagonal Architecture  
+### Philosophy  
 
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
 > -- Epictetus
@@ -17,7 +17,8 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
 
 *App and outside world (IO Devices)*  
-  
+
+  ### Hexagonal Architecture  
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn  
 
@@ -80,11 +81,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMT
-k1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2
-ODcsMTgwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwNDg3LC
-0xMTQyMzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAxMjcxLDE1NDY1
-NDMwMTEsOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2MzQ1ODYsLT
-E2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0LC03MDM0
-MjE2MzVdfQ==
+eyJoaXN0b3J5IjpbLTI2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMD
+U3OTA4Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2MjksLTU4Njcy
+NTc5LDcwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLT
+E3NDAwMjA0ODcsLTExNDIzNjc3MzIsMTkzMTQyNTk5NCw2NzU2
+MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5LD
+EyNzYzNDU4NiwtMTYwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcy
+MDczODRdfQ==
 -->
