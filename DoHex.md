@@ -70,21 +70,21 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 ### Scaling
 
 ### References
-[^1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
-[^2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
-[^3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
-[] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
-[] Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
-[] C4 Model https://c4model.com/  
-[] Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer  
-[] The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
-[] Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
-[] Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
-[] The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0  
+[^1]: Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
+[^2]: Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
+[^3]: Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
+[]: Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
+[]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
+[]: C4 Model https://c4model.com/  
+[]: Anti-corruption Layer https://deviq.com/domain-driven-design/anti-corruption-layer  
+[]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc  
+[]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html  
+[]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc  
+[]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDY1MTUyOSwtNTg2NzI1NzksNzA2OD
+eyJoaXN0b3J5IjpbMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2OD
 QzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4
 NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNT
 Q2NTQzMDExLDkwNTcyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2
