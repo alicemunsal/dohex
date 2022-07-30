@@ -1,7 +1,5 @@
 ## DoHex - Data Oriented Hexagonal Architecture 
 
-### Intro
-
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same concept.  
  
 I will present ...simplified thinking... practical variations of this concept
@@ -82,11 +80,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI4MzMxLC0xMDU3OTA4Njg5LC0xOT
-UwNzA2MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LDcwNjg0MzY4
-NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAwMjA0ODcsLT
-ExNDIzNjc3MzIsMTkzMTQyNTk5NCw2NzU2MDEyNzEsMTU0NjU0
-MzAxMSw5MDU3MjE3MDgsNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMT
-YwNDU1NzY1OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQy
-MTYzNV19
+eyJoaXN0b3J5IjpbLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMT
+k1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2
+ODcsMTgwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwNDg3LC
+0xMTQyMzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAxMjcxLDE1NDY1
+NDMwMTEsOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2MzQ1ODYsLT
+E2MDQ1NTc2NTksMjA5OTQ1MTE5NiwxNjQ3MjA3Mzg0LC03MDM0
+MjE2MzVdfQ==
 -->
