@@ -25,7 +25,7 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
 
 This is our application written in TypeScript and driven by a test. It uses in memory repository to save users.  
-"addUser" is the only usecase of our application. The usecase has a business rule to check whether name is empty.   
+
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
@@ -84,11 +84,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjg5OTkwNyw1MjM2MjcxNjQsLTI2Nj
-E5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4Njg5LC0xOTUwNzA2
-MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LDcwNjg0MzY4NywxOD
-AzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIz
-Njc3MzIsMTkzMTQyNTk5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMS
-w5MDU3MjE3MDgsNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1
-NzY1OV19
+eyJoaXN0b3J5IjpbLTEzMjk0NTg0NjksNTIzNjI3MTY0LC0yNj
+YxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMTk1MDcw
+NjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2ODcsMT
+gwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwNDg3LC0xMTQy
+MzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAxMjcxLDE1NDY1NDMwMT
+EsOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2MzQ1ODYsLTE2MDQ1
+NTc2NTldfQ==
 -->
