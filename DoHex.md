@@ -32,7 +32,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. Wen can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
 ### Component 
 
@@ -105,11 +105,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3Mj
-MxMTk2MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4
-NDAsOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3ND
-EyOTE4OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3
-NDgsLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLT
-I2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4Njg5LC0xOTUw
-NzA2MzgxXX0=
+eyJoaXN0b3J5IjpbNTU2NDc5Njg4LDE1MjI3MjM1MTgsLTQxOT
+M5OTA2MCwzNzIzMTE5NjAsLTE1MTA1MTE1MjEsLTE2ODE3MzA0
+NzAsNDAxODE2ODQwLDkyMzk0Njk4NSwtMTQ2NzA5Nzg1NSwyMD
+AxMjk5MjgsNzQxMjkxODk0LDczNTc1MjIwNSwtMTU1NTAwODgw
+LC0xNTY3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEzODQ1NTAsNT
+IzNjI3MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1Nzkw
+ODY4OV19
 -->
