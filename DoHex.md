@@ -2,7 +2,7 @@
 
 ### Intro
 
-Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [1], Onion Architecture [2], Clean Architecture[3] all circle around the same concept.  
+Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same concept.  
  
 I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
@@ -70,9 +70,9 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 ### Scaling
 
 ### References
-[1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
-[2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
-[3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
+[^1] Hexagonal Architecture https://alistair.cockburn.us/hexagonal-architecture/  
+[^2] Onion Architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/  
+[^3] Clean Architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html  
 [] Enterprise Integration Patterns https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html  
 [] Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
 [] C4 Model https://c4model.com/  
@@ -84,11 +84,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjcyNTc5LDcwNjg0MzY4NywxODAzMj
-Y0NzU5LDE1NzA3OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIzNjc3
-MzIsMTkzMTQyNTk5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMSw5MD
-U3MjE3MDgsNTk2MTUzNzQ5LDEyNzYzNDU4NiwtMTYwNDU1NzY1
-OSwyMDk5NDUxMTk2LDE2NDcyMDczODQsLTcwMzQyMTYzNSwxNj
-MyODUxODcyLC03Nzc3MjM3NTEsLTExMjg2MDcxNTMsNDEwMDMw
-NjA5XX0=
+eyJoaXN0b3J5IjpbLTgxMDY1MTUyOSwtNTg2NzI1NzksNzA2OD
+QzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4
+NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNT
+Q2NTQzMDExLDkwNTcyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2
+LC0xNjA0NTU3NjU5LDIwOTk0NTExOTYsMTY0NzIwNzM4NCwtNz
+AzNDIxNjM1LDE2MzI4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYw
+NzE1M119
 -->
