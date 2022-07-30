@@ -28,7 +28,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 ![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
-"addUser" is the only **Use Case** of our application. The use case has a **Business Logic** to check whether name is empty and save this user to the repository.   
+"addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
@@ -104,11 +104,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE3MzA0NzAsNDAxODE2ODQwLDkyMz
-k0Njk4NSwtMTQ2NzA5Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0
-LDczNTc1MjIwNSwtMTU1NTAwODgwLC0xNTY3MjI5NzQ4LC0xMz
-c3MjY4MTQzLC02MjEzODQ1NTAsNTIzNjI3MTY0LC0yNjYxOTg5
-MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMTk1MDcwNjM4MS
-wyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2ODcsMTgwMzI2
-NDc1OV19
+eyJoaXN0b3J5IjpbLTE1MTA1MTE1MjEsLTE2ODE3MzA0NzAsND
+AxODE2ODQwLDkyMzk0Njk4NSwtMTQ2NzA5Nzg1NSwyMDAxMjk5
+MjgsNzQxMjkxODk0LDczNTc1MjIwNSwtMTU1NTAwODgwLC0xNT
+Y3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEzODQ1NTAsNTIzNjI3
+MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OS
+wtMTk1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4
+NDM2ODddfQ==
 -->
