@@ -30,7 +30,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 "addUser" is the only usecase of our application. The usecase has a business rule to check whether name is empty and save this user to the repository.   
 
-We can build our entire usecases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. I can then add the infrastructure elements and other things necessary to make it a functional application.
+We can build our entire usecases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.
 
 ### Component 
 
@@ -86,7 +86,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODI5MjM0OSw1MjM2MjcxNjQsLTI2Nj
+eyJoaXN0b3J5IjpbLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2Nj
 E5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4Njg5LC0xOTUwNzA2
 MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LDcwNjg0MzY4NywxOD
 AzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIz
