@@ -17,6 +17,7 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
+
 *App and outside world (IO Devices)*  
   
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
@@ -84,11 +85,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2OD
-QzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4
-NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNT
-Q2NTQzMDExLDkwNTcyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2
-LC0xNjA0NTU3NjU5LDIwOTk0NTExOTYsMTY0NzIwNzM4NCwtNz
-AzNDIxNjM1LDE2MzI4NTE4NzIsLTc3NzcyMzc1MSwtMTEyODYw
-NzE1M119
+eyJoaXN0b3J5IjpbLTE5NTA3MDYzODEsMjEzMTQ5ODYyOSwtNT
+g2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgx
+MSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LD
+Y3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcyMTcwOCw1OTYxNTM3
+NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5LDIwOTk0NTExOTYsMT
+Y0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4NTE4NzIsLTc3Nzcy
+Mzc1MV19
 -->
