@@ -99,14 +99,15 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
 [^]: Entity Component System https://en.wikipedia.org/wiki/Entity_component_system
+[^]: Share nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMD
-EyOTkyOCw3NDEyOTE4OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAs
-LTE1NjcyMjk3NDgsLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1Mj
-M2MjcxNjQsLTI2NjE5ODkwNiwtNjg1MDQ2NDkwLC0xMDU3OTA4
-Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2MjksLTU4NjcyNTc5LD
-cwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3OTE4MTEsLTE3NDAw
-MjA0ODddfQ==
+eyJoaXN0b3J5IjpbNDAxODE2ODQwLDkyMzk0Njk4NSwtMTQ2Nz
+A5Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0LDczNTc1MjIwNSwt
+MTU1NTAwODgwLC0xNTY3MjI5NzQ4LC0xMzc3MjY4MTQzLC02Mj
+EzODQ1NTAsNTIzNjI3MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5
+MCwtMTA1NzkwODY4OSwtMTk1MDcwNjM4MSwyMTMxNDk4NjI5LC
+01ODY3MjU3OSw3MDY4NDM2ODcsMTgwMzI2NDc1OSwxNTcwNzkx
+ODExXX0=
 -->
