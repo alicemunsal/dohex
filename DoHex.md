@@ -28,11 +28,11 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
-"addUser" is the only **"Use case"** of our application. The use case has a **"Business Rule"** to check whether name is empty and save this user to the repository.   
+"addUser" is the only **Use case** of our application. The use case has a **Business Rule** to check whether name is empty and save this user to the repository.   
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-**"Driving Adapter"** calls our application use cases. We can swap it with a CLI application or  a REST service. Similarly we can swap our **"Driven Adapter"** with the MongoDB, PostgreSQL or a Web Service. 
+**Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service. Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service. 
 
 ### Component 
 
@@ -88,7 +88,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjkyMTMwMSwtMTM3NzI2ODE0MywtNj
+eyJoaXN0b3J5IjpbLTkzNTI4NDExNSwtMTM3NzI2ODE0MywtNj
 IxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4OTA2LC02ODUwNDY0
 OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMjEzMTQ5ODYyOS
 wtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5
