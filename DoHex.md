@@ -32,7 +32,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-**Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service. Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service. 
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service. Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service. 
 
 ### Component 
 
@@ -88,11 +88,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTI4NDExNSwtMTM3NzI2ODE0MywtNj
-IxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4OTA2LC02ODUwNDY0
-OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzODEsMjEzMTQ5ODYyOS
-wtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5
-MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMxNDI1OT
-k0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcyMTcwOCw1OTYx
-NTM3NDldfQ==
+eyJoaXN0b3J5IjpbLTE2MDEzOTcwMDIsLTEzNzcyNjgxNDMsLT
+YyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5ODkwNiwtNjg1MDQ2
+NDkwLC0xMDU3OTA4Njg5LC0xOTUwNzA2MzgxLDIxMzE0OTg2Mj
+ksLTU4NjcyNTc5LDcwNjg0MzY4NywxODAzMjY0NzU5LDE1NzA3
+OTE4MTEsLTE3NDAwMjA0ODcsLTExNDIzNjc3MzIsMTkzMTQyNT
+k5NCw2NzU2MDEyNzEsMTU0NjU0MzAxMSw5MDU3MjE3MDgsNTk2
+MTUzNzQ5XX0=
 -->
