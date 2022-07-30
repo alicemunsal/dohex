@@ -30,6 +30,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 "addUser" is the only usecase of our application. The usecase has a business rule to check whether name is empty and save this user to the repository.   
 
+
 ### Component 
 
 Component is overly used terminology in the software industry. In the context of this post:  
@@ -84,11 +85,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQyODczMTIsNTIzNjI3MTY0LC0yNj
-YxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OSwtMTk1MDcw
-NjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4NDM2ODcsMT
-gwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwNDg3LC0xMTQy
-MzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAxMjcxLDE1NDY1NDMwMT
-EsOTA1NzIxNzA4LDU5NjE1Mzc0OSwxMjc2MzQ1ODYsLTE2MDQ1
-NTc2NTldfQ==
+eyJoaXN0b3J5IjpbNDczNzg3ODcwLDUyMzYyNzE2NCwtMjY2MT
+k4OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYz
+ODEsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MD
+MyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2
+NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLD
+kwNTcyMTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2LC0xNjA0NTU3
+NjU5XX0=
 -->
