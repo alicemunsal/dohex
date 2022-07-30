@@ -18,7 +18,7 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 
 *App and outside world (IO Devices)*  
 
-  ### Hexagonal Architecture  
+ ### Hexagonal Architecture  
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn  
 
@@ -39,6 +39,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 Component is overly used terminology in the software industry. In the context of this post:  
 A component is a group of related functionality that resides behind a nice and clean interface. 
 
+### Libraries  
 
 
 ### Component Communication
@@ -89,11 +90,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUwMDg4MCwtMTU2NzIyOTc0OCwtMT
-M3NzI2ODE0MywtNjIxMzg0NTUwLDUyMzYyNzE2NCwtMjY2MTk4
-OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2ODksLTE5NTA3MDYzOD
-EsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMy
-NjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2Nz
-czMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkw
-NTcyMTcwOF19
+eyJoaXN0b3J5IjpbLTEyODE2MDU4NTAsLTE1NTUwMDg4MCwtMT
+U2NzIyOTc0OCwtMTM3NzI2ODE0MywtNjIxMzg0NTUwLDUyMzYy
+NzE2NCwtMjY2MTk4OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2OD
+ksLTE5NTA3MDYzODEsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2
+ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMD
+Q4NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwx
+NTQ2NTQzMDExXX0=
 -->
