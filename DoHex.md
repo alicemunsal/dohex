@@ -14,19 +14,19 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 
 Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control)  
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
+![App and oursite world](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
 
 *App and outside world (IO Devices)*  
 
- ### Hexagonal Architecture  
+### Hexagonal Architecture  
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn  
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
+![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
 
 This is our application written in TypeScript and driven by a test. It uses in memory repository to save users.  
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
+![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** to check whether name is empty and save this user to the repository.   
 
@@ -40,7 +40,7 @@ Component is overly used terminology in the software industry. In the context of
 A component is a group of related functionality that resides behind a nice and clean interface. 
 
 ### Libraries  
-
+A library 
 
 ### Component Communication
 
@@ -90,11 +90,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE2MDU4NTAsLTE1NTUwMDg4MCwtMT
-U2NzIyOTc0OCwtMTM3NzI2ODE0MywtNjIxMzg0NTUwLDUyMzYy
-NzE2NCwtMjY2MTk4OTA2LC02ODUwNDY0OTAsLTEwNTc5MDg2OD
-ksLTE5NTA3MDYzODEsMjEzMTQ5ODYyOSwtNTg2NzI1NzksNzA2
-ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgxMSwtMTc0MDAyMD
-Q4NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LDY3NTYwMTI3MSwx
-NTQ2NTQzMDExXX0=
+eyJoaXN0b3J5IjpbMjA0ODE1MTM4NywtMTU1NTAwODgwLC0xNT
+Y3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEzODQ1NTAsNTIzNjI3
+MTY0LC0yNjYxOTg5MDYsLTY4NTA0NjQ5MCwtMTA1NzkwODY4OS
+wtMTk1MDcwNjM4MSwyMTMxNDk4NjI5LC01ODY3MjU3OSw3MDY4
+NDM2ODcsMTgwMzI2NDc1OSwxNTcwNzkxODExLC0xNzQwMDIwND
+g3LC0xMTQyMzY3NzMyLDE5MzE0MjU5OTQsNjc1NjAxMjcxLDE1
+NDY1NDMwMTFdfQ==
 -->
