@@ -24,8 +24,6 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 > -- Alistair Cockburn  
 
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
-
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
 #### The Simplest Implementation
@@ -85,11 +83,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA3MDYzODEsMjEzMTQ5ODYyOSwtNT
-g2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3NTksMTU3MDc5MTgx
-MSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMiwxOTMxNDI1OTk0LD
-Y3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcyMTcwOCw1OTYxNTM3
-NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5LDIwOTk0NTExOTYsMT
-Y0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4NTE4NzIsLTc3Nzcy
-Mzc1MV19
+eyJoaXN0b3J5IjpbLTE5MzczNDU5ODgsLTE5NTA3MDYzODEsMj
+EzMTQ5ODYyOSwtNTg2NzI1NzksNzA2ODQzNjg3LDE4MDMyNjQ3
+NTksMTU3MDc5MTgxMSwtMTc0MDAyMDQ4NywtMTE0MjM2NzczMi
+wxOTMxNDI1OTk0LDY3NTYwMTI3MSwxNTQ2NTQzMDExLDkwNTcy
+MTcwOCw1OTYxNTM3NDksMTI3NjM0NTg2LC0xNjA0NTU3NjU5LD
+IwOTk0NTExOTYsMTY0NzIwNzM4NCwtNzAzNDIxNjM1LDE2MzI4
+NTE4NzJdfQ==
 -->
