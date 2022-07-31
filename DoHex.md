@@ -77,7 +77,7 @@ For electronic components we are using I2C Bus communication, for electronic dev
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-This is our good old friend Observer Pattern. Our components can talk to each other asynchronously through event bus.
+This is our good old friend Pub-Sub Design Pattern. Our components can talk to each other asynchronously through event bus.
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
@@ -159,11 +159,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNj
-UxNTE1MjUyLC0xMDI4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUy
-NDYsOTQxNzc4NDcsMTM4MzQ1NTMyOCw1MTg2MDAzMjEsLTM0Mz
-g3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUx
-NzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLT
-E1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkz
-ODI4XX0=
+eyJoaXN0b3J5IjpbLTU0MTAyNTU3NywxMDkyMzkxMDg3LC0xND
+QzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0
+NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4LDUxOD
+YwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMTg2MDQyMTI1
+MSwtMjAzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMzc2NTk2NDksLT
+c0MTg3MzYwMywtMTU0NDg1OTYzLC03NDYwOTgxMjcsMTAxMTk0
+MTU5XX0=
 -->
