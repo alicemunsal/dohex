@@ -76,7 +76,7 @@ For electronic components we are using I2C Bus communication, for electronic dev
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-
+This is our good old friend Observer Pattern.
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
@@ -158,7 +158,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDgyNDc2ODIsLTY1MTUxNTI1MiwtMT
+eyJoaXN0b3J5IjpbLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMT
 AyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3
 LDEzODM0NTUzMjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2OD
 MxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUx
