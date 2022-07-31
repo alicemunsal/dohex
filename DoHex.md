@@ -76,12 +76,12 @@ The Electronic industry designed different standards to allow micro-controllers 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: Shared-nothing architecture[^9].
+This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: **Shared-nothing architecture**[^9].
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
 This is the most preferable communication in most cases. It allows loosely coupled and asynchronous communication. 
-This is called Event Driven Architecture and it has its own disadvantages. 
+This is classified as **Event Driven Architecture** and it needs different thinking and has its own disadvantages.  
 
 #### Shared Data
 
@@ -163,7 +163,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDg1Njc0NSwtMjEyMjU4NzUzNSwxOT
+eyJoaXN0b3J5IjpbLTY1NTc5Njg2MiwtMjEyMjU4NzUzNSwxOT
 U3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEw
 ODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLD
 Q5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUz
