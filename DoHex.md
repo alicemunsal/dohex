@@ -44,7 +44,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
  
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
   
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this problem with his "Screaming Architecture" concept. e “screams” when it clearly expresses its core business purpose. The top level folder structure, the project/DLL names and the namespaces should express business aspects rather than frameworks or other details. 
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this problem with his Screaming Architecture concept.
 
 Code doest reflect design
 
@@ -112,9 +112,10 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
-[^]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
+[^6]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+[^7]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
-[^]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+
 [^]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
 [^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
 
@@ -130,11 +131,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mjg2NDE1NywtMTU0NDg1OTYzLC03ND
-YwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2
-MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOT
-M4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4
-NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkxMz
-AsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5
-Mzk5MDYwXX0=
+eyJoaXN0b3J5IjpbNzA5NTM0MjEzLC0xNTQ0ODU5NjMsLTc0Nj
+A5ODEyNywxMDExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2NzYx
+LDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIwMzc5LDE5Mz
+gyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNTAzNjg3
+MzA4LDEyMTE4Njc4NywtMTY5OTE2OTA2NCwtMTY5OTc5OTEzMC
+wtMjEwODg1NTMxLDU1NjQ3OTY4OCwxNTIyNzIzNTE4LC00MTkz
+OTkwNjBdfQ==
 -->
