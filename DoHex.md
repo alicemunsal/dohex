@@ -92,7 +92,9 @@ Event-Driven Architecture has 4 common patterns according to Martin Fowler:  Wha
 3. Event Sourcing
 4. CQRS 
 
-For **Event Sourcing**, we can connect necessary components to event streaming platform through its adapters, or we can conn   
+For **Event Sourcing**, we can connect necessary components to event streaming platform through its adapters, or we can connect our event bus to event streaming platform.
+
+   
 
 #### Shared Data
 
@@ -175,7 +177,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjQ5MTc0Miw0Mjk4Mzc4NzUsNjM0Nz
+eyJoaXN0b3J5IjpbLTI5NDUzMDI0NCw0Mjk4Mzc4NzUsNjM0Nz
 IzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEs
 LTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMj
 U4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4
