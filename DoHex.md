@@ -51,6 +51,7 @@ Code doest reflect design
 Determining how to find components
 
 ### Project Structure
+
 There is no such thing as complex project in this perspective. S
 Components
 Lib: 
@@ -131,11 +132,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNT
-Q0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5Mzgy
-OCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMj
-YwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4
-OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4NywtMTY5OTE2OTA2NC
-wtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OCwxNTIy
-NzIzNTE4XX0=
+eyJoaXN0b3J5IjpbLTE2Mjk5NDM2OTcsMjAzNzY1OTY0OSwtNz
+QxODczNjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQx
+NTksMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLT
+IxMTc1ODkwMiwxMjYwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5
+MzYxNzYsMTAxMTg4OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4Ny
+wtMTY5OTE2OTA2NCwtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1
+NjQ3OTY4OF19
 -->
