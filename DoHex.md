@@ -158,7 +158,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^7]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^8]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^9]: Shared-nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
-[^10]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
+[^10]: Event-Driven Architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^11]: What do you mean by “Event-Driven”? https://martinfowler.com/articles/201701-event-driven.html
 
 [^21]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
@@ -175,11 +175,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIzMTIwOTcsNjM0NzIzMDUsMTg2MD
-MyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyNDgyOTg4
-LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwxOT
-U3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEw
-ODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLD
-Q5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUz
-MjhdfQ==
+eyJoaXN0b3J5IjpbNDI5ODM3ODc1LDYzNDcyMzA1LDE4NjAzMj
+QwOTYsLTEzNTMzNTYyNjIsNTY0MzIyNjQxLC05MjQ4Mjk4OCwt
+NjQxODc5MjI3LDE4MjMzNTEyMzksLTIxMjI1ODc1MzUsMTk1Nz
+czMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3OCwxMDkyMzkxMDg3
+LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMyw0OT
+gxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4
+XX0=
 -->
