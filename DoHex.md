@@ -82,7 +82,7 @@ This is similar to our good old friend Pub-Sub Design Pattern. Our components ca
 
 This is the most preferable communication in most cases. But.
 Event Driven Architecture. 
-martin fown youtube
+martin fowler youtube
 
 #### Shared Data
 
@@ -163,11 +163,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU3MTc0NzAsMTQxOTc5MjQ4NCw3NT
-Q0MDE5NzgsMTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1
-MjUyLC0xMDI4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOT
-QxNzc4NDcsMTM4MzQ1NTMyOCw1MTg2MDAzMjEsLTM0Mzg3OTA1
-MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUxNzcsMT
-M4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4
-NTk2M119
+eyJoaXN0b3J5IjpbMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1ND
+QwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUy
+NTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5ND
+E3Nzg0NywxMzgzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUx
+LC02NjgzMTc3NjgsMTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMz
+gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
+OTYzXX0=
 -->
