@@ -56,6 +56,11 @@ A component can represent a part of our domain (user, invoice, order, shipping, 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Adapter%20Organization.png)
 
+### Libraries  
+A library is a **Side Effect** free functionality 
+
+
+
 ### Web Applications
 
 Nowadays we are developing web interfaces mostly as a Single Page Applications(SPA) using React, Vue, Svelte,... This is a different application connected to the our backend services (or maybe we are using GraphQL or Firebase as a backend). Nonetheless we have a separate application running in the browser. We can use the same architecture in javascript and we can connect our UI components through adapters.
@@ -105,11 +110,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTExNDc1LC0yMTA4ODU1MzEsNTU2ND
-c5Njg4LDE1MjI3MjM1MTgsLTQxOTM5OTA2MCwzNzIzMTE5NjAs
-LTE1MTA1MTE1MjEsLTE2ODE3MzA0NzAsNDAxODE2ODQwLDkyMz
-k0Njk4NSwtMTQ2NzA5Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0
-LDczNTc1MjIwNSwtMTU1NTAwODgwLC0xNTY3MjI5NzQ4LC0xMz
-c3MjY4MTQzLC02MjEzODQ1NTAsNTIzNjI3MTY0LC0yNjYxOTg5
-MDZdfQ==
+eyJoaXN0b3J5IjpbMzE0MzcwNDcsLTIxMDg4NTUzMSw1NTY0Nz
+k2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2MCwt
+MTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOTIzOT
+Q2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4OTQs
+NzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLTEzNz
+cyNjgxNDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5ODkw
+Nl19
 -->
