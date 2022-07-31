@@ -66,9 +66,10 @@ We can develop each component using independent Hexagonal Architecture. Each com
 
 #### Direct Communication  
 
-Components can only talk to each other through their ports. Nothing wrong
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
+
+Components can only talk to each other through their ports. Nothing wrong with this design if you are developing simple application
 
 #### Event Bus 
 I2C, modbus, canbus for explaning eventbus
@@ -154,11 +155,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzND
-U1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3Njgs
-MTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMz
-c2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1OTYzLC03NDYwOTgx
-MjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2MSwxOT
-Y0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOTM4MjI4
-NzExXX0=
+eyJoaXN0b3J5IjpbLTY0NDE4NTA5NSwxNTU2NzQ1MjQ2LDk0MT
+c3ODQ3LDEzODM0NTUzMjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEs
+LTY2ODMxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3LDEzOD
+E3NDUxODUsMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNTQ0ODU5
+NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5MzgyOCwxOT
+g3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIw
+Mzc5XX0=
 -->
