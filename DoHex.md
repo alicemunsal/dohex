@@ -102,7 +102,7 @@ When we need out-process robust communication for our components, **Event Sourci
 
 #### Service Interface
 
-We can connect our compon
+We can connect our components synchronously through service call
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
@@ -179,11 +179,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjQxNDU3NCw0Mjk4Mzc4NzUsNjM0Nz
-IzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEs
-LTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMj
-U4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4
-LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMT
-AyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3
-XX0=
+eyJoaXN0b3J5IjpbLTEyODA0NjM0NjYsNDI5ODM3ODc1LDYzND
+cyMzA1LDE4NjAzMjQwOTYsLTEzNTMzNTYyNjIsNTY0MzIyNjQx
+LC05MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNTEyMzksLTIxMj
+I1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3
+OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLT
+EwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0
+N119
 -->
