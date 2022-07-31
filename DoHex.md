@@ -40,8 +40,7 @@ Component is over saturated terminology in the software industry. In the context
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-### Libraries  
-A library is a **Side Effect** free functionality 
+
 
 ### Component Communication
 
@@ -106,7 +105,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4NTc4NTQ5LC0yMTA4ODU1MzEsNTU2ND
+eyJoaXN0b3J5IjpbMTM5NTExNDc1LC0yMTA4ODU1MzEsNTU2ND
 c5Njg4LDE1MjI3MjM1MTgsLTQxOTM5OTA2MCwzNzIzMTE5NjAs
 LTE1MTA1MTE1MjEsLTE2ODE3MzA0NzAsNDAxODE2ODQwLDkyMz
 k0Njk4NSwtMTQ2NzA5Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0
