@@ -83,7 +83,7 @@ This is similar to our good old friend Pub-Sub Design Pattern. Our components ca
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
 This is the most preferable communication in most cases. It allows loosely coupled and asynchronous communication. 
-This is classified as **Event Driven Architecture**[^10] and it needs different thinking and has its own disadvantages.  
+This is classified as the **Event Driven Architecture**[^10] and it needs different thinking and has its own disadvantages.  
 
 #### Shared Data
 
@@ -165,11 +165,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMT
-IyNTg3NTM1LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5
-NzgsMTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC
-0xMDI4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4
-NDcsMTM4MzQ1NTMyOCw1MTg2MDAzMjEsLTM0Mzg3OTA1MSwtNj
-Y4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0
-NTE4NV19
+eyJoaXN0b3J5IjpbLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMz
+M1MTIzOSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0
+ODQsNzU0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLT
+Y1MTUxNTI1MiwtMTAyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1
+MjQ2LDk0MTc3ODQ3LDEzODM0NTUzMjgsNTE4NjAwMzIxLC0zND
+M4NzkwNTEsLTY2ODMxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1
+MTc3XX0=
 -->
