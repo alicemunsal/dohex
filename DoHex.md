@@ -74,6 +74,7 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 
 
+
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
 #### Shared Data
@@ -154,11 +155,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE5MDIyMDIsLTEwMjgwMDcyMyw0OT
-gxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4
-LDUxODYwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMTg2MD
-QyMTI1MSwtMjAzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMzc2NTk2
-NDksLTc0MTg3MzYwMywtMTU0NDg1OTYzLC03NDYwOTgxMjcsMT
-AxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2MSwxOTY0NDM5
-NjkzXX0=
+eyJoaXN0b3J5IjpbMTg1ODM2NzU3NiwtMTAyODAwNzIzLDQ5OD
+E3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUzMjgs
+NTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2ODMxNzc2OCwxODYwND
+IxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1OTY0
+OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNywxMD
+ExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2
+OTNdfQ==
 -->
