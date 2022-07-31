@@ -80,7 +80,7 @@ This is similar to our good old friend Pub-Sub Design Pattern. Our components ca
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
-This is the most preferable communication 
+This is the most preferable communication in most cases. 
 
 #### Shared Data
 
@@ -161,11 +161,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTc5MjQ4NCw3NTQ0MDE5NzgsMTA5Mj
-M5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC0xMDI4MDA3
-MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4NDcsMTM4Mz
-Q1NTMyOCw1MTg2MDAzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4
-LDE4NjA0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMD
-M3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4
-MTI3XX0=
+eyJoaXN0b3J5IjpbMTY2NzEzODQ1OSwxNDE5NzkyNDg0LDc1ND
+QwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUy
+NTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5ND
+E3Nzg0NywxMzgzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUx
+LC02NjgzMTc3NjgsMTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMz
+gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
+OTYzXX0=
 -->
