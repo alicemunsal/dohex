@@ -46,7 +46,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
   
 Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
 
-We can solve this problem with vertical slicing instead of horizontal slicing. This is often referred to as Package by Component or “_Package by component_” as opposed to”_Package by layer_“, and it’s quite well explained by Simon Brown in his blog post “[Package by component and architecturally-aligned testing](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)“:
+We can solve this problem with vertical slicing instead of horizontal slicing. This is often referred to as **Package by Component** or “Package by future" as opposed to”Package by layer“, and it’s quite well explained by Simon Brown in his blog post 
 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_top.png)
 
@@ -116,9 +116,8 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
 [^6]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
-[^7]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
-[^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
-
+[^7]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
+[^8]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
 [^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
 
@@ -134,11 +133,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY5MTg1NzMsMTM4MTc0NTE4NSwyMD
-M3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4
-MTI3LDEwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMT
-k2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIy
-ODcxMSwtMTYwMTkzNjE3NiwxMDExODg5MzgsLTE1MDM2ODczMD
-gsMTIxMTg2Nzg3LC0xNjk5MTY5MDY0LC0xNjk5Nzk5MTMwLC0y
-MTA4ODU1MzFdfQ==
+eyJoaXN0b3J5IjpbMTM1NTQ1NjgwMiwxMzgxNzQ1MTg1LDIwMz
+c2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1OTYzLC03NDYwOTgx
+MjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2MSwxOT
+Y0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOTM4MjI4
+NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4NzMwOC
+wxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkxMzAsLTIx
+MDg4NTUzMV19
 -->
