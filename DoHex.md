@@ -66,17 +66,21 @@ We can develop each component using independent Hexagonal Architecture. Each com
 
 #### Direct Communication  
 
-Components can only talk to each other through their ports. 
+Components can only talk to each other through their ports. Nothing wrong
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
 
-Direct component communication graph. Nothing wrong
+#### Event Bus 
 I2C, modbus, canbus for explaning eventbus
 
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
+#### Shared Data
+
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
+
+#### Service Interface
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
@@ -148,11 +152,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNzc4NDcsMTM4MzQ1NTMyOCw1MTg2MD
-AzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEs
-LTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03ND
-E4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1
-OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMj
-ExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkz
-NjE3Nl19
+eyJoaXN0b3J5IjpbLTExNzAxNTYyMDgsOTQxNzc4NDcsMTM4Mz
+Q1NTMyOCw1MTg2MDAzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4
+LDE4NjA0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMD
+M3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4
+MTI3LDEwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMT
+k2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIy
+ODcxMV19
 -->
