@@ -107,7 +107,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 
-[^]
+[^]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
 [^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
 [^]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
@@ -123,11 +123,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzYzOTE2LDEwMTE4ODkzOCwtMTUwMz
-Y4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkx
-MzAsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtND
-E5Mzk5MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4MTcz
-MDQ3MCw0MDE4MTY4NDAsOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LD
-IwMDEyOTkyOCw3NDEyOTE4OTQsNzM1NzUyMjA1LC0xNTU1MDA4
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNT
+AzNjg3MzA4LDEyMTE4Njc4NywtMTY5OTE2OTA2NCwtMTY5OTc5
+OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OCwxNTIyNzIzNTE4LC
+00MTkzOTkwNjAsMzcyMzExOTYwLC0xNTEwNTExNTIxLC0xNjgx
+NzMwNDcwLDQwMTgxNjg0MCw5MjM5NDY5ODUsLTE0NjcwOTc4NT
+UsMjAwMTI5OTI4LDc0MTI5MTg5NCw3MzU3NTIyMDUsLTE1NTUw
+MDg4MF19
 -->
