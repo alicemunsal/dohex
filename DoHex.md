@@ -66,7 +66,7 @@ We can develop each component using independent Hexagonal Architecture. Each com
 
 ### Component Communication  
 
-Components can talk to each other through their ports, or they can implement service interfaces (REST, gRPC  
+Components can talk to each other through their ports, or they expose service interfaces (REST, gRPC, etc) for internal communication, or    
 
 
 ## Data Oriented Programming
@@ -140,11 +140,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4NDMxMzM2LC01MDI5MDUwODIsMTkxMj
-MxODkzOCw1MDI5NjMxNyw0Mjk4Mzc4NzUsNjM0NzIzMDUsMTg2
-MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyNDgyOT
-g4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwx
-OTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOT
-EwODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIz
-XX0=
+eyJoaXN0b3J5IjpbLTEyNDE1OTExMzcsLTUwMjkwNTA4MiwxOT
+EyMzE4OTM4LDUwMjk2MzE3LDQyOTgzNzg3NSw2MzQ3MjMwNSwx
+ODYwMzI0MDk2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwtOTI0OD
+I5ODgsLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMTIyNTg3NTM1
+LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5NzgsMTA5Mj
+M5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC0xMDI4MDA3
+MjNdfQ==
 -->
