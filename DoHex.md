@@ -40,7 +40,11 @@ Component is over saturated terminology in the software industry. In the context
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-
+### Project Structure
+There is no such thing as complex project in this perspective. S
+Components
+Lib: 
+Acl: Anti-Corruption Layer 
 
 ### Component Communication
 
@@ -67,11 +71,8 @@ A library is a **Side Effect** free functionality
 
 Nowadays we are developing web interfaces mostly as a Single Page Applications(SPA) using React, Vue, Svelte,... This is a different application connected to the our backend services (or maybe we are using GraphQL or Firebase as a backend). Nonetheless we have a separate application running in the browser. We can use the same architecture in javascript and we can connect our UI components through adapters.
 
-### Project Structure
-There is no such thing as complex project in this perspective. S
-Components
-Lib: 
-Acl: Anti-Corruption Layer 
+
+
 
 ### Object Oriented Programming
 ![OO Programmer](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/ooprogrammer.png)
@@ -112,11 +113,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NT
-Y0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2
-MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOT
-IzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4
-OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLT
-EzNzcyNjgxNDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5
-ODkwNl19
+eyJoaXN0b3J5IjpbLTE2OTkxNjkwNjQsLTE2OTk3OTkxMzAsLT
+IxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5
+MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MC
+w0MDE4MTY4NDAsOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMDEy
+OTkyOCw3NDEyOTE4OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAsLT
+E1NjcyMjk3NDgsLTEzNzcyNjgxNDMsLTYyMTM4NDU1MCw1MjM2
+MjcxNjRdfQ==
 -->
