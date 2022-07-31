@@ -64,56 +64,6 @@ Now, we aligned the architecture view of the software and the code view. It make
 
 We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. A component can only be communicated through its own ports.
 
-### Component Communication
-
-#### Direct Communication  
-
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
-
-Components can only talk to each other through their ports. Nothing wrong with this design if you are developing simple application. But we coupled our components to each other. 
-
-#### Event Bus 
-
-The Electronic industry designed different standards to allow micro-controllers and devices to communicate each other: I2C, Modbus, CAN Bus, etc.  
-
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
-
-These standards are similar to our good old friend **Pub-Sub Design Pattern**. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: **Shared-nothing architecture**[^9].
-
-![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
-
-This is the most preferable communication in general. It allows loosely coupled and asynchronous communication. 
-This is classified as the **Event-Driven Architecture**[^10]. it needs different thinking and has its own disadvantages.  
-
-Event-Driven Architecture has 4 common patterns according to Martin Fowler:  What do you mean by “Event-Driven”?[^11]
-
-1. Event Notification
-2. Event-Carried State Transfer
-3. Event Sourcing
-4. CQRS 
-
-When we need out-process robust communication for our components, **Event Sourcing** can be used. We can directly connect necessary components to event streaming platform through its adapters, or we can connect our event bus to event streaming platform.
-
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Deployment.png)   
-
-#### Shared Data
-
-Our components can be logically connected through shared data such as PostgreSQL or MongoDB.
-
-![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
-
-#### Service Interface
-
-We can connect our components synchronously through service call.
-
-![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
-
-#### Hybrid  
-
-Direct communication, shared data and service interface communication less preferable. But we are not living in a perfect world and we can pragmatically use mix of them. Also you can change your decision later with a reasonable effort.   
-
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)
-
 ## Data Oriented Programming
 
 
@@ -185,11 +135,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjkwNTA4MiwxOTEyMzE4OTM4LDUwMj
-k2MzE3LDQyOTgzNzg3NSw2MzQ3MjMwNSwxODYwMzI0MDk2LC0x
-MzUzMzU2MjYyLDU2NDMyMjY0MSwtOTI0ODI5ODgsLTY0MTg3OT
-IyNywxODIzMzUxMjM5LC0yMTIyNTg3NTM1LDE5NTc3MzI1MDMs
-MTQxOTc5MjQ4NCw3NTQ0MDE5NzgsMTA5MjM5MTA4NywtMTQ0Mz
-E5MjIyNiwtNjUxNTE1MjUyLC0xMDI4MDA3MjMsNDk4MTc2NDQ3
+eyJoaXN0b3J5IjpbMjYyMDA4NjQwLC01MDI5MDUwODIsMTkxMj
+MxODkzOCw1MDI5NjMxNyw0Mjk4Mzc4NzUsNjM0NzIzMDUsMTg2
+MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyNDgyOT
+g4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwx
+OTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOT
+EwODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIz
 XX0=
 -->
