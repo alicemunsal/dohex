@@ -44,7 +44,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
  
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
   
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5] 
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin wrote about this problem 
 
 Code doest reflect design
 
@@ -130,11 +130,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMT
-A5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkw
-MiwxMjYwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMT
-AxMTg4OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4NywtMTY5OTE2
-OTA2NCwtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OC
-wxNTIyNzIzNTE4LC00MTkzOTkwNjAsMzcyMzExOTYwLC0xNTEw
-NTExNTIxXX0=
+eyJoaXN0b3J5IjpbLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMT
+E5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5
+MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIyODcxMSwtMT
+YwMTkzNjE3NiwxMDExODg5MzgsLTE1MDM2ODczMDgsMTIxMTg2
+Nzg3LC0xNjk5MTY5MDY0LC0xNjk5Nzk5MTMwLC0yMTA4ODU1Mz
+EsNTU2NDc5Njg4LDE1MjI3MjM1MTgsLTQxOTM5OTA2MCwzNzIz
+MTE5NjBdfQ==
 -->
