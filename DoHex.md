@@ -102,7 +102,6 @@ Nowadays we are developing web interfaces mostly as a Single Page Applications(S
 Give this a chance.
 Alan Kay 
 
-### Data Oriented Programming
 
 ### Test Driven Development
 
@@ -115,7 +114,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 ### Scaling
 
-### References
+## References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
@@ -142,11 +141,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMDIzNDMyLDU3NDk1MTIzMiwxMzk1Nj
-c2MjU5LC01MDI5MDUwODIsMTkxMjMxODkzOCw1MDI5NjMxNyw0
-Mjk4Mzc4NzUsNjM0NzIzMDUsMTg2MDMyNDA5NiwtMTM1MzM1Nj
-I2Miw1NjQzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgy
-MzM1MTIzOSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OT
-I0ODQsNzU0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjZd
-fQ==
+eyJoaXN0b3J5IjpbMTA0NTMyMTY4Myw3NzMwMjM0MzIsNTc0OT
+UxMjMyLDEzOTU2NzYyNTksLTUwMjkwNTA4MiwxOTEyMzE4OTM4
+LDUwMjk2MzE3LDQyOTgzNzg3NSw2MzQ3MjMwNSwxODYwMzI0MD
+k2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwtOTI0ODI5ODgsLTY0
+MTg3OTIyNywxODIzMzUxMjM5LC0yMTIyNTg3NTM1LDE5NTc3Mz
+I1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5NzgsMTA5MjM5MTA4N119
+
 -->
