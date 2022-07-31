@@ -110,6 +110,8 @@ We can connect our components synchronously through service call.
 
 #### Hybrid  
 
+Shared data an
+
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)
 
 
@@ -181,11 +183,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMjgwMTUwLDQyOTgzNzg3NSw2MzQ3Mj
-MwNSwxODYwMzI0MDk2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwt
-OTI0ODI5ODgsLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMTIyNT
-g3NTM1LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5Nzgs
-MTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC0xMD
-I4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4NDdd
-fQ==
+eyJoaXN0b3J5IjpbLTY1NDc1NzE4Miw0Mjk4Mzc4NzUsNjM0Nz
+IzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEs
+LTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMj
+U4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4
+LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMT
+AyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3
+XX0=
 -->
