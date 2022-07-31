@@ -72,7 +72,7 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 #### Event Bus 
 
-The Electronic industry designed different standards  simple solution for communication 
+The Electronic industry designed different standards to allow microcontrollers and devices to communicate each other  simple solution for communication 
 For electronic components we are using I2C Bus communication, for electronic devices Modbus and CAN bus 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
@@ -160,7 +160,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDEwMzc1NCwxMDkyMzkxMDg3LC0xND
+eyJoaXN0b3J5IjpbLTMzODI5NDEyOCwxMDkyMzkxMDg3LC0xND
 QzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0
 NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4LDUxOD
 YwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMTg2MDQyMTI1
