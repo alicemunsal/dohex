@@ -54,7 +54,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
   
 Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
 
-We can solve this problem with vertical slicing instead of horizontal slicing. This is often referred to as **Package by Component** or “Package by future" as opposed to”Package by layer“, and it’s quite well explained by Simon Brown in his blog post[^7]. Marin Fowler has also written about this and I borrowed these drawings from his post "Presentation Domain Data Layering"[^8] 
+We can solve this problem with vertical slicing instead of horizontal slicing. This is often referred to as **Package by Component** or “Package by future" as opposed to”Package by layer“, and it’s quite well explained by Simon Brown in his blog post[^7]. Marin Fowler has also written about this and I borrowed these drawings from his post: "Presentation Domain Data Layering"[^8] 
 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_top.png)
 
@@ -145,11 +145,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzg3OTA1MSwtNjY4MzE3NzY4LDE4Nj
-A0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMDM3NjU5
-NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LD
-EwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQz
-OTY5MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIyODcxMS
-wtMTYwMTkzNjE3NiwxMDExODg5MzgsLTE1MDM2ODczMDgsMTIx
-MTg2Nzg3XX0=
+eyJoaXN0b3J5IjpbLTUyMzczOTc3LC0zNDM4NzkwNTEsLTY2OD
+MxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUx
+ODUsMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLT
+c0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2
+NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIwMzc5LD
+E5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNTAz
+Njg3MzA4XX0=
 -->
