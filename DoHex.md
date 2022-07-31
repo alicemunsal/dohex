@@ -83,7 +83,7 @@ This is similar to our good old friend **Pub-Sub Design Pattern**. Our component
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
 This is the most preferable communication in general. It allows loosely coupled and asynchronous communication. 
-This is classified as the **Event-Driven Architecture**[^10]. it needs different thinking and has its own down sides.  
+This is classified as the **Event-Driven Architecture**[^10]. it needs different thinking and has its own disadvantages.  
 
 Event-Driven Architecture has 4 common patterns according to Martin Fowler:  What do you mean by “Event-Driven”?[^11]
 
@@ -101,6 +101,8 @@ When we need out-process robust communication for our components, **Event Sourci
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
 #### Service Interface
+
+We can connect our compon
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
@@ -177,7 +179,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDk1NzU1Niw0Mjk4Mzc4NzUsNjM0Nz
+eyJoaXN0b3J5IjpbMTk2MjQxNDU3NCw0Mjk4Mzc4NzUsNjM0Nz
 IzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEs
 LTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMj
 U4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4
