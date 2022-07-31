@@ -44,7 +44,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
  
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
   
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has also touched on this problem with his "Screaming Architecture" conc 
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this problem with his "Screaming Architecture" concept. e “screams” when it clearly expresses its core business purpose. The top level folder structure, the project/DLL names and the namespaces should express business aspects rather than frameworks or other details. 
 
 Code doest reflect design
 
@@ -130,7 +130,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTE3ODU0OCwtMTU0NDg1OTYzLC03ND
+eyJoaXN0b3J5IjpbMTk0Mjg2NDE1NywtMTU0NDg1OTYzLC03ND
 YwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2
 MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOT
 M4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4
