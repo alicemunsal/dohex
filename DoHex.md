@@ -21,7 +21,7 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 
 *App and outside world (IO Devices)*  
 
-### Hexagonal Architecture  
+### Definition 
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 > -- Alistair Cockburn  
 
@@ -39,12 +39,14 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Component Based Architecture
 
-### Component
+### Component  
+
 Component is over saturated terminology in the software industry. In the context of this post: A component is a group of related functionality that resides behind a nice and clean interface.  
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-### Package By Component
+### Package By Component  
+
 Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on **Layered Architecture**.  
  
 ![Layered Architecture](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
@@ -54,10 +56,6 @@ Therefore software architecture don’t reflect the reality of what’s happenin
 We can solve this problem with vertical slicing instead of horizontal slicing. This is often referred to as **Package by Component** or “Package by future" as opposed to”Package by layer“, and it’s quite well explained by Simon Brown in his blog post[^7]. Marin Fowler has also written about this and I borrowed these drawings from his post "Presentation Domain Data Layering"[^8] 
 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_top.png)
-
-Determining how to find components
-
-
 
 
 #### Component Communication
@@ -141,11 +139,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTM2NDU4NSwtMjAzMjE3NTE3NywxMz
-gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
-OTYzLC03NDYwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMT
-k4NzEwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQy
-MDM3OSwxOTM4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOC
-wtMTUwMzY4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2
-OTk3OTkxMzBdfQ==
+eyJoaXN0b3J5IjpbLTExNTY3NjgyNjYsLTIwMzIxNzUxNzcsMT
+M4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4
+NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkzODI4LD
+E5ODcxMDY3NjEsMTk2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0
+MjAzNzksMTkzODIyODcxMSwtMTYwMTkzNjE3NiwxMDExODg5Mz
+gsLTE1MDM2ODczMDgsMTIxMTg2Nzg3LC0xNjk5MTY5MDY0LC0x
+Njk5Nzk5MTMwXX0=
 -->
