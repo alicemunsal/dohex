@@ -44,7 +44,7 @@ Software architecture is often expressed as a set of diagrams. In the design pha
  
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
   
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this problem with his **Screaming Architecture**[^6] concept. This is often referred to as “_Package by feature_” or “_Package by component_” as opposed to”_Package by layer_“, and it’s quite well explained by Simon Brown in his blog post “[Package by component and architecturally-aligned testing](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)“:
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this iss with his **Screaming Architecture**[^6] concept. This is often referred to as “_Package by feature_” or “_Package by component_” as opposed to”_Package by layer_“, and it’s quite well explained by Simon Brown in his blog post “[Package by component and architecturally-aligned testing](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)“:
 
 Code doest reflect design
 
@@ -131,11 +131,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc2ODk4ODMsLTc0MTg3MzYwMywtMT
-U0NDg1OTYzLC03NDYwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4
-MjgsMTk4NzEwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMT
-I2MDQyMDM3OSwxOTM4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4
-ODkzOCwtMTUwMzY4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNj
-QsLTE2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUy
-MjcyMzUxOF19
+eyJoaXN0b3J5IjpbMTMzNzA4MDY1NSwtNzQxODczNjAzLC0xNT
+Q0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5Mzgy
+OCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMj
+YwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4
+OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4NywtMTY5OTE2OTA2NC
+wtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OCwxNTIy
+NzIzNTE4XX0=
 -->
