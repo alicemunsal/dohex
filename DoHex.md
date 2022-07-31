@@ -62,7 +62,7 @@ Now, we aligned the architecture view of the software and the code view. It make
 
 #### Component Communication
 
-We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package. It has all the implementation details inside. 
+We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package. Each component has it's own ports and adapters and all the implementation details inside.
 
 Components can only talk to each other through their ports. 
 
@@ -145,11 +145,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2OD
-MxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUx
-ODUsMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLT
-c0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2
-NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIwMzc5LD
-E5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNTAz
-Njg3MzA4XX0=
+eyJoaXN0b3J5IjpbMTI0MTA5NDE4NSw1MTg2MDAzMjEsLTM0Mz
+g3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUx
+NzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLT
+E1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkz
+ODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMjExNzU4OTAyLD
+EyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkzNjE3NiwxMDEx
+ODg5MzhdfQ==
 -->
