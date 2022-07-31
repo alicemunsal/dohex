@@ -34,12 +34,14 @@ We can build our entire use cases with all business logic inside, using only uni
 
 Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
-### Component 
+### Component Based Architecture
 
+#### Component
 Component is over saturated terminology in the software industry. In the context of this post: A component is a group of related functionality that resides behind a nice and clean interface.  
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
+#### Package By Component
 Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on **Layered Architecture**.  
  
 ![Layered Architecture](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
@@ -52,12 +54,8 @@ We can solve this problem with vertical slicing instead of horizontal slicing. T
 
 Determining how to find components
 
-### Project Structure
-How can we organize our code to reflect architecture
-There is no such thing as complex project in this perspective. S
-Components
-Lib: 
-Acl: Anti-Corruption Layer 
+
+
 
 ### Component Communication
 
@@ -78,6 +76,13 @@ I2C, modbus, canbus for explaning eventbus
 ### Adapter Organization
 
 ![Adapters](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Adapter%20Organization.png)
+
+### Project Structure
+How can we organize our code to reflect architecture
+There is no such thing as complex project in this perspective. S
+Components
+Lib: 
+Acl: Anti-Corruption Layer 
 
 ### Libraries  
 A library is a **Side Effect** free functionality 
@@ -133,11 +138,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMD
-M3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4
-MTI3LDEwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMT
-k2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIy
-ODcxMSwtMTYwMTkzNjE3NiwxMDExODg5MzgsLTE1MDM2ODczMD
-gsMTIxMTg2Nzg3LC0xNjk5MTY5MDY0LC0xNjk5Nzk5MTMwLC0y
-MTA4ODU1MzFdfQ==
+eyJoaXN0b3J5IjpbMTEwNzk4NTEyNiwtMjAzMjE3NTE3NywxMz
+gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
+OTYzLC03NDYwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMT
+k4NzEwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQy
+MDM3OSwxOTM4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOC
+wtMTUwMzY4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2
+OTk3OTkxMzBdfQ==
 -->
