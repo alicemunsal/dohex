@@ -107,7 +107,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
-
+[^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
 [^]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
@@ -126,11 +126,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzEwNjc2MSwxOTY0NDM5NjkzLC0yMT
-E3NTg5MDIsMTI2MDQyMDM3OSwxOTM4MjI4NzExLC0xNjAxOTM2
-MTc2LDEwMTE4ODkzOCwtMTUwMzY4NzMwOCwxMjExODY3ODcsLT
-E2OTkxNjkwNjQsLTE2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NTY0
-Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2MC
-wtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOTIz
-OTQ2OTg1XX0=
+eyJoaXN0b3J5IjpbLTEwMjU1OTIwMTQsMTk4NzEwNjc2MSwxOT
+Y0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOTM4MjI4
+NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4NzMwOC
+wxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkxMzAsLTIx
+MDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MD
+YwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0
+MDE4MTY4NDBdfQ==
 -->
