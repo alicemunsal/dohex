@@ -98,7 +98,7 @@ When we need out-process robust communication for our components, **Event Sourci
 
 #### Shared Data
 
-Our components can be logically connected through shared data such as PostgreSQL or MongoDB
+Our components can be logically connected through shared data such as PostgreSQL or MongoDB.
 
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
@@ -183,11 +183,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyOTYzMTcsNDI5ODM3ODc1LDYzNDcyMz
-A1LDE4NjAzMjQwOTYsLTEzNTMzNTYyNjIsNTY0MzIyNjQxLC05
-MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNTEyMzksLTIxMjI1OD
-c1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3OCwx
-MDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLTEwMj
-gwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0N119
-
+eyJoaXN0b3J5IjpbLTE3OTQwMzUzMTEsNTAyOTYzMTcsNDI5OD
+M3ODc1LDYzNDcyMzA1LDE4NjAzMjQwOTYsLTEzNTMzNTYyNjIs
+NTY0MzIyNjQxLC05MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNT
+EyMzksLTIxMjI1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0
+LDc1NDQwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NT
+E1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0
+Nl19
 -->
