@@ -62,6 +62,8 @@ Now, we aligned the architecture view of the software and the code view. It make
 
 #### Component Communication
 
+we can have hexagonal architecture wrapped inside the component. 
+
 Direct component communication graph. Nothing wrong
 I2C, modbus, canbus for explaning eventbus
 
@@ -141,11 +143,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODMxNzc2OCwxODYwNDIxMjUxLC0yMD
-MyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1OTY0OSwtNzQxODcz
-NjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMj
-EzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1
-ODkwMiwxMjYwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNz
-YsMTAxMTg4OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4NywtMTY5
-OTE2OTA2NF19
+eyJoaXN0b3J5IjpbLTE2NjU1NTA1ODMsLTY2ODMxNzc2OCwxOD
+YwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1
+OTY0OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNy
+wxMDExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0
+Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIwMzc5LDE5MzgyMjg3MT
+EsLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNTAzNjg3MzA4LDEy
+MTE4Njc4N119
 -->
