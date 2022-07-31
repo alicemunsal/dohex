@@ -60,12 +60,11 @@ We can solve this problem with vertical slicing instead of horizontal slicing. T
 
 Now, we aligned the architecture view of the software and the code view. It makes the code easy to understand and discuss. And end of each discussion, we can reflect back to the code.
 
-
-
-### Component Communication
-
+### Hexagonal Architecture for Components  
 
 We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. A component can only be communicated through its own ports.
+
+### Component Communication
 
 #### Direct Communication  
 
@@ -166,7 +165,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDkwMjI4MywxODIzMzUxMjM5LC0yMT
+eyJoaXN0b3J5IjpbLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMT
 IyNTg3NTM1LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5
 NzgsMTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC
 0xMDI4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4
