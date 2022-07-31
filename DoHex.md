@@ -92,7 +92,7 @@ Event-Driven Architecture has 4 common patterns according to Martin Fowler:
 3. Event Sourcing
 4. CQRS 
 
-You can 
+ The Many Meanings of Event-Driven Architecture[^11]
 
 #### Shared Data
 
@@ -174,7 +174,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTU4MDg2NiwtMTM1MzM1NjI2Miw1Nj
+eyJoaXN0b3J5IjpbMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1Nj
 QzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIz
 OSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNz
 U0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MTUx
