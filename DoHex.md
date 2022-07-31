@@ -40,10 +40,11 @@ Component is over saturated terminology in the software industry. In the context
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on layered architecture. 
+Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on **Layered Architecture**.  
+ 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
-
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept "model-code gap"[^5] 
+  
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5] 
 
 Code doest reflect design
 
@@ -129,11 +130,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4Nz
-EwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3
-OSwxOTM4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMT
-UwMzY4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3
-OTkxMzAsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOC
-wtNDE5Mzk5MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4
-MTczMDQ3MF19
+eyJoaXN0b3J5IjpbLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMT
+A5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkw
+MiwxMjYwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMT
+AxMTg4OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4NywtMTY5OTE2
+OTA2NCwtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OC
+wxNTIyNzIzNTE4LC00MTkzOTkwNjAsMzcyMzExOTYwLC0xNTEw
+NTExNTIxXX0=
 -->
