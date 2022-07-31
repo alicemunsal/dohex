@@ -60,7 +60,10 @@ We can solve this problem with vertical slicing instead of horizontal slicing. T
 
 Now, we aligned the architecture view of the software and the code view. It makes the code easy to understand and discuss. And end of each discussion, we can reflect back to the code.
 
+In the context of **DoHex** each component is developed using independent Hexagonal Architecture. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. A component can only be communicated through its own ports.
+
 ### Component Communication
+
 
 We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. A component can only be communicated through its own ports.
 
@@ -163,11 +166,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwxOT
-U3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEw
-ODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLD
-Q5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUz
-MjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2ODMxNzc2OCwxOD
-YwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1
-OTY0OV19
+eyJoaXN0b3J5IjpbMTIyMzc4ODUyLDE4MjMzNTEyMzksLTIxMj
+I1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3
+OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLT
+EwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0
+NywxMzgzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUxLC02Nj
+gzMTc3NjgsMTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMzgxNzQ1
+MTg1XX0=
 -->
