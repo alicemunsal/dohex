@@ -40,7 +40,7 @@ Component is over saturated terminology in the software industry. In the context
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on layered architecture. Therefore software architecture don’t reflect the reality of what’s happening in the code.       
+Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on layered architecture. Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks call this "model-code gap"[^5]      
 Layered vs Component based graphics
 Code doest reflect design
 
@@ -126,7 +126,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzExMTM0NiwxOTg3MTA2NzYxLDE5Nj
+eyJoaXN0b3J5IjpbMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5Nj
 Q0Mzk2OTMsLTIxMTc1ODkwMiwxMjYwNDIwMzc5LDE5MzgyMjg3
 MTEsLTE2MDE5MzYxNzYsMTAxMTg4OTM4LC0xNTAzNjg3MzA4LD
 EyMTE4Njc4NywtMTY5OTE2OTA2NCwtMTY5OTc5OTEzMCwtMjEw
