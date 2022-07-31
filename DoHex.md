@@ -84,7 +84,9 @@ I2C, modbus, canbus for explaning eventbus
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
+#### Hybrid  
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)
 
 
 ### Adapter Organization
@@ -152,11 +154,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAxNTYyMDgsOTQxNzc4NDcsMTM4Mz
-Q1NTMyOCw1MTg2MDAzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4
-LDE4NjA0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMD
-M3NjU5NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4
-MTI3LDEwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMT
-k2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIy
-ODcxMV19
+eyJoaXN0b3J5IjpbMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzND
+U1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3Njgs
+MTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMz
+c2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1OTYzLC03NDYwOTgx
+MjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4NzEwNjc2MSwxOT
+Y0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3OSwxOTM4MjI4
+NzExXX0=
 -->
