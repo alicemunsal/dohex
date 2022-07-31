@@ -85,8 +85,14 @@ This is similar to our good old friend **Pub-Sub Design Pattern**. Our component
 This is the most preferable communication in general. It allows loosely coupled and asynchronous communication. 
 This is classified as the **Event-Driven Architecture**[^10]. it needs different thinking and has its own disadvantages.  
 
-Event-Driven Architecture has 4 common patterns according to Martin Fowler: The Many Meanings of Event-Driven Architecture[^11]:
-1) Event 
+Event-Driven Architecture has 4 common patterns according to Martin Fowler:  
+
+1. Event Notification
+2. Event-Carried State Transfer
+3. Event Sourcing
+4. CQRS 
+
+You can 
 
 #### Shared Data
 
@@ -168,11 +174,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMzNTc0NjUsLTEzNTMzNTYyNjIsNT
-Y0MzIyNjQxLC05MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNTEy
-MzksLTIxMjI1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LD
-c1NDQwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1
-MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Ni
-w5NDE3Nzg0NywxMzgzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5
-MDUxXX0=
+eyJoaXN0b3J5IjpbLTYzNTU4MDg2NiwtMTM1MzM1NjI2Miw1Nj
+QzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIz
+OSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNz
+U0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MTUx
+NTI1MiwtMTAyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LD
+k0MTc3ODQ3LDEzODM0NTUzMjgsNTE4NjAwMzIxLC0zNDM4Nzkw
+NTFdfQ==
 -->
