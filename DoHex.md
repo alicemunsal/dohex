@@ -42,6 +42,7 @@ A component can represent a part of our domain (user, invoice, order, shipping, 
 
 Determining how to find components
 Layered vs Component based graphics
+Code doest reflect design
 
 ### Project Structure
 There is no such thing as complex project in this perspective. S
@@ -118,11 +119,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTg2Nzg3LC0xNjk5MTY5MDY0LC0xNj
-k5Nzk5MTMwLC0yMTA4ODU1MzEsNTU2NDc5Njg4LDE1MjI3MjM1
-MTgsLTQxOTM5OTA2MCwzNzIzMTE5NjAsLTE1MTA1MTE1MjEsLT
-E2ODE3MzA0NzAsNDAxODE2ODQwLDkyMzk0Njk4NSwtMTQ2NzA5
-Nzg1NSwyMDAxMjk5MjgsNzQxMjkxODk0LDczNTc1MjIwNSwtMT
-U1NTAwODgwLC0xNTY3MjI5NzQ4LC0xMzc3MjY4MTQzLC02MjEz
-ODQ1NTBdfQ==
+eyJoaXN0b3J5IjpbLTczOTk0MzIyNiwxMjExODY3ODcsLTE2OT
+kxNjkwNjQsLTE2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NTY0Nzk2
+ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2MCwtMT
+UxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOTIzOTQ2
+OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4OTQsNz
+M1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLTEzNzcy
+NjgxNDNdfQ==
 -->
