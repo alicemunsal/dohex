@@ -46,12 +46,12 @@ Software architecture is often expressed as a set of diagrams. In the design pha
   
 Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
 
-Code doest reflect design
+
 
 Determining how to find components
 
 ### Project Structure
-
+How can we organize our code to reflect architecture
 There is no such thing as complex project in this perspective. S
 Components
 Lib: 
@@ -132,11 +132,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk5NDM2OTcsMjAzNzY1OTY0OSwtNz
-QxODczNjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQx
-NTksMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLT
-IxMTc1ODkwMiwxMjYwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5
-MzYxNzYsMTAxMTg4OTM4LC0xNTAzNjg3MzA4LDEyMTE4Njc4Ny
-wtMTY5OTE2OTA2NCwtMTY5OTc5OTEzMCwtMjEwODg1NTMxLDU1
-NjQ3OTY4OF19
+eyJoaXN0b3J5IjpbMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03ND
+E4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1
+OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMj
+ExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkz
+NjE3NiwxMDExODg5MzgsLTE1MDM2ODczMDgsMTIxMTg2Nzg3LC
+0xNjk5MTY5MDY0LC0xNjk5Nzk5MTMwLC0yMTA4ODU1MzEsNTU2
+NDc5Njg4XX0=
 -->
