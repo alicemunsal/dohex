@@ -72,11 +72,11 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 #### Event Bus 
 
-The Electronic industry designed different standards to allow microcontrollers and devices to communicate each other like I2C, Modbus and CANBUS.  
+The Electronic industry designed different standards to allow microcontrollers and devices to communicate each other like I2C, Modbus, CAN Bus, etc.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other asynchronously through event bus. Components do not share (independently access) the same memory or storage: Shared-nothing architecture[^9].
+This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: Shared-nothing architecture[^9].
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
@@ -163,11 +163,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1ND
-QwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUy
-NTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5ND
-E3Nzg0NywxMzgzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUx
-LC02NjgzMTc3NjgsMTg2MDQyMTI1MSwtMjAzMjE3NTE3NywxMz
-gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
-OTYzXX0=
+eyJoaXN0b3J5IjpbLTIwNzcxNzYyMDksMTk1NzczMjUwMywxND
+E5NzkyNDg0LDc1NDQwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTky
+MjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMT
+U1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4LDUxODYwMDMy
+MSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMTg2MDQyMTI1MSwtMj
+AzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3
+MzYwM119
 -->
