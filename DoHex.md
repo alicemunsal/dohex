@@ -82,7 +82,6 @@ This is similar to our good old friend Pub-Sub Design Pattern. Our components ca
 
 This is the most preferable communication in most cases. It allows loosely coupled and asynchronous communication. 
 Event Driven Architecture. 
-martin fowler youtube
 
 #### Shared Data
 
@@ -148,26 +147,27 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^7]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^8]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^9]: Shared-nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
-[^]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
-[^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
+[^10]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
 
-[^]: C4 Model https://c4model.com/
-[^]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc
-[^]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
-[^]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
-[^]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
-[^]: Entity Component System (ECS) https://en.wikipedia.org/wiki/Entity_component_system
-[^]: Share nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
-[^]: Domain Driven Design (DDD) https://en.wikipedia.org/wiki/Domain-driven_design
+[^21]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+[^22]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
+[^23]: C4 Model https://c4model.com/
+[^24]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^25]: The Origin of Complexity https://itnext.io/the-origin-of-complexity-8ecb39130fc
+[^26]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
+[^27]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
+
+[^28]: Entity Component System (ECS) https://en.wikipedia.org/wiki/Entity_component_system
+[^29]: Share nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
+[^30]: Domain Driven Design (DDD) https://en.wikipedia.org/wiki/Domain-driven_design
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzc2MjA5OCwtMjEyMjU4NzUzNSwxOT
-U3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEw
-ODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLD
-Q5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUz
-MjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2ODMxNzc2OCwxOD
-YwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1
-OTY0OV19
+eyJoaXN0b3J5IjpbLTIxMDM4NjMxNzYsLTIxMjI1ODc1MzUsMT
+k1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3OCwxMDkyMzkx
+MDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMy
+w0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1
+MzI4LDUxODYwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMT
+g2MDQyMTI1MSwtMjAzMjE3NTE3NywxMzgxNzQ1MTg1LDIwMzc2
+NTk2NDldfQ==
 -->
