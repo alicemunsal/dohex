@@ -110,7 +110,7 @@ We can connect our components synchronously through service call.
 
 #### Hybrid  
 
-Shared data an
+Direct communication, shared data and service interface communication less preferable in an ideal world.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)
 
@@ -183,7 +183,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDc1NzE4Miw0Mjk4Mzc4NzUsNjM0Nz
+eyJoaXN0b3J5IjpbLTg5NDIyMzA0NSw0Mjk4Mzc4NzUsNjM0Nz
 IzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEs
 LTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMj
 U4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4
