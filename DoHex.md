@@ -68,8 +68,8 @@ We can develop each component using independent Hexagonal Architecture. Each com
 
 Components can talk to each other in various ways. They can communicate to each other through their ports, or they can expose service interfaces (REST, gRPC, etc), or we can use event-driven architecture, etc. This is a big topic, so I will write about it in a latter post.  
 
-![Direct](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
-*Direct Component Communication*
+![Direct](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
+*Component Communication through Event Bus*
 
 ## Data Oriented Programming
 
@@ -141,7 +141,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTMyMTY4Myw3NzMwMjM0MzIsNTc0OT
+eyJoaXN0b3J5IjpbMTA4Nzc2NDg4NSw3NzMwMjM0MzIsNTc0OT
 UxMjMyLDEzOTU2NzYyNTksLTUwMjkwNTA4MiwxOTEyMzE4OTM4
 LDUwMjk2MzE3LDQyOTgzNzg3NSw2MzQ3MjMwNSwxODYwMzI0MD
 k2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwtOTI0ODI5ODgsLTY0
