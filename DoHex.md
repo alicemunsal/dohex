@@ -58,7 +58,7 @@ We can solve this problem with vertical slicing instead of horizontal slicing. T
 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_top.png)
 
-Now, we aligned the architecture view of the software and the code view. It makes the code easy to understand and discuss. And end of each discussion we can reflect back to the code.
+Now, we aligned the architecture view of the software and the code view. It makes the code easy to understand and discuss. And end of each discussion, we can reflect back to the code.
 
 ### Component Communication
 
@@ -159,7 +159,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgwNDE2MTYsMTA5MjM5MTA4NywtMT
+eyJoaXN0b3J5IjpbLTE4MjA1MDgxODAsMTA5MjM5MTA4NywtMT
 Q0MzE5MjIyNiwtNjUxNTE1MjUyLC0xMDI4MDA3MjMsNDk4MTc2
 NDQ3LDE1NTY3NDUyNDYsOTQxNzc4NDcsMTM4MzQ1NTMyOCw1MT
 g2MDAzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEy
