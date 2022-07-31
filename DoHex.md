@@ -96,9 +96,9 @@ When we need out-process robust communication for our components, **Event Sourci
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Deployment.png)   
 
-#### Shared Data
+#### Shared Repository
 
-
+Our components can be logically connected through shared data such as PostgreSQL or MongoDB
 
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
@@ -181,7 +181,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMDkwMjAyLDQyOTgzNzg3NSw2MzQ3Mj
+eyJoaXN0b3J5IjpbOTUyMjI4MDg2LDQyOTgzNzg3NSw2MzQ3Mj
 MwNSwxODYwMzI0MDk2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwt
 OTI0ODI5ODgsLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMTIyNT
 g3NTM1LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5Nzgs
