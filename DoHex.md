@@ -77,7 +77,7 @@ For electronic components we are using I2C Bus communication, for electronic dev
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other asynchronously through event bus. Components do not share (independently access) the same memory or storage: Shared-nothing architecture
+This is similar to our good old friend Pub-Sub Design Pattern. Our components can talk to each other asynchronously through event bus. Components do not share (independently access) the same memory or storage: Shared-nothing architecture[^9].
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
@@ -144,7 +144,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^6]: Screaming Architecture http://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
 [^7]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^8]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
-[
+[^9]: Shared-nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
 [^]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
 [^]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
 
@@ -160,7 +160,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc2MzI3NSwxMDkyMzkxMDg3LC0xND
+eyJoaXN0b3J5IjpbMTYyMDkzNzEwMCwxMDkyMzkxMDg3LC0xND
 QzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0
 NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMzgzNDU1MzI4LDUxOD
 YwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3NjgsMTg2MDQyMTI1
