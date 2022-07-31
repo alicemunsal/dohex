@@ -41,7 +41,7 @@ Component is over saturated terminology in the software industry. In the context
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
 Software architecture is often expressed as a set of diagrams that don’t reflect the reality of what’s happening in the code.
-In the design phase, we draw bunch of boxes and lines to show 
+In the design phase, we draw bunch of boxes and lines to create Architectural view of 
 Layered vs Component based graphics
 Code doest reflect design
 
@@ -125,11 +125,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDQyMDM3OSwxOTM4MjI4NzExLC0xNj
-AxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4NzMwOCwxMjExODY3
-ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkxMzAsLTIxMDg4NTUzMS
-w1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMx
-MTk2MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4ND
-AsOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEy
-OTE4OTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNDE1MTM3NTEsMTI2MDQyMDM3OSwxOT
+M4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMTUwMzY4
+NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3OTkxMz
+AsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5
+Mzk5MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4MTczMD
+Q3MCw0MDE4MTY4NDAsOTIzOTQ2OTg1LC0xNDY3MDk3ODU1LDIw
+MDEyOTkyOF19
 -->
