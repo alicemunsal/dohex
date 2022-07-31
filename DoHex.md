@@ -1,10 +1,13 @@
-## DoHex - Data Oriented Hexagonal Architecture 
+# DoHex - Data Oriented Hexagonal Architecture 
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same concept.  
  
 I will present ...simplified thinking... practical variations of this concept
 Consistent and simple design and development strategy for 
  
+
+## Hexagonal Architecture 
+
 ### Philosophy  
 
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
@@ -34,14 +37,14 @@ We can build our entire use cases with all business logic inside, using only uni
 
 Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
-### Component Based Architecture
+## Component Based Architecture
 
-#### Component
+### Component
 Component is over saturated terminology in the software industry. In the context of this post: A component is a group of related functionality that resides behind a nice and clean interface.  
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-#### Package By Component
+### Package By Component
 Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on **Layered Architecture**.  
  
 ![Layered Architecture](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
@@ -57,7 +60,7 @@ Determining how to find components
 
 
 
-### Component Communication
+#### Component Communication
 
 Direct component communication graph. Nothing wrong
 I2C, modbus, canbus for explaning eventbus
@@ -138,7 +141,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzk4NTEyNiwtMjAzMjE3NTE3NywxMz
+eyJoaXN0b3J5IjpbMTE4MTM2NDU4NSwtMjAzMjE3NTE3NywxMz
 gxNzQ1MTg1LDIwMzc2NTk2NDksLTc0MTg3MzYwMywtMTU0NDg1
 OTYzLC03NDYwOTgxMjcsMTAxMTk0MTU5LDIxMzEwOTM4MjgsMT
 k4NzEwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQy
