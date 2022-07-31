@@ -51,6 +51,8 @@ Acl: Anti-Corruption Layer
 
 ### Component Communication
 
+I2C, modbus, canbus
+
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
@@ -116,11 +118,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzk3Njc1NCwtMTY5OTE2OTA2NCwtMT
-Y5OTc5OTEzMCwtMjEwODg1NTMxLDU1NjQ3OTY4OCwxNTIyNzIz
-NTE4LC00MTkzOTkwNjAsMzcyMzExOTYwLC0xNTEwNTExNTIxLC
-0xNjgxNzMwNDcwLDQwMTgxNjg0MCw5MjM5NDY5ODUsLTE0Njcw
-OTc4NTUsMjAwMTI5OTI4LDc0MTI5MTg5NCw3MzU3NTIyMDUsLT
-E1NTUwMDg4MCwtMTU2NzIyOTc0OCwtMTM3NzI2ODE0MywtNjIx
-Mzg0NTUwXX0=
+eyJoaXN0b3J5IjpbLTEyNjM2MjMzMDgsLTE2OTkxNjkwNjQsLT
+E2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcy
+MzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMS
+wtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOTIzOTQ2OTg1LC0xNDY3
+MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4OTQsNzM1NzUyMjA1LC
+0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLTEzNzcyNjgxNDMsLTYy
+MTM4NDU1MF19
 -->
