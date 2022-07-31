@@ -62,7 +62,7 @@ Now, we aligned the architecture view of the software and the code view. It make
 
 #### Component Communication
 
-We can develop each component using Hexagonal Architecture. Each component is encapsulated in its own package. It has all the implementation details inside.  
+We can develop each component using Hexagonal Architecture. Each component is encapsulated in its own package. It has all the implementation details inside. Components can only talk to each other through their ports. 
 
 Direct component communication graph. Nothing wrong
 I2C, modbus, canbus for explaning eventbus
@@ -143,7 +143,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzcyMTM3MCwtNjY4MzE3NzY4LDE4Nj
+eyJoaXN0b3J5IjpbMTE3NTIyMDE3NywtNjY4MzE3NzY4LDE4Nj
 A0MjEyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMDM3NjU5
 NjQ5LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LD
 EwMTE5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQz
