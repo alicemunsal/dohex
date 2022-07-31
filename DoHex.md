@@ -76,7 +76,6 @@ I2C, modbus, canbus for explaning eventbus
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
-![Direct Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
 
 
 
@@ -145,11 +144,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzc2NzA5NCw1MTg2MDAzMjEsLTM0Mz
-g3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUx
-NzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLT
-E1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkz
-ODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMjExNzU4OTAyLD
-EyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkzNjE3NiwxMDEx
-ODg5MzhdfQ==
+eyJoaXN0b3J5IjpbNTI1NjM3NzEsNTE4NjAwMzIxLC0zNDM4Nz
+kwNTEsLTY2ODMxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3
+LDEzODE3NDUxODUsMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNT
+Q0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5Mzgy
+OCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMj
+YwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4
+OTM4XX0=
 -->
