@@ -72,6 +72,7 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 #### Event Bus 
 
+The Electronic industry uses 
 For electronic components we are using I2C Bus communication, for electronic devices Modbus and CAN bus 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
@@ -158,11 +159,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMT
-AyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3
-LDEzODM0NTUzMjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2OD
-MxNzc2OCwxODYwNDIxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUx
-ODUsMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLT
-c0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2
-NzYxXX0=
+eyJoaXN0b3J5IjpbMTY3NDMxMTE0OSwtMTQ0MzE5MjIyNiwtNj
+UxNTE1MjUyLC0xMDI4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUy
+NDYsOTQxNzc4NDcsMTM4MzQ1NTMyOCw1MTg2MDAzMjEsLTM0Mz
+g3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUx
+NzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLT
+E1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkz
+ODI4XX0=
 -->
