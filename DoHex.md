@@ -44,22 +44,24 @@ A component can represent a part of our domain (user, invoice, order, shipping, 
 
 ### Component Communication
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
+![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
+![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
+![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
+![Direct Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
+
+
 
 ### Adapter Organization
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Adapter%20Organization.png)
+![Adapters](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Adapter%20Organization.png)
 
 ### Libraries  
 A library is a **Side Effect** free functionality 
 
-
+![Libraries](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Lib.png)
 
 ### Web Applications
 
@@ -110,11 +112,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MzcwNDcsLTIxMDg4NTUzMSw1NTY0Nz
-k2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2MCwt
-MTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOTIzOT
-Q2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4OTQs
-NzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLTEzNz
-cyNjgxNDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5ODkw
-Nl19
+eyJoaXN0b3J5IjpbLTE2OTk3OTkxMzAsLTIxMDg4NTUzMSw1NT
+Y0Nzk2ODgsMTUyMjcyMzUxOCwtNDE5Mzk5MDYwLDM3MjMxMTk2
+MCwtMTUxMDUxMTUyMSwtMTY4MTczMDQ3MCw0MDE4MTY4NDAsOT
+IzOTQ2OTg1LC0xNDY3MDk3ODU1LDIwMDEyOTkyOCw3NDEyOTE4
+OTQsNzM1NzUyMjA1LC0xNTU1MDA4ODAsLTE1NjcyMjk3NDgsLT
+EzNzcyNjgxNDMsLTYyMTM4NDU1MCw1MjM2MjcxNjQsLTI2NjE5
+ODkwNl19
 -->
