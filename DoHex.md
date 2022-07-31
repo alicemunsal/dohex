@@ -74,7 +74,7 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 #### Event Bus 
 
-The Electronic industry designed different standards to allow micro-controllers and devices to communicate each other like I2C, Modbus, CAN Bus, etc.  
+The Electronic industry designed different standards to allow micro-controllers and devices to communicate each other: I2C, Modbus, CAN Bus, etc.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
@@ -165,11 +165,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTgzMDI5Nyw1NjQzMjI2NDEsLTkyND
-gyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUz
-NSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOT
-IzOTEwODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAw
-NzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzOD
-M0NTUzMjgsNTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2ODMxNzc2
-OF19
+eyJoaXN0b3J5IjpbLTE2NTc3MjI5MDIsNTY0MzIyNjQxLC05Mj
+Q4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNTEyMzksLTIxMjI1ODc1
+MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3OCwxMD
+kyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLTEwMjgw
+MDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0NywxMz
+gzNDU1MzI4LDUxODYwMDMyMSwtMzQzODc5MDUxLC02NjgzMTc3
+NjhdfQ==
 -->
