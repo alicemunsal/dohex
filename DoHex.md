@@ -98,11 +98,13 @@ When we need out-process robust communication for our components, **Event Sourci
 
 #### Shared Data
 
+
+
 ![Shared Data](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Shared%20Data.png)
 
 #### Service Interface
 
-We can connect our components synchronously through service call
+We can connect our components synchronously through service call.
 
 ![Service Communication](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Service.png)
 
@@ -179,11 +181,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA0NjM0NjYsNDI5ODM3ODc1LDYzND
-cyMzA1LDE4NjAzMjQwOTYsLTEzNTMzNTYyNjIsNTY0MzIyNjQx
-LC05MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNTEyMzksLTIxMj
-I1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0LDc1NDQwMTk3
-OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NTE1MTUyNTIsLT
-EwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0Niw5NDE3Nzg0
-N119
+eyJoaXN0b3J5IjpbNzMxMDkwMjAyLDQyOTgzNzg3NSw2MzQ3Mj
+MwNSwxODYwMzI0MDk2LC0xMzUzMzU2MjYyLDU2NDMyMjY0MSwt
+OTI0ODI5ODgsLTY0MTg3OTIyNywxODIzMzUxMjM5LC0yMTIyNT
+g3NTM1LDE5NTc3MzI1MDMsMTQxOTc5MjQ4NCw3NTQ0MDE5Nzgs
+MTA5MjM5MTA4NywtMTQ0MzE5MjIyNiwtNjUxNTE1MjUyLC0xMD
+I4MDA3MjMsNDk4MTc2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4NDdd
+fQ==
 -->
