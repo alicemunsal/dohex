@@ -40,9 +40,11 @@ Component is over saturated terminology in the software industry. In the context
 
 A component can represent a part of our domain (user, invoice, order, shipping, etc.), or be part of our infrastructure ( authentication, log, email etc.), or be an integration point to a third-party system, (payment api, crm api etc).
 
-Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on layered architecture. Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept "model-code gap"[^5]
+Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on layered architecture. 
 ![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
-Layered vs Component based graphics
+
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept "model-code gap"[^5] 
+
 Code doest reflect design
 
 Determining how to find components
@@ -127,11 +129,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDg5NTIwOSwyMTMxMDkzODI4LDE5OD
-cxMDY3NjEsMTk2NDQzOTY5MywtMjExNzU4OTAyLDEyNjA0MjAz
-NzksMTkzODIyODcxMSwtMTYwMTkzNjE3NiwxMDExODg5MzgsLT
-E1MDM2ODczMDgsMTIxMTg2Nzg3LC0xNjk5MTY5MDY0LC0xNjk5
-Nzk5MTMwLC0yMTA4ODU1MzEsNTU2NDc5Njg4LDE1MjI3MjM1MT
-gsLTQxOTM5OTA2MCwzNzIzMTE5NjAsLTE1MTA1MTE1MjEsLTE2
-ODE3MzA0NzBdfQ==
+eyJoaXN0b3J5IjpbMTAxMTk0MTU5LDIxMzEwOTM4MjgsMTk4Nz
+EwNjc2MSwxOTY0NDM5NjkzLC0yMTE3NTg5MDIsMTI2MDQyMDM3
+OSwxOTM4MjI4NzExLC0xNjAxOTM2MTc2LDEwMTE4ODkzOCwtMT
+UwMzY4NzMwOCwxMjExODY3ODcsLTE2OTkxNjkwNjQsLTE2OTk3
+OTkxMzAsLTIxMDg4NTUzMSw1NTY0Nzk2ODgsMTUyMjcyMzUxOC
+wtNDE5Mzk5MDYwLDM3MjMxMTk2MCwtMTUxMDUxMTUyMSwtMTY4
+MTczMDQ3MF19
 -->
