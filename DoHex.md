@@ -70,7 +70,7 @@ We can develop each component using independent Hexagonal Architecture. Each com
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
 
-Components can only talk to each other through their ports. Nothing wrong with this design if you are developing simple application. But we tightly coupled our components to each other. 
+Components can only talk to each other through their ports. Nothing wrong with this design if you are developing simple application. But we coupled our components to each other. 
 
 #### Event Bus 
 
@@ -78,7 +78,7 @@ The Electronic industry designed different standards to allow micro-controllers 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/modbus.jpg)
 
-This is similar to our good old friend **Pub-Sub Design Pattern**. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: **Shared-nothing architecture**[^9].
+These standards are similar to our good old friend **Pub-Sub Design Pattern**. Our components can talk to each other through event bus. Components do not share (independently access) the same memory or storage: **Shared-nothing architecture**[^9].
 
 ![Event bus](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Event%20Bus.png)
 
@@ -185,11 +185,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjMxODkzOCw1MDI5NjMxNyw0Mjk4Mz
-c4NzUsNjM0NzIzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1
-NjQzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MT
-IzOSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQs
-NzU0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MT
-UxNTI1MiwtMTAyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2
+eyJoaXN0b3J5IjpbLTUwMjkwNTA4MiwxOTEyMzE4OTM4LDUwMj
+k2MzE3LDQyOTgzNzg3NSw2MzQ3MjMwNSwxODYwMzI0MDk2LC0x
+MzUzMzU2MjYyLDU2NDMyMjY0MSwtOTI0ODI5ODgsLTY0MTg3OT
+IyNywxODIzMzUxMjM5LC0yMTIyNTg3NTM1LDE5NTc3MzI1MDMs
+MTQxOTc5MjQ4NCw3NTQ0MDE5NzgsMTA5MjM5MTA4NywtMTQ0Mz
+E5MjIyNiwtNjUxNTE1MjUyLC0xMDI4MDA3MjMsNDk4MTc2NDQ3
 XX0=
 -->
