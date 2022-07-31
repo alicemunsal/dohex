@@ -60,11 +60,15 @@ We can solve this problem with vertical slicing instead of horizontal slicing. T
 
 Now, we aligned the architecture view of the software and the code view. It makes the code easy to understand and discuss. And end of each discussion we can reflect back to the code.
 
-#### Component Communication
+### Component Communication
 
 We can develop each component using independent Hexagonal Architecture. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. A component can only be communicated through its own ports.
 
+#### Direct Communication  
+
 Components can only talk to each other through their ports. 
+
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Direct.png)
 
 Direct component communication graph. Nothing wrong
 I2C, modbus, canbus for explaning eventbus
@@ -144,11 +148,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzQ1NTMyOCw1MTg2MDAzMjEsLTM0Mz
-g3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEsLTIwMzIxNzUx
-NzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03NDE4NzM2MDMsLT
-E1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1OSwyMTMxMDkz
-ODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMjExNzU4OTAyLD
-EyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkzNjE3NiwxMDEx
-ODg5MzhdfQ==
+eyJoaXN0b3J5IjpbOTQxNzc4NDcsMTM4MzQ1NTMyOCw1MTg2MD
+AzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4LDE4NjA0MjEyNTEs
+LTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5LC03ND
+E4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMTE5NDE1
+OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5MywtMj
+ExNzU4OTAyLDEyNjA0MjAzNzksMTkzODIyODcxMSwtMTYwMTkz
+NjE3Nl19
 -->
