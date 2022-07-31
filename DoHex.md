@@ -85,7 +85,7 @@ This is similar to our good old friend **Pub-Sub Design Pattern**. Our component
 This is the most preferable communication in general. It allows loosely coupled and asynchronous communication. 
 This is classified as the **Event-Driven Architecture**[^10]. it needs different thinking and has its own disadvantages.  
 
-Event-Driven Architecture has 4 common patterns according to Martin Fowler:  The Many Meanings of Event-Driven Architecture[^11]
+Event-Driven Architecture has 4 common patterns according to Martin Fowler:  What do you mean by “Event-Driven”?[^11]
 
 1. Event Notification
 2. Event-Carried State Transfer
@@ -159,6 +159,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 [^8]: Presentation Domain Data Layering https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [^9]: Shared-nothing architecture https://en.wikipedia.org/wiki/Shared-nothing_architecture
 [^10]: The Many Meanings of Event-Driven Architecture https://www.youtube.com/watch?v=STKCRSUsyP0
+[^11]: What do you mean by “Event-Driven”? https://martinfowler.com/articles/201701-event-driven.html
 
 [^21]: Divide and conquer algorithm https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
 [^22]: Enterprise Integration Patterns (EIP) https://camel.apache.org/components/3.18.x/eips/enterprise-integration-patterns.html
@@ -174,11 +175,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NzIzMDUsMTg2MDMyNDA5NiwtMTM1Mz
-M1NjI2Miw1NjQzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcs
-MTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MT
-k3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIy
-MjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLDQ5ODE3NjQ0NywxNT
-U2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUzMjgsNTE4NjAwMzIx
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTIzMTIwOTcsNjM0NzIzMDUsMTg2MD
+MyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyNDgyOTg4
+LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUzNSwxOT
+U3NzMyNTAzLDE0MTk3OTI0ODQsNzU0NDAxOTc4LDEwOTIzOTEw
+ODcsLTE0NDMxOTIyMjYsLTY1MTUxNTI1MiwtMTAyODAwNzIzLD
+Q5ODE3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUz
+MjhdfQ==
 -->
