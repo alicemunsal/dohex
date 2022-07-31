@@ -114,6 +114,8 @@ Direct communication, shared data and service interface communication less prefe
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)
 
+## Data Oriented Programming
+
 
 #### Adapter Organization
 
@@ -183,11 +185,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQwMzUzMTEsNTAyOTYzMTcsNDI5OD
-M3ODc1LDYzNDcyMzA1LDE4NjAzMjQwOTYsLTEzNTMzNTYyNjIs
-NTY0MzIyNjQxLC05MjQ4Mjk4OCwtNjQxODc5MjI3LDE4MjMzNT
-EyMzksLTIxMjI1ODc1MzUsMTk1NzczMjUwMywxNDE5NzkyNDg0
-LDc1NDQwMTk3OCwxMDkyMzkxMDg3LC0xNDQzMTkyMjI2LC02NT
-E1MTUyNTIsLTEwMjgwMDcyMyw0OTgxNzY0NDcsMTU1Njc0NTI0
-Nl19
+eyJoaXN0b3J5IjpbMTkxMjMxODkzOCw1MDI5NjMxNyw0Mjk4Mz
+c4NzUsNjM0NzIzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1
+NjQzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MT
+IzOSwtMjEyMjU4NzUzNSwxOTU3NzMyNTAzLDE0MTk3OTI0ODQs
+NzU0NDAxOTc4LDEwOTIzOTEwODcsLTE0NDMxOTIyMjYsLTY1MT
+UxNTI1MiwtMTAyODAwNzIzLDQ5ODE3NjQ0NywxNTU2NzQ1MjQ2
+XX0=
 -->
