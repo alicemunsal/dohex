@@ -72,6 +72,8 @@ Components can only talk to each other through their ports. Nothing wrong with t
 
 #### Event Bus 
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/i2c.png)
+
 
 
 
@@ -155,11 +157,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODM2NzU3NiwtMTAyODAwNzIzLDQ5OD
-E3NjQ0NywxNTU2NzQ1MjQ2LDk0MTc3ODQ3LDEzODM0NTUzMjgs
-NTE4NjAwMzIxLC0zNDM4NzkwNTEsLTY2ODMxNzc2OCwxODYwND
-IxMjUxLC0yMDMyMTc1MTc3LDEzODE3NDUxODUsMjAzNzY1OTY0
-OSwtNzQxODczNjAzLC0xNTQ0ODU5NjMsLTc0NjA5ODEyNywxMD
-ExOTQxNTksMjEzMTA5MzgyOCwxOTg3MTA2NzYxLDE5NjQ0Mzk2
-OTNdfQ==
+eyJoaXN0b3J5IjpbLTM5NTY3OTQ4LC0xMDI4MDA3MjMsNDk4MT
+c2NDQ3LDE1NTY3NDUyNDYsOTQxNzc4NDcsMTM4MzQ1NTMyOCw1
+MTg2MDAzMjEsLTM0Mzg3OTA1MSwtNjY4MzE3NzY4LDE4NjA0Mj
+EyNTEsLTIwMzIxNzUxNzcsMTM4MTc0NTE4NSwyMDM3NjU5NjQ5
+LC03NDE4NzM2MDMsLTE1NDQ4NTk2MywtNzQ2MDk4MTI3LDEwMT
+E5NDE1OSwyMTMxMDkzODI4LDE5ODcxMDY3NjEsMTk2NDQzOTY5
+M119
 -->
