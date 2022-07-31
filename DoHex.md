@@ -42,9 +42,9 @@ A component can represent a part of our domain (user, invoice, order, shipping, 
 
 Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we structure our code based on **Layered Architecture**.  
  
-![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
+![Layered Architecture](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
   
-Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this iss with his **Screaming Architecture**[^6] concept. This is often referred to as “_Package by feature_” or “_Package by component_” as opposed to”_Package by layer_“, and it’s quite well explained by Simon Brown in his blog post “[Package by component and architecturally-aligned testing](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)“:
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
 
 Code doest reflect design
 
@@ -131,7 +131,7 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzA4MDY1NSwtNzQxODczNjAzLC0xNT
+eyJoaXN0b3J5IjpbMjAzNzY1OTY0OSwtNzQxODczNjAzLC0xNT
 Q0ODU5NjMsLTc0NjA5ODEyNywxMDExOTQxNTksMjEzMTA5Mzgy
 OCwxOTg3MTA2NzYxLDE5NjQ0Mzk2OTMsLTIxMTc1ODkwMiwxMj
 YwNDIwMzc5LDE5MzgyMjg3MTEsLTE2MDE5MzYxNzYsMTAxMTg4
