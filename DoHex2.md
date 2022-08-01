@@ -50,15 +50,14 @@ Data Oriented Design (DOD) is mainly used in video game development. DOD approac
 
 sample app design, folder structure graphs and model code gap  
 
-## References
-
+**References:**
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Nzk2MTA3MSwtNjE2MjcxNzUxLC0xOD
+eyJoaXN0b3J5IjpbMTYwMjQwODg3MywtNjE2MjcxNzUxLC0xOD
 gzMzMxMTYxLDE5NTAwMTc1MjIsLTE3MTY2NjQzOTUsMTMyNzA1
 NDI1LDEyMDkzNDYyOTYsLTEyNTMzMjI4NTgsMTgyOTk0MjIxOS
 wxOTk2MDg5MTgwLC0xNTUxMjc0OTQ4LDE2OTcwOTkyNzMsLTYx
