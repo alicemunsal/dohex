@@ -30,9 +30,10 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 ![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
-Our application knows nothing about external IO devices. It expose some functionality  
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
+
+Our application knows nothing about external IO devices. It expose some functionality for **Driving Adapters**  and it uses 
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
@@ -42,7 +43,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc1MDQ0MjYsOTM3ODE4OTAyLC0xNT
-I1MTk2OTQwLC0xOTI0Mjc4MjU3LC04ODk1Mjg5MDcsMTY3Mjcx
-MjM0Ml19
+eyJoaXN0b3J5IjpbLTM4NDQxMzYxMCw5Mzc4MTg5MDIsLTE1Mj
+UxOTY5NDAsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEy
+MzQyXX0=
 -->
