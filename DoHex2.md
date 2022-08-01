@@ -13,7 +13,7 @@ It will simplify designing and developing highly maintainable , testable, scalab
 
 This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
 
-Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control)  
+Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control).  
 
 ![App and oursite world](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
 
@@ -40,6 +40,6 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjUxOTY5NDAsLTE5MjQyNzgyNTcsLT
-g4OTUyODkwNywxNjcyNzEyMzQyXX0=
+eyJoaXN0b3J5IjpbOTM3ODE4OTAyLC0xNTI1MTk2OTQwLC0xOT
+I0Mjc4MjU3LC04ODk1Mjg5MDcsMTY3MjcxMjM0Ml19
 -->
