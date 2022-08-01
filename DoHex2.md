@@ -36,7 +36,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code, we only need to add new adapters. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
 ## Data-Oriented Design
 
@@ -45,7 +45,7 @@ Data-Oriented Design (DOD) is gaining popularity in game development and is an a
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
 
-Folder structure 
+Folder structure graphs and 
 
 ## References
 
@@ -55,7 +55,7 @@ Folder structure
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcxNjI3OSwxMjA5MzQ2Mjk2LC0xMj
+eyJoaXN0b3J5IjpbLTg4ODcwNTgwMSwxMjA5MzQ2Mjk2LC0xMj
 UzMzIyODU4LDE4Mjk5NDIyMTksMTk5NjA4OTE4MCwtMTU1MTI3
 NDk0OCwxNjk3MDk5MjczLC02MTMyMTM2MTcsLTE4MjU5ODc0OT
 UsLTIxMjUwMzI0NDQsOTM3ODE4OTAyLC0xNTI1MTk2OTQwLC0x
