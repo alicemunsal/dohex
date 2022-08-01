@@ -40,7 +40,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data Oriented Design
 
-Data Oriented Design (DOD) is mainly used in video game development. DOD approach is to focus on the data and to think about transformation of data. In his famous talk[^5] at CppCon, Mike Acton describes data oriented design principles
+Data Oriented Design (DOD) is mainly used in video game development. DOD approach is to focus on the data and to think about transformation of data. In his famous talk[^5] at CppCon, Mike Acton describes data oriented design principles. This is the first one:
 
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
@@ -57,7 +57,7 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjU4NDY2MSwtMTcxNjY2NDM5NSwxMz
+eyJoaXN0b3J5IjpbMTk1MDAxNzUyMiwtMTcxNjY2NDM5NSwxMz
 I3MDU0MjUsMTIwOTM0NjI5NiwtMTI1MzMyMjg1OCwxODI5OTQy
 MjE5LDE5OTYwODkxODAsLTE1NTEyNzQ5NDgsMTY5NzA5OTI3My
 wtNjEzMjEzNjE3LC0xODI1OTg3NDk1LC0yMTI1MDMyNDQ0LDkz
