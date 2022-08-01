@@ -45,7 +45,7 @@ Data-Oriented Design (DOD) is gaining popularity in game development and is an a
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
 
-Folder structure graphs and 
+sample app design, folder structure graphs and model code gap
 
 ## References
 
@@ -55,9 +55,10 @@ Folder structure graphs and
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzA1NDI1LDEyMDkzNDYyOTYsLTEyNT
-MzMjI4NTgsMTgyOTk0MjIxOSwxOTk2MDg5MTgwLC0xNTUxMjc0
-OTQ4LDE2OTcwOTkyNzMsLTYxMzIxMzYxNywtMTgyNTk4NzQ5NS
-wtMjEyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5NDAsLTE5
-MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
+eyJoaXN0b3J5IjpbLTgzMDQxMDg2MCwxMzI3MDU0MjUsMTIwOT
+M0NjI5NiwtMTI1MzMyMjg1OCwxODI5OTQyMjE5LDE5OTYwODkx
+ODAsLTE1NTEyNzQ5NDgsMTY5NzA5OTI3MywtNjEzMjEzNjE3LC
+0xODI1OTg3NDk1LC0yMTI1MDMyNDQ0LDkzNzgxODkwMiwtMTUy
+NTE5Njk0MCwtMTkyNDI3ODI1NywtODg5NTI4OTA3LDE2NzI3MT
+IzNDJdfQ==
 -->
