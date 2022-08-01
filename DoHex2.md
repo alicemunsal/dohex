@@ -40,6 +40,8 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data-Oriented Design
 
+Data-Oriented Design (DOD) is gaining popularity in game development and is an alternative approach to the more traditional Object-Oriented Design (OOD)
+
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
 
@@ -52,9 +54,9 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTk0MjIxOSwxOTk2MDg5MTgwLC0xNT
-UxMjc0OTQ4LDE2OTcwOTkyNzMsLTYxMzIxMzYxNywtMTgyNTk4
-NzQ5NSwtMjEyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5ND
-AsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
-
+eyJoaXN0b3J5IjpbLTEyNTMzMjI4NTgsMTgyOTk0MjIxOSwxOT
+k2MDg5MTgwLC0xNTUxMjc0OTQ4LDE2OTcwOTkyNzMsLTYxMzIx
+MzYxNywtMTgyNTk4NzQ5NSwtMjEyNTAzMjQ0NCw5Mzc4MTg5MD
+IsLTE1MjUxOTY5NDAsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywx
+NjcyNzEyMzQyXX0=
 -->
