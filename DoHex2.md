@@ -36,7 +36,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the InMemoryUserRepository, the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
 ## Data Oriented Design
 
@@ -50,8 +50,8 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MDk2OTIyLC0xNTUxMjc0OTQ4LDE2OT
-cwOTkyNzMsLTYxMzIxMzYxNywtMTgyNTk4NzQ5NSwtMjEyNTAz
-MjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5NDAsLTE5MjQyNzgyNT
-csLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
+eyJoaXN0b3J5IjpbMTk5NjA4OTE4MCwtMTU1MTI3NDk0OCwxNj
+k3MDk5MjczLC02MTMyMTM2MTcsLTE4MjU5ODc0OTUsLTIxMjUw
+MzI0NDQsOTM3ODE4OTAyLC0xNTI1MTk2OTQwLC0xOTI0Mjc4Mj
+U3LC04ODk1Mjg5MDcsMTY3MjcxMjM0Ml19
 -->
