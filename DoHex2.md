@@ -19,7 +19,7 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 
 *App and outside world (IO Devices)*  
 
-Our application does not know anything about IO devices and should not depend on them. But IO devices must implement adapters to plugin our application through its ports. 
+Our application does not know anything about IO devices and should not depend on them. But IO devices must implement adapters to plugin to our application through its ports. 
 
 ### Implementation   
 
@@ -43,7 +43,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTkxODEzMCwtMTgyNTk4NzQ5NSwtMj
+eyJoaXN0b3J5IjpbLTYxMzIxMzYxNywtMTgyNTk4NzQ5NSwtMj
 EyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5NDAsLTE5MjQy
 NzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
 -->
