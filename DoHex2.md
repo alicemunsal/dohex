@@ -33,7 +33,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
-Our application knows nothing about external IO devices. It expose some functionality for **Driving Adapters**  and it uses 
+Our application knows nothing about external IO devices. It expose some functionality for **Driving Adapters**  and it uses **Driven Adapters** through its ports. 
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
@@ -43,7 +43,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDQxMzYxMCw5Mzc4MTg5MDIsLTE1Mj
+eyJoaXN0b3J5IjpbMTE1NDIzOTEzNyw5Mzc4MTg5MDIsLTE1Mj
 UxOTY5NDAsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEy
 MzQyXX0=
 -->
