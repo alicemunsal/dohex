@@ -40,7 +40,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data-Oriented Design
 
-Data-Oriented Design (DOD) is mainly used in video game development. I call myself as an OOP developer, at least I'm writing in this way over two decade. When I saw Mike Acton's famous talk 
+Data-Oriented Design (DOD) is mainly used in video game development.  
 
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
@@ -55,10 +55,10 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwODA3MjU0LDEzMjcwNTQyNSwxMjA5Mz
-Q2Mjk2LC0xMjUzMzIyODU4LDE4Mjk5NDIyMTksMTk5NjA4OTE4
-MCwtMTU1MTI3NDk0OCwxNjk3MDk5MjczLC02MTMyMTM2MTcsLT
-E4MjU5ODc0OTUsLTIxMjUwMzI0NDQsOTM3ODE4OTAyLC0xNTI1
-MTk2OTQwLC0xOTI0Mjc4MjU3LC04ODk1Mjg5MDcsMTY3MjcxMj
-M0Ml19
+eyJoaXN0b3J5IjpbMzA2MDY1MDcsMTMyNzA1NDI1LDEyMDkzND
+YyOTYsLTEyNTMzMjI4NTgsMTgyOTk0MjIxOSwxOTk2MDg5MTgw
+LC0xNTUxMjc0OTQ4LDE2OTcwOTkyNzMsLTYxMzIxMzYxNywtMT
+gyNTk4NzQ5NSwtMjEyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUx
+OTY5NDAsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMz
+QyXX0=
 -->
