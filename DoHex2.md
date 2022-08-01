@@ -32,7 +32,6 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 ![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
 
-
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
@@ -44,12 +43,15 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
 
- 
+## References
 
-
+[^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
+[^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+[^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+[^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzA5OTI3MywtNjEzMjEzNjE3LC0xOD
-I1OTg3NDk1LC0yMTI1MDMyNDQ0LDkzNzgxODkwMiwtMTUyNTE5
-Njk0MCwtMTkyNDI3ODI1NywtODg5NTI4OTA3LDE2NzI3MTIzND
-JdfQ==
+eyJoaXN0b3J5IjpbLTE1NTEyNzQ5NDgsMTY5NzA5OTI3MywtNj
+EzMjEzNjE3LC0xODI1OTg3NDk1LC0yMTI1MDMyNDQ0LDkzNzgx
+ODkwMiwtMTUyNTE5Njk0MCwtMTkyNDI3ODI1NywtODg5NTI4OT
+A3LDE2NzI3MTIzNDJdfQ==
 -->
