@@ -39,11 +39,14 @@ We can build our entire use cases with all business logic inside, using only uni
 
 Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
 
-## Data Oriented Programming
+## Data Oriented Design
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzIxMzYxNywtMTgyNTk4NzQ5NSwtMj
-EyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5NDAsLTE5MjQy
-NzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
+eyJoaXN0b3J5IjpbMjEzMTAwNjE3OCwtNjEzMjEzNjE3LC0xOD
+I1OTg3NDk1LC0yMTI1MDMyNDQ0LDkzNzgxODkwMiwtMTUyNTE5
+Njk0MCwtMTkyNDI3ODI1NywtODg5NTI4OTA3LDE2NzI3MTIzND
+JdfQ==
 -->
