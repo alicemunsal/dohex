@@ -2,7 +2,7 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same concept.
 
-It will simplify designing and 
+It will simplify designing and developing highly maintainable , testable, scalelable 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNjIyNTI4LDE2NzI3MTIzNDJdfQ==
+eyJoaXN0b3J5IjpbLTExNTExNjE3MSwxNjcyNzEyMzQyXX0=
 -->
