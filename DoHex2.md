@@ -33,8 +33,6 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
-Our application knows nothing about external IO devices. It expose some functionality for **Driving Adapters**  and it uses **Driven Adapters** through its ports. 
-
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
 Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap our **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's source code. This is an example for the Open-Closed Principle[^4] of the SOLID acronym; "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification". 
@@ -43,7 +41,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDIzOTEzNyw5Mzc4MTg5MDIsLTE1Mj
-UxOTY5NDAsLTE5MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEy
-MzQyXX0=
+eyJoaXN0b3J5IjpbLTIxMjUwMzI0NDQsOTM3ODE4OTAyLC0xNT
+I1MTk2OTQwLC0xOTI0Mjc4MjU3LC04ODk1Mjg5MDcsMTY3Mjcx
+MjM0Ml19
 -->
