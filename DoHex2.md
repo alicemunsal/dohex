@@ -19,7 +19,7 @@ Hexagonal Architecture has the same idea, we must separate our application code 
 
 *App and outside world (IO Devices)*  
 
-Our application does not know anything about IO devices and should not depend on them. But an IO device must implement an adapter to plugging in to our application through its ports. 
+Our application does not know anything about IO devices and should not depend on them. But an IO device must implement an adapter to plugin our application through its ports. 
 
 ### Implementation   
 
@@ -50,8 +50,8 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ3NTIxMzUsLTE1NTEyNzQ5NDgsMT
-Y5NzA5OTI3MywtNjEzMjEzNjE3LC0xODI1OTg3NDk1LC0yMTI1
-MDMyNDQ0LDkzNzgxODkwMiwtMTUyNTE5Njk0MCwtMTkyNDI3OD
-I1NywtODg5NTI4OTA3LDE2NzI3MTIzNDJdfQ==
+eyJoaXN0b3J5IjpbMTAwMzE0MTI2MSwtMTU1MTI3NDk0OCwxNj
+k3MDk5MjczLC02MTMyMTM2MTcsLTE4MjU5ODc0OTUsLTIxMjUw
+MzI0NDQsOTM3ODE4OTAyLC0xNTI1MTk2OTQwLC0xOTI0Mjc4Mj
+U3LC04ODk1Mjg5MDcsMTY3MjcxMjM0Ml19
 -->
