@@ -41,11 +41,14 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data Oriented Design
 
+> The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
+> -- Mike Acton
 
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTAwNjE3OCwtNjEzMjEzNjE3LC0xOD
+eyJoaXN0b3J5IjpbMTY5NzA5OTI3MywtNjEzMjEzNjE3LC0xOD
 I1OTg3NDk1LC0yMTI1MDMyNDQ0LDkzNzgxODkwMiwtMTUyNTE5
 Njk0MCwtMTkyNDI3ODI1NywtODg5NTI4OTA3LDE2NzI3MTIzND
 JdfQ==
