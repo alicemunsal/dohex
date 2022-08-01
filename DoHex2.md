@@ -54,18 +54,18 @@ Repositories, gateways, boundery objects or UI patterns like MVC, MVVM or Prense
 we can add lib if we need model or transformation
 sample app design, folder structure graphs and model code gap  
 
-**References:**
+### References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTE5MDU3MiwtMjExMTE0MTE4OCwxNT
-M1MzE2NTA0LDE2MDI0MDg4NzMsLTYxNjI3MTc1MSwtMTg4MzMz
-MTE2MSwxOTUwMDE3NTIyLC0xNzE2NjY0Mzk1LDEzMjcwNTQyNS
-wxMjA5MzQ2Mjk2LC0xMjUzMzIyODU4LDE4Mjk5NDIyMTksMTk5
-NjA4OTE4MCwtMTU1MTI3NDk0OCwxNjk3MDk5MjczLC02MTMyMT
-M2MTcsLTE4MjU5ODc0OTUsLTIxMjUwMzI0NDQsOTM3ODE4OTAy
-LC0xNTI1MTk2OTQwXX0=
+eyJoaXN0b3J5IjpbLTIxMzkxNzk1NjksMTMwMTE5MDU3MiwtMj
+ExMTE0MTE4OCwxNTM1MzE2NTA0LDE2MDI0MDg4NzMsLTYxNjI3
+MTc1MSwtMTg4MzMzMTE2MSwxOTUwMDE3NTIyLC0xNzE2NjY0Mz
+k1LDEzMjcwNTQyNSwxMjA5MzQ2Mjk2LC0xMjUzMzIyODU4LDE4
+Mjk5NDIyMTksMTk5NjA4OTE4MCwtMTU1MTI3NDk0OCwxNjk3MD
+k5MjczLC02MTMyMTM2MTcsLTE4MjU5ODc0OTUsLTIxMjUwMzI0
+NDQsOTM3ODE4OTAyXX0=
 -->
