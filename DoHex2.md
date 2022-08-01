@@ -40,7 +40,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data-Oriented Design
 
-Data-Oriented Design (DOD) is gaining popularity in game development and is an alternative approach to the more traditional Object-Oriented Design (OOD). I call myself as an OOP developer, at least I'm writing in this way over two decade. When I saw Mike Acton
+Data-Oriented Design (DOD) is gaining popularity in game development and is an alternative approach to the more traditional Object-Oriented Design (OOD). I call myself as an OOP developer, at least I'm writing in this way over two decade. When I saw Mike Acton's famous talk 
 
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton
@@ -53,10 +53,11 @@ Data-Oriented Design (DOD) is gaining popularity in game development and is an a
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
+[^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTM1MDk0LDEyMDkzNDYyOTYsLTEyNT
-MzMjI4NTgsMTgyOTk0MjIxOSwxOTk2MDg5MTgwLC0xNTUxMjc0
-OTQ4LDE2OTcwOTkyNzMsLTYxMzIxMzYxNywtMTgyNTk4NzQ5NS
-wtMjEyNTAzMjQ0NCw5Mzc4MTg5MDIsLTE1MjUxOTY5NDAsLTE5
-MjQyNzgyNTcsLTg4OTUyODkwNywxNjcyNzEyMzQyXX0=
+eyJoaXN0b3J5IjpbLTE2Mzg3MDY2NDgsMTIwOTM0NjI5NiwtMT
+I1MzMyMjg1OCwxODI5OTQyMjE5LDE5OTYwODkxODAsLTE1NTEy
+NzQ5NDgsMTY5NzA5OTI3MywtNjEzMjEzNjE3LC0xODI1OTg3ND
+k1LC0yMTI1MDMyNDQ0LDkzNzgxODkwMiwtMTUyNTE5Njk0MCwt
+MTkyNDI3ODI1NywtODg5NTI4OTA3LDE2NzI3MTIzNDJdfQ==
 -->
