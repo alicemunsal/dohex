@@ -46,8 +46,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 Data Oriented Design (DOD) is mainly used in video game development. DOD approach is to focus on the data and to think about transformation of data.  In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^5] at CppCon, Mike Acton describes data oriented design principles. 
 
-> The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
-> -- Mike Acton  
+> The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
 
@@ -57,6 +56,9 @@ We are developing software systems with logical parts (or layers). Each parts ma
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Transformer.png)
 
 For the perspective of the DOD; repositories, gateways, boundery objects or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.
+
+> There is no ideal, abstract solution to the problem.  
+
 
 ## DoHex  
 
@@ -75,11 +77,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMT
-c0MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0
-NTI0LC0xOTMxMDk4NjI4LC01MjkxMjk0NDksLTIwNzkxODAzMD
-csLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNTM5NjA5Njg1LDE2
-NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4NDU0LC0xNTAwMT
-k3ODUyLC0xNjAzODQ5ODI2LDE2MTA3NjA0MjcsLTIxMzkxNzk1
-NjksMTMwMTE5MDU3Ml19
+eyJoaXN0b3J5IjpbLTEyNjQwNjgxODYsLTEyOTA0NDE0MzEsMT
+Q4MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEz
+NTM4OCwtNzg1MTg0NTI0LC0xOTMxMDk4NjI4LC01MjkxMjk0ND
+ksLTIwNzkxODAzMDcsLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0x
+NTM5NjA5Njg1LDE2NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNT
+U4NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5ODI2LDE2MTA3NjA0
+MjcsLTIxMzkxNzk1NjldfQ==
 -->
