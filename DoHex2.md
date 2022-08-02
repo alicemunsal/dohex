@@ -55,7 +55,7 @@ We are developing software systems with logical parts (or layers). Each parts ma
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Transformer.png)
 
-For the perspective of the DOD; repositories, gateways, boundery objects or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.
+For the perspective of the DOD; repositories, gateways, boundery objects or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
 
 > - If you don't understand the data you don't understand the problem.  
 > - Understand the problem by understanding the data.  
@@ -84,11 +84,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMxODMxMjAsLTEyNjQwNjgxODYsLT
-EyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcx
-OTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0NTI0LC0xOTMxMDk4Nj
-I4LC01MjkxMjk0NDksLTIwNzkxODAzMDcsLTI0OTM3MDM2MCwx
-OTE1NzE1OTc0LC0xNTM5NjA5Njg1LDE2NjAwNzA0OTIsLTc0ND
-YzOTgyMSwxNzMzNTU4NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5
-ODI2LDE2MTA3NjA0MjddfQ==
+eyJoaXN0b3J5IjpbLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAsLT
+EyNjQwNjgxODYsLTEyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0
+MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0NT
+I0LC0xOTMxMDk4NjI4LC01MjkxMjk0NDksLTIwNzkxODAzMDcs
+LTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNTM5NjA5Njg1LDE2Nj
+AwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4NDU0LC0xNTAwMTk3
+ODUyLC0xNjAzODQ5ODI2XX0=
 -->
