@@ -40,13 +40,15 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data Oriented Design
 
-Data Oriented Design (DOD) is mainly used in video game development. DOD approach is to focus on the data and to think about transformation of data. In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^5] at CppCon, Mike Acton describes data oriented design principles. This is the first one:  
+Data Oriented Design (DOD) is mainly used in video game development. DOD approach is to focus on the data and to think about transformation of data.  
 
 > The purpose of all programs, and all parts of those programs, is to transform data from one form to another.
 > -- Mike Acton  
 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
+
+In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^5] at CppCon, Mike Acton describes data oriented design principles. This is the first one
 
 Repositories, gateways, boundery objects or UI patterns like MVC, MVVM or Prensenters; all the architectural patterns we use today are transformation mechanism.
 
@@ -61,11 +63,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkxNzk1NjksMTMwMTE5MDU3MiwtMj
-ExMTE0MTE4OCwxNTM1MzE2NTA0LDE2MDI0MDg4NzMsLTYxNjI3
-MTc1MSwtMTg4MzMzMTE2MSwxOTUwMDE3NTIyLC0xNzE2NjY0Mz
-k1LDEzMjcwNTQyNSwxMjA5MzQ2Mjk2LC0xMjUzMzIyODU4LDE4
-Mjk5NDIyMTksMTk5NjA4OTE4MCwtMTU1MTI3NDk0OCwxNjk3MD
-k5MjczLC02MTMyMTM2MTcsLTE4MjU5ODc0OTUsLTIxMjUwMzI0
-NDQsOTM3ODE4OTAyXX0=
+eyJoaXN0b3J5IjpbNjEyMzc3NjEzLC0yMTM5MTc5NTY5LDEzMD
+ExOTA1NzIsLTIxMTExNDExODgsMTUzNTMxNjUwNCwxNjAyNDA4
+ODczLC02MTYyNzE3NTEsLTE4ODMzMzExNjEsMTk1MDAxNzUyMi
+wtMTcxNjY2NDM5NSwxMzI3MDU0MjUsMTIwOTM0NjI5NiwtMTI1
+MzMyMjg1OCwxODI5OTQyMjE5LDE5OTYwODkxODAsLTE1NTEyNz
+Q5NDgsMTY5NzA5OTI3MywtNjEzMjEzNjE3LC0xODI1OTg3NDk1
+LC0yMTI1MDMyNDQ0XX0=
 -->
