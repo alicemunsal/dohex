@@ -55,6 +55,9 @@ We are developing software systems with logical parts (or layers). Each parts ma
 
 Repositories, gateways, boundery objects or UI patterns like MVC, MVVM or Prensenters; all the architectural patterns are transformation mechanisms.
 
+> There are only two hard things in Computer Science: cache invalidation and naming things. 
+> --Phil Karlton
+
 we can add lib if we need model or transformation
 sample app design, folder structure graphs and model code gap  
 
@@ -65,11 +68,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NTExODkyLDE5MTU3MTU5NzQsLTE1Mz
-k2MDk2ODUsMTY2MDA3MDQ5MiwtNzQ0NjM5ODIxLDE3MzM1NTg0
-NTQsLTE1MDAxOTc4NTIsLTE2MDM4NDk4MjYsMTYxMDc2MDQyNy
-wtMjEzOTE3OTU2OSwxMzAxMTkwNTcyLC0yMTExMTQxMTg4LDE1
-MzUzMTY1MDQsMTYwMjQwODg3MywtNjE2MjcxNzUxLC0xODgzMz
-MxMTYxLDE5NTAwMTc1MjIsLTE3MTY2NjQzOTUsMTMyNzA1NDI1
-LDEyMDkzNDYyOTZdfQ==
+eyJoaXN0b3J5IjpbLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNT
+M5NjA5Njg1LDE2NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4
+NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5ODI2LDE2MTA3NjA0Mj
+csLTIxMzkxNzk1NjksMTMwMTE5MDU3MiwtMjExMTE0MTE4OCwx
+NTM1MzE2NTA0LDE2MDI0MDg4NzMsLTYxNjI3MTc1MSwtMTg4Mz
+MzMTE2MSwxOTUwMDE3NTIyLC0xNzE2NjY0Mzk1LDEzMjcwNTQy
+NSwxMjA5MzQ2Mjk2XX0=
 -->
