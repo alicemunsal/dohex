@@ -64,9 +64,11 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 > - There is no ideal, abstract solution to the problem.  
 
 Immutable data types
+side effect free
 data behavior 
 DTOs, CQRS
-
+Different langs. and Modern langs.
+Threading
 
 
 ## DoHex  
@@ -88,7 +90,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYwNjYzMzgsMTU5NjcwNTI0MywtMj
+eyJoaXN0b3J5IjpbLTE3NDI3OTk3MjMsMTU5NjcwNTI0MywtMj
 A5NTgwMzA1MiwtMTIxNzg1NDkyOCwtMTk4MzE4MzEyMCwtMTI2
 NDA2ODE4NiwtMTI5MDQ0MTQzMSwxNDgxNDAwNzAxLC0xNzQwMj
 U1ODUxLDkxNzE5MDc2MSwtODUyMTM1Mzg4LC03ODUxODQ1MjQs
