@@ -52,7 +52,7 @@ Data Oriented Design (DOD) is mainly used in video game development. DOD approac
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
 
 
-We are developing software systems with logical parts (or layers). Each parts may need different data models and/or transformation functions.
+We are developing software systems with logical parts (or layers). Each parts may need different data models and/or transformation functions. H
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Transformer.png)
 
@@ -75,11 +75,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MTkwNzYxLC04NTIxMzUzODgsLTc4NT
-E4NDUyNCwtMTkzMTA5ODYyOCwtNTI5MTI5NDQ5LC0yMDc5MTgw
-MzA3LC0yNDkzNzAzNjAsMTkxNTcxNTk3NCwtMTUzOTYwOTY4NS
-wxNjYwMDcwNDkyLC03NDQ2Mzk4MjEsMTczMzU1ODQ1NCwtMTUw
-MDE5Nzg1MiwtMTYwMzg0OTgyNiwxNjEwNzYwNDI3LC0yMTM5MT
-c5NTY5LDEzMDExOTA1NzIsLTIxMTExNDExODgsMTUzNTMxNjUw
-NCwxNjAyNDA4ODczXX0=
+eyJoaXN0b3J5IjpbLTgxMTE3OTI0Nyw5MTcxOTA3NjEsLTg1Mj
+EzNTM4OCwtNzg1MTg0NTI0LC0xOTMxMDk4NjI4LC01MjkxMjk0
+NDksLTIwNzkxODAzMDcsLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC
+0xNTM5NjA5Njg1LDE2NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMz
+NTU4NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5ODI2LDE2MTA3Nj
+A0MjcsLTIxMzkxNzk1NjksMTMwMTE5MDU3MiwtMjExMTE0MTE4
+OCwxNTM1MzE2NTA0XX0=
 -->
