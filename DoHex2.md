@@ -56,8 +56,6 @@ Repositories, gateways, boundery objects or UI patterns like MVC, MVVM or Prense
 
 ## DoHex  
 
-
-
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
 
@@ -71,11 +69,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MDI3ODU3LC0yNDkzNzAzNjAsMTkxNT
-cxNTk3NCwtMTUzOTYwOTY4NSwxNjYwMDcwNDkyLC03NDQ2Mzk4
-MjEsMTczMzU1ODQ1NCwtMTUwMDE5Nzg1MiwtMTYwMzg0OTgyNi
-wxNjEwNzYwNDI3LC0yMTM5MTc5NTY5LDEzMDExOTA1NzIsLTIx
-MTExNDExODgsMTUzNTMxNjUwNCwxNjAyNDA4ODczLC02MTYyNz
-E3NTEsLTE4ODMzMzExNjEsMTk1MDAxNzUyMiwtMTcxNjY2NDM5
-NSwxMzI3MDU0MjVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzkxODAzMDcsLTI0OTM3MDM2MCwxOT
+E1NzE1OTc0LC0xNTM5NjA5Njg1LDE2NjAwNzA0OTIsLTc0NDYz
+OTgyMSwxNzMzNTU4NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5OD
+I2LDE2MTA3NjA0MjcsLTIxMzkxNzk1NjksMTMwMTE5MDU3Miwt
+MjExMTE0MTE4OCwxNTM1MzE2NTA0LDE2MDI0MDg4NzMsLTYxNj
+I3MTc1MSwtMTg4MzMzMTE2MSwxOTUwMDE3NTIyLC0xNzE2NjY0
+Mzk1LDEzMjcwNTQyNV19
 -->
