@@ -62,6 +62,7 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 > - Different problems require different solutions.  
 > - If you have different data, you have different problem.  
 > - If you don't understand the cost of solving the problem, you don't understand the problem.
+> - Solving problems you probably don't have creates more problems you definitely do.
 
 > There is no ideal, abstract solution to the problem.  
 
@@ -83,11 +84,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTcxOTIxOCwtMTI2NDA2ODE4NiwtMT
-I5MDQ0MTQzMSwxNDgxNDAwNzAxLC0xNzQwMjU1ODUxLDkxNzE5
-MDc2MSwtODUyMTM1Mzg4LC03ODUxODQ1MjQsLTE5MzEwOTg2Mj
-gsLTUyOTEyOTQ0OSwtMjA3OTE4MDMwNywtMjQ5MzcwMzYwLDE5
-MTU3MTU5NzQsLTE1Mzk2MDk2ODUsMTY2MDA3MDQ5MiwtNzQ0Nj
-M5ODIxLDE3MzM1NTg0NTQsLTE1MDAxOTc4NTIsLTE2MDM4NDk4
-MjYsMTYxMDc2MDQyN119
+eyJoaXN0b3J5IjpbLTE5ODMxODMxMjAsLTEyNjQwNjgxODYsLT
+EyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcx
+OTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0NTI0LC0xOTMxMDk4Nj
+I4LC01MjkxMjk0NDksLTIwNzkxODAzMDcsLTI0OTM3MDM2MCwx
+OTE1NzE1OTc0LC0xNTM5NjA5Njg1LDE2NjAwNzA0OTIsLTc0ND
+YzOTgyMSwxNzMzNTU4NDU0LC0xNTAwMTk3ODUyLC0xNjAzODQ5
+ODI2LDE2MTA3NjA0MjddfQ==
 -->
