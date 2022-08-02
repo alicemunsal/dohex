@@ -67,6 +67,8 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 > There is no ideal, abstract solution to the problem.  
 
 
+
+
 ## DoHex  
 
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
@@ -84,11 +86,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAsLT
-EyNjQwNjgxODYsLTEyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0
-MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0NT
-I0LC0xOTMxMDk4NjI4LC01MjkxMjk0NDksLTIwNzkxODAzMDcs
-LTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNTM5NjA5Njg1LDE2Nj
-AwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4NDU0LC0xNTAwMTk3
-ODUyLC0xNjAzODQ5ODI2XX0=
+eyJoaXN0b3J5IjpbLTIwOTU4MDMwNTIsLTEyMTc4NTQ5MjgsLT
+E5ODMxODMxMjAsLTEyNjQwNjgxODYsLTEyOTA0NDE0MzEsMTQ4
+MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEzNT
+M4OCwtNzg1MTg0NTI0LC0xOTMxMDk4NjI4LC01MjkxMjk0NDks
+LTIwNzkxODAzMDcsLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNT
+M5NjA5Njg1LDE2NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4
+NDU0LC0xNTAwMTk3ODUyXX0=
 -->
