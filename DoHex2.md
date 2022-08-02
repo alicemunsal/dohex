@@ -1,8 +1,9 @@
 # DoHex - Data Oriented Hexagonal Architecture  
 
-Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple concept.
+Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD) is mainly used in video game development.
+Data Oriented Design (DOD) is mainly used in video game development. 
+Project structure
 It will simplify designing and developing highly maintainable , testable, scalable 
 
 ## Hexagonal Architecture 
@@ -72,11 +73,11 @@ sample app design, folder structure graphs and model code gap
 [^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MzI0NDQxLC01MjkxMjk0NDksLTIwNz
-kxODAzMDcsLTI0OTM3MDM2MCwxOTE1NzE1OTc0LC0xNTM5NjA5
-Njg1LDE2NjAwNzA0OTIsLTc0NDYzOTgyMSwxNzMzNTU4NDU0LC
-0xNTAwMTk3ODUyLC0xNjAzODQ5ODI2LDE2MTA3NjA0MjcsLTIx
-MzkxNzk1NjksMTMwMTE5MDU3MiwtMjExMTE0MTE4OCwxNTM1Mz
-E2NTA0LDE2MDI0MDg4NzMsLTYxNjI3MTc1MSwtMTg4MzMzMTE2
-MSwxOTUwMDE3NTIyXX0=
+eyJoaXN0b3J5IjpbMTcxMDcwMjMwNSwtNTI5MTI5NDQ5LC0yMD
+c5MTgwMzA3LC0yNDkzNzAzNjAsMTkxNTcxNTk3NCwtMTUzOTYw
+OTY4NSwxNjYwMDcwNDkyLC03NDQ2Mzk4MjEsMTczMzU1ODQ1NC
+wtMTUwMDE5Nzg1MiwtMTYwMzg0OTgyNiwxNjEwNzYwNDI3LC0y
+MTM5MTc5NTY5LDEzMDExOTA1NzIsLTIxMTExNDExODgsMTUzNT
+MxNjUwNCwxNjAyNDA4ODczLC02MTYyNzE3NTEsLTE4ODMzMzEx
+NjEsMTk1MDAxNzUyMl19
 -->
