@@ -2,11 +2,9 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD) is mainly used in video game development. We can apply some of its principles to other areas of software development such as Frontend, Backend and Embedded.
-I will propose testable, scalable and modular architecture and a p 
-Project structure consistent 
-model-code gap
-It will simplify designing and developing highly maintainable , testable, scalable 
+Data Oriented Design (DOD) is mainly used in video game development. We can apply some of its principles to other areas of software development such as Frontend, Backend and Embedded.  
+
+I will propose testable, scalable and modular architecture and its project structure to fill the model-code gap 
 
 ## Hexagonal Architecture 
 
@@ -85,10 +83,12 @@ sample app design, folder structure graphs and model code gap
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
-[^4]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
-[^5]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
+[^4]: Data Oriented Design https://www.dataorienteddesign.com/dodmain/
+[^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
+[^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
+[^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDE0ODg4MywxNTk2NzA1MjQzLC0yMD
+eyJoaXN0b3J5IjpbLTc4MTE0NjM3MiwxNTk2NzA1MjQzLC0yMD
 k1ODAzMDUyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIwLC0xMjY0
 MDY4MTg2LC0xMjkwNDQxNDMxLDE0ODE0MDA3MDEsLTE3NDAyNT
 U4NTEsOTE3MTkwNzYxLC04NTIxMzUzODgsLTc4NTE4NDUyNCwt
