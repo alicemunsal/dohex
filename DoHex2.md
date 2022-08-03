@@ -81,8 +81,9 @@ Threading
 ## DoHex  
 
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
-lib incentivies developers to think for data and transformation
-Messaging and scheduling incentivies developers to think async and create loosly coupled system. 
+lib incentives developers to think for data and transformation
+Messaging and scheduling incentives developers to think async and create loosely coupled system. 
+cognitive load
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
@@ -99,11 +100,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTI0NTE4MCwxNjQ4NjQxMTI4LDE2OD
-Y4NDMyMCwxMDgwOTQ3NzU4LDEwNTE5MDE4NjMsMTMwNzcyNjcy
-LDEyMTYxNjAwMDcsLTEyNDk4ODc3MTcsOTA3NDg1NTIyLC0xND
-A5ODcwNTYwLDE4NTMyMDcxNTQsLTE3NDI3OTk3MjMsLTE3NDI3
-OTk3MjMsMTU5NjcwNTI0MywtMjA5NTgwMzA1MiwtMTIxNzg1ND
-kyOCwtMTk4MzE4MzEyMCwtMTI2NDA2ODE4NiwtMTI5MDQ0MTQz
-MSwxNDgxNDAwNzAxXX0=
+eyJoaXN0b3J5IjpbMjE0NTk3NzU2NSwtMzExMjQ1MTgwLDE2ND
+g2NDExMjgsMTY4Njg0MzIwLDEwODA5NDc3NTgsMTA1MTkwMTg2
+MywxMzA3NzI2NzIsMTIxNjE2MDAwNywtMTI0OTg4NzcxNyw5MD
+c0ODU1MjIsLTE0MDk4NzA1NjAsMTg1MzIwNzE1NCwtMTc0Mjc5
+OTcyMywtMTc0Mjc5OTcyMywxNTk2NzA1MjQzLC0yMDk1ODAzMD
+UyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIwLC0xMjY0MDY4MTg2
+LC0xMjkwNDQxNDMxXX0=
 -->
