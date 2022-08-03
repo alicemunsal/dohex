@@ -65,7 +65,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - Different problems require different solutions.  
 > - If you have different data, you have different problem.  
 > - If you don't understand the cost of solving the problem, you don't understand the problem.
-> - Solving problems you probably don't have creates more problems you definitely do.
+> - Solving problems you probably don't have creates more problems.
 > - There is no ideal, abstract solution to the problem.  
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. However, we need to determine type, quantity, frequency and statistical properties of data to properly solve the problem. 
@@ -111,7 +111,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc4MTU2NjksMTQ2OTMxMzQ2MywtMj
+eyJoaXN0b3J5IjpbLTE3MDc4OTI3NzAsMTQ2OTMxMzQ2MywtMj
 k4NTMwMjExLC04NjYzMjQ1NDcsLTE3MjIxNDQxMTYsNDU0NTAz
 ODAwLDE0OTcyNzMwNTcsMzc0ODU0MTAwLC0xNDc5NDU4OTQzLD
 E2NTQ5MzYyMDIsLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1MywtMjA2
