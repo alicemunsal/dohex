@@ -46,7 +46,7 @@ Data Oriented Design (DOD) approach is to focus on the data and to think about t
 
 ### Transformation
 
->  - The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
+>  The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
 
@@ -96,7 +96,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDQyODM0NywxNjg2ODQzMjAsMTA4MD
+eyJoaXN0b3J5IjpbMTY0ODY0MTEyOCwxNjg2ODQzMjAsMTA4MD
 k0Nzc1OCwxMDUxOTAxODYzLDEzMDc3MjY3MiwxMjE2MTYwMDA3
 LC0xMjQ5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxOD
 UzMjA3MTU0LC0xNzQyNzk5NzIzLC0xNzQyNzk5NzIzLDE1OTY3
