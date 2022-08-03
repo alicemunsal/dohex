@@ -68,7 +68,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - Solving problems you probably don't have creates more problems you definitely do.
 > - There is no ideal, abstract solution to the problem.  
 
-Today, Software developers mainly try to create abstract model of the problem domain by focusing on entities and their relationships as taught in school and tend to ignore data. If we want to create meaningful solutions, we need to understand problem first,   
+Today, Software developers mainly try to create abstract model of the problem domain by focusing on entities and their relationships as taught in school and they tend to ignore data. If we want to create meaningful solutions, we need to understand problem first,   
 
 
 Immutable data types
@@ -103,11 +103,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk0NTg5NDMsMTY1NDkzNjIwMiwtMj
-A1NDQ4NDYwMSwxNjExNTQ4NDUzLC0yMDY4NDA3NDI5LDIxNDU5
-Nzc1NjUsLTMxMTI0NTE4MCwxNjQ4NjQxMTI4LDE2ODY4NDMyMC
-wxMDgwOTQ3NzU4LDEwNTE5MDE4NjMsMTMwNzcyNjcyLDEyMTYx
-NjAwMDcsLTEyNDk4ODc3MTcsOTA3NDg1NTIyLC0xNDA5ODcwNT
-YwLDE4NTMyMDcxNTQsLTE3NDI3OTk3MjMsLTE3NDI3OTk3MjMs
-MTU5NjcwNTI0M119
+eyJoaXN0b3J5IjpbMTE2NTE1NTM1NSwtMTQ3OTQ1ODk0MywxNj
+U0OTM2MjAyLC0yMDU0NDg0NjAxLDE2MTE1NDg0NTMsLTIwNjg0
+MDc0MjksMjE0NTk3NzU2NSwtMzExMjQ1MTgwLDE2NDg2NDExMj
+gsMTY4Njg0MzIwLDEwODA5NDc3NTgsMTA1MTkwMTg2MywxMzA3
+NzI2NzIsMTIxNjE2MDAwNywtMTI0OTg4NzcxNyw5MDc0ODU1Mj
+IsLTE0MDk4NzA1NjAsMTg1MzIwNzE1NCwtMTc0Mjc5OTcyMywt
+MTc0Mjc5OTcyM119
 -->
