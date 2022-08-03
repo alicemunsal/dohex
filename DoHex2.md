@@ -88,6 +88,8 @@ cognitive load
 least resistance path
 least effort
 
+testing is easier, changing is easier
+
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
 
@@ -103,11 +105,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzI3MzA1NywzNzQ4NTQxMDAsLTE0Nz
-k0NTg5NDMsMTY1NDkzNjIwMiwtMjA1NDQ4NDYwMSwxNjExNTQ4
-NDUzLC0yMDY4NDA3NDI5LDIxNDU5Nzc1NjUsLTMxMTI0NTE4MC
-wxNjQ4NjQxMTI4LDE2ODY4NDMyMCwxMDgwOTQ3NzU4LDEwNTE5
-MDE4NjMsMTMwNzcyNjcyLDEyMTYxNjAwMDcsLTEyNDk4ODc3MT
-csOTA3NDg1NTIyLC0xNDA5ODcwNTYwLDE4NTMyMDcxNTQsLTE3
-NDI3OTk3MjNdfQ==
+eyJoaXN0b3J5IjpbNDU0NTAzODAwLDE0OTcyNzMwNTcsMzc0OD
+U0MTAwLC0xNDc5NDU4OTQzLDE2NTQ5MzYyMDIsLTIwNTQ0ODQ2
+MDEsMTYxMTU0ODQ1MywtMjA2ODQwNzQyOSwyMTQ1OTc3NTY1LC
+0zMTEyNDUxODAsMTY0ODY0MTEyOCwxNjg2ODQzMjAsMTA4MDk0
+Nzc1OCwxMDUxOTAxODYzLDEzMDc3MjY3MiwxMjE2MTYwMDA3LC
+0xMjQ5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxODUz
+MjA3MTU0XX0=
 -->
