@@ -70,6 +70,8 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on entities and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
+> Programmer's job is not the write code; Programmer's job  
+
 
 Immutable data types
 side effect free
@@ -105,11 +107,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIxNDQxMTYsNDU0NTAzODAwLDE0OT
-cyNzMwNTcsMzc0ODU0MTAwLC0xNDc5NDU4OTQzLDE2NTQ5MzYy
-MDIsLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1MywtMjA2ODQwNzQyOS
-wyMTQ1OTc3NTY1LC0zMTEyNDUxODAsMTY0ODY0MTEyOCwxNjg2
-ODQzMjAsMTA4MDk0Nzc1OCwxMDUxOTAxODYzLDEzMDc3MjY3Mi
-wxMjE2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4NTUyMiwtMTQw
-OTg3MDU2MF19
+eyJoaXN0b3J5IjpbMTM0NjEyNDkxNywtMTcyMjE0NDExNiw0NT
+Q1MDM4MDAsMTQ5NzI3MzA1NywzNzQ4NTQxMDAsLTE0Nzk0NTg5
+NDMsMTY1NDkzNjIwMiwtMjA1NDQ4NDYwMSwxNjExNTQ4NDUzLC
+0yMDY4NDA3NDI5LDIxNDU5Nzc1NjUsLTMxMTI0NTE4MCwxNjQ4
+NjQxMTI4LDE2ODY4NDMyMCwxMDgwOTQ3NzU4LDEwNTE5MDE4Nj
+MsMTMwNzcyNjcyLDEyMTYxNjAwMDcsLTEyNDk4ODc3MTcsOTA3
+NDg1NTIyXX0=
 -->
