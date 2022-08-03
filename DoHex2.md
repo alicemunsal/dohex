@@ -67,6 +67,8 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 > - Solving problems you probably don't have creates more problems you definitely do.
 > - There is no ideal, abstract solution to the problem.  
 
+Software developers focus on 
+
 Immutable data types
 side effect free
 data behavior 
@@ -94,11 +96,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjE2MDAwNywtMTI0OTg4NzcxNyw5MD
-c0ODU1MjIsLTE0MDk4NzA1NjAsMTg1MzIwNzE1NCwtMTc0Mjc5
-OTcyMywtMTc0Mjc5OTcyMywxNTk2NzA1MjQzLC0yMDk1ODAzMD
-UyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIwLC0xMjY0MDY4MTg2
-LC0xMjkwNDQxNDMxLDE0ODE0MDA3MDEsLTE3NDAyNTU4NTEsOT
-E3MTkwNzYxLC04NTIxMzUzODgsLTc4NTE4NDUyNCwtMTkzMTA5
-ODYyOCwtNTI5MTI5NDQ5XX0=
+eyJoaXN0b3J5IjpbMTc1ODgzMzU1NCwxMjE2MTYwMDA3LC0xMj
+Q5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3
+MTU0LC0xNzQyNzk5NzIzLC0xNzQyNzk5NzIzLDE1OTY3MDUyND
+MsLTIwOTU4MDMwNTIsLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAs
+LTEyNjQwNjgxODYsLTEyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMT
+c0MDI1NTg1MSw5MTcxOTA3NjEsLTg1MjEzNTM4OCwtNzg1MTg0
+NTI0LC0xOTMxMDk4NjI4XX0=
 -->
