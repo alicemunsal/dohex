@@ -38,7 +38,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (aka Open-Closed Principle[^4])
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (aka Open-Closed Principle[^6])
 
 ## Data Oriented Design
 
@@ -103,11 +103,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1MywtMj
-A2ODQwNzQyOSwyMTQ1OTc3NTY1LC0zMTEyNDUxODAsMTY0ODY0
-MTEyOCwxNjg2ODQzMjAsMTA4MDk0Nzc1OCwxMDUxOTAxODYzLD
-EzMDc3MjY3MiwxMjE2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4
-NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3MTU0LC0xNzQyNzk5Nz
-IzLC0xNzQyNzk5NzIzLDE1OTY3MDUyNDMsLTIwOTU4MDMwNTIs
-LTEyMTc4NTQ5MjhdfQ==
+eyJoaXN0b3J5IjpbMjEzMTgwMTg2NSwtMjA1NDQ4NDYwMSwxNj
+ExNTQ4NDUzLC0yMDY4NDA3NDI5LDIxNDU5Nzc1NjUsLTMxMTI0
+NTE4MCwxNjQ4NjQxMTI4LDE2ODY4NDMyMCwxMDgwOTQ3NzU4LD
+EwNTE5MDE4NjMsMTMwNzcyNjcyLDEyMTYxNjAwMDcsLTEyNDk4
+ODc3MTcsOTA3NDg1NTIyLC0xNDA5ODcwNTYwLDE4NTMyMDcxNT
+QsLTE3NDI3OTk3MjMsLTE3NDI3OTk3MjMsMTU5NjcwNTI0Mywt
+MjA5NTgwMzA1Ml19
 -->
