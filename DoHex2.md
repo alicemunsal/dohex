@@ -70,6 +70,8 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. However, we need to determine type, quantity, frequency and statistical properties of data to properly solve the problem. 
 
+
+
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems
 > -- Mike Acton
 
@@ -110,11 +112,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0Nj
-kzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNzIyMTQ0
-MTE2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LDM3NDg1NDEwMCwtMT
-Q3OTQ1ODk0MywxNjU0OTM2MjAyLC0yMDU0NDg0NjAxLDE2MTE1
-NDg0NTMsLTIwNjg0MDc0MjksMjE0NTk3NzU2NSwtMzExMjQ1MT
-gwLDE2NDg2NDExMjgsMTY4Njg0MzIwLDEwODA5NDc3NTgsMTA1
-MTkwMTg2M119
+eyJoaXN0b3J5IjpbMTQwNDQzMDY2OCw5MzAyMDY0NDgsLTE3MD
+c4OTI3NzAsMTQ2OTMxMzQ2MywtMjk4NTMwMjExLC04NjYzMjQ1
+NDcsLTE3MjIxNDQxMTYsNDU0NTAzODAwLDE0OTcyNzMwNTcsMz
+c0ODU0MTAwLC0xNDc5NDU4OTQzLDE2NTQ5MzYyMDIsLTIwNTQ0
+ODQ2MDEsMTYxMTU0ODQ1MywtMjA2ODQwNzQyOSwyMTQ1OTc3NT
+Y1LC0zMTEyNDUxODAsMTY0ODY0MTEyOCwxNjg2ODQzMjAsMTA4
+MDk0Nzc1OF19
 -->
