@@ -2,7 +2,7 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD)[^4] is mainly used in video game development. We can apply some of its fundemental principles to other areas of software development such as Frontend, Backend and Embedded. 
+Data Oriented Design (DOD)[^4] is mainly used in video game development. Some of its fundamental principles can be appliable to other areas of software development such as Frontend, Backend and Embedded. 
 
 I will propose testable, scalable, modular architecture to handle complexity and consistent project structure to reduce the model-code gap[^5] by bringing these areas together.
 
@@ -96,11 +96,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDk0Nzc1OCwxMDUxOTAxODYzLDEzMD
-c3MjY3MiwxMjE2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4NTUy
-MiwtMTQwOTg3MDU2MCwxODUzMjA3MTU0LC0xNzQyNzk5NzIzLC
-0xNzQyNzk5NzIzLDE1OTY3MDUyNDMsLTIwOTU4MDMwNTIsLTEy
-MTc4NTQ5MjgsLTE5ODMxODMxMjAsLTEyNjQwNjgxODYsLTEyOT
-A0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcxOTA3
-NjEsLTg1MjEzNTM4OF19
+eyJoaXN0b3J5IjpbLTE5OTgxMzU2MTUsMTA4MDk0Nzc1OCwxMD
+UxOTAxODYzLDEzMDc3MjY3MiwxMjE2MTYwMDA3LC0xMjQ5ODg3
+NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3MTU0LC
+0xNzQyNzk5NzIzLC0xNzQyNzk5NzIzLDE1OTY3MDUyNDMsLTIw
+OTU4MDMwNTIsLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAsLTEyNj
+QwNjgxODYsLTEyOTA0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0MDI1
+NTg1MSw5MTcxOTA3NjFdfQ==
 -->
