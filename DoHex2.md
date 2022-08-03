@@ -4,7 +4,7 @@ Over a decade, we are continuously reviving a particular style of software archi
 
 Data Oriented Design (DOD)[^4] is mainly used in video game development. We can apply some of its fundemental principles to other areas of software development such as Frontend, Backend and Embedded. 
 
-I will propose testable, scalable and modular architecture to bring these areas together. and its project structure to fill the model-code gap[^5] 
+I will propose testable, scalable, modular architecture and consistent project structure to bring these areas together and to fill the model-code gap[^5] 
 
 ## Hexagonal Architecture 
 
@@ -94,11 +94,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk4NzA1NjAsMTg1MzIwNzE1NCwtMT
-c0Mjc5OTcyMywtMTc0Mjc5OTcyMywxNTk2NzA1MjQzLC0yMDk1
-ODAzMDUyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIwLC0xMjY0MD
-Y4MTg2LC0xMjkwNDQxNDMxLDE0ODE0MDA3MDEsLTE3NDAyNTU4
-NTEsOTE3MTkwNzYxLC04NTIxMzUzODgsLTc4NTE4NDUyNCwtMT
-kzMTA5ODYyOCwtNTI5MTI5NDQ5LC0yMDc5MTgwMzA3LC0yNDkz
-NzAzNjAsMTkxNTcxNTk3NF19
+eyJoaXN0b3J5IjpbMzc5ODY2OTcwLC0xNDA5ODcwNTYwLDE4NT
+MyMDcxNTQsLTE3NDI3OTk3MjMsLTE3NDI3OTk3MjMsMTU5Njcw
+NTI0MywtMjA5NTgwMzA1MiwtMTIxNzg1NDkyOCwtMTk4MzE4Mz
+EyMCwtMTI2NDA2ODE4NiwtMTI5MDQ0MTQzMSwxNDgxNDAwNzAx
+LC0xNzQwMjU1ODUxLDkxNzE5MDc2MSwtODUyMTM1Mzg4LC03OD
+UxODQ1MjQsLTE5MzEwOTg2MjgsLTUyOTEyOTQ0OSwtMjA3OTE4
+MDMwNywtMjQ5MzcwMzYwXX0=
 -->
