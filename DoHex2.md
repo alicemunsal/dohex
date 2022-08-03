@@ -67,7 +67,7 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 > - Solving problems you probably don't have creates more problems you definitely do.
 > - There is no ideal, abstract solution to the problem.  
 
-Object Oriented Programming (OOP) developers try to create abstract model of the problem by focusing on entities and their relationships as taught in school and tend to ignore data.   
+Software developers try to create abstract model of the problem by focusing on entities and their relationships as taught in school and tend to ignore data.   
 
 Immutable data types
 side effect free
@@ -96,11 +96,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNjE2NjgyLDEwNTE5MDE4NjMsMTMwNz
-cyNjcyLDEyMTYxNjAwMDcsLTEyNDk4ODc3MTcsOTA3NDg1NTIy
-LC0xNDA5ODcwNTYwLDE4NTMyMDcxNTQsLTE3NDI3OTk3MjMsLT
-E3NDI3OTk3MjMsMTU5NjcwNTI0MywtMjA5NTgwMzA1MiwtMTIx
-Nzg1NDkyOCwtMTk4MzE4MzEyMCwtMTI2NDA2ODE4NiwtMTI5MD
-Q0MTQzMSwxNDgxNDAwNzAxLC0xNzQwMjU1ODUxLDkxNzE5MDc2
-MSwtODUyMTM1Mzg4XX0=
+eyJoaXN0b3J5IjpbMTA4MDk0Nzc1OCwxMDUxOTAxODYzLDEzMD
+c3MjY3MiwxMjE2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4NTUy
+MiwtMTQwOTg3MDU2MCwxODUzMjA3MTU0LC0xNzQyNzk5NzIzLC
+0xNzQyNzk5NzIzLDE1OTY3MDUyNDMsLTIwOTU4MDMwNTIsLTEy
+MTc4NTQ5MjgsLTE5ODMxODMxMjAsLTEyNjQwNjgxODYsLTEyOT
+A0NDE0MzEsMTQ4MTQwMDcwMSwtMTc0MDI1NTg1MSw5MTcxOTA3
+NjEsLTg1MjEzNTM4OF19
 -->
