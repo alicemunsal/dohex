@@ -4,7 +4,7 @@ Over a decade, we are continuously reviving a particular style of software archi
 
 Data Oriented Design (DOD)[^4] is mainly used in video game development. Some of its fundamental principles can be applicable to other areas of software development such as Frontend, Backend and Embedded. 
 
-By bringing these concepts together, we can create testable, scalable, modular architecture to handle complexity and consistent project structure to reduce the model-code gap[^5] .
+By bringing these two concepts together, we can create testable, scalable, modular architecture to handle complexity and consistent project structure to reduce the model-code gap[^5] .
 
 ## Hexagonal Architecture 
 
@@ -68,7 +68,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - Solving problems you probably don't have creates more problems you definitely do.
 > - There is no ideal, abstract solution to the problem.  
 
-Software developers try to create abstract model of the problem by focusing on entities and their relationships as taught in school and tend to ignore data. If we want to create meaningful solutions, we need to understand problem first,   
+Software developers try to create abstract model of the problem domain by focusing on entities and their relationships as taught in school and tend to ignore data. If we want to create meaningful solutions, we need to understand problem first,   
 
 
 Immutable data types
@@ -103,11 +103,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTU0ODQ1MywtMjA2ODQwNzQyOSwyMT
-Q1OTc3NTY1LC0zMTEyNDUxODAsMTY0ODY0MTEyOCwxNjg2ODQz
-MjAsMTA4MDk0Nzc1OCwxMDUxOTAxODYzLDEzMDc3MjY3MiwxMj
-E2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3
-MDU2MCwxODUzMjA3MTU0LC0xNzQyNzk5NzIzLC0xNzQyNzk5Nz
-IzLDE1OTY3MDUyNDMsLTIwOTU4MDMwNTIsLTEyMTc4NTQ5Mjgs
-LTE5ODMxODMxMjBdfQ==
+eyJoaXN0b3J5IjpbLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1MywtMj
+A2ODQwNzQyOSwyMTQ1OTc3NTY1LC0zMTEyNDUxODAsMTY0ODY0
+MTEyOCwxNjg2ODQzMjAsMTA4MDk0Nzc1OCwxMDUxOTAxODYzLD
+EzMDc3MjY3MiwxMjE2MTYwMDA3LC0xMjQ5ODg3NzE3LDkwNzQ4
+NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3MTU0LC0xNzQyNzk5Nz
+IzLC0xNzQyNzk5NzIzLDE1OTY3MDUyNDMsLTIwOTU4MDMwNTIs
+LTEyMTc4NTQ5MjhdfQ==
 -->
