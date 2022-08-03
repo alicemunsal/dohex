@@ -70,7 +70,6 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 
 Software developers try to create abstract model of the problem by focusing on entities and their relationships as taught in school and tend to ignore data.   
 
-least resistance path
 
 Immutable data types
 side effect free
@@ -84,8 +83,10 @@ Threading
 
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
 lib incentives developers to think for data and transformation
-Messaging and scheduling incentives developers to think async and create loosely coupled system. 
+Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
 cognitive load
+least resistance path
+least effort
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
@@ -102,11 +103,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDQxNzA5MiwyMTQ1OTc3NTY1LC0zMT
-EyNDUxODAsMTY0ODY0MTEyOCwxNjg2ODQzMjAsMTA4MDk0Nzc1
-OCwxMDUxOTAxODYzLDEzMDc3MjY3MiwxMjE2MTYwMDA3LC0xMj
-Q5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3
-MTU0LC0xNzQyNzk5NzIzLC0xNzQyNzk5NzIzLDE1OTY3MDUyND
-MsLTIwOTU4MDMwNTIsLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAs
-LTEyNjQwNjgxODZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTg0NjEzODEsMjE0NTk3NzU2NSwtMz
+ExMjQ1MTgwLDE2NDg2NDExMjgsMTY4Njg0MzIwLDEwODA5NDc3
+NTgsMTA1MTkwMTg2MywxMzA3NzI2NzIsMTIxNjE2MDAwNywtMT
+I0OTg4NzcxNyw5MDc0ODU1MjIsLTE0MDk4NzA1NjAsMTg1MzIw
+NzE1NCwtMTc0Mjc5OTcyMywtMTc0Mjc5OTcyMywxNTk2NzA1Mj
+QzLC0yMDk1ODAzMDUyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIw
+LC0xMjY0MDY4MTg2XX0=
 -->
