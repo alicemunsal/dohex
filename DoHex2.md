@@ -70,6 +70,8 @@ For the perspective of the DOD; repositories, gateways, boundery objects or UI p
 
 Software developers try to create abstract model of the problem by focusing on entities and their relationships as taught in school and tend to ignore data.   
 
+least resistance path
+
 Immutable data types
 side effect free
 data behavior 
@@ -100,11 +102,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTk3NzU2NSwtMzExMjQ1MTgwLDE2ND
-g2NDExMjgsMTY4Njg0MzIwLDEwODA5NDc3NTgsMTA1MTkwMTg2
-MywxMzA3NzI2NzIsMTIxNjE2MDAwNywtMTI0OTg4NzcxNyw5MD
-c0ODU1MjIsLTE0MDk4NzA1NjAsMTg1MzIwNzE1NCwtMTc0Mjc5
-OTcyMywtMTc0Mjc5OTcyMywxNTk2NzA1MjQzLC0yMDk1ODAzMD
-UyLC0xMjE3ODU0OTI4LC0xOTgzMTgzMTIwLC0xMjY0MDY4MTg2
-LC0xMjkwNDQxNDMxXX0=
+eyJoaXN0b3J5IjpbMTkxMDQxNzA5MiwyMTQ1OTc3NTY1LC0zMT
+EyNDUxODAsMTY0ODY0MTEyOCwxNjg2ODQzMjAsMTA4MDk0Nzc1
+OCwxMDUxOTAxODYzLDEzMDc3MjY3MiwxMjE2MTYwMDA3LC0xMj
+Q5ODg3NzE3LDkwNzQ4NTUyMiwtMTQwOTg3MDU2MCwxODUzMjA3
+MTU0LC0xNzQyNzk5NzIzLC0xNzQyNzk5NzIzLDE1OTY3MDUyND
+MsLTIwOTU4MDMwNTIsLTEyMTc4NTQ5MjgsLTE5ODMxODMxMjAs
+LTEyNjQwNjgxODZdfQ==
 -->
