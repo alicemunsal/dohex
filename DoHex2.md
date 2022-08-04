@@ -74,22 +74,8 @@ Data-oriented design forces you to think about your data first and foremost: wha
 
 DOD's standpoint is to separate data from behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
-
-
-
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems
 > -- Mike Acton
-
- 
-
-
-Immutable data types
-side effect free
-data behavior 
-DTOs, CQRS
-Different langs. and Modern langs.
-Threading
-
 
 ## DoHex  
 
@@ -103,6 +89,13 @@ least effort
 organizational project structure
 portable code
 u can use go, rust, c, c++, java with the same structure
+
+Immutable data types
+side effect free
+data behavior 
+DTOs, CQRS
+Different langs. and Modern langs.
+Threading
 
 testing is easier, changing is easier
 
@@ -121,11 +114,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjEzNzg4NSw0MzA2MDIwMjksNzA3MT
-c5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1NiwtMTE2NzYwNTQ4
-NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNTg2OCwtMT
-E2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwxNjkxODc3
-NDg2LDkzMDIwNjQ0OCw5MzAyMDY0NDgsLTE3MDc4OTI3NzAsMT
-Q2OTMxMzQ2MywtMjk4NTMwMjExLC04NjYzMjQ1NDcsLTE3MjIx
-NDQxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NjczNzc1MjksNDMwNjAyMDI5LDcwNz
+E3OTE1MCwtMTEzNDI5NDAxMiw1ODg4MDA0NTYsLTExNjc2MDU0
+ODUsLTQ1NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEyMTU4NjgsLT
+ExNjQxMjY2MzYsLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3
+NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLD
+E0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNzIy
+MTQ0MTE2XX0=
 -->
