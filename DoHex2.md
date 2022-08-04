@@ -78,7 +78,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ## DoHex  
 
-Software Architecture is defined 
+Software Architecture is the blueprint of the software system. 
 
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
@@ -121,11 +121,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTg0ODIzMywtMjQ4MzE3NDU5LC0xNT
-M5MjQ0MjI3LDE3MzU3NDgyNzIsLTExMzA5NDQxODIsLTE4MTMz
-NDMzNzQsLTE4NjczNzc1MjksNDMwNjAyMDI5LDcwNzE3OTE1MC
-wtMTEzNDI5NDAxMiw1ODg4MDA0NTYsLTExNjc2MDU0ODUsLTQ1
-NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMj
-Y2MzYsLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5
-MzAyMDY0NDhdfQ==
+eyJoaXN0b3J5IjpbMTcxNzIzOTQwOCwxMzE5ODQ4MjMzLC0yND
+gzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMTEzMDk0
+NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2MDIwMj
+ksNzA3MTc5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1NiwtMTE2
+NzYwNTQ4NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNT
+g2OCwtMTE2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwx
+NjkxODc3NDg2XX0=
 -->
