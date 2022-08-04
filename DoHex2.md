@@ -70,7 +70,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. However, we need to determine type, quantity, frequency and statistical properties of data to properly solve the problem. 
 
-Invention 
+Invention of DTOs and CQRS 
 
 Focusing on data and transformation instead of classes and their relationships;
 * by decoupling data and behavior, we can simply get  
@@ -123,11 +123,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTM2NTgzNCwtMTE2NDEyNjYzNiwtOT
-A4MjE1MTAsLTkwMDA0MTc1MSwxNjkxODc3NDg2LDkzMDIwNjQ0
-OCw5MzAyMDY0NDgsLTE3MDc4OTI3NzAsMTQ2OTMxMzQ2MywtMj
-k4NTMwMjExLC04NjYzMjQ1NDcsLTE3MjIxNDQxMTYsNDU0NTAz
-ODAwLDE0OTcyNzMwNTcsMzc0ODU0MTAwLC0xNDc5NDU4OTQzLD
-E2NTQ5MzYyMDIsLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1MywtMjA2
-ODQwNzQyOV19
+eyJoaXN0b3J5IjpbLTE4MzUzODMxODcsLTExNjQxMjY2MzYsLT
+kwODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0
+NDgsOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLT
+I5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUw
+MzgwMCwxNDk3MjczMDU3LDM3NDg1NDEwMCwtMTQ3OTQ1ODk0My
+wxNjU0OTM2MjAyLC0yMDU0NDg0NjAxLDE2MTE1NDg0NTMsLTIw
+Njg0MDc0MjldfQ==
 -->
