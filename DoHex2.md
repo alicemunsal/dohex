@@ -79,7 +79,6 @@ Invention of DTOs and CQRS
 
 Focusing on data and transformation instead of classes and their relationships;
 * by decoupling data and behavior, we can simply get  
-* we can solve real problems instead of 
 
 bringing unrelated data 
 simply solve
@@ -129,11 +128,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg0NjY2NjksLTExNjc2MDU0ODUsLT
-Q1NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQx
-MjY2MzYsLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Ni
-w5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0Njkz
-MTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNzIyMTQ0MT
-E2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LDM3NDg1NDEwMCwtMTQ3
-OTQ1ODk0M119
+eyJoaXN0b3J5IjpbMTgxMDYxNzQwMSwtMTE2NzYwNTQ4NSwtND
+U0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNTg2OCwtMTE2NDEy
+NjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwxNjkxODc3NDg2LD
+kzMDIwNjQ0OCw5MzAyMDY0NDgsLTE3MDc4OTI3NzAsMTQ2OTMx
+MzQ2MywtMjk4NTMwMjExLC04NjYzMjQ1NDcsLTE3MjIxNDQxMT
+YsNDU0NTAzODAwLDE0OTcyNzMwNTcsMzc0ODU0MTAwLC0xNDc5
+NDU4OTQzXX0=
 -->
