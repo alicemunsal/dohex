@@ -78,7 +78,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ## DoHex  
 
-programming is organizing thinking. bunch of boxes and lines.
+programming is organizing thinking with diagrams, bunch of boxes and lines.
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
 encourage programmers 
 lib incentives developers to think for data and transformation
@@ -117,11 +117,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MzE4Nzg1LDE3MzU3NDgyNzIsLTExMz
-A5NDQxODIsLTE4MTMzNDMzNzQsLTE4NjczNzc1MjksNDMwNjAy
-MDI5LDcwNzE3OTE1MCwtMTEzNDI5NDAxMiw1ODg4MDA0NTYsLT
-ExNjc2MDU0ODUsLTQ1NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEy
-MTU4NjgsLTExNjQxMjY2MzYsLTkwODIxNTEwLC05MDAwNDE3NT
-EsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3
-ODkyNzcwXX0=
+eyJoaXN0b3J5IjpbLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMT
+EzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2
+MDIwMjksNzA3MTc5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1Ni
+wtMTE2NzYwNTQ4NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQz
+MTIxNTg2OCwtMTE2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MT
+c1MSwxNjkxODc3NDg2LDkzMDIwNjQ0OCw5MzAyMDY0NDgsLTE3
+MDc4OTI3NzBdfQ==
 -->
