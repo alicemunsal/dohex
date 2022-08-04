@@ -74,11 +74,11 @@ Data-oriented design forces you to think about your data first and foremost: wha
 
 DOD's standpoint is to separate data from behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
-> Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems  
+> Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
 
 ## DoHex  
 
-Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change once implemented. It is the big picture.
+Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change once implemented. It is the big picture. We know that, a software a
 
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
@@ -121,11 +121,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODU4NTU5OCwxMzE5ODQ4MjMzLC0yND
-gzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMTEzMDk0
-NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2MDIwMj
-ksNzA3MTc5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1NiwtMTE2
-NzYwNTQ4NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNT
-g2OCwtMTE2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwx
-NjkxODc3NDg2XX0=
+eyJoaXN0b3J5IjpbLTIwMTM0NzgxNTUsLTM0ODU4NTU5OCwxMz
+E5ODQ4MjMzLC0yNDgzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0
+ODI3MiwtMTEzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3Nz
+UyOSw0MzA2MDIwMjksNzA3MTc5MTUwLC0xMTM0Mjk0MDEyLDU4
+ODgwMDQ1NiwtMTE2NzYwNTQ4NSwtNDU0NTU2Njg1LC04NDM3Nz
+kyMzAsMTQzMTIxNTg2OCwtMTE2NDEyNjYzNiwtOTA4MjE1MTAs
+LTkwMDA0MTc1MV19
 -->
