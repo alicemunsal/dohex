@@ -77,7 +77,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems  
 
 ## DoHex  
-
+we can start with mon
 programming is organizing thinking with diagrams, bunch of boxes and lines.
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
 encourage programmers 
@@ -118,11 +118,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODMxNzQ1OSwtMTUzOTI0NDIyNywxNz
-M1NzQ4MjcyLC0xMTMwOTQ0MTgyLC0xODEzMzQzMzc0LC0xODY3
-Mzc3NTI5LDQzMDYwMjAyOSw3MDcxNzkxNTAsLTExMzQyOTQwMT
-IsNTg4ODAwNDU2LC0xMTY3NjA1NDg1LC00NTQ1NTY2ODUsLTg0
-Mzc3OTIzMCwxNDMxMjE1ODY4LC0xMTY0MTI2NjM2LC05MDgyMT
-UxMCwtOTAwMDQxNzUxLDE2OTE4Nzc0ODYsOTMwMjA2NDQ4LDkz
-MDIwNjQ0OF19
+eyJoaXN0b3J5IjpbMTY0MzQ4NjA1OSwtMjQ4MzE3NDU5LC0xNT
+M5MjQ0MjI3LDE3MzU3NDgyNzIsLTExMzA5NDQxODIsLTE4MTMz
+NDMzNzQsLTE4NjczNzc1MjksNDMwNjAyMDI5LDcwNzE3OTE1MC
+wtMTEzNDI5NDAxMiw1ODg4MDA0NTYsLTExNjc2MDU0ODUsLTQ1
+NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMj
+Y2MzYsLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5
+MzAyMDY0NDhdfQ==
 -->
