@@ -52,7 +52,7 @@ Data Oriented Design (DOD) approach is to focus on the data and to think about t
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
 
 
-We are developing software systems with logical parts (or layers). Each parts may need different data models and/or transformation functions.     
+We are developing software systems with logical stages (or layers). Each stage may need different data models and/or transformation functions.     
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Transformer.png)
 
@@ -128,7 +128,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc1NjQzMjgsLTQ1NDU1NjY4NSwtOD
+eyJoaXN0b3J5IjpbLTEwNDcxNTA1NjcsLTQ1NDU1NjY4NSwtOD
 QzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIx
 NTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOT
 MwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUz
