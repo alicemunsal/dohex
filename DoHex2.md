@@ -79,7 +79,7 @@ Invention of DTOs and CQRS
 
 Focusing on data and transformation instead of classes and their relationships;
 * by decoupling data and behavior, we can simply get  
-* we can solve real problems instead of 
+* we can solve real problems rather than 
 
 bringing unrelated data 
 simply solve
@@ -129,7 +129,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg0NjY2NjksLTQ1NDU1NjY4NSwtOD
+eyJoaXN0b3J5IjpbLTExNjc2MDU0ODUsLTQ1NDU1NjY4NSwtOD
 QzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIx
 NTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOT
 MwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUz
