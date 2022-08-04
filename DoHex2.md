@@ -93,6 +93,7 @@ Threading
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
 lib incentives developers to think for data and transformation
 Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
+we can still use oop in core. 
 cognitive load
 least resistance path
 least effort
@@ -114,11 +115,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMj
-A2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIx
-MSwtODY2MzI0NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUwMzgwMCwxND
-k3MjczMDU3LDM3NDg1NDEwMCwtMTQ3OTQ1ODk0MywxNjU0OTM2
-MjAyLC0yMDU0NDg0NjAxLDE2MTE1NDg0NTMsLTIwNjg0MDc0Mj
-ksMjE0NTk3NzU2NSwtMzExMjQ1MTgwLDE2NDg2NDExMjgsMTY4
-Njg0MzIwXX0=
+eyJoaXN0b3J5IjpbLTkwMDA0MTc1MSwxNjkxODc3NDg2LDkzMD
+IwNjQ0OCw5MzAyMDY0NDgsLTE3MDc4OTI3NzAsMTQ2OTMxMzQ2
+MywtMjk4NTMwMjExLC04NjYzMjQ1NDcsLTE3MjIxNDQxMTYsND
+U0NTAzODAwLDE0OTcyNzMwNTcsMzc0ODU0MTAwLC0xNDc5NDU4
+OTQzLDE2NTQ5MzYyMDIsLTIwNTQ0ODQ2MDEsMTYxMTU0ODQ1My
+wtMjA2ODQwNzQyOSwyMTQ1OTc3NTY1LC0zMTEyNDUxODAsMTY0
+ODY0MTEyOF19
 -->
