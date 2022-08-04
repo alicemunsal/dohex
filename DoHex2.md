@@ -73,7 +73,7 @@ Today, Software developers try to create abstract model of the problem domain by
 Data-oriented programming forces you to think about your data first and foremost: what it is, how it is processed and how it flows between the different stages of your program.
 
 If we decouple data and behavior;
-. we can focus on data and transformations instead of abstract idealized model.
+. we can focus on data and transformations instead of the abstract idealized model.
 . TDD  
 Invention of DTOs and CQRS 
 
@@ -128,11 +128,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mzc3OTIzMCwxNDMxMjE1ODY4LC0xMT
-Y0MTI2NjM2LC05MDgyMTUxMCwtOTAwMDQxNzUxLDE2OTE4Nzc0
-ODYsOTMwMjA2NDQ4LDkzMDIwNjQ0OCwtMTcwNzg5Mjc3MCwxND
-Y5MzEzNDYzLC0yOTg1MzAyMTEsLTg2NjMyNDU0NywtMTcyMjE0
-NDExNiw0NTQ1MDM4MDAsMTQ5NzI3MzA1NywzNzQ4NTQxMDAsLT
-E0Nzk0NTg5NDMsMTY1NDkzNjIwMiwtMjA1NDQ4NDYwMSwxNjEx
-NTQ4NDUzXX0=
+eyJoaXN0b3J5IjpbLTQ1NDU1NjY4NSwtODQzNzc5MjMwLDE0Mz
+EyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIxNTEwLC05MDAwNDE3
+NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNz
+A3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0
+NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LD
+M3NDg1NDEwMCwtMTQ3OTQ1ODk0MywxNjU0OTM2MjAyLC0yMDU0
+NDg0NjAxXX0=
 -->
