@@ -116,12 +116,13 @@ sample app design, folder structure graphs and model code gap
 [^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
+[^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMT
-EzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2
-MDIwMjksNzA3MTc5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1Ni
-wtMTE2NzYwNTQ4NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQz
-MTIxNTg2OCwtMTE2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MT
-c1MSwxNjkxODc3NDg2LDkzMDIwNjQ0OCw5MzAyMDY0NDgsLTE3
-MDc4OTI3NzBdfQ==
+eyJoaXN0b3J5IjpbLTI0ODMxNzQ1OSwtMTUzOTI0NDIyNywxNz
+M1NzQ4MjcyLC0xMTMwOTQ0MTgyLC0xODEzMzQzMzc0LC0xODY3
+Mzc3NTI5LDQzMDYwMjAyOSw3MDcxNzkxNTAsLTExMzQyOTQwMT
+IsNTg4ODAwNDU2LC0xMTY3NjA1NDg1LC00NTQ1NTY2ODUsLTg0
+Mzc3OTIzMCwxNDMxMjE1ODY4LC0xMTY0MTI2NjM2LC05MDgyMT
+UxMCwtOTAwMDQxNzUxLDE2OTE4Nzc0ODYsOTMwMjA2NDQ4LDkz
+MDIwNjQ0OF19
 -->
