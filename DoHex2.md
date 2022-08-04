@@ -68,7 +68,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - Solving problems you probably don't have creates more problems.
 > - There is no ideal, abstract solution to the problem.  
 
-Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. However, we need to determine type, quantity, frequency and statistical properties of data to properly solve the problem. 
+Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
 Data-oriented programming forces you to think about your data first and foremost: what it is, how it is processed and how it flows between the different stages of your program. So we need to decouple data and behavior 
 
@@ -128,11 +128,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcxNTA1NjcsLTQ1NDU1NjY4NSwtOD
-QzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIx
-NTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOT
-MwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUz
-MDIxMSwtODY2MzI0NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUwMzgwMC
-wxNDk3MjczMDU3LDM3NDg1NDEwMCwtMTQ3OTQ1ODk0MywxNjU0
-OTM2MjAyXX0=
+eyJoaXN0b3J5IjpbMTgxMDYxNzQwMSwtNDU0NTU2Njg1LC04ND
+M3NzkyMzAsMTQzMTIxNTg2OCwtMTE2NDEyNjYzNiwtOTA4MjE1
+MTAsLTkwMDA0MTc1MSwxNjkxODc3NDg2LDkzMDIwNjQ0OCw5Mz
+AyMDY0NDgsLTE3MDc4OTI3NzAsMTQ2OTMxMzQ2MywtMjk4NTMw
+MjExLC04NjYzMjQ1NDcsLTE3MjIxNDQxMTYsNDU0NTAzODAwLD
+E0OTcyNzMwNTcsMzc0ODU0MTAwLC0xNDc5NDU4OTQzLDE2NTQ5
+MzYyMDJdfQ==
 -->
