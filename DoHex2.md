@@ -70,7 +70,8 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. However, we need to determine type, quantity, frequency and statistical properties of data to properly solve the problem. 
 
-Focusing on data and transformation by decoupling data and behavior instead of classes and their relationships
+Focusing on data and transformation instead of classes and their relationships;
+* by decoupling data and behavior, we can simply get  
 
 bringing unrelated data 
 simply solve
@@ -117,7 +118,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyODY0Nzk5LC05MDAwNDE3NTEsMTY5MT
+eyJoaXN0b3J5IjpbLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MT
 g3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3ODkyNzcw
 LDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNz
 IyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LDM3NDg1NDEw
