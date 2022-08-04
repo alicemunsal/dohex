@@ -73,6 +73,20 @@ Components can talk to each other in various ways. They can communicate to each 
 
 ## Data Oriented Programming
 
+by deterministic functions, due to the fact that statefull objects are harder to test.  
+
+If we decouple data and behavior;
+. we can focus on data and transformations instead of the abstract idealized model.
+. TDD  
+Invention of DTOs and CQRS 
+
+Focusing on data and transformation instead of classes and their relationships;
+* by decoupling data and behavior, we can simply get  
+
+bringing unrelated data 
+simply solve
+deterministic and tdd
+
 
 #### Adapter Organization
 
@@ -141,11 +155,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ3NTQ4NzIsLTExNTI2NzgwNzksOT
-A1MjExMzk0LC0yMDk5ODgxNDAxLDc3MzAyMzQzMiw1NzQ5NTEy
-MzIsMTM5NTY3NjI1OSwtNTAyOTA1MDgyLDE5MTIzMTg5MzgsNT
-AyOTYzMTcsNDI5ODM3ODc1LDYzNDcyMzA1LDE4NjAzMjQwOTYs
-LTEzNTMzNTYyNjIsNTY0MzIyNjQxLC05MjQ4Mjk4OCwtNjQxOD
-c5MjI3LDE4MjMzNTEyMzksLTIxMjI1ODc1MzUsMTk1NzczMjUw
-M119
+eyJoaXN0b3J5IjpbLTc0NDgxMDUyMCwtMTY5NDc1NDg3MiwtMT
+E1MjY3ODA3OSw5MDUyMTEzOTQsLTIwOTk4ODE0MDEsNzczMDIz
+NDMyLDU3NDk1MTIzMiwxMzk1Njc2MjU5LC01MDI5MDUwODIsMT
+kxMjMxODkzOCw1MDI5NjMxNyw0Mjk4Mzc4NzUsNjM0NzIzMDUs
+MTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyND
+gyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUz
+NV19
 -->
