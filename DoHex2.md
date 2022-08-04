@@ -90,6 +90,8 @@ organizational project structure
 portable code
 u can use go, rust, c, c++, java with the same structure
 
+component oriented is natural fit for hexagonal architecture
+
 Immutable data types
 side effect free
 data behavior 
@@ -114,11 +116,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA5NDQxODIsLTE4MTMzNDMzNzQsLT
-E4NjczNzc1MjksNDMwNjAyMDI5LDcwNzE3OTE1MCwtMTEzNDI5
-NDAxMiw1ODg4MDA0NTYsLTExNjc2MDU0ODUsLTQ1NDU1NjY4NS
-wtODQzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkw
-ODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0ND
-gsOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5
-ODUzMDIxMV19
+eyJoaXN0b3J5IjpbMTczNTc0ODI3MiwtMTEzMDk0NDE4MiwtMT
+gxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2MDIwMjksNzA3MTc5
+MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1NiwtMTE2NzYwNTQ4NS
+wtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNTg2OCwtMTE2
+NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwxNjkxODc3ND
+g2LDkzMDIwNjQ0OCw5MzAyMDY0NDgsLTE3MDc4OTI3NzAsMTQ2
+OTMxMzQ2M119
 -->
