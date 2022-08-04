@@ -100,6 +100,9 @@ we can still use oop in core.
 cognitive load
 least resistance path
 least effort
+organizational project structure
+portable code
+u can use go, rust, c, c++, java with the same structure
 
 testing is easier, changing is easier
 
@@ -118,11 +121,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODIxNTEwLC05MDAwNDE3NTEsMTY5MT
-g3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3ODkyNzcw
-LDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC0xNz
-IyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LDM3NDg1NDEw
-MCwtMTQ3OTQ1ODk0MywxNjU0OTM2MjAyLC0yMDU0NDg0NjAxLD
-E2MTE1NDg0NTMsLTIwNjg0MDc0MjksMjE0NTk3NzU2NSwtMzEx
-MjQ1MTgwXX0=
+eyJoaXN0b3J5IjpbLTExNjQxMjY2MzYsLTkwODIxNTEwLC05MD
+AwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4
+LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtOD
+Y2MzI0NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3Mjcz
+MDU3LDM3NDg1NDEwMCwtMTQ3OTQ1ODk0MywxNjU0OTM2MjAyLC
+0yMDU0NDg0NjAxLDE2MTE1NDg0NTMsLTIwNjg0MDc0MjksMjE0
+NTk3NzU2NV19
 -->
