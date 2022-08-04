@@ -79,6 +79,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 ## DoHex  
 
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
+encourage programmers 
 lib incentives developers to think for data and transformation
 Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
 we can still use oop in core. 
@@ -113,11 +114,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMzNDMzNzQsLTE4NjczNzc1MjksND
-MwNjAyMDI5LDcwNzE3OTE1MCwtMTEzNDI5NDAxMiw1ODg4MDA0
-NTYsLTExNjc2MDU0ODUsLTQ1NDU1NjY4NSwtODQzNzc5MjMwLD
-E0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIxNTEwLC05MDAw
-NDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC
-0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2
-MzI0NTQ3XX0=
+eyJoaXN0b3J5IjpbLTExMzA5NDQxODIsLTE4MTMzNDMzNzQsLT
+E4NjczNzc1MjksNDMwNjAyMDI5LDcwNzE3OTE1MCwtMTEzNDI5
+NDAxMiw1ODg4MDA0NTYsLTExNjc2MDU0ODUsLTQ1NDU1NjY4NS
+wtODQzNzc5MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkw
+ODIxNTEwLC05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0ND
+gsOTMwMjA2NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5
+ODUzMDIxMV19
 -->
