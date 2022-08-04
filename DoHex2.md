@@ -70,7 +70,10 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
-Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. DOD's standpoint is to separate data from behavior. 
+Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. 
+
+DOD's standpoint is to separate data from behavior to achieve:
+* Better testability by deterministic functions instead of stateful objects 
 
 If we decouple data and behavior;
 . we can focus on data and transformations instead of the abstract idealized model.
@@ -128,11 +131,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDEzODE4MSwtMTEzNDI5NDAxMiw1OD
-g4MDA0NTYsLTExNjc2MDU0ODUsLTQ1NDU1NjY4NSwtODQzNzc5
-MjMwLDE0MzEyMTU4NjgsLTExNjQxMjY2MzYsLTkwODIxNTEwLC
-05MDAwNDE3NTEsMTY5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2
-NDQ4LC0xNzA3ODkyNzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIxMS
-wtODY2MzI0NTQ3LC0xNzIyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3
-MjczMDU3XX0=
+eyJoaXN0b3J5IjpbLTE1NTg3MDQ0ODQsLTExMzQyOTQwMTIsNT
+g4ODAwNDU2LC0xMTY3NjA1NDg1LC00NTQ1NTY2ODUsLTg0Mzc3
+OTIzMCwxNDMxMjE1ODY4LC0xMTY0MTI2NjM2LC05MDgyMTUxMC
+wtOTAwMDQxNzUxLDE2OTE4Nzc0ODYsOTMwMjA2NDQ4LDkzMDIw
+NjQ0OCwtMTcwNzg5Mjc3MCwxNDY5MzEzNDYzLC0yOTg1MzAyMT
+EsLTg2NjMyNDU0NywtMTcyMjE0NDExNiw0NTQ1MDM4MDAsMTQ5
+NzI3MzA1N119
 -->
