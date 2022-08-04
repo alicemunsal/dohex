@@ -72,23 +72,10 @@ Today, Software developers try to create abstract model of the problem domain by
 
 Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. 
 
-DOD's standpoint is to separate data from behavior. Thus we can achieve; simplified thinking, better performance, better testability 
+DOD's standpoint is to separate data from behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
 
-by deterministic functions, due to the fact that statefull objects are harder to test. 
-* 
 
-If we decouple data and behavior;
-. we can focus on data and transformations instead of the abstract idealized model.
-. TDD  
-Invention of DTOs and CQRS 
-
-Focusing on data and transformation instead of classes and their relationships;
-* by decoupling data and behavior, we can simply get  
-
-bringing unrelated data 
-simply solve
-deterministic and tdd
 
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems
 > -- Mike Acton
@@ -134,7 +121,7 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTY4NDM4OSw0MzA2MDIwMjksNzA3MT
+eyJoaXN0b3J5IjpbLTM0MjEzNzg4NSw0MzA2MDIwMjksNzA3MT
 c5MTUwLC0xMTM0Mjk0MDEyLDU4ODgwMDQ1NiwtMTE2NzYwNTQ4
 NSwtNDU0NTU2Njg1LC04NDM3NzkyMzAsMTQzMTIxNTg2OCwtMT
 E2NDEyNjYzNiwtOTA4MjE1MTAsLTkwMDA0MTc1MSwxNjkxODc3
