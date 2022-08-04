@@ -42,12 +42,12 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 
 ## Data Oriented Design
 
+>  The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
+>  -- Mike Acton
+
 Data Oriented Design (DOD) approach is to focus on the data and to think about transformation of data.  In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon, Mike Acton describes data oriented design principles. 
 
 ### Transformation
-
->  The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
->  -- Mike Acton
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
 
@@ -128,11 +128,11 @@ sample app design, folder structure graphs and model code gap
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4ODAwNDU2LC0xMTY3NjA1NDg1LC00NT
-Q1NTY2ODUsLTg0Mzc3OTIzMCwxNDMxMjE1ODY4LC0xMTY0MTI2
-NjM2LC05MDgyMTUxMCwtOTAwMDQxNzUxLDE2OTE4Nzc0ODYsOT
-MwMjA2NDQ4LDkzMDIwNjQ0OCwtMTcwNzg5Mjc3MCwxNDY5MzEz
-NDYzLC0yOTg1MzAyMTEsLTg2NjMyNDU0NywtMTcyMjE0NDExNi
-w0NTQ1MDM4MDAsMTQ5NzI3MzA1NywzNzQ4NTQxMDAsLTE0Nzk0
-NTg5NDNdfQ==
+eyJoaXN0b3J5IjpbMTk3MDI3MDk5Miw1ODg4MDA0NTYsLTExNj
+c2MDU0ODUsLTQ1NDU1NjY4NSwtODQzNzc5MjMwLDE0MzEyMTU4
+NjgsLTExNjQxMjY2MzYsLTkwODIxNTEwLC05MDAwNDE3NTEsMT
+Y5MTg3NzQ4Niw5MzAyMDY0NDgsOTMwMjA2NDQ4LC0xNzA3ODky
+NzcwLDE0NjkzMTM0NjMsLTI5ODUzMDIxMSwtODY2MzI0NTQ3LC
+0xNzIyMTQ0MTE2LDQ1NDUwMzgwMCwxNDk3MjczMDU3LDM3NDg1
+NDEwMF19
 -->
