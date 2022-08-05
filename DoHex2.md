@@ -18,8 +18,7 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control).   
 
 ![App and oursite world](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
-
-*App and outside world (IO Devices)*  
+ 
 
 Our application does not know anything about IO devices and should not depend on them. But an IO device must implement an adapter for connecting to our application through its ports. 
 
@@ -134,11 +133,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTA5MzAxMCwtMTIxOTc4NzA2LDI2Nj
-I1MTYyMyw4NDA0OTczMzAsMTg3MTY1ODg4NSwtMzA3OTMzODEx
-LDE4NjEzOTczMTUsNzM2NzQ1NDExLDgzNjYyODgwNywxNTA0Nz
-g3MTU4LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgsMTMxOTg0ODIz
-MywtMjQ4MzE3NDU5LC0xNTM5MjQ0MjI3LDE3MzU3NDgyNzIsLT
-ExMzA5NDQxODIsLTE4MTMzNDMzNzQsLTE4NjczNzc1MjksNDMw
-NjAyMDI5XX0=
+eyJoaXN0b3J5IjpbMTA3OTI2Nzc1LC0xMjE5Nzg3MDYsMjY2Mj
+UxNjIzLDg0MDQ5NzMzMCwxODcxNjU4ODg1LC0zMDc5MzM4MTEs
+MTg2MTM5NzMxNSw3MzY3NDU0MTEsODM2NjI4ODA3LDE1MDQ3OD
+cxNTgsLTE5MDc0OTk2NjAsLTM0ODU4NTU5OCwxMzE5ODQ4MjMz
+LC0yNDgzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMT
+EzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2
+MDIwMjldfQ==
 -->
