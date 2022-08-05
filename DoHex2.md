@@ -86,6 +86,8 @@ This is the idealized example of the DoHex architecture as a diagram.
 Key points of the DoHex:
 * 
 
+CQRS is natural
+
 High level project structure is the way to connect your software architecture to your source code.
 
 
@@ -133,11 +135,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTI2Nzc1LC0xMjE5Nzg3MDYsMjY2Mj
-UxNjIzLDg0MDQ5NzMzMCwxODcxNjU4ODg1LC0zMDc5MzM4MTEs
-MTg2MTM5NzMxNSw3MzY3NDU0MTEsODM2NjI4ODA3LDE1MDQ3OD
-cxNTgsLTE5MDc0OTk2NjAsLTM0ODU4NTU5OCwxMzE5ODQ4MjMz
-LC0yNDgzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0ODI3MiwtMT
-EzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2NzM3NzUyOSw0MzA2
-MDIwMjldfQ==
+eyJoaXN0b3J5IjpbMTYzNTE5OTI3LDEwNzkyNjc3NSwtMTIxOT
+c4NzA2LDI2NjI1MTYyMyw4NDA0OTczMzAsMTg3MTY1ODg4NSwt
+MzA3OTMzODExLDE4NjEzOTczMTUsNzM2NzQ1NDExLDgzNjYyOD
+gwNywxNTA0Nzg3MTU4LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgs
+MTMxOTg0ODIzMywtMjQ4MzE3NDU5LC0xNTM5MjQ0MjI3LDE3Mz
+U3NDgyNzIsLTExMzA5NDQxODIsLTE4MTMzNDMzNzQsLTE4Njcz
+Nzc1MjldfQ==
 -->
