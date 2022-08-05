@@ -78,7 +78,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ## DoHex  
 
-Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. It is the big picture. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.
+Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. It is the big picture. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process. Reflecting this selections and drawings into code is considered as the part of the design process
 
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
@@ -121,11 +121,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NzQ1NDExLDgzNjYyODgwNywxNTA0Nz
-g3MTU4LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgsMTMxOTg0ODIz
-MywtMjQ4MzE3NDU5LC0xNTM5MjQ0MjI3LDE3MzU3NDgyNzIsLT
-ExMzA5NDQxODIsLTE4MTMzNDMzNzQsLTE4NjczNzc1MjksNDMw
-NjAyMDI5LDcwNzE3OTE1MCwtMTEzNDI5NDAxMiw1ODg4MDA0NT
-YsLTExNjc2MDU0ODUsLTQ1NDU1NjY4NSwtODQzNzc5MjMwLDE0
-MzEyMTU4NjhdfQ==
+eyJoaXN0b3J5IjpbMTg2MTM5NzMxNSw3MzY3NDU0MTEsODM2Nj
+I4ODA3LDE1MDQ3ODcxNTgsLTE5MDc0OTk2NjAsLTM0ODU4NTU5
+OCwxMzE5ODQ4MjMzLC0yNDgzMTc0NTksLTE1MzkyNDQyMjcsMT
+czNTc0ODI3MiwtMTEzMDk0NDE4MiwtMTgxMzM0MzM3NCwtMTg2
+NzM3NzUyOSw0MzA2MDIwMjksNzA3MTc5MTUwLC0xMTM0Mjk0MD
+EyLDU4ODgwMDQ1NiwtMTE2NzYwNTQ4NSwtNDU0NTU2Njg1LC04
+NDM3NzkyMzBdfQ==
 -->
