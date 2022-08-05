@@ -77,11 +77,9 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ## DoHex  
 
- 
+ DoHex is yet another Hexagonal Architecture that Component based[^8], Event Driven[^9] and Data Oriented. 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
-
-DoHex is yet another Hexagonal Architecture that Component based[^8], Event Driven[^9] and Data Oriented.   
 
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports.
 
@@ -127,6 +125,7 @@ testing is easier, changing is easier
 we can add lib if we need model or transformation
 sample app design, folder structure graphs and model code gap  
 
+Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
 
 ### References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
@@ -139,11 +138,11 @@ sample app design, folder structure graphs and model code gap
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NTk5NjMwLC03NDUzNDgxNjYsLTE2NT
-AyNjYxMzMsLTE2NTAyNjYxMzMsMTYzNTE5OTI3LDEwNzkyNjc3
-NSwtMTIxOTc4NzA2LDI2NjI1MTYyMyw4NDA0OTczMzAsMTg3MT
-Y1ODg4NSwtMzA3OTMzODExLDE4NjEzOTczMTUsNzM2NzQ1NDEx
-LDgzNjYyODgwNywxNTA0Nzg3MTU4LC0xOTA3NDk5NjYwLC0zND
-g1ODU1OTgsMTMxOTg0ODIzMywtMjQ4MzE3NDU5LC0xNTM5MjQ0
-MjI3XX0=
+eyJoaXN0b3J5IjpbMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNj
+UwMjY2MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3
+NzUsLTEyMTk3ODcwNiwyNjYyNTE2MjMsODQwNDk3MzMwLDE4Nz
+E2NTg4ODUsLTMwNzkzMzgxMSwxODYxMzk3MzE1LDczNjc0NTQx
+MSw4MzY2Mjg4MDcsMTUwNDc4NzE1OCwtMTkwNzQ5OTY2MCwtMz
+Q4NTg1NTk4LDEzMTk4NDgyMzMsLTI0ODMxNzQ1OSwtMTUzOTI0
+NDIyN119
 -->
