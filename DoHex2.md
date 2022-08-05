@@ -81,6 +81,9 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. It is the big picture. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process. 
 
 
+High level project structure is the way to connect your software architecture to your source code.
+
+
 Reflecting this selections and drawings into code is considered as the part of the design process
 
 we can start with monolith and split them into microservices
@@ -124,11 +127,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzkzMzgxMSwxODYxMzk3MzE1LDczNj
-c0NTQxMSw4MzY2Mjg4MDcsMTUwNDc4NzE1OCwtMTkwNzQ5OTY2
-MCwtMzQ4NTg1NTk4LDEzMTk4NDgyMzMsLTI0ODMxNzQ1OSwtMT
-UzOTI0NDIyNywxNzM1NzQ4MjcyLC0xMTMwOTQ0MTgyLC0xODEz
-MzQzMzc0LC0xODY3Mzc3NTI5LDQzMDYwMjAyOSw3MDcxNzkxNT
-AsLTExMzQyOTQwMTIsNTg4ODAwNDU2LC0xMTY3NjA1NDg1LC00
-NTQ1NTY2ODVdfQ==
+eyJoaXN0b3J5IjpbMTg3MTY1ODg4NSwtMzA3OTMzODExLDE4Nj
+EzOTczMTUsNzM2NzQ1NDExLDgzNjYyODgwNywxNTA0Nzg3MTU4
+LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgsMTMxOTg0ODIzMywtMj
+Q4MzE3NDU5LC0xNTM5MjQ0MjI3LDE3MzU3NDgyNzIsLTExMzA5
+NDQxODIsLTE4MTMzNDMzNzQsLTE4NjczNzc1MjksNDMwNjAyMD
+I5LDcwNzE3OTE1MCwtMTEzNDI5NDAxMiw1ODg4MDA0NTYsLTEx
+Njc2MDU0ODVdfQ==
 -->
