@@ -84,6 +84,9 @@ This is the idealized example of the DoHex architecture as a diagram.
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
 
+Key points of the DoHex:
+* 
+
 High level project structure is the way to connect your software architecture to your source code.
 
 
@@ -131,7 +134,7 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE4MTE4MCwtMTIxOTc4NzA2LDI2Nj
+eyJoaXN0b3J5IjpbMTg2MTA5MzAxMCwtMTIxOTc4NzA2LDI2Nj
 I1MTYyMyw4NDA0OTczMzAsMTg3MTY1ODg4NSwtMzA3OTMzODEx
 LDE4NjEzOTczMTUsNzM2NzQ1NDExLDgzNjYyODgwNywxNTA0Nz
 g3MTU4LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgsMTMxOTg0ODIz
