@@ -92,7 +92,8 @@ Reflecting this selections and drawings into code is considered as the part of t
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
 If we use Hexagonal Architecture and Data Oriented Design principles together with  
-encourage programmers 
+encourage programmers
+encourage reactivity 
 lib incentives developers to think for data and transformation
 Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
 we can still use oop in core. 
@@ -130,11 +131,11 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2MjUxNjIzLDg0MDQ5NzMzMCwxODcxNj
-U4ODg1LC0zMDc5MzM4MTEsMTg2MTM5NzMxNSw3MzY3NDU0MTEs
-ODM2NjI4ODA3LDE1MDQ3ODcxNTgsLTE5MDc0OTk2NjAsLTM0OD
-U4NTU5OCwxMzE5ODQ4MjMzLC0yNDgzMTc0NTksLTE1MzkyNDQy
-MjcsMTczNTc0ODI3MiwtMTEzMDk0NDE4MiwtMTgxMzM0MzM3NC
-wtMTg2NzM3NzUyOSw0MzA2MDIwMjksNzA3MTc5MTUwLC0xMTM0
-Mjk0MDEyXX0=
+eyJoaXN0b3J5IjpbLTEyMTk3ODcwNiwyNjYyNTE2MjMsODQwND
+k3MzMwLDE4NzE2NTg4ODUsLTMwNzkzMzgxMSwxODYxMzk3MzE1
+LDczNjc0NTQxMSw4MzY2Mjg4MDcsMTUwNDc4NzE1OCwtMTkwNz
+Q5OTY2MCwtMzQ4NTg1NTk4LDEzMTk4NDgyMzMsLTI0ODMxNzQ1
+OSwtMTUzOTI0NDIyNywxNzM1NzQ4MjcyLC0xMTMwOTQ0MTgyLC
+0xODEzMzQzMzc0LC0xODY3Mzc3NTI5LDQzMDYwMjAyOSw3MDcx
+NzkxNTBdfQ==
 -->
