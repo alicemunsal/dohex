@@ -81,7 +81,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
 
-DoHex is yet another Hexagonal Architecture that Component based[^8], Event Driven[^9] and Data Oriented.
+DoHex is yet another Hexagonal Architecture that Component based[^8], Event Driven[^9] and Data Oriented. Each component is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports.
 
 Key points of the DoHex:
 * 
@@ -136,11 +136,11 @@ sample app design, folder structure graphs and model code gap
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAyNjYxMzMsLTE2NTAyNjYxMzMsMT
-YzNTE5OTI3LDEwNzkyNjc3NSwtMTIxOTc4NzA2LDI2NjI1MTYy
-Myw4NDA0OTczMzAsMTg3MTY1ODg4NSwtMzA3OTMzODExLDE4Nj
-EzOTczMTUsNzM2NzQ1NDExLDgzNjYyODgwNywxNTA0Nzg3MTU4
-LC0xOTA3NDk5NjYwLC0zNDg1ODU1OTgsMTMxOTg0ODIzMywtMj
-Q4MzE3NDU5LC0xNTM5MjQ0MjI3LDE3MzU3NDgyNzIsLTExMzA5
-NDQxODJdfQ==
+eyJoaXN0b3J5IjpbLTc0NTM0ODE2NiwtMTY1MDI2NjEzMywtMT
+Y1MDI2NjEzMywxNjM1MTk5MjcsMTA3OTI2Nzc1LC0xMjE5Nzg3
+MDYsMjY2MjUxNjIzLDg0MDQ5NzMzMCwxODcxNjU4ODg1LC0zMD
+c5MzM4MTEsMTg2MTM5NzMxNSw3MzY3NDU0MTEsODM2NjI4ODA3
+LDE1MDQ3ODcxNTgsLTE5MDc0OTk2NjAsLTM0ODU4NTU5OCwxMz
+E5ODQ4MjMzLC0yNDgzMTc0NTksLTE1MzkyNDQyMjcsMTczNTc0
+ODI3Ml19
 -->
