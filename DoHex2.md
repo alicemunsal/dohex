@@ -79,11 +79,11 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.   
 
-This is the idealized example of the DoHex architecture as a diagram. 
+DoHex is yet another Hexagonal Architecture that Component based, Event Driven and Data Oriented.
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
 
-DoHex is yet another Hexagonal Architecture that Component based, Event Driven and Data Oriented.
+
 
 Key points of the DoHex:
 * 
@@ -137,7 +137,7 @@ sample app design, folder structure graphs and model code gap
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Out of the Tar Pit http://curtclifton.net/papers/MoseleyMarks06a.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5MTY0NiwxNjM1MTk5MjcsMTA3OT
+eyJoaXN0b3J5IjpbLTY1MzA2NDI3MSwxNjM1MTk5MjcsMTA3OT
 I2Nzc1LC0xMjE5Nzg3MDYsMjY2MjUxNjIzLDg0MDQ5NzMzMCwx
 ODcxNjU4ODg1LC0zMDc5MzM4MTEsMTg2MTM5NzMxNSw3MzY3ND
 U0MTEsODM2NjI4ODA3LDE1MDQ3ODcxNTgsLTE5MDc0OTk2NjAs
