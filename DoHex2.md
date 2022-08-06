@@ -86,7 +86,7 @@ Each component is developed separately; is encapsulated in its own package and h
 A component can contain 1 App, 1 Core and many Adapters as needed.
 * **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part. 
 * **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.
-* **adapter**: Adapters are the connection point of the IO devices (databases, web interfaces, rest services, printers, keyboards, ...) Driving adapters call app usecases. Driven adapters im
+* **adapter**: Adapters are the connection point of the IO devices (databases, web interfaces, rest services, printers, keyboards, ...) Driving adapters call app usecases and driven adapters used by usescases of the app.
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
@@ -152,7 +152,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjY2NjY3OCwtOTEzNjgxNDY3LDEzNz
+eyJoaXN0b3J5IjpbLTM3MTM0Nzg0MSwtOTEzNjgxNDY3LDEzNz
 Q3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3
 LDgzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwOD
 U3NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3
