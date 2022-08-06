@@ -85,7 +85,7 @@ Each component is developed separately; is encapsulated in its own package and h
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 * **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters. 
-* **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part 
+* **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can combine application and business logic into app part of the component
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
@@ -152,7 +152,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNjM3MDQzLDEzNzQ3NTM4NywyNjAzND
+eyJoaXN0b3J5IjpbODA0MTczMjc0LDEzNzQ3NTM4NywyNjAzND
 kzNDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwt
 MTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3MDcsLTE3OD
 gyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LDcxMTgyODcz
