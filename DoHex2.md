@@ -91,7 +91,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.  
 
-* **Adapter**: Adapters are the connection point of the IO devices (databases, web interfaces, rest services, printers, keyboards, ...) Driving adapters call app usecases. Driven adapter functionalities are called by usecases of the app based on the application logic of the component.  
+* **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app usecases. Driven adapter functionalities are called by usecases of the app based on the application logic of the component.  
 
 
 
@@ -160,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMT
-cyOTU0OTcwOSwtOTEzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkz
-NDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwtMT
-M0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3MDcsLTE3ODgy
-NjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LDcxMTgyODczNi
-wxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4ODkyMTQsLTY2
-OTIxMTQwOF19
+eyJoaXN0b3J5IjpbNjM3MDY5NjM0LC0xNDUzMTE0NzUwLC0xNz
+Q4NDc5MzY1LDE3Mjk1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUz
+ODcsMjYwMzQ5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mz
+k2NTM2NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3
+NzA3LC0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Ni
+w3MTE4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQy
+ODg5MjE0XX0=
 -->
