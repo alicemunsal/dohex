@@ -91,7 +91,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part.  
 
-* **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app usecases and Driven adapter functionalities are called by usecases of the app based on the application logic of the component.  
+* **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (app,core,adapter) may need this transformation unit. A library consist of data models and/or transformation functions.  
 
@@ -161,7 +161,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjYzODc0Niw3NjkxMDcyOTYsMTM4Mz
+eyJoaXN0b3J5IjpbLTIwMTMwNjQ3Miw3NjkxMDcyOTYsMTM4Mz
 MwODk0MSwtODc4NDA5OTUzLDkzMDIxMDk4NSwxNzEyMTgzMTIz
 LC0xNDUzMTE0NzUwLC0xNzQ4NDc5MzY1LDE3Mjk1NDk3MDksLT
 kxMzY4MTQ2NywxMzc0NzUzODcsMjYwMzQ5MzQzLC0zNjI1Nzk2
