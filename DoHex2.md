@@ -87,7 +87,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-component.png)
 
-* **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App has also contains **Ports**. Ports are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part.  
+* **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part.  
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.  
 
@@ -160,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEyNzc0OTEsLTE0NTMxMTQ3NTAsLT
-E3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOTEzNjgxNDY3LDEzNzQ3
-NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3LD
-gzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3
-NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MD
-Y2LDcxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIw
-NDI4ODkyMTRdfQ==
+eyJoaXN0b3J5IjpbMTcxMjE4MzEyMywtMTQ1MzExNDc1MCwtMT
+c0ODQ3OTM2NSwxNzI5NTQ5NzA5LC05MTM2ODE0NjcsMTM3NDc1
+Mzg3LDI2MDM0OTM0MywtMzYyNTc5Njc2LDEwMjE5MTU0NzcsOD
+M5NjUzNjc4LC0xMzQwNDk4MTU4LDE3NjQwMzE3MjksMjA4NTc0
+NzcwNywtMTc4ODI2NDkyOCwxNzQzNjgwNjgwLDE2NDAzOTcwNj
+YsNzExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NTUxNDY4NiwtMjA0
+Mjg4OTIxNF19
 -->
