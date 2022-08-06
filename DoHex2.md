@@ -84,9 +84,9 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* app: This is the application logic part of the component. This part contains usecases  It's about automation
-* lib: Libraries are used when different data model and/or transformation functions are necessary at that part.
-
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part.
+* app: This is the application logic part of the component. It's about automation. This part contains usecases
+* 
 Each component can have a different complexity, we can omit unnecessary parts.
 
 Key points of the DoHex:
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NDE0NzU4LC02NjkyMTE0MDgsNDc1Nz
-I0ODgsNTc3Njg4OCwtMTA5NDMxODU4NCwtMTA5NDMxODU4NCwt
-MTQ3ODY1NzM2OSwxNDU1OTMyODE3LC03NDUzNDgxNjYsLTE2NT
-AyNjYxMzMsLTE2NTAyNjYxMzMsMTYzNTE5OTI3LDEwNzkyNjc3
-NSwtMTIxOTc4NzA2LDI2NjI1MTYyMyw4NDA0OTczMzAsMTg3MT
-Y1ODg4NSwtMzA3OTMzODExLDE4NjEzOTczMTUsNzM2NzQ1NDEx
-XX0=
+eyJoaXN0b3J5IjpbMjE0Mjc0MTQ0MiwtNjY5MjExNDA4LDQ3NT
+cyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQs
+LTE0Nzg2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNj
+UwMjY2MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3
+NzUsLTEyMTk3ODcwNiwyNjYyNTE2MjMsODQwNDk3MzMwLDE4Nz
+E2NTg4ODUsLTMwNzkzMzgxMSwxODYxMzk3MzE1LDczNjc0NTQx
+MV19
 -->
