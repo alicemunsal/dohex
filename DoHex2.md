@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are the **Side Effect**[^10] free functionalities of 
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide a facade interface for  
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 
@@ -148,11 +148,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC0xNz
-g4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3
-MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC
-02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4
-NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxNDU1OTMyODE3LC
-03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2NTAyNjYxMzMsMTYz
-NTE5OTI3XX0=
+eyJoaXN0b3J5IjpbLTE3OTMyNzIzOTMsMTc2NDAzMTcyOSwyMD
+g1NzQ3NzA3LC0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5
+NzA2Niw3MTE4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC
+0yMDQyODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4
+OCwtMTA5NDMxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OS
+wxNDU1OTMyODE3LC03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2
+NTAyNjYxMzNdfQ==
 -->
