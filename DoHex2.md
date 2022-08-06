@@ -85,7 +85,7 @@ Each component is developed separately; is encapsulated in its own package and h
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 * **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters. 
-* **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can combine application and business logic into app part of the component
+* **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into app.
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
@@ -152,11 +152,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MTczMjc0LDEzNzQ3NTM4NywyNjAzND
-kzNDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwt
-MTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3MDcsLTE3OD
-gyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LDcxMTgyODcz
-NiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4ODkyMTQsLT
-Y2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4LC0xMDk0MzE4NTg0
-XX0=
+eyJoaXN0b3J5IjpbLTkxMzY4MTQ2NywxMzc0NzUzODcsMjYwMz
+Q5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mzk2NTM2Nzgs
+LTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC0xNz
+g4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3
+MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC
+02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4
+NF19
 -->
