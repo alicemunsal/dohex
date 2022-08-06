@@ -86,7 +86,7 @@ Each component is developed separately; is encapsulated in its own package and h
 A component can contain 1 App, 1 Core and many Adapters as needed.
 * **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part. 
 * **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.
-* **adapter**: Adapters are the connection point of the IO devices (databases, web interfaces, rest services, printers, keyboards, ...) Driving adapters call app usecases and driven adapter functionalities are called by usescases of the app.
+* **adapter**: Adapters are the connection point of the IO devices (databases, web interfaces, rest services, printers, keyboards, ...) Driving adapters call app usecases. Driven adapter functionalities are called by usescases of the app based on the application logic of the component.
 
 
 
@@ -155,11 +155,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ3MDU3MTksLTkxMzY4MTQ2NywxMz
-c0NzUzODcsMjYwMzQ5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3
-Nyw4Mzk2NTM2NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMD
-g1NzQ3NzA3LC0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5
-NzA2Niw3MTE4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC
-0yMDQyODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4
-OF19
+eyJoaXN0b3J5IjpbODExMzY0MDU2LC05MTM2ODE0NjcsMTM3ND
+c1Mzg3LDI2MDM0OTM0MywtMzYyNTc5Njc2LDEwMjE5MTU0Nzcs
+ODM5NjUzNjc4LC0xMzQwNDk4MTU4LDE3NjQwMzE3MjksMjA4NT
+c0NzcwNywtMTc4ODI2NDkyOCwxNzQzNjgwNjgwLDE2NDAzOTcw
+NjYsNzExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NTUxNDY4NiwtMj
+A0Mjg4OTIxNCwtNjY5MjExNDA4LDQ3NTcyNDg4LDU3NzY4ODhd
+fQ==
 -->
