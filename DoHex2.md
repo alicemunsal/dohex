@@ -108,7 +108,7 @@ Key points of the DoHex:
 CQRS is natural
 freedom 
 High level project structure is the way to connect your software architecture to your source code.
-
+Developers dont much to learn about
 
 Reflecting this selections and drawings into code is considered as the part of the design process
 
@@ -160,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzMwODk0MSwtODc4NDA5OTUzLDkzMD
-IxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4NDc5
-MzY1LDE3Mjk1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUzODcsMj
-YwMzQ5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mzk2NTM2
-NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC
-0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4
-Mjg3MzZdfQ==
+eyJoaXN0b3J5IjpbNzY5MTA3Mjk2LDEzODMzMDg5NDEsLTg3OD
+QwOTk1Myw5MzAyMTA5ODUsMTcxMjE4MzEyMywtMTQ1MzExNDc1
+MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5NzA5LC05MTM2ODE0NjcsMT
+M3NDc1Mzg3LDI2MDM0OTM0MywtMzYyNTc5Njc2LDEwMjE5MTU0
+NzcsODM5NjUzNjc4LC0xMzQwNDk4MTU4LDE3NjQwMzE3MjksMj
+A4NTc0NzcwNywtMTc4ODI2NDkyOCwxNzQzNjgwNjgwLDE2NDAz
+OTcwNjZdfQ==
 -->
