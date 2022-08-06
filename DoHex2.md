@@ -146,12 +146,13 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
+[^10]: Side effects https://dev.to/ruizb/side-effects-21fc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTc0NzcwNywtMTc4ODI2NDkyOCwxNz
-QzNjgwNjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LDE5MzEyNTAx
-NzYsLTQ2NTUxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LD
-Q3NTcyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1
-ODQsLTE0Nzg2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC
-0xNjUwMjY2MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5
-MjY3NzVdfQ==
+eyJoaXN0b3J5IjpbLTkyNzI3Mzc0MSwyMDg1NzQ3NzA3LC0xNz
+g4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3
+MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC
+02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4
+NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxNDU1OTMyODE3LC
+03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2NTAyNjYxMzMsMTYz
+NTE5OTI3XX0=
 -->
