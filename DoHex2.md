@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
-* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports** to define adapter 
+* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports** to define  
 * **core**: This is the business logic part of the component. 
 
 Component part definitions:
@@ -152,7 +152,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzEzNDAxOSwxMDIxOTE1NDc3LDgzOT
+eyJoaXN0b3J5IjpbLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOT
 Y1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3
 MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LD
 cxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4
