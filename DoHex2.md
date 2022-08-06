@@ -84,8 +84,8 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each stage gets data from outer stages as 
-* **app:** This is the application logic part of the component. It's about automation. This part contains usecases and imay contains request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each stage gets data defined in from outer stages 
+* **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 Each component can have a different complexity, we can omit unnecessary parts.
 
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY5ODk2NjQsMTY0MDM5NzA2Niw3MT
-E4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5
-MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5ND
-MxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxNDU1OTMy
-ODE3LC03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2NTAyNjYxMz
-MsMTYzNTE5OTI3LDEwNzkyNjc3NSwtMTIxOTc4NzA2LDI2NjI1
-MTYyM119
+eyJoaXN0b3J5IjpbNTEyMzc1Mzg3LDE2NDAzOTcwNjYsNzExOD
+I4NzM2LDE5MzEyNTAxNzYsLTQ2NTUxNDY4NiwtMjA0Mjg4OTIx
+NCwtNjY5MjExNDA4LDQ3NTcyNDg4LDU3NzY4ODgsLTEwOTQzMT
+g1ODQsLTEwOTQzMTg1ODQsLTE0Nzg2NTczNjksMTQ1NTkzMjgx
+NywtNzQ1MzQ4MTY2LC0xNjUwMjY2MTMzLC0xNjUwMjY2MTMzLD
+E2MzUxOTkyNywxMDc5MjY3NzUsLTEyMTk3ODcwNiwyNjYyNTE2
+MjNdfQ==
 -->
