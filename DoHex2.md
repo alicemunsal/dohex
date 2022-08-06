@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
-* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters in this part.
+* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part.
 * **core**: This is the business logic part of the component. 
 
 Component part definitions:
@@ -152,11 +152,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5Nzc1Mzc0LDEwMjE5MTU0NzcsODM5Nj
-UzNjc4LC0xMzQwNDk4MTU4LDE3NjQwMzE3MjksMjA4NTc0Nzcw
-NywtMTc4ODI2NDkyOCwxNzQzNjgwNjgwLDE2NDAzOTcwNjYsNz
-ExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NTUxNDY4NiwtMjA0Mjg4
-OTIxNCwtNjY5MjExNDA4LDQ3NTcyNDg4LDU3NzY4ODgsLTEwOT
-QzMTg1ODQsLTEwOTQzMTg1ODQsLTE0Nzg2NTczNjksMTQ1NTkz
-MjgxN119
+eyJoaXN0b3J5IjpbMTk3ODAxNzM4NSwxMDIxOTE1NDc3LDgzOT
+Y1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3
+MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LD
+cxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4
+ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4LC0xMD
+k0MzE4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3MzY5LDE0NTU5
+MzI4MTddfQ==
 -->
