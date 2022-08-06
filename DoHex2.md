@@ -93,7 +93,7 @@ Key points of the DoHex:
 * 
 
 CQRS is natural
-
+freedom 
 High level project structure is the way to connect your software architecture to your source code.
 
 
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NT
-UxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LDQ3NTcyNDg4
-LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQsLTE0Nz
-g2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNjUwMjY2
-MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3NzUsLT
-EyMTk3ODcwNiwyNjYyNTE2MjMsODQwNDk3MzMwLDE4NzE2NTg4
-ODVdfQ==
+eyJoaXN0b3J5IjpbMTY0MDM5NzA2Niw3MTE4Mjg3MzYsMTkzMT
+I1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC02NjkyMTE0
+MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4NCwtMTA5ND
+MxODU4NCwtMTQ3ODY1NzM2OSwxNDU1OTMyODE3LC03NDUzNDgx
+NjYsLTE2NTAyNjYxMzMsLTE2NTAyNjYxMzMsMTYzNTE5OTI3LD
+EwNzkyNjc3NSwtMTIxOTc4NzA2LDI2NjI1MTYyMyw4NDA0OTcz
+MzBdfQ==
 -->
