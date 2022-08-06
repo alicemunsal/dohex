@@ -81,7 +81,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
 
-Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
+The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 
@@ -160,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMjEwOTg1LDE3MTIxODMxMjMsLTE0NT
-MxMTQ3NTAsLTE3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOTEzNjgx
-NDY3LDEzNzQ3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3NiwxMD
-IxOTE1NDc3LDgzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMx
-NzI5LDIwODU3NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MC
-wxNjQwMzk3MDY2LDcxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1
-MTQ2ODZdfQ==
+eyJoaXN0b3J5IjpbLTg3ODQwOTk1Myw5MzAyMTA5ODUsMTcxMj
+E4MzEyMywtMTQ1MzExNDc1MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5
+NzA5LC05MTM2ODE0NjcsMTM3NDc1Mzg3LDI2MDM0OTM0MywtMz
+YyNTc5Njc2LDEwMjE5MTU0NzcsODM5NjUzNjc4LC0xMzQwNDk4
+MTU4LDE3NjQwMzE3MjksMjA4NTc0NzcwNywtMTc4ODI2NDkyOC
+wxNzQzNjgwNjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LDE5MzEy
+NTAxNzZdfQ==
 -->
