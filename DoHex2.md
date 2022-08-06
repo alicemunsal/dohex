@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are 
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are the **Side Effect** free functionalities of 
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 
@@ -148,7 +148,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://dev.to/ruizb/side-effects-21fc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzI3Mzc0MSwyMDg1NzQ3NzA3LC0xNz
+eyJoaXN0b3J5IjpbLTM0ODIxMzcyMiwyMDg1NzQ3NzA3LC0xNz
 g4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3
 MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC
 02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4
