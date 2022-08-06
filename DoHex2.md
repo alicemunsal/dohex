@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. We don't need a library, if implicit transformation provided by the external frameworks or if we pass data directly to the inner layers or  
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. We don't need a library, if implicit transformation provided by the external frameworks or data is passed directly to the inner layers without need for transformation or   
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 
@@ -145,7 +145,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcwMTc4NjQsMTc0MzY4MDY4MCwxNj
+eyJoaXN0b3J5IjpbLTE5MTg3ODkwOTgsMTc0MzY4MDY4MCwxNj
 QwMzk3MDY2LDcxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2
 ODYsLTIwNDI4ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nz
 c2ODg4LC0xMDk0MzE4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3
