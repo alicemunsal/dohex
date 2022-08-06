@@ -84,6 +84,9 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
+
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-component.png)
+
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App has also contains **Ports**. Ports are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part.  
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.  
@@ -157,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOT
-EzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3
-NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNz
-Y0MDMxNzI5LDIwODU3NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4
-MDY4MCwxNjQwMzk3MDY2LDcxMTgyODczNiwxOTMxMjUwMTc2LC
-00NjU1MTQ2ODYsLTIwNDI4ODkyMTQsLTY2OTIxMTQwOCw0NzU3
-MjQ4OF19
+eyJoaXN0b3J5IjpbLTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMT
+cyOTU0OTcwOSwtOTEzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkz
+NDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwtMT
+M0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3MDcsLTE3ODgy
+NjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LDcxMTgyODczNi
+wxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4ODkyMTQsLTY2
+OTIxMTQwOF19
 -->
