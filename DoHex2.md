@@ -85,7 +85,7 @@ Each component is developed separately; is encapsulated in its own package and h
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part.
-* app: This is the application logic part of the component. It's about automation. This part contains usecases
+* **app:** This is the application logic part of the component. It's about automation. This part contains usecases
 * 
 Each component can have a different complexity, we can omit unnecessary parts.
 
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mjc0MTQ0MiwtNjY5MjExNDA4LDQ3NT
-cyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQs
-LTE0Nzg2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNj
-UwMjY2MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3
-NzUsLTEyMTk3ODcwNiwyNjYyNTE2MjMsODQwNDk3MzMwLDE4Nz
-E2NTg4ODUsLTMwNzkzMzgxMSwxODYxMzk3MzE1LDczNjc0NTQx
-MV19
+eyJoaXN0b3J5IjpbLTIwNDI4ODkyMTQsLTY2OTIxMTQwOCw0Nz
+U3MjQ4OCw1Nzc2ODg4LC0xMDk0MzE4NTg0LC0xMDk0MzE4NTg0
+LC0xNDc4NjU3MzY5LDE0NTU5MzI4MTcsLTc0NTM0ODE2NiwtMT
+Y1MDI2NjEzMywtMTY1MDI2NjEzMywxNjM1MTk5MjcsMTA3OTI2
+Nzc1LC0xMjE5Nzg3MDYsMjY2MjUxNjIzLDg0MDQ5NzMzMCwxOD
+cxNjU4ODg1LC0zMDc5MzM4MTEsMTg2MTM5NzMxNSw3MzY3NDU0
+MTFdfQ==
 -->
