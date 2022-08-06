@@ -87,9 +87,9 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-component.png)
 
-* **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driving adapters as a function in this part.  
+* **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
-* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into usecases of the app part.  
+* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part.  
 
 * **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app usecases and Driven adapter functionalities are called by usecases of the app based on the application logic of the component.  
 
@@ -97,7 +97,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
-* **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
+* **app:** This is the application logic part of the component. It's about automation. This part contains use cases and if necessary request and response models for the use cases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 
 Each component can have a different complexity, we can omit unnecessary parts.
@@ -160,11 +160,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODQwOTk1Myw5MzAyMTA5ODUsMTcxMj
-E4MzEyMywtMTQ1MzExNDc1MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5
-NzA5LC05MTM2ODE0NjcsMTM3NDc1Mzg3LDI2MDM0OTM0MywtMz
-YyNTc5Njc2LDEwMjE5MTU0NzcsODM5NjUzNjc4LC0xMzQwNDk4
-MTU4LDE3NjQwMzE3MjksMjA4NTc0NzcwNywtMTc4ODI2NDkyOC
-wxNzQzNjgwNjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LDE5MzEy
-NTAxNzZdfQ==
+eyJoaXN0b3J5IjpbMTM4MzMwODk0MSwtODc4NDA5OTUzLDkzMD
+IxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4NDc5
+MzY1LDE3Mjk1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUzODcsMj
+YwMzQ5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mzk2NTM2
+NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC
+0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4
+Mjg3MzZdfQ==
 -->
