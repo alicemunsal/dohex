@@ -2,7 +2,7 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD)[^4] is mainly used in video game development. Some of its fundamental principles can be applicable to other areas of software development such as Frontend, Backend and Embedded. 
+Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development such as Frontend, Backend and Embedded. 
 
 By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity and consistent project structure to reduce the model-code gap[^5] .
 
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTUxNDY4NiwtMjA0Mjg4OTIxNCwtNj
-Y5MjExNDA4LDQ3NTcyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQs
-LTEwOTQzMTg1ODQsLTE0Nzg2NTczNjksMTQ1NTkzMjgxNywtNz
-Q1MzQ4MTY2LC0xNjUwMjY2MTMzLC0xNjUwMjY2MTMzLDE2MzUx
-OTkyNywxMDc5MjY3NzUsLTEyMTk3ODcwNiwyNjYyNTE2MjMsOD
-QwNDk3MzMwLDE4NzE2NTg4ODUsLTMwNzkzMzgxMSwxODYxMzk3
-MzE1XX0=
+eyJoaXN0b3J5IjpbMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMD
+QyODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwt
+MTA5NDMxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxND
+U1OTMyODE3LC03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2NTAy
+NjYxMzMsMTYzNTE5OTI3LDEwNzkyNjc3NSwtMTIxOTc4NzA2LD
+I2NjI1MTYyMyw4NDA0OTczMzAsMTg3MTY1ODg4NSwtMzA3OTMz
+ODExXX0=
 -->
