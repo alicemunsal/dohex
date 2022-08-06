@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
-* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters. 
+* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters.  Usecases of the component are exposed to driven adapters as a function in this part. 
 * **core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into app.
 
 Component part definitions:
@@ -152,11 +152,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzY4MTQ2NywxMzc0NzUzODcsMjYwMz
-Q5MzQzLC0zNjI1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mzk2NTM2Nzgs
-LTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC0xNz
-g4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3
-MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC
-02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4
-NF19
+eyJoaXN0b3J5IjpbLTE1OTE4NjkzOSwtOTEzNjgxNDY3LDEzNz
+Q3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3NiwxMDIxOTE1NDc3
+LDgzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwOD
+U3NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3
+MDY2LDcxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLT
+IwNDI4ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4
+XX0=
 -->
