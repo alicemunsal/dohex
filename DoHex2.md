@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
-* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports** to define  
+* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters. 
 * **core**: This is the business logic part of the component. 
 
 Component part definitions:
@@ -152,11 +152,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjU3OTY3NiwxMDIxOTE1NDc3LDgzOT
-Y1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3
-MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LD
-cxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4
-ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4LC0xMD
-k0MzE4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3MzY5LDE0NTU5
-MzI4MTddfQ==
+eyJoaXN0b3J5IjpbMjYwMzQ5MzQzLC0zNjI1Nzk2NzYsMTAyMT
+kxNTQ3Nyw4Mzk2NTM2NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcy
+OSwyMDg1NzQ3NzA3LC0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMT
+Y0MDM5NzA2Niw3MTE4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0
+Njg2LC0yMDQyODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNT
+c3Njg4OCwtMTA5NDMxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1
+NzM2OV19
 -->
