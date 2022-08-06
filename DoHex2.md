@@ -85,7 +85,7 @@ Each component is developed separately; is encapsulated in its own package and h
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 * **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Usecases of the component are exposed to driven adapters as a function in this part. App has also contains **ports**. Ports are simple interfaces that define contracts between app and adapters. 
-* **core**: This is the business logic or domain logic part of the component. 
+* **core**: This is the business logic or domain logic part of the component. It contains real world business rule and
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
@@ -152,11 +152,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjExNzEyLDI2MDM0OTM0MywtMzYyNT
-c5Njc2LDEwMjE5MTU0NzcsODM5NjUzNjc4LC0xMzQwNDk4MTU4
-LDE3NjQwMzE3MjksMjA4NTc0NzcwNywtMTc4ODI2NDkyOCwxNz
-QzNjgwNjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LDE5MzEyNTAx
-NzYsLTQ2NTUxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LD
-Q3NTcyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1
-ODRdfQ==
+eyJoaXN0b3J5IjpbLTIxMTk1NzE4MjMsMjYwMzQ5MzQzLC0zNj
+I1Nzk2NzYsMTAyMTkxNTQ3Nyw4Mzk2NTM2NzgsLTEzNDA0OTgx
+NTgsMTc2NDAzMTcyOSwyMDg1NzQ3NzA3LC0xNzg4MjY0OTI4LD
+E3NDM2ODA2ODAsMTY0MDM5NzA2Niw3MTE4Mjg3MzYsMTkzMTI1
+MDE3NiwtNDY1NTE0Njg2LC0yMDQyODg5MjE0LC02NjkyMTE0MD
+gsNDc1NzI0ODgsNTc3Njg4OCwtMTA5NDMxODU4NCwtMTA5NDMx
+ODU4NF19
 -->
