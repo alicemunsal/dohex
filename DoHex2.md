@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each stage gets data from outside stage and transform that data to inner stage data models.
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. 
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 Each component can have a different complexity, we can omit unnecessary parts.
@@ -144,7 +144,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTEwMjU0MywxNjQwMzk3MDY2LDcxMT
+eyJoaXN0b3J5IjpbMTc0MzY4MDY4MCwxNjQwMzk3MDY2LDcxMT
 gyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4ODky
 MTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4LC0xMDk0Mz
 E4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3MzY5LDE0NTU5MzI4
