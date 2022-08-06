@@ -93,6 +93,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app usecases and Driven adapter functionalities are called by usecases of the app based on the application logic of the component.  
 
+* **Lib**: A
 
 
 Component part definitions:
@@ -160,11 +161,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MTA3Mjk2LDEzODMzMDg5NDEsLTg3OD
-QwOTk1Myw5MzAyMTA5ODUsMTcxMjE4MzEyMywtMTQ1MzExNDc1
-MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5NzA5LC05MTM2ODE0NjcsMT
-M3NDc1Mzg3LDI2MDM0OTM0MywtMzYyNTc5Njc2LDEwMjE5MTU0
-NzcsODM5NjUzNjc4LC0xMzQwNDk4MTU4LDE3NjQwMzE3MjksMj
-A4NTc0NzcwNywtMTc4ODI2NDkyOCwxNzQzNjgwNjgwLDE2NDAz
-OTcwNjZdfQ==
+eyJoaXN0b3J5IjpbNDQ3NDE0MzM0LDc2OTEwNzI5NiwxMzgzMz
+A4OTQxLC04Nzg0MDk5NTMsOTMwMjEwOTg1LDE3MTIxODMxMjMs
+LTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOT
+EzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3
+NiwxMDIxOTE1NDc3LDgzOTY1MzY3OCwtMTM0MDQ5ODE1OCwxNz
+Y0MDMxNzI5LDIwODU3NDc3MDcsLTE3ODgyNjQ5MjgsMTc0MzY4
+MDY4MF19
 -->
