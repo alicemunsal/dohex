@@ -95,13 +95,14 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model.
 
+Each component can have a different complexity, we can omit unnecessary parts and libraries.
 
-Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
-* **app:** This is the application logic part of the component. It's about automation. This part contains use cases and if necessary request and response models for the use cases in its lib. If business logic is trivial, we can include in this part.
-* **core**: Business logic part of the component. 
 
-Each component can have a different complexity, we can omit unnecessary parts.
+
+
+
+
+
 
 Key points of the DoHex:
 * 
@@ -161,7 +162,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNDQzNDk2LDE1MDI2NDIyODIsLTI4OD
+eyJoaXN0b3J5IjpbNTY1Nzg0MDk1LDE1MDI2NDIyODIsLTI4OD
 A4NDM0LC0yMDEzMDY0NzIsNzY5MTA3Mjk2LDEzODMzMDg5NDEs
 LTg3ODQwOTk1Myw5MzAyMTA5ODUsMTcxMjE4MzEyMywtMTQ1Mz
 ExNDc1MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5NzA5LC05MTM2ODE0
