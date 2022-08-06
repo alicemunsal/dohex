@@ -83,7 +83,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
-We can make components 
+A component is made of 3 main section; App, Core, Adapters.
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
@@ -150,11 +150,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NjUzNjc4LC0xMzQwNDk4MTU4LDE3Nj
-QwMzE3MjksMjA4NTc0NzcwNywtMTc4ODI2NDkyOCwxNzQzNjgw
-NjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LDE5MzEyNTAxNzYsLT
-Q2NTUxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LDQ3NTcy
-NDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQsLT
-E0Nzg2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNjUw
-MjY2MTMzXX0=
+eyJoaXN0b3J5IjpbLTEwODc5NTc4MjAsODM5NjUzNjc4LC0xMz
+QwNDk4MTU4LDE3NjQwMzE3MjksMjA4NTc0NzcwNywtMTc4ODI2
+NDkyOCwxNzQzNjgwNjgwLDE2NDAzOTcwNjYsNzExODI4NzM2LD
+E5MzEyNTAxNzYsLTQ2NTUxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5
+MjExNDA4LDQ3NTcyNDg4LDU3NzY4ODgsLTEwOTQzMTg1ODQsLT
+EwOTQzMTg1ODQsLTE0Nzg2NTczNjksMTQ1NTkzMjgxNywtNzQ1
+MzQ4MTY2XX0=
 -->
