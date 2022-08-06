@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 Component part definitions:
-* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. We don't need a library, if implicit transformation provided by the external frameworks or data is passed directly to the inner layers without need for transformation or our data model is a simply data type like int, double, string.  
+* **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. We don't need a library, if implicit transformation provided by the external frameworks or data is passed directly to the inner layers or our data model is a simple data type like int, double, string.  
 * **app:** This is the application logic part of the component. It's about automation. This part contains usecases and if necessary request and response models for the usecases in its lib. If business logic is trivial, we can include in this part.
 * **core**: Business logic part of the component. 
 
@@ -145,11 +145,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODIyMTg5NCwxNzQzNjgwNjgwLDE2ND
-AzOTcwNjYsNzExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NTUxNDY4
-NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LDQ3NTcyNDg4LDU3Nz
-Y4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQsLTE0Nzg2NTcz
-NjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNjUwMjY2MTMzLC
-0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3NzUsLTEyMTk3
-ODcwNl19
+eyJoaXN0b3J5IjpbLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNj
+QwMzk3MDY2LDcxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2
+ODYsLTIwNDI4ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nz
+c2ODg4LC0xMDk0MzE4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3
+MzY5LDE0NTU5MzI4MTcsLTc0NTM0ODE2NiwtMTY1MDI2NjEzMy
+wtMTY1MDI2NjEzMywxNjM1MTk5MjcsMTA3OTI2Nzc1LC0xMjE5
+Nzg3MDZdfQ==
 -->
