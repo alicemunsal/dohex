@@ -77,7 +77,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 
 ## DoHex  
 
- DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and **Data Oriented**. 
+ DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and Data Oriented. 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
 
@@ -144,11 +144,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMD
-QyODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwt
-MTA5NDMxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxND
-U1OTMyODE3LC03NDUzNDgxNjYsLTE2NTAyNjYxMzMsLTE2NTAy
-NjYxMzMsMTYzNTE5OTI3LDEwNzkyNjc3NSwtMTIxOTc4NzA2LD
-I2NjI1MTYyMyw4NDA0OTczMzAsMTg3MTY1ODg4NSwtMzA3OTMz
-ODExXX0=
+eyJoaXN0b3J5IjpbNzExODI4NzM2LDE5MzEyNTAxNzYsLTQ2NT
+UxNDY4NiwtMjA0Mjg4OTIxNCwtNjY5MjExNDA4LDQ3NTcyNDg4
+LDU3NzY4ODgsLTEwOTQzMTg1ODQsLTEwOTQzMTg1ODQsLTE0Nz
+g2NTczNjksMTQ1NTkzMjgxNywtNzQ1MzQ4MTY2LC0xNjUwMjY2
+MTMzLC0xNjUwMjY2MTMzLDE2MzUxOTkyNywxMDc5MjY3NzUsLT
+EyMTk3ODcwNiwyNjYyNTE2MjMsODQwNDk3MzMwLDE4NzE2NTg4
+ODVdfQ==
 -->
