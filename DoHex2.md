@@ -84,7 +84,7 @@ DOD's standpoint is to separate data from behavior. Thus we can achieve; simplif
 Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
-* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities.   
+* **app**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. Component Usecases of the compone are exposed   
 
 Component part definitions:
 * **lib**: Libraries are used when different data model and/or transformation functions are necessary at that part. Each layer gets data from outside layer and transform that data to inner layer data models. Libraries are **Side Effect**[^10] free and they provide facade interfaces for usability and testability. 
@@ -151,11 +151,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0NzUxNTAsMTAyMTkxNTQ3Nyw4Mz
-k2NTM2NzgsLTEzNDA0OTgxNTgsMTc2NDAzMTcyOSwyMDg1NzQ3
-NzA3LC0xNzg4MjY0OTI4LDE3NDM2ODA2ODAsMTY0MDM5NzA2Ni
-w3MTE4Mjg3MzYsMTkzMTI1MDE3NiwtNDY1NTE0Njg2LC0yMDQy
-ODg5MjE0LC02NjkyMTE0MDgsNDc1NzI0ODgsNTc3Njg4OCwtMT
-A5NDMxODU4NCwtMTA5NDMxODU4NCwtMTQ3ODY1NzM2OSwxNDU1
-OTMyODE3XX0=
+eyJoaXN0b3J5IjpbMTQ5MzI3MjAzOCwxMDIxOTE1NDc3LDgzOT
+Y1MzY3OCwtMTM0MDQ5ODE1OCwxNzY0MDMxNzI5LDIwODU3NDc3
+MDcsLTE3ODgyNjQ5MjgsMTc0MzY4MDY4MCwxNjQwMzk3MDY2LD
+cxMTgyODczNiwxOTMxMjUwMTc2LC00NjU1MTQ2ODYsLTIwNDI4
+ODkyMTQsLTY2OTIxMTQwOCw0NzU3MjQ4OCw1Nzc2ODg4LC0xMD
+k0MzE4NTg0LC0xMDk0MzE4NTg0LC0xNDc4NjU3MzY5LDE0NTU5
+MzI4MTddfQ==
 -->
