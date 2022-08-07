@@ -66,6 +66,8 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - If you don't understand the cost of solving the problem, you don't understand the problem.
 > - Solving problems you probably don't have creates more problems.
 > - There is no ideal, abstract solution to the problem.  
+>
+> Mike Acton
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
@@ -243,11 +245,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDE4OTQxMSwyMTQxOTc3MjEyLDg0Mz
-UzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4NSw1MzA1MDc4MjIs
-LTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4NTUsLTEwMz
-Q2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4
-MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3NDE2Ni
-wtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMjI5MzMsMjEy
-NTk2NjM2NV19
+eyJoaXN0b3J5IjpbLTE2MzIxMDExNDAsLTQyNDE4OTQxMSwyMT
+QxOTc3MjEyLDg0MzUzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4
+NSw1MzA1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5Nj
+gzODg4NTUsLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1
+NzYyLC0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NC
+wtMTc0Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0
+NTAyMjI5MzNdfQ==
 -->
