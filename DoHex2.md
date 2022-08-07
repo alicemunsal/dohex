@@ -95,7 +95,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model.
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model. Librar
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part may decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -112,7 +112,7 @@ components
     payment
     product
     shipping
-lib
+lib					--> shared libraris
 ```
 
 ```
@@ -241,7 +241,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTIwMjY0Miw4NDM1MzM0ODUsNzg1MT
+eyJoaXN0b3J5IjpbMTk2NDU2MzM4MSw4NDM1MzM0ODUsNzg1MT
 M2ODg2LDEzNDI2MjQxODUsNTMwNTA3ODIyLC0zMzk5OTc4MjUs
 LTczOTk3MDExMCwxOTY4Mzg4ODU1LC0xMDM0NjM3MjEsLTE3Nz
 A0MDg4NzIsLTYzNjU1NTc2MiwtMTk2MDM5ODE1MiwtMTY2NDE1
