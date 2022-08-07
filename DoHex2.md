@@ -149,7 +149,7 @@ lib					--> shared libraries
 ```
 **components:** This is where we put each component as a folder.
 **lib:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components.
-**acl:** We may not want to directly add external dependencies to our project
+**acl:** Anti corruption layer for external dependencies and legacy applications. We may not want to directly add external dependencies of these to our project
 ```
 acl	
 components
@@ -272,7 +272,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTE0NTQ3MywtNTk4NTYwNDMzLDE3Nz
+eyJoaXN0b3J5IjpbMTgzNDc5NTcxNywtNTk4NTYwNDMzLDE3Nz
 gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
 OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
 0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
