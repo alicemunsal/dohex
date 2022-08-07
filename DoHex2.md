@@ -149,7 +149,7 @@ lib					--> shared libraries
 ```
 **components:** This is where we put each component as a folder.
 **lib:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components.
-**acl:** Anti corruption layer[^12] for external dependencies and legacy applications. We may not want to directly add external dependencies of these to our project
+**acl:** Anti corruption layer[^12] for external dependencies and legacy applications. We may not want to directly add external dependencies of these to our project. we should implement facade or adapter pattern to use 
 ```
 acl	
 components
@@ -273,11 +273,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg3NDM3MTQsLTU5ODU2MDQzMywxNz
-c4MjIyOTQ5LDE4MzAxMzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIy
-ODk5NSwtMTgyMTI4NjU0LC0xODIxMjg2NTQsMTA2OTIzNzAzOC
-wtMTMwMTA5NTMwOCwtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUw
-MTg4OTc2MywyMTQwMzg0MjYyLDUwNDAwMDA4OSwtOTkwMTQ2Mz
-UyLDE1NzkzNjQ5OTgsNzM1OTg5NTE4LC0xOTEzNzY0MjAxLDE3
-ODc3OTg5NzddfQ==
+eyJoaXN0b3J5IjpbLTY3MjYyMzk1NCwtNTk4NTYwNDMzLDE3Nz
+gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
+OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
+0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
+ODg5NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNT
+IsMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4
+Nzc5ODk3N119
 -->
