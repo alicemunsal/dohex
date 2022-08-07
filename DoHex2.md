@@ -148,6 +148,8 @@ components
 lib					--> shared libraries
 ```
 
+**acl:** 
+
 ```
 acl	
 components
@@ -270,11 +272,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4Mz
-AxMzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4
-NjU0LC0xODIxMjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOC
-wtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUwMTg4OTc2MywyMTQw
-Mzg0MjYyLDUwNDAwMDA4OSwtOTkwMTQ2MzUyLDE1NzkzNjQ5OT
-gsNzM1OTg5NTE4LC0xOTEzNzY0MjAxLDE3ODc3OTg5NzcsLTE5
-OTkyMjA5MzddfQ==
+eyJoaXN0b3J5IjpbMTI4MTQwNzU5NywtNTk4NTYwNDMzLDE3Nz
+gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
+OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
+0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
+ODg5NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNT
+IsMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4
+Nzc5ODk3N119
 -->
