@@ -124,7 +124,7 @@ components
     payment
     product
     shipping
-libs					--> shared libraries
+libs				--> shared libraries
 ```
 **components:** This is where we put each component as a folder.  
 **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components.  
@@ -251,11 +251,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC05OT
-U5NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAxMzAw
-MDIsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4NjU0LC
-0xODIxMjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOCwtNTEy
-NTQwOTU3LDE3NzYwNDk0MzUsMTUwMTg4OTc2MywyMTQwMzg0Mj
-YyLDUwNDAwMDA4OSwtOTkwMTQ2MzUyLDE1NzkzNjQ5OTgsNzM1
-OTg5NTE4XX0=
+eyJoaXN0b3J5IjpbMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mj
+g4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5
+NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4OTk1LC
+0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC0xMzAx
+MDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAxODg5Nz
+YzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNTIsMTU3
+OTM2NDk5OF19
 -->
