@@ -108,9 +108,9 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
 
-I am a software architect actively developing softwares. This is how I have been developing softwares  
+I am a software architect actively developing softwares. This is how I have been developing softwares in recent years.  
 
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring are the remaining topics.
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring, tools needed are the remaining topics.
 
 
 
@@ -180,11 +180,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NDU0MDE1LDE5NjgzODg4NTUsLTEwMz
-Q2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4
-MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3NDE2Ni
-wtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMjI5MzMsMjEy
-NTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1MDI2NDIyOD
-IsLTI4ODA4NDM0LC0yMDEzMDY0NzIsNzY5MTA3Mjk2LDEzODMz
-MDg5NDFdfQ==
+eyJoaXN0b3J5IjpbMjAyNjYxNzgxOSwxOTY4Mzg4ODU1LC0xMD
+M0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMTk2MDM5
+ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3NzQxNj
+YsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIx
+MjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAyNjQyMj
+gyLC0yODgwODQzNCwtMjAxMzA2NDcyLDc2OTEwNzI5NiwxMzgz
+MzA4OTQxXX0=
 -->
