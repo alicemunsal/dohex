@@ -104,17 +104,14 @@ Component parts and libraries provide facade interfaces as a service for usabili
 ## Project Structure
 
 components
-: authentication
-: customer
-: orders
-: payment
-: product
-: shipping
-
+    customer
+    notification
+    orders
+    payment
+    product
+    shipping
 lib
-:
 acl
-:
 
 
 ## Advantages
@@ -194,11 +191,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjYyNDE4NSw1MzA1MDc4MjIsLTMzOT
-k5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4NTUsLTEwMzQ2Mzcy
-MSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4MTUyLC
-0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3NDE2NiwtMTQ4
-ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMjI5MzMsMjEyNTk2Nj
-M2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1MDI2NDIyODIsLTI4
-ODA4NDM0XX0=
+eyJoaXN0b3J5IjpbLTQ4NjYwMzUzNiwxMzQyNjI0MTg1LDUzMD
+UwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1
+NSwtMTAzNDYzNzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLT
+E5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNzQ2
+Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQxMjE2NjUsMTQ1MDIyMj
+kzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3ODQwOTUsMTUw
+MjY0MjI4Ml19
 -->
