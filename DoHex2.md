@@ -95,7 +95,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model.
 
-Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. The part may decides to directly return its response to the caller part. 
+Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part may decides to directly return its response to the caller part but we must try to be consistent to what each part is doing. 
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we can make deeper classes[^11] as a bonus.
 
@@ -167,7 +167,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzg1MjE3NywtNTM0MTIxNjY1LDE0NT
+eyJoaXN0b3J5IjpbMTc2NzUyNTY3NiwtNTM0MTIxNjY1LDE0NT
 AyMjI5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1
 LDE1MDI2NDIyODIsLTI4ODA4NDM0LC0yMDEzMDY0NzIsNzY5MT
 A3Mjk2LDEzODMzMDg5NDEsLTg3ODQwOTk1Myw5MzAyMTA5ODUs
