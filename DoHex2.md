@@ -110,7 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
-Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
+Project structure doesn't tend to be Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
 
 Also it reflects software architecture well.
 - maintainability
@@ -261,11 +261,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEyODY1NCwxMDY5MjM3MDM4LC0xMz
-AxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAxODg5
-NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNTIsMT
-U3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4Nzc5
-ODk3NywtMTk5OTIyMDkzNywtNDI0MTg5NDExLDIxNDE5NzcyMT
-IsODQzNTMzNDg1LDc4NTEzNjg4NiwxMzQyNjI0MTg1LDUzMDUw
-NzgyMl19
+eyJoaXN0b3J5IjpbLTk1MzI0OTAwNywtMTgyMTI4NjU0LDEwNj
+kyMzcwMzgsLTEzMDEwOTUzMDgsLTUxMjU0MDk1NywxNzc2MDQ5
+NDM1LDE1MDE4ODk3NjMsMjE0MDM4NDI2Miw1MDQwMDAwODksLT
+k5MDE0NjM1MiwxNTc5MzY0OTk4LDczNTk4OTUxOCwtMTkxMzc2
+NDIwMSwxNzg3Nzk4OTc3LC0xOTk5MjIwOTM3LC00MjQxODk0MT
+EsMjE0MTk3NzIxMiw4NDM1MzM0ODUsNzg1MTM2ODg2LDEzNDI2
+MjQxODVdfQ==
 -->
