@@ -110,7 +110,10 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
+
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
+
+While coding, software developers consistently think about organization of the  
 
 High level project structure 
 Reflecting architecture 
@@ -252,11 +255,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjA0OTQzNSwxNTAxODg5NzYzLDIxND
-AzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNTIsMTU3OTM2NDk5
-OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4Nzc5ODk3NywtMT
-k5OTIyMDkzNywtNDI0MTg5NDExLDIxNDE5NzcyMTIsODQzNTMz
-NDg1LDc4NTEzNjg4NiwxMzQyNjI0MTg1LDUzMDUwNzgyMiwtMz
-M5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1NSwtMTAzNDYz
-NzIxXX0=
+eyJoaXN0b3J5IjpbLTc3NDYwNzI5LDE3NzYwNDk0MzUsMTUwMT
+g4OTc2MywyMTQwMzg0MjYyLDUwNDAwMDA4OSwtOTkwMTQ2MzUy
+LDE1NzkzNjQ5OTgsNzM1OTg5NTE4LC0xOTEzNzY0MjAxLDE3OD
+c3OTg5NzcsLTE5OTkyMjA5MzcsLTQyNDE4OTQxMSwyMTQxOTc3
+MjEyLDg0MzUzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4NSw1Mz
+A1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4
+NTVdfQ==
 -->
