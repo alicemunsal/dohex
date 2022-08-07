@@ -110,7 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
-Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we usually use layered architecture and structure our code based on classes and their relationships
+Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we usually use layered architecture and structure our code based on classes and their relationships.
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
 
@@ -252,7 +252,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2ODUwMzg2LDczNTk4OTUxOCwtMTkxMz
+eyJoaXN0b3J5IjpbNTM4NjQyODE2LDczNTk4OTUxOCwtMTkxMz
 c2NDIwMSwxNzg3Nzk4OTc3LC0xOTk5MjIwOTM3LC00MjQxODk0
 MTEsMjE0MTk3NzIxMiw4NDM1MzM0ODUsNzg1MTM2ODg2LDEzND
 I2MjQxODUsNTMwNTA3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDEx
