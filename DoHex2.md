@@ -105,7 +105,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
 
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment are excluded
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring are the remaining topics
 
 
 
@@ -173,7 +173,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzM4NTM3MywtNjM2NTU1NzYyLC0xOT
+eyJoaXN0b3J5IjpbMjEyODg2NTc5MCwtNjM2NTU1NzYyLC0xOT
 YwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3
 NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMjI5Mz
 MsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1MDI2
