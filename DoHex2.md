@@ -109,7 +109,10 @@ Each component can have a different complexity, we can omit unnecessary parts an
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way, we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
 ## Project Structure
-High level project structure is the one of the important 
+
+High level project structure 
+Reflecting architecture 
+
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
 
@@ -251,11 +254,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MDAwMDg5LC05OTAxNDYzNTIsMTU3OT
-M2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4Nzc5ODk3
-NywtMTk5OTIyMDkzNywtNDI0MTg5NDExLDIxNDE5NzcyMTIsOD
-QzNTMzNDg1LDc4NTEzNjg4NiwxMzQyNjI0MTg1LDUzMDUwNzgy
-MiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1NSwtMT
-AzNDYzNzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLTE5NjAz
-OTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMjE0MDM4NDI2Miw1MDQwMDAwODksLTk5MD
+E0NjM1MiwxNTc5MzY0OTk4LDczNTk4OTUxOCwtMTkxMzc2NDIw
+MSwxNzg3Nzk4OTc3LC0xOTk5MjIwOTM3LC00MjQxODk0MTEsMj
+E0MTk3NzIxMiw4NDM1MzM0ODUsNzg1MTM2ODg2LDEzNDI2MjQx
+ODUsNTMwNTA3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOT
+Y4Mzg4ODU1LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1
+NTc2Ml19
 -->
