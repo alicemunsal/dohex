@@ -89,7 +89,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
-* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part.  
+* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components. You can change this part name to **Domain**    
 
 * **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -167,11 +167,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMj
-U5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAyNjQyMjgy
-LC0yODgwODQzNCwtMjAxMzA2NDcyLDc2OTEwNzI5NiwxMzgzMz
-A4OTQxLC04Nzg0MDk5NTMsOTMwMjEwOTg1LDE3MTIxODMxMjMs
-LTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOT
-EzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3
-Nl19
+eyJoaXN0b3J5IjpbODc3MjgzOTAxLC01MzQxMjE2NjUsMTQ1MD
+IyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3ODQwOTUs
+MTUwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMTMwNjQ3Miw3NjkxMD
+cyOTYsMTM4MzMwODk0MSwtODc4NDA5OTUzLDkzMDIxMDk4NSwx
+NzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4NDc5MzY1LDE3Mj
+k1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUzODcsMjYwMzQ5MzQz
+XX0=
 -->
