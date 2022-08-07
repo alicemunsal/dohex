@@ -147,8 +147,8 @@ components
     shipping
 lib					--> shared libraries
 ```
-components: This is where we put each component as a folder.
-
+**components:** This is where we put each component as a folder.
+**lib:**  
 
 ```
 acl	
@@ -272,7 +272,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDc3MTM0NCwtNTk4NTYwNDMzLDE3Nz
+eyJoaXN0b3J5IjpbMjA2OTA0NTc1NSwtNTk4NTYwNDMzLDE3Nz
 gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
 OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
 0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
