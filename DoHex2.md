@@ -173,26 +173,6 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Key Points
 
-* One of the reason of the invention of the CQRS Pattern[^13] is, domain entities are not suitable for complex queries. So we decided to separate queries from the domain. Query part of this pattern is not obey the Object Oriented Design, it's Data Driven.
-*  
-
-
-## Conclusion
- 
-I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
-
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
-
-
-
-
-
-
-
-
-Key points of the DoHex:
-* 
-
 CQRS is natural
 freedom 
 High level project structure is the way to connect your software architecture to your source code.
@@ -238,6 +218,15 @@ sample app design, folder structure graphs and model code gap
 
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
 
+One of the reason of the invention of the CQRS Pattern[^13] is, domain entities are not suitable for complex queries. So we decided to separate queries from the domain. Query part of this pattern is not obey the Object Oriented Design, it's Data Driven.
+
+
+## Conclusion
+ 
+I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
+
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
+
 ### References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
@@ -253,7 +242,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIyNTczNjcsLTIwNTU3MDA5NDEsLT
+eyJoaXN0b3J5IjpbLTE2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLT
 E1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1
 NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0Mj
 YsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgz
