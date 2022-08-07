@@ -169,7 +169,7 @@ libs
 	            models
 		            Customer.java
 ```
-This is the expanded state of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
+This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
 ## Key Points and Advantages
 
@@ -249,11 +249,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOT
-g1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0
-MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMT
-gzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4OTk1LC0xODIx
-Mjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC0xMzAxMDk1Mz
-A4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAxODg5NzYzLDIx
-NDAzODQyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLT
+I3MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5
+ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLD
+E3NzgyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5
+MjI4OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MD
+M4LC0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwx
+NTAxODg5NzYzXX0=
 -->
