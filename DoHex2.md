@@ -110,7 +110,11 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
-Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we usually use layered architecture and structure our code based on classes and their relationships. Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
+Software architecture is often expressed as a set of diagrams. In the design phase, we draw bunch of boxes and lines to create architectural view of our software. But in the end we usually use layered architecture and structure our code based on classes and their relationships. 
+
+![enter image description here](https://martinfowler.com/bliki/images/presentationDomainDataLayering/all_basic.png)
+
+Therefore software architecture don’t reflect the reality of what’s happening in the code. George Fairbanks calls this concept **Model-Code Gap**[^5]. Robert Martin has addressed this issue with his **Screaming Architecture**[^6] concept. 
 
 We can reduce this problem with vertical slicing instead of horizontal slicing. This is often referred to as **Package by Component** or “Package by future" as opposed to”Package by layer“, and it’s quite well explained by Simon Brown in his blog post[^7]. Martin Fowler has also written about this and I borrowed these drawings from his post: "Presentation Domain Data Layering"[^8] 
 
@@ -254,7 +258,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjIzNzk0Niw3MzU5ODk1MTgsLTE5MT
+eyJoaXN0b3J5IjpbMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MT
 M3NjQyMDEsMTc4Nzc5ODk3NywtMTk5OTIyMDkzNywtNDI0MTg5
 NDExLDIxNDE5NzcyMTIsODQzNTMzNDg1LDc4NTEzNjg4NiwxMz
 QyNjI0MTg1LDUzMDUwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAx
