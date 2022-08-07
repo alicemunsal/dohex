@@ -146,30 +146,28 @@ components
 libs
 ```
 ```
-components
-	customer
-        adapters
-	        InMemoryCustomerRepository.java
-	        SqliteCustomerRepository
-		        SqliteCustomerRepository.java
-		        lib
-        app
-            CustomerAppService.java 						--> Test
-            lib
-	            CustomerAppLibService.java					--> Test
-	            models
-	                AddCustomerRequest.java
-	                AddCustomerResponse.java
-	            transformers
-            ports
-                ICustomerRepository.java
-        core
-	        CustomerCoreService.java						--> Test
-	        lib
-		        CustomerCoreLibService.java					--> Test
-	            models
-		            Customer.java
-    notification
+customer
+  adapters
+       InMemoryCustomerRepository.java
+       SqliteCustomerRepository
+        SqliteCustomerRepository.java
+        lib
+      app
+          CustomerAppService.java 						--> Test
+          lib
+           CustomerAppLibService.java					--> Test
+           models
+               AddCustomerRequest.java
+               AddCustomerResponse.java
+           transformers
+          ports
+              ICustomerRepository.java
+      core
+       CustomerCoreService.java						--> Test
+       lib
+        CustomerCoreLibService.java					--> Test
+           models
+            Customer.java
 ```
 This is the expanded state of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
@@ -251,11 +249,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2MjgxOTgsLTI3MjYzNjkzMiwzOT
-g1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0
-MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMT
-gzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4OTk1LC0xODIx
-Mjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC0xMzAxMDk1Mz
-A4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAxODg5NzYzLDIx
-NDAzODQyNjJdfQ==
+eyJoaXN0b3J5IjpbMjk0NDA2OTQzLC0yNzI2MzY5MzIsMzk4NT
+Q5Njk5LDE0OTY2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxNDI2
+LC05OTU5NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4Mz
+AxMzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4
+NjU0LC0xODIxMjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOC
+wtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUwMTg4OTc2MywyMTQw
+Mzg0MjYyXX0=
 -->
