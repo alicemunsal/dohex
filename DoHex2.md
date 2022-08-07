@@ -101,7 +101,11 @@ Each component can have a different complexity, we can omit unnecessary parts an
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way, we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
+## Project Structure
 
+## Conclusion
+
+This is my second attempt to write about DoHex Architec
 
 
 
@@ -169,11 +173,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNz
-Q2Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQxMjE2NjUsMTQ1MDIy
-MjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3ODQwOTUsMT
-UwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMTMwNjQ3Miw3NjkxMDcy
-OTYsMTM4MzMwODk0MSwtODc4NDA5OTUzLDkzMDIxMDk4NSwxNz
-EyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4NDc5MzY1LDE3Mjk1
-NDk3MDldfQ==
+eyJoaXN0b3J5IjpbLTEwODkxNjI5NjYsLTE2NjQxNTg4NCwxMD
+QwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQx
+MjE2NjUsMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOS
+w1NjU3ODQwOTUsMTUwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMTMw
+NjQ3Miw3NjkxMDcyOTYsMTM4MzMwODk0MSwtODc4NDA5OTUzLD
+kzMDIxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4
+NDc5MzY1XX0=
 -->
