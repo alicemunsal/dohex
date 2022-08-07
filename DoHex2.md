@@ -173,7 +173,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Key Points
 
-* One of the reason of the invention of the CQRS Pattern[^13] is 
+* One of the reason of the invention of the CQRS Pattern[^13] is domain entities are not enough for complex queries. 
 
 
 ## Conclusion
@@ -252,11 +252,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLT
-EyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2
-OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OS
-wtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwxNTkw
-MTM5OTc2LC0xOTA5MjI4OTk1LC0xODIxMjg2NTQsLTE4MjEyOD
-Y1NCwxMDY5MjM3MDM4LC0xMzAxMDk1MzA4LC01MTI1NDA5NTcs
-MTc3NjA0OTQzNV19
+eyJoaXN0b3J5IjpbODQ3MTY2NTc2LC0yMDU1NzAwOTQxLC0xNT
+g2Mjc0NjcxLC0xMjIyNzU3NjQzLC0yNzI2MzY5MzIsMzk4NTQ5
+Njk5LDE0OTY2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC
+05OTU5NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAx
+MzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4Nj
+U0LC0xODIxMjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOCwt
+NTEyNTQwOTU3XX0=
 -->
