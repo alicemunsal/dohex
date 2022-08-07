@@ -115,6 +115,22 @@ components
 lib
 ```
 
+```
+acl
+components
+    customer
+      adapters
+      app
+        CustomerAppService.java
+      core
+    notification
+    orders
+    payment
+    product
+    shipping
+lib
+```
+
 
 ## Advantages
 
@@ -193,7 +209,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODM1ODUxMiwxMzQyNjI0MTg1LDUzMD
+eyJoaXN0b3J5IjpbMTc2MTEwNjIwOCwxMzQyNjI0MTg1LDUzMD
 UwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1
 NSwtMTAzNDYzNzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLT
 E5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNzQ2
