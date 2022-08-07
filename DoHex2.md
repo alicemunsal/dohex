@@ -104,7 +104,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model. 
 
-Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part may decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
+Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way, we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
@@ -251,7 +251,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzIwNjE3OCwxNTc5MzY0OTk4LDczNT
+eyJoaXN0b3J5IjpbLTk5MDE0NjM1MiwxNTc5MzY0OTk4LDczNT
 k4OTUxOCwtMTkxMzc2NDIwMSwxNzg3Nzk4OTc3LC0xOTk5MjIw
 OTM3LC00MjQxODk0MTEsMjE0MTk3NzIxMiw4NDM1MzM0ODUsNz
 g1MTM2ODg2LDEzNDI2MjQxODUsNTMwNTA3ODIyLC0zMzk5OTc4
