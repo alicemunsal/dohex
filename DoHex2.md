@@ -95,9 +95,11 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model.
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of this services with test driven development techniques. In this way, we can get deep classes[^10] and we can have dec
-
 Each component can have a different complexity, we can omit unnecessary parts and libraries.
+
+Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of this services with test driven development techniques. In this way, we can get deep classes[^10] and we can decouple unit tests from their internal implementations for easier refactoring.
+
+
 
 
 
@@ -165,7 +167,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1NzAzNSwyMTI1OTY2MzY1LDk1MD
+eyJoaXN0b3J5IjpbMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1MD
 Q3MjYwOSw1NjU3ODQwOTUsMTUwMjY0MjI4MiwtMjg4MDg0MzQs
 LTIwMTMwNjQ3Miw3NjkxMDcyOTYsMTM4MzMwODk0MSwtODc4ND
 A5OTUzLDkzMDIxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUw
