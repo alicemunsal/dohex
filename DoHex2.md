@@ -103,6 +103,8 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
+
 ```
 acl					--> anti corruption layer for external dependencies (implement facade or adapter)
 components
@@ -241,11 +243,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTk3NzIxMiw4NDM1MzM0ODUsNzg1MT
-M2ODg2LDEzNDI2MjQxODUsNTMwNTA3ODIyLC0zMzk5OTc4MjUs
-LTczOTk3MDExMCwxOTY4Mzg4ODU1LC0xMDM0NjM3MjEsLTE3Nz
-A0MDg4NzIsLTYzNjU1NTc2MiwtMTk2MDM5ODE1MiwtMTY2NDE1
-ODg0LDEwNDA3MjE3ODQsLTE3NDY3NzQxNjYsLTE0ODg4MDY5MT
-QsLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMjU5NjYzNjUsOTUw
-NDcyNjA5XX0=
+eyJoaXN0b3J5IjpbLTQyNDE4OTQxMSwyMTQxOTc3MjEyLDg0Mz
+UzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4NSw1MzA1MDc4MjIs
+LTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4NTUsLTEwMz
+Q2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4
+MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3NDE2Ni
+wtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMjI5MzMsMjEy
+NTk2NjM2NV19
 -->
