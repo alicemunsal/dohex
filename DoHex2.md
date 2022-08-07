@@ -97,7 +97,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries.
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we can get deep classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we can make deeper classes[^11] as a bonus.
 
 
 
@@ -167,11 +167,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NjQyODAwLDE0NTAyMjI5MzMsMjEyNT
-k2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1MDI2NDIyODIs
-LTI4ODA4NDM0LC0yMDEzMDY0NzIsNzY5MTA3Mjk2LDEzODMzMD
-g5NDEsLTg3ODQwOTk1Myw5MzAyMTA5ODUsMTcxMjE4MzEyMywt
-MTQ1MzExNDc1MCwtMTc0ODQ3OTM2NSwxNzI5NTQ5NzA5LC05MT
-M2ODE0NjcsMTM3NDc1Mzg3LDI2MDM0OTM0MywtMzYyNTc5Njc2
-XX0=
+eyJoaXN0b3J5IjpbLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMj
+U5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAyNjQyMjgy
+LC0yODgwODQzNCwtMjAxMzA2NDcyLDc2OTEwNzI5NiwxMzgzMz
+A4OTQxLC04Nzg0MDk5NTMsOTMwMjEwOTg1LDE3MTIxODMxMjMs
+LTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOT
+EzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkzNDMsLTM2MjU3OTY3
+Nl19
 -->
