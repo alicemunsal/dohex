@@ -71,7 +71,7 @@ Today, Software developers try to create abstract model of the problem domain by
 
 Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. 
 
-DOD's standpoint is to separate data from behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
+DOD's standpoint is to separate data and behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
 
@@ -173,11 +173,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
-k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
-NzQxNjYsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOT
-MzLDIxMjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAy
-NjQyMjgyLC0yODgwODQzNCwtMjAxMzA2NDcyLDc2OTEwNzI5Ni
-wxMzgzMzA4OTQxLC04Nzg0MDk5NTMsOTMwMjEwOTg1LDE3MTIx
-ODMxMjNdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNj
+M2NTU1NzYyLC0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcy
+MTc4NCwtMTc0Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNj
+Y1LDE0NTAyMjI5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1
+Nzg0MDk1LDE1MDI2NDIyODIsLTI4ODA4NDM0LC0yMDEzMDY0Nz
+IsNzY5MTA3Mjk2LDEzODMzMDg5NDEsLTg3ODQwOTk1Myw5MzAy
+MTA5ODVdfQ==
 -->
