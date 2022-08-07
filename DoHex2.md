@@ -110,15 +110,6 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Project Structure
 
-Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process. 
-
-Project structure is the way to connect your software architecture to your source code.
-
-Project structure is not considered important 
-
-random
-organize code in disk 
-
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
 
 
@@ -261,11 +252,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3Nz
-gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
-OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
-0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
-ODg5NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNT
-IsMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4
-Nzc5ODk3N119
+eyJoaXN0b3J5IjpbLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01OT
+g1NjA0MzMsMTc3ODIyMjk0OSwxODMwMTMwMDAyLDE1OTAxMzk5
+NzYsLTE5MDkyMjg5OTUsLTE4MjEyODY1NCwtMTgyMTI4NjU0LD
+EwNjkyMzcwMzgsLTEzMDEwOTUzMDgsLTUxMjU0MDk1NywxNzc2
+MDQ5NDM1LDE1MDE4ODk3NjMsMjE0MDM4NDI2Miw1MDQwMDAwOD
+ksLTk5MDE0NjM1MiwxNTc5MzY0OTk4LDczNTk4OTUxOCwtMTkx
+Mzc2NDIwMV19
 -->
