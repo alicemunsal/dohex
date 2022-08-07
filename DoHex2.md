@@ -171,7 +171,7 @@ libs
 ```
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
-lib has 2 folder; models, transformers. models are good old DTOs or struct  
+lib has 2 foldersmodels are good old DTOs or struct in C and Go or record (also immutable) in Java and C#   
 
 ## Key Points
 
@@ -244,11 +244,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM3MjY3NTUsLTE2NDMzNTk3MzEsLT
-IwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3
-MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5OD
-AwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3
-NzgyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5Mj
-I4OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4
-LC0xMzAxMDk1MzA4XX0=
+eyJoaXN0b3J5IjpbMjA4NDc1MDM4NCwtMTY0MzM1OTczMSwtMj
+A1NTcwMDk0MSwtMTU4NjI3NDY3MSwtMTIyMjc1NzY0MywtMjcy
+NjM2OTMyLDM5ODU0OTY5OSwxNDk2NjY5OTA0LDEzODc5MTk4MD
+AsLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01OTg1NjA0MzMsMTc3
+ODIyMjk0OSwxODMwMTMwMDAyLDE1OTAxMzk5NzYsLTE5MDkyMj
+g5OTUsLTE4MjEyODY1NCwtMTgyMTI4NjU0LDEwNjkyMzcwMzgs
+LTEzMDEwOTUzMDhdfQ==
 -->
