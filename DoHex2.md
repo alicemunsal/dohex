@@ -116,6 +116,25 @@ lib
 ```
 
 ```
+acl
+components
+    customer
+	    adapters
+	    app
+		    CustomerAppService.java
+		    lib
+		    ports
+			    I
+	    core
+    notification
+    orders
+    payment
+    product
+    shipping
+lib
+```
+
+```
 components
     customer
         adapters
@@ -223,7 +242,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NTYxMDA1LDEzNDI2MjQxODUsNTMwNT
+eyJoaXN0b3J5IjpbMTI0NzQzODM5LDEzNDI2MjQxODUsNTMwNT
 A3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOTY4Mzg4ODU1
 LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
 k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
