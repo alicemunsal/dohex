@@ -11,6 +11,7 @@ By bringing these two paradigms together, we can create testable, scalable, modu
 ### Philosophy  
 
 > The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
+> 
 > -- Epictetus
 
 This is one of the most important and profound concepts in Stoicism. The dichotomy of control is the Stoic idea of separating things that are within our control, and things that are outside of our control.   
@@ -25,6 +26,7 @@ Our application does not know anything about IO devices and should not depend on
 ### Implementation   
 
 > Hexagonal Architecture, allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+> 
 > -- Alistair Cockburn  
 
 ![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
@@ -42,6 +44,7 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 ## Data Oriented Design
 
 >  The purpose of all programs, and all parts of those programs, is to transform data from one form to another.  
+>  
 >  -- Mike Acton  
 
 In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon, Mike Acton describes data oriented design principles. Data Oriented Design (DOD) approach is to focus on the data and to think about transformation of data.  
@@ -76,6 +79,7 @@ Data-oriented design forces you to think about your data first and foremost: wha
 DOD's standpoint is to separate data and behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
+> 
 > -- Mike Acton
 
 ## DoHex  
@@ -246,11 +250,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkyMjA5MzcsLTQyNDE4OTQxMSwyMT
-QxOTc3MjEyLDg0MzUzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4
-NSw1MzA1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5Nj
-gzODg4NTUsLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1
-NzYyLC0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NC
-wtMTc0Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0
-NTAyMjI5MzNdfQ==
+eyJoaXN0b3J5IjpbMTc4Nzc5ODk3NywtMTk5OTIyMDkzNywtND
+I0MTg5NDExLDIxNDE5NzcyMTIsODQzNTMzNDg1LDc4NTEzNjg4
+NiwxMzQyNjI0MTg1LDUzMDUwNzgyMiwtMzM5OTk3ODI1LC03Mz
+k5NzAxMTAsMTk2ODM4ODg1NSwtMTAzNDYzNzIxLC0xNzcwNDA4
+ODcyLC02MzY1NTU3NjIsLTE5NjAzOTgxNTIsLTE2NjQxNTg4NC
+wxMDQwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OTE0LC01
+MzQxMjE2NjVdfQ==
 -->
