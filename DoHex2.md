@@ -120,9 +120,16 @@ components
     customer
         adapters
         app
+	        lib
+	            models
             CustomerAppService.java
-            p
+            ports
+                ICustomerRepository.java
         core
+	        lib
+	            models
+	            transformers
+	        
     notification
     orders
     payment
@@ -208,11 +215,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk0NjIwOTEsMTM0MjYyNDE4NSw1Mz
-A1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4
-NTUsLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC
-0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0
-Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMj
-I5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1
-MDI2NDIyODJdfQ==
+eyJoaXN0b3J5IjpbMzM5MDYzMDgyLDEzNDI2MjQxODUsNTMwNT
+A3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOTY4Mzg4ODU1
+LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
+k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
+NzQxNjYsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOT
+MzLDIxMjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAy
+NjQyMjgyXX0=
 -->
