@@ -104,14 +104,17 @@ Component parts and libraries provide facade interfaces as a service for usabili
 ## Project Structure
 
 components
----- authentication
----- customer
----- orders
----- payment
----- product
----- shipping
+: authentication
+: customer
+: orders
+: payment
+: product
+: shipping
+
 lib
+:
 acl
+:
 
 
 ## Advantages
@@ -191,7 +194,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjk0ODk4NSw1MzA1MDc4MjIsLTMzOT
+eyJoaXN0b3J5IjpbMTM0MjYyNDE4NSw1MzA1MDc4MjIsLTMzOT
 k5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4NTUsLTEwMzQ2Mzcy
 MSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4MTUyLC
 0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0Njc3NDE2NiwtMTQ4
