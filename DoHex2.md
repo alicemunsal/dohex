@@ -95,7 +95,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model.
 
-Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. The part may 
+Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. The part may decides to directly return its response to the caller part. 
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we can make deeper classes[^11] as a bonus.
 
@@ -167,11 +167,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMzA3MTc0LC01MzQxMjE2NjUsMTQ1MD
-IyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3ODQwOTUs
-MTUwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMTMwNjQ3Miw3NjkxMD
-cyOTYsMTM4MzMwODk0MSwtODc4NDA5OTUzLDkzMDIxMDk4NSwx
-NzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4NDc5MzY1LDE3Mj
-k1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUzODcsMjYwMzQ5MzQz
-XX0=
+eyJoaXN0b3J5IjpbLTk0Mzg1MjE3NywtNTM0MTIxNjY1LDE0NT
+AyMjI5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1
+LDE1MDI2NDIyODIsLTI4ODA4NDM0LC0yMDEzMDY0NzIsNzY5MT
+A3Mjk2LDEzODMzMDg5NDEsLTg3ODQwOTk1Myw5MzAyMTA5ODUs
+MTcxMjE4MzEyMywtMTQ1MzExNDc1MCwtMTc0ODQ3OTM2NSwxNz
+I5NTQ5NzA5LC05MTM2ODE0NjcsMTM3NDc1Mzg3LDI2MDM0OTM0
+M119
 -->
