@@ -173,7 +173,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Key Points
 
-* 
+* One of the reason of the invention of the CQRS Pattern[^13] is 
 
 
 ## Conclusion
@@ -250,8 +250,9 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkyMTQwNzQsLTE1ODYyNzQ2NzEsLT
+eyJoaXN0b3J5IjpbLTIwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLT
 EyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2
 OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OS
 wtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwxNTkw
