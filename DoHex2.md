@@ -89,7 +89,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
-* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components. Change this part's name to **Domain** and put your domain entities and develop as usual.     
+* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components domain logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
 * **Adapter**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -167,11 +167,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzA3MzQwMzIsLTUzNDEyMTY2NSwxND
-UwMjIyOTMzLDIxMjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5
-NSwxNTAyNjQyMjgyLC0yODgwODQzNCwtMjAxMzA2NDcyLDc2OT
-EwNzI5NiwxMzgzMzA4OTQxLC04Nzg0MDk5NTMsOTMwMjEwOTg1
-LDE3MTIxODMxMjMsLTE0NTMxMTQ3NTAsLTE3NDg0NzkzNjUsMT
-cyOTU0OTcwOSwtOTEzNjgxNDY3LDEzNzQ3NTM4NywyNjAzNDkz
-NDNdfQ==
+eyJoaXN0b3J5IjpbMTQ3ODc2NDIwMywtNTM0MTIxNjY1LDE0NT
+AyMjI5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1
+LDE1MDI2NDIyODIsLTI4ODA4NDM0LC0yMDEzMDY0NzIsNzY5MT
+A3Mjk2LDEzODMzMDg5NDEsLTg3ODQwOTk1Myw5MzAyMTA5ODUs
+MTcxMjE4MzEyMywtMTQ1MzExNDc1MCwtMTc0ODQ3OTM2NSwxNz
+I5NTQ5NzA5LC05MTM2ODE0NjcsMTM3NDc1Mzg3LDI2MDM0OTM0
+M119
 -->
