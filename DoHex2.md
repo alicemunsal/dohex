@@ -97,7 +97,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part may decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we can make deeper classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
 
 
@@ -167,11 +167,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjY4MDkwLC0xNDg4ODA2OTE0LC01Mz
-QxMjE2NjUsMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYw
-OSw1NjU3ODQwOTUsMTUwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMT
-MwNjQ3Miw3NjkxMDcyOTYsMTM4MzMwODk0MSwtODc4NDA5OTUz
-LDkzMDIxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNz
-Q4NDc5MzY1LDE3Mjk1NDk3MDksLTkxMzY4MTQ2NywxMzc0NzUz
-ODddfQ==
+eyJoaXN0b3J5IjpbLTE3NDY3NzQxNjYsLTE0ODg4MDY5MTQsLT
+UzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMjU5NjYzNjUsOTUwNDcy
+NjA5LDU2NTc4NDA5NSwxNTAyNjQyMjgyLC0yODgwODQzNCwtMj
+AxMzA2NDcyLDc2OTEwNzI5NiwxMzgzMzA4OTQxLC04Nzg0MDk5
+NTMsOTMwMjEwOTg1LDE3MTIxODMxMjMsLTE0NTMxMTQ3NTAsLT
+E3NDg0NzkzNjUsMTcyOTU0OTcwOSwtOTEzNjgxNDY3LDEzNzQ3
+NTM4N119
 -->
