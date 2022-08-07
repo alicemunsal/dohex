@@ -112,6 +112,8 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process. 
 
+Project structure is the way to connect your software architecture to your source code.
+
 Project structure is not considered important 
 
 random
@@ -268,7 +270,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTU1MTk5MSwxNzc4MjIyOTQ5LDE4Mz
+eyJoaXN0b3J5IjpbLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4Mz
 AxMzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4
 NjU0LC0xODIxMjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOC
 wtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUwMTg4OTc2MywyMTQw
