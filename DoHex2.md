@@ -148,7 +148,7 @@ components
 lib					--> shared libraries
 ```
 **components:** This is where we put each component as a folder.
-**lib:**  
+**lib:**  It contains shared libraries. If we need shared model and/or transformation functions among the components 
 
 ```
 acl	
@@ -272,11 +272,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTA0NTc1NSwtNTk4NTYwNDMzLDE3Nz
-gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
-OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
-0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
-ODg5NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNT
-IsMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4
-Nzc5ODk3N119
+eyJoaXN0b3J5IjpbLTEyODQzNzgwNDgsLTU5ODU2MDQzMywxNz
+c4MjIyOTQ5LDE4MzAxMzAwMDIsMTU5MDEzOTk3NiwtMTkwOTIy
+ODk5NSwtMTgyMTI4NjU0LC0xODIxMjg2NTQsMTA2OTIzNzAzOC
+wtMTMwMTA5NTMwOCwtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUw
+MTg4OTc2MywyMTQwMzg0MjYyLDUwNDAwMDA4OSwtOTkwMTQ2Mz
+UyLDE1NzkzNjQ5OTgsNzM1OTg5NTE4LC0xOTEzNzY0MjAxLDE3
+ODc3OTg5NzddfQ==
 -->
