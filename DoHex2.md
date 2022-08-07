@@ -121,18 +121,6 @@ organize code in disk
 
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
 
-Also it reflects software architecture well.
-- maintainability
-- understanding
-- reduce developers cognitive load
-- reduce development time
-
-While coding, software developers consistently think about organization of the 
-Projects structure one of the most important c 
-
-High level project structure 
-Reflecting architecture 
-
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
 
@@ -273,11 +261,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MjEzNDk4LC01OTg1NjA0MzMsMTc3OD
-IyMjk0OSwxODMwMTMwMDAyLDE1OTAxMzk5NzYsLTE5MDkyMjg5
-OTUsLTE4MjEyODY1NCwtMTgyMTI4NjU0LDEwNjkyMzcwMzgsLT
-EzMDEwOTUzMDgsLTUxMjU0MDk1NywxNzc2MDQ5NDM1LDE1MDE4
-ODk3NjMsMjE0MDM4NDI2Miw1MDQwMDAwODksLTk5MDE0NjM1Mi
-wxNTc5MzY0OTk4LDczNTk4OTUxOCwtMTkxMzc2NDIwMSwxNzg3
-Nzk4OTc3XX0=
+eyJoaXN0b3J5IjpbLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3Nz
+gyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4
+OTk1LC0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC
+0xMzAxMDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAx
+ODg5NzYzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNT
+IsMTU3OTM2NDk5OCw3MzU5ODk1MTgsLTE5MTM3NjQyMDEsMTc4
+Nzc5ODk3N119
 -->
