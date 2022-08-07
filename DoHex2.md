@@ -164,7 +164,7 @@ components
 ```
 
 
-## Advantages
+## Key Points and Advantages
 
 
 ## Conclusion
@@ -241,11 +241,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTMzNDg1LDc4NTEzNjg4NiwxMzQyNj
-I0MTg1LDUzMDUwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAs
-MTk2ODM4ODg1NSwtMTAzNDYzNzIxLC0xNzcwNDA4ODcyLC02Mz
-Y1NTU3NjIsLTE5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMDQwNzIx
-Nzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQxMjE2Nj
-UsMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3
-ODQwOTVdfQ==
+eyJoaXN0b3J5IjpbMjA2NTIwMjY0Miw4NDM1MzM0ODUsNzg1MT
+M2ODg2LDEzNDI2MjQxODUsNTMwNTA3ODIyLC0zMzk5OTc4MjUs
+LTczOTk3MDExMCwxOTY4Mzg4ODU1LC0xMDM0NjM3MjEsLTE3Nz
+A0MDg4NzIsLTYzNjU1NTc2MiwtMTk2MDM5ODE1MiwtMTY2NDE1
+ODg0LDEwNDA3MjE3ODQsLTE3NDY3NzQxNjYsLTE0ODg4MDY5MT
+QsLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMjU5NjYzNjUsOTUw
+NDcyNjA5XX0=
 -->
