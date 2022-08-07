@@ -122,8 +122,10 @@ components
         app
             CustomerAppService.java
             lib
+	            CustomerApLibService.java
 	            models
-	             
+	                AddCustomerRequest.java
+	                AddCustomerResponse.java
 	            transformers
             ports
                 ICustomerRepository.java
@@ -217,7 +219,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzY2NTYwOCwxMzQyNjI0MTg1LDUzMD
+eyJoaXN0b3J5IjpbLTg4MTQ5MTQyNSwxMzQyNjI0MTg1LDUzMD
 UwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1
 NSwtMTAzNDYzNzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLT
 E5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNzQ2
