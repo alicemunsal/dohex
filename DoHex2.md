@@ -105,7 +105,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
 
-I am a software architect that actively develop softwares.  
+I am a software architect actively developing softwares. This is how I have been developing software  
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring are the remaining topics.
 
@@ -177,7 +177,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDk2OTU5MiwxOTY4Mzg4ODU1LC0xMD
+eyJoaXN0b3J5IjpbLTQ3MTkyMjM0MiwxOTY4Mzg4ODU1LC0xMD
 M0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMTk2MDM5
 ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3NzQxNj
 YsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIx
