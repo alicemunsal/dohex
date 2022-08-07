@@ -171,7 +171,7 @@ components
 		            Customer.java
     notification
 ```
-This is the fully expanded version of the customer component. 
+This is the fully expanded version of the customer component. You can see struc
 
 ## Key Points and Advantages
 
@@ -251,11 +251,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mj
-g4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5
-NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4OTk1LC
-0xODIxMjg2NTQsLTE4MjEyODY1NCwxMDY5MjM3MDM4LC0xMzAx
-MDk1MzA4LC01MTI1NDA5NTcsMTc3NjA0OTQzNSwxNTAxODg5Nz
-YzLDIxNDAzODQyNjIsNTA0MDAwMDg5LC05OTAxNDYzNTIsMTU3
-OTM2NDk5OF19
+eyJoaXN0b3J5IjpbMTkwODYwOTI4OSwxNDk2NjY5OTA0LDEzOD
+c5MTk4MDAsLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01OTg1NjA0
+MzMsMTc3ODIyMjk0OSwxODMwMTMwMDAyLDE1OTAxMzk5NzYsLT
+E5MDkyMjg5OTUsLTE4MjEyODY1NCwtMTgyMTI4NjU0LDEwNjky
+MzcwMzgsLTEzMDEwOTUzMDgsLTUxMjU0MDk1NywxNzc2MDQ5ND
+M1LDE1MDE4ODk3NjMsMjE0MDM4NDI2Miw1MDQwMDAwODksLTk5
+MDE0NjM1Ml19
 -->
