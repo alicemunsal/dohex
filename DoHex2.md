@@ -121,12 +121,12 @@ components
         adapters
 	        InMemoryCustomerRepository.java
 	        SqliteCustomerRepository
-		        SqliteCustomerRepositoryService.java --> Testing point
+		        SqliteCustomerRepositoryService.java
 		        lib
         app
-            CustomerAppService.java
+            CustomerAppService.java 						--> Test
             lib
-	            CustomerAppLibService.java
+	            CustomerAppLibService.java					--> Test
 	            models
 	                AddCustomerRequest.java
 	                AddCustomerResponse.java
@@ -134,7 +134,7 @@ components
             ports
                 ICustomerRepository.java
         core
-	        CustomerCoreService.java
+	        CustomerCoreService.java						--> Test
 	        lib
 	            models
 		            Customer.java
@@ -223,11 +223,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzIxODQzOSwxMzQyNjI0MTg1LDUzMD
-UwNzgyMiwtMzM5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1
-NSwtMTAzNDYzNzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLT
-E5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNzQ2
-Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQxMjE2NjUsMTQ1MDIyMj
-kzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOSw1NjU3ODQwOTUsMTUw
-MjY0MjI4Ml19
+eyJoaXN0b3J5IjpbNjI0NTYxMDA1LDEzNDI2MjQxODUsNTMwNT
+A3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOTY4Mzg4ODU1
+LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
+k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
+NzQxNjYsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOT
+MzLDIxMjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAy
+NjQyMjgyXX0=
 -->
