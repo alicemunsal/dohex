@@ -178,7 +178,7 @@ This is the expanded state of the customer component. Structuring and naming con
 
 ## Conclusion
  
-I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. 
+I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
@@ -251,11 +251,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDgxMTcyMTUsMzk4NTQ5Njk5LDE0OT
-Y2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC05OTU5NDcy
-NjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAxMzAwMDIsMT
-U5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4NjU0LC0xODIx
-Mjg2NTQsMTA2OTIzNzAzOCwtMTMwMTA5NTMwOCwtNTEyNTQwOT
-U3LDE3NzYwNDk0MzUsMTUwMTg4OTc2MywyMTQwMzg0MjYyLDUw
-NDAwMDA4OV19
+eyJoaXN0b3J5IjpbLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5Nj
+Y2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2
+OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwxNT
+kwMTM5OTc2LC0xOTA5MjI4OTk1LC0xODIxMjg2NTQsLTE4MjEy
+ODY1NCwxMDY5MjM3MDM4LC0xMzAxMDk1MzA4LC01MTI1NDA5NT
+csMTc3NjA0OTQzNSwxNTAxODg5NzYzLDIxNDAzODQyNjIsNTA0
+MDAwMDg5XX0=
 -->
