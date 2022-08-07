@@ -171,7 +171,7 @@ libs
 ```
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
-lib has 2 folders. models folder contains good old DTOs; or struct in C and Go or record (also immutable) in Java and C#. transformers folder contains transformation functions for these data models.    
+lib has 2 folders. models folder contains DTOs, POCOs, POJOs, Record or struct in C and Go or record (also immutable) in Java and C#. transformers folder contains transformation functions for these data models.    
 
 ## Key Points
 
@@ -244,7 +244,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDkyNjgzMywtMTY0MzM1OTczMSwtMj
+eyJoaXN0b3J5IjpbMTIzNzc3ODAyMiwtMTY0MzM1OTczMSwtMj
 A1NTcwMDk0MSwtMTU4NjI3NDY3MSwtMTIyMjc1NzY0MywtMjcy
 NjM2OTMyLDM5ODU0OTY5OSwxNDk2NjY5OTA0LDEzODc5MTk4MD
 AsLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01OTg1NjA0MzMsMTc3
