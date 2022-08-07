@@ -105,6 +105,8 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
 
+
+
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring are the remaining topics.
 
 
@@ -123,6 +125,8 @@ High level project structure is the way to connect your software architecture to
 Developers dont much to learn about
 
 Reflecting this selections and drawings into code is considered as the part of the design process
+
+Direct writing instead of thinking about structring your classes and naming
 
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
@@ -173,11 +177,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNj
-M2NTU1NzYyLC0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcy
-MTc4NCwtMTc0Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNj
-Y1LDE0NTAyMjI5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1
-Nzg0MDk1LDE1MDI2NDIyODIsLTI4ODA4NDM0LC0yMDEzMDY0Nz
-IsNzY5MTA3Mjk2LDEzODMzMDg5NDEsLTg3ODQwOTk1Myw5MzAy
-MTA5ODVdfQ==
+eyJoaXN0b3J5IjpbMTk2ODM4ODg1NSwtMTAzNDYzNzIxLC0xNz
+cwNDA4ODcyLC02MzY1NTU3NjIsLTE5NjAzOTgxNTIsLTE2NjQx
+NTg4NCwxMDQwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OT
+E0LC01MzQxMjE2NjUsMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1
+MDQ3MjYwOSw1NjU3ODQwOTUsMTUwMjY0MjI4MiwtMjg4MDg0Mz
+QsLTIwMTMwNjQ3Miw3NjkxMDcyOTYsMTM4MzMwODk0MSwtODc4
+NDA5OTUzXX0=
 -->
