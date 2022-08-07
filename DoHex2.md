@@ -104,7 +104,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 ## Project Structure
 
 ```
-acl
+acl					--> anti corruption layer for external dependencies (implement facade or adapter)
 components
     customer
     notification
@@ -116,7 +116,7 @@ lib
 ```
 
 ```
-acl						--> Anti-C
+acl	
 components
     customer
 	    adapters
@@ -241,7 +241,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMTc3NTc3LDEzNDI2MjQxODUsNTMwNT
+eyJoaXN0b3J5IjpbNzg1MTM2ODg2LDEzNDI2MjQxODUsNTMwNT
 A3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOTY4Mzg4ODU1
 LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
 k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
