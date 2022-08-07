@@ -105,7 +105,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
 
-This is my second attempt to write about DoHex Architecture.
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided to 
 
 
 
@@ -173,11 +173,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAzOTgxNTIsLTE2NjQxNTg4NCwxMD
-QwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OTE0LC01MzQx
-MjE2NjUsMTQ1MDIyMjkzMywyMTI1OTY2MzY1LDk1MDQ3MjYwOS
-w1NjU3ODQwOTUsMTUwMjY0MjI4MiwtMjg4MDg0MzQsLTIwMTMw
-NjQ3Miw3NjkxMDcyOTYsMTM4MzMwODk0MSwtODc4NDA5OTUzLD
-kzMDIxMDk4NSwxNzEyMTgzMTIzLC0xNDUzMTE0NzUwLC0xNzQ4
-NDc5MzY1XX0=
+eyJoaXN0b3J5IjpbMTM1OTg3NDE0MCwtMTk2MDM5ODE1MiwtMT
+Y2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3NzQxNjYsLTE0ODg4
+MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOTMzLDIxMjU5NjYzNj
+UsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAyNjQyMjgyLC0yODgw
+ODQzNCwtMjAxMzA2NDcyLDc2OTEwNzI5NiwxMzgzMzA4OTQxLC
+04Nzg0MDk5NTMsOTMwMjEwOTg1LDE3MTIxODMxMjMsLTE0NTMx
+MTQ3NTBdfQ==
 -->
