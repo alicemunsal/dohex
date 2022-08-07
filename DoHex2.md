@@ -171,7 +171,7 @@ components
 		            Customer.java
     notification
 ```
-This is the fully expanded version of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes of the parts (app,core,lib). These are the classes you should write unit tests. 
+This is the fully expanded version of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes. These are the classes you should write unit tests. 
 
 ## Key Points and Advantages
 
@@ -251,11 +251,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NTQ5Njk5LDE0OTY2Njk5MDQsMTM4Nz
-kxOTgwMCwtNDI4ODUxNDI2LC05OTU5NDcyNjksLTU5ODU2MDQz
-MywxNzc4MjIyOTQ5LDE4MzAxMzAwMDIsMTU5MDEzOTk3NiwtMT
-kwOTIyODk5NSwtMTgyMTI4NjU0LC0xODIxMjg2NTQsMTA2OTIz
-NzAzOCwtMTMwMTA5NTMwOCwtNTEyNTQwOTU3LDE3NzYwNDk0Mz
-UsMTUwMTg4OTc2MywyMTQwMzg0MjYyLDUwNDAwMDA4OSwtOTkw
-MTQ2MzUyXX0=
+eyJoaXN0b3J5IjpbMTMxNjQ3OTk2MSwzOTg1NDk2OTksMTQ5Nj
+Y2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2
+OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwxNT
+kwMTM5OTc2LC0xOTA5MjI4OTk1LC0xODIxMjg2NTQsLTE4MjEy
+ODY1NCwxMDY5MjM3MDM4LC0xMzAxMDk1MzA4LC01MTI1NDA5NT
+csMTc3NjA0OTQzNSwxNTAxODg5NzYzLDIxNDAzODQyNjIsNTA0
+MDAwMDg5XX0=
 -->
