@@ -67,7 +67,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 > - Solving problems you probably don't have creates more problems.
 > - There is no ideal, abstract solution to the problem.  
 >
-> Mike Acton
+> -- Mike Acton
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
@@ -76,6 +76,7 @@ Data-oriented design forces you to think about your data first and foremost: wha
 DOD's standpoint is to separate data and behavior. Thus we can achieve; simplified thinking, better performance, better testability. 
 
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
+> -- Mike Acton
 
 ## DoHex  
 
@@ -245,7 +246,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIxMDExNDAsLTQyNDE4OTQxMSwyMT
+eyJoaXN0b3J5IjpbLTE5OTkyMjA5MzcsLTQyNDE4OTQxMSwyMT
 QxOTc3MjEyLDg0MzUzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4
 NSw1MzA1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5Nj
 gzODg4NTUsLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1
