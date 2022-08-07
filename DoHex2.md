@@ -116,13 +116,15 @@ lib
 ```
 
 ```
-acl
+acl						--> Anti-C
 components
     customer
 	    adapters
 	    app
 	    core
     notification
+	    adapters
+	    app
     orders
     payment
     product
@@ -239,11 +241,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA0NTgzMzgsMTM0MjYyNDE4NSw1Mz
-A1MDc4MjIsLTMzOTk5NzgyNSwtNzM5OTcwMTEwLDE5NjgzODg4
-NTUsLTEwMzQ2MzcyMSwtMTc3MDQwODg3MiwtNjM2NTU1NzYyLC
-0xOTYwMzk4MTUyLC0xNjY0MTU4ODQsMTA0MDcyMTc4NCwtMTc0
-Njc3NDE2NiwtMTQ4ODgwNjkxNCwtNTM0MTIxNjY1LDE0NTAyMj
-I5MzMsMjEyNTk2NjM2NSw5NTA0NzI2MDksNTY1Nzg0MDk1LDE1
-MDI2NDIyODJdfQ==
+eyJoaXN0b3J5IjpbNTUyMTc3NTc3LDEzNDI2MjQxODUsNTMwNT
+A3ODIyLC0zMzk5OTc4MjUsLTczOTk3MDExMCwxOTY4Mzg4ODU1
+LC0xMDM0NjM3MjEsLTE3NzA0MDg4NzIsLTYzNjU1NTc2MiwtMT
+k2MDM5ODE1MiwtMTY2NDE1ODg0LDEwNDA3MjE3ODQsLTE3NDY3
+NzQxNjYsLTE0ODg4MDY5MTQsLTUzNDEyMTY2NSwxNDUwMjIyOT
+MzLDIxMjU5NjYzNjUsOTUwNDcyNjA5LDU2NTc4NDA5NSwxNTAy
+NjQyMjgyXX0=
 -->
