@@ -180,7 +180,7 @@ components
  
 I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. 
 
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring, tools needed are the remaining topics.
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
 
 
@@ -250,11 +250,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzc5ODk3NywtMTk5OTIyMDkzNywtND
-I0MTg5NDExLDIxNDE5NzcyMTIsODQzNTMzNDg1LDc4NTEzNjg4
-NiwxMzQyNjI0MTg1LDUzMDUwNzgyMiwtMzM5OTk3ODI1LC03Mz
-k5NzAxMTAsMTk2ODM4ODg1NSwtMTAzNDYzNzIxLC0xNzcwNDA4
-ODcyLC02MzY1NTU3NjIsLTE5NjAzOTgxNTIsLTE2NjQxNTg4NC
-wxMDQwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0xNDg4ODA2OTE0LC01
-MzQxMjE2NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5MTM3NjQyMDEsMTc4Nzc5ODk3NywtMT
+k5OTIyMDkzNywtNDI0MTg5NDExLDIxNDE5NzcyMTIsODQzNTMz
+NDg1LDc4NTEzNjg4NiwxMzQyNjI0MTg1LDUzMDUwNzgyMiwtMz
+M5OTk3ODI1LC03Mzk5NzAxMTAsMTk2ODM4ODg1NSwtMTAzNDYz
+NzIxLC0xNzcwNDA4ODcyLC02MzY1NTU3NjIsLTE5NjAzOTgxNT
+IsLTE2NjQxNTg4NCwxMDQwNzIxNzg0LC0xNzQ2Nzc0MTY2LC0x
+NDg4ODA2OTE0XX0=
 -->
