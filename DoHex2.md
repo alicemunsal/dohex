@@ -108,7 +108,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ## Conclusion
  
-I am a software architect actively developing softwares. I know every project is different and I believe, there are no silver bullets. We always need to evaluate the context 
+I am a software architect actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before 
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, deployment, refactoring, tools needed are the remaining topics.
 
@@ -180,7 +180,7 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIzMTE1NjAsLTMzOTk5NzgyNSwtNz
+eyJoaXN0b3J5IjpbLTE2NzcxMzIwMTEsLTMzOTk5NzgyNSwtNz
 M5OTcwMTEwLDE5NjgzODg4NTUsLTEwMzQ2MzcyMSwtMTc3MDQw
 ODg3MiwtNjM2NTU1NzYyLC0xOTYwMzk4MTUyLC0xNjY0MTU4OD
 QsMTA0MDcyMTc4NCwtMTc0Njc3NDE2NiwtMTQ4ODgwNjkxNCwt
