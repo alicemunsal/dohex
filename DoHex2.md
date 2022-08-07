@@ -114,7 +114,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
 
 Software structure is very important for various reasons:
-Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also project structure is the way to connect your software architecture to the source code
+Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs.
 
 Also it reflects software architecture well.
 - maintainability
@@ -265,11 +265,11 @@ Software Architecture is the blueprint of the software system. It is about makin
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA1Mzg1OTMsMTA2OTIzNzAzOCwtMT
-MwMTA5NTMwOCwtNTEyNTQwOTU3LDE3NzYwNDk0MzUsMTUwMTg4
-OTc2MywyMTQwMzg0MjYyLDUwNDAwMDA4OSwtOTkwMTQ2MzUyLD
-E1NzkzNjQ5OTgsNzM1OTg5NTE4LC0xOTEzNzY0MjAxLDE3ODc3
-OTg5NzcsLTE5OTkyMjA5MzcsLTQyNDE4OTQxMSwyMTQxOTc3Mj
-EyLDg0MzUzMzQ4NSw3ODUxMzY4ODYsMTM0MjYyNDE4NSw1MzA1
-MDc4MjJdfQ==
+eyJoaXN0b3J5IjpbNDQ4NDgxMjQ3LDEwNjkyMzcwMzgsLTEzMD
+EwOTUzMDgsLTUxMjU0MDk1NywxNzc2MDQ5NDM1LDE1MDE4ODk3
+NjMsMjE0MDM4NDI2Miw1MDQwMDAwODksLTk5MDE0NjM1MiwxNT
+c5MzY0OTk4LDczNTk4OTUxOCwtMTkxMzc2NDIwMSwxNzg3Nzk4
+OTc3LC0xOTk5MjIwOTM3LC00MjQxODk0MTEsMjE0MTk3NzIxMi
+w4NDM1MzM0ODUsNzg1MTM2ODg2LDEzNDI2MjQxODUsNTMwNTA3
+ODIyXX0=
 -->
