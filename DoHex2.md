@@ -256,12 +256,14 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
+
+https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNDM4ODc5LDEyMTk0ODA3NjIsLTE2Mj
-AxNTMxNjQsMTU4MDE2MDM4OSwxNjE1OTMwMDgsLTE4MTcxMDU5
-OTMsLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMsMTkxNTQ2Mjg4Ni
-wxMDk1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUxNDY4NCwtMTIz
-NjQxNzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LDE5MjIzOTc4Mz
-IsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0OTY5MTM3LDk2
-MDgwMTQyXX0=
+eyJoaXN0b3J5IjpbMTg4MDcyMDA5OSw2OTI0Mzg4NzksMTIxOT
+Q4MDc2MiwtMTYyMDE1MzE2NCwxNTgwMTYwMzg5LDE2MTU5MzAw
+OCwtMTgxNzEwNTk5MywtMTgwODc1NzM1MSwtMTg3OTMxODAxMy
+wxOTE1NDYyODg2LDEwOTU2OTIwODUsMTIzOTY2NDQyOCwtMjY5
+NTE0Njg0LC0xMjM2NDE3NTU1LC01NzAxMDQyLDEyNTkyNTQzNT
+gsMTkyMjM5NzgzMiwyMDE1ODM1NTI2LC0xODkwMjI1OTMwLDE5
+ODQ5NjkxMzddfQ==
 -->
