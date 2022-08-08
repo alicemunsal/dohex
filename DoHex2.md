@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Libraries can be put into any part of the program and do exactly the same thing; transform data. Transform JSON to Turn one object to another type of object (mapping), turn an object to boolean (validation), turn an object to SQL string
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Libraries can be put into any part of the program and do exactly the same thing; transform data. Transform JSON to an object, transform one object to another type of object (mapping), transform an object to boolean (validation), transform an object to SQL string.  
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -259,7 +259,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDAzNzgyNywtMjY5NTE0Njg0LC0xMj
+eyJoaXN0b3J5IjpbLTU0NDEyNzA4OCwtMjY5NTE0Njg0LC0xMj
 M2NDE3NTU1LC01NzAxMDQyLDEyNTkyNTQzNTgsMTkyMjM5Nzgz
 MiwyMDE1ODM1NTI2LC0xODkwMjI1OTMwLDE5ODQ5NjkxMzcsOT
 YwODAxNDIsLTEwMTQ0NTI3MCwxNDAzMDUyMzgyLC0xNjQzMzU5
