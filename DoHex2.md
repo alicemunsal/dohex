@@ -112,7 +112,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the **Pub-Sub Design Pattern**[^12] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
 
-Event bus and scheduler should be directly injected to the **app** constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write more decoupled, asynchronous and **Reactive**[^13] components with less effort. 
+Event bus and scheduler should be directly injected to the **app** constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write **Reactive**[^13] components with less effort. 
 
 
 ## Project Structure
@@ -257,16 +257,17 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
+[
 [^13]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^14]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMDI0MTYzLDEwNTgzNjkwODUsMzU4OT
-A3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5OSw2OTI0Mzg4Nzks
-MTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNTgwMTYwMzg5LDE2MT
-U5MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1NzM1MSwtMTg3OTMx
-ODAxMywxOTE1NDYyODg2LDEwOTU2OTIwODUsMTIzOTY2NDQyOC
-wtMjY5NTE0Njg0LC0xMjM2NDE3NTU1LC01NzAxMDQyLDEyNTky
-NTQzNThdfQ==
+eyJoaXN0b3J5IjpbLTE3NDM0NjI4OTksMTA1ODM2OTA4NSwzNT
+g5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMDk5LDY5MjQzODg3
+OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1ODAxNjAzODksMT
+YxNTkzMDA4LC0xODE3MTA1OTkzLC0xODA4NzU3MzUxLC0xODc5
+MzE4MDEzLDE5MTU0NjI4ODYsMTA5NTY5MjA4NSwxMjM5NjY0ND
+I4LC0yNjk1MTQ2ODQsLTEyMzY0MTc1NTUsLTU3MDEwNDIsMTI1
+OTI1NDM1OF19
 -->
