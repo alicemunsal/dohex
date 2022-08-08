@@ -188,12 +188,8 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 
 
-CQRS is natural
-freedom 
-High level project structure is the way to connect your software architecture to your source code.
-Developers dont much to learn about
 
-Reflecting this selections and drawings into code is considered as the part of the design process
+Developers dont much to learn about
 
 Direct writing instead of thinking about structring your classes and naming
 
@@ -263,7 +259,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODkxNDc4MCwxODQxNTY2ODIwLDEwNT
+eyJoaXN0b3J5IjpbMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNT
 gzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5
 OSw2OTI0Mzg4NzksMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNT
 gwMTYwMzg5LDE2MTU5MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1
