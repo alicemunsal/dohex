@@ -175,7 +175,9 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Notes
 
-- DoHex is suitable for OOP languages like C++, C#, Java, Python and 
+*  DoHex is suitable for OOP languages like C++, C#, Java, Python and new generation languages like Go and Rust
+
+
 ```java
 public ComponentAppService(IEventBus eventBus, IScheduler scheduler) 
 ```
@@ -251,11 +253,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTI2MDUxMCwtMTg5MDIyNTkzMCwxOT
-g0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4
-MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MS
-wtMTIyMjc1NzY0MywtMjcyNjM2OTMyLDM5ODU0OTY5OSwxNDk2
-NjY5OTA0LDEzODc5MTk4MDAsLTQyODg1MTQyNiwtOTk1OTQ3Mj
-Y5LC01OTg1NjA0MzMsMTc3ODIyMjk0OSwxODMwMTMwMDAyLDE1
-OTAxMzk5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTk4MzgzNzIsLTE4OTAyMjU5MzAsMT
+k4NDk2OTEzNyw5NjA4MDE0MiwtMTAxNDQ1MjcwLDE0MDMwNTIz
+ODIsLTE2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLTE1ODYyNzQ2Nz
+EsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5
+NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0Nz
+I2OSwtNTk4NTYwNDMzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwx
+NTkwMTM5OTc2XX0=
 -->
