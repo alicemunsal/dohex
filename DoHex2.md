@@ -133,7 +133,7 @@ components
     shipping
 libs				--> shared libraries
 ```
-**acl:** Anti corruption layer[^13] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+**acl:** Anti corruption layer[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 **components:** This is where we put each component as a folder.  
 **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
 ```
@@ -257,17 +257,17 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
-[
-[^13]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^14]: CQRS https://martinfowler.com/bliki/CQRS.html
+[^13]: Reactive Manifesto https://www.reactivemanifesto.org/
+[^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^15]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM0NjI4OTksMTA1ODM2OTA4NSwzNT
-g5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMDk5LDY5MjQzODg3
-OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1ODAxNjAzODksMT
-YxNTkzMDA4LC0xODE3MTA1OTkzLC0xODA4NzU3MzUxLC0xODc5
-MzE4MDEzLDE5MTU0NjI4ODYsMTA5NTY5MjA4NSwxMjM5NjY0ND
-I4LC0yNjk1MTQ2ODQsLTEyMzY0MTc1NTUsLTU3MDEwNDIsMTI1
-OTI1NDM1OF19
+eyJoaXN0b3J5IjpbMTg0MTU2NjgyMCwxMDU4MzY5MDg1LDM1OD
+kwNzMzMSwtNTgxODAzMzY2LDE4ODA3MjAwOTksNjkyNDM4ODc5
+LDEyMTk0ODA3NjIsLTE2MjAxNTMxNjQsMTU4MDE2MDM4OSwxNj
+E1OTMwMDgsLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEsLTE4Nzkz
+MTgwMTMsMTkxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMzk2NjQ0Mj
+gsLTI2OTUxNDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0MiwxMjU5
+MjU0MzU4XX0=
 -->
