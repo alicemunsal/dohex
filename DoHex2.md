@@ -4,7 +4,7 @@ Over a decade, we are continuously reviving a particular style of software archi
 
 Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development such as Frontend, Backend and Embedded. 
 
-By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity and consistent project structure to reduce the model-code gap[^5] .
+By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity better and consistent project structure to reduce the model-code gap[^5] .
 
 ## Hexagonal Architecture 
 
@@ -257,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMsMT
-kxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUx
-NDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LD
-E5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0
-OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4Mi
-wtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MSwt
-MTIyMjc1NzY0M119
+eyJoaXN0b3J5IjpbLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEsLT
+E4NzkzMTgwMTMsMTkxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMzk2
+NjQ0MjgsLTI2OTUxNDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0Mi
+wxMjU5MjU0MzU4LDE5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMTg5
+MDIyNTkzMCwxOTg0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNz
+AsMTQwMzA1MjM4MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwt
+MTU4NjI3NDY3MV19
 -->
