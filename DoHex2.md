@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Libraries can be put into any part of the program and do exactly the same thing; transform data. Turn 
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Libraries can be put into any part of the program and do exactly the same thing; transform data. Turn one object to another type of object (mapping), turn an object to boolean (validation), 
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -259,11 +259,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjQ0MjQ0OSwtNTcwMTA0MiwxMjU5Mj
-U0MzU4LDE5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMTg5MDIyNTkz
-MCwxOTg0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMz
-A1MjM4MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3
-NDY3MSwtMTIyMjc1NzY0MywtMjcyNjM2OTMyLDM5ODU0OTY5OS
-wxNDk2NjY5OTA0LDEzODc5MTk4MDAsLTQyODg1MTQyNiwtOTk1
-OTQ3MjY5XX0=
+eyJoaXN0b3J5IjpbLTEyMzY0MTc1NTUsLTU3MDEwNDIsMTI1OT
+I1NDM1OCwxOTIyMzk3ODMyLDIwMTU4MzU1MjYsLTE4OTAyMjU5
+MzAsMTk4NDk2OTEzNyw5NjA4MDE0MiwtMTAxNDQ1MjcwLDE0MD
+MwNTIzODIsLTE2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLTE1ODYy
+NzQ2NzEsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OT
+ksMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4NTE0MjYsLTk5
+NTk0NzI2OV19
 -->
