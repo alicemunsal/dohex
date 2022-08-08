@@ -175,7 +175,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Notes
 
-*  DoHex is suitable for OOP languages like C++, C#, Java, Python and new generation languages like Go and Rust
+*  DoHex is suitable for OOP languages like C++, C#, Java, Python and new generation languages like Go and Rust.
 
 
 ```java
@@ -253,7 +253,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk4MzgzNzIsLTE4OTAyMjU5MzAsMT
+eyJoaXN0b3J5IjpbLTE2MzQ4NjkyOTIsLTE4OTAyMjU5MzAsMT
 k4NDk2OTEzNyw5NjA4MDE0MiwtMTAxNDQ1MjcwLDE0MDMwNTIz
 ODIsLTE2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLTE1ODYyNzQ2Nz
 EsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5
