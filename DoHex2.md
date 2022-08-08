@@ -110,7 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ### Event Bus And Scheduler
 
-Messaging and scheduling are essential concepts for this architecture. Event bus is the most preferred communication model for components and scheduler incentives developers to think asynchronously  Therefore they should be directly injected to the **app** constructor instead of an adapter. 
+Event bus is the most preferred communication model for components and scheduler incentives developers to think asynchronously.  Therefore they should be directly injected to the **app** constructor instead of an adapter. 
 
 
 ## Project Structure
@@ -257,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTU4MjA4MywxMjE5NDgwNzYyLC0xNj
-IwMTUzMTY0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0xODE3MTA1
-OTkzLC0xODA4NzU3MzUxLC0xODc5MzE4MDEzLDE5MTU0NjI4OD
-YsMTA5NTY5MjA4NSwxMjM5NjY0NDI4LC0yNjk1MTQ2ODQsLTEy
-MzY0MTc1NTUsLTU3MDEwNDIsMTI1OTI1NDM1OCwxOTIyMzk3OD
-MyLDIwMTU4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5
-NjA4MDE0Ml19
+eyJoaXN0b3J5IjpbNjkyNDM4ODc5LDEyMTk0ODA3NjIsLTE2Mj
+AxNTMxNjQsMTU4MDE2MDM4OSwxNjE1OTMwMDgsLTE4MTcxMDU5
+OTMsLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMsMTkxNTQ2Mjg4Ni
+wxMDk1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUxNDY4NCwtMTIz
+NjQxNzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LDE5MjIzOTc4Mz
+IsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0OTY5MTM3LDk2
+MDgwMTQyXX0=
 -->
