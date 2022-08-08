@@ -184,9 +184,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 * Messaging and scheduling are essential for this architecture. Therefore   
 
 
-```java
-public ComponentAppService(IEventBus eventBus, IScheduler scheduler) 
-```
+
 
 CQRS is natural
 freedom 
@@ -259,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTY5MjA4NSwxMjM5NjY0NDI4LC0yNj
-k1MTQ2ODQsLTEyMzY0MTc1NTUsLTU3MDEwNDIsMTI1OTI1NDM1
-OCwxOTIyMzk3ODMyLDIwMTU4MzU1MjYsLTE4OTAyMjU5MzAsMT
-k4NDk2OTEzNyw5NjA4MDE0MiwtMTAxNDQ1MjcwLDE0MDMwNTIz
-ODIsLTE2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLTE1ODYyNzQ2Nz
-EsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5
-NjY2OTkwNF19
+eyJoaXN0b3J5IjpbMTkxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMz
+k2NjQ0MjgsLTI2OTUxNDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0
+MiwxMjU5MjU0MzU4LDE5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMT
+g5MDIyNTkzMCwxOTg0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUy
+NzAsMTQwMzA1MjM4MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MS
+wtMTU4NjI3NDY3MSwtMTIyMjc1NzY0MywtMjcyNjM2OTMyLDM5
+ODU0OTY5OV19
 -->
