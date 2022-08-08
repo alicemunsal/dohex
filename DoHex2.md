@@ -175,6 +175,10 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Key Points
 
+```java
+int foo = 'bar';
+```
+
 CQRS is natural
 freedom 
 High level project structure is the way to connect your software architecture to your source code.
@@ -246,11 +250,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODAxNDIsLTEwMTQ0NTI3MCwxNDAzMD
-UyMzgyLC0xNjQzMzU5NzMxLC0yMDU1NzAwOTQxLC0xNTg2Mjc0
-NjcxLC0xMjIyNzU3NjQzLC0yNzI2MzY5MzIsMzk4NTQ5Njk5LD
-E0OTY2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC05OTU5
-NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAxMzAwMD
-IsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4NjU0LC0x
-ODIxMjg2NTRdfQ==
+eyJoaXN0b3J5IjpbNTQxOTUwMjM4LDk2MDgwMTQyLC0xMDE0ND
+UyNzAsMTQwMzA1MjM4MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0
+MSwtMTU4NjI3NDY3MSwtMTIyMjc1NzY0MywtMjcyNjM2OTMyLD
+M5ODU0OTY5OSwxNDk2NjY5OTA0LDEzODc5MTk4MDAsLTQyODg1
+MTQyNiwtOTk1OTQ3MjY5LC01OTg1NjA0MzMsMTc3ODIyMjk0OS
+wxODMwMTMwMDAyLDE1OTAxMzk5NzYsLTE5MDkyMjg5OTUsLTE4
+MjEyODY1NF19
 -->
