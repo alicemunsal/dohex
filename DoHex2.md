@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. So all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model. 
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Thus all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library transform its data model to inner part data model and inner part data model to its data model. 
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -259,11 +259,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTI1NDM1OCwxOTIyMzk3ODMyLDIwMT
-U4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5NjA4MDE0
-MiwtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLT
-IwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3
-MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5OD
-AwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3
-NzgyMjI5NDldfQ==
+eyJoaXN0b3J5IjpbMTA2NjkxMDA5MiwxMjU5MjU0MzU4LDE5Mj
+IzOTc4MzIsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0OTY5
+MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4MiwtMT
+Y0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MSwtMTIy
+Mjc1NzY0MywtMjcyNjM2OTMyLDM5ODU0OTY5OSwxNDk2NjY5OT
+A0LDEzODc5MTk4MDAsLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01
+OTg1NjA0MzNdfQ==
 -->
