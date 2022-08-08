@@ -173,8 +173,9 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 
 
-## Key Points
+## Notes
 
+- DoHex is suitable for 
 ```java
 public ComponentAppService(IEventBus eventBus, IScheduler scheduler) 
 ```
@@ -250,11 +251,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5Nj
-A4MDE0MiwtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3
-MzEsLTIwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2ND
-MsLTI3MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3
-OTE5ODAwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwND
-MzLDE3NzgyMjI5NDksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0x
-OTA5MjI4OTk1XX0=
+eyJoaXN0b3J5IjpbMTczOTcwMTE4MCwtMTg5MDIyNTkzMCwxOT
+g0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4
+MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MS
+wtMTIyMjc1NzY0MywtMjcyNjM2OTMyLDM5ODU0OTY5OSwxNDk2
+NjY5OTA0LDEzODc5MTk4MDAsLTQyODg1MTQyNiwtOTk1OTQ3Mj
+Y5LC01OTg1NjA0MzMsMTc3ODIyMjk0OSwxODMwMTMwMDAyLDE1
+OTAxMzk5NzZdfQ==
 -->
