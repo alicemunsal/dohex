@@ -111,12 +111,6 @@ Component parts and libraries provide facade interfaces as a service for usabili
 ### Messaging And Scheduling
 
 Messaging and scheduling are essential concepts for this architecture. Therefore we may want to inject them directly to the **app** constructor instead of an adapter. 
-```javascript
-public ComponentAppService(IEventBus eventBus, IScheduler scheduler){}
-constructor (eventBus: IUserRepository) {
-	this.repository = repository
-}
-```
 
 
 ## Project Structure
@@ -263,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODQ1ODIxNywtMTg3OTMxODAxMywxOT
-E1NDYyODg2LDEwOTU2OTIwODUsMTIzOTY2NDQyOCwtMjY5NTE0
-Njg0LC0xMjM2NDE3NTU1LC01NzAxMDQyLDEyNTkyNTQzNTgsMT
-kyMjM5NzgzMiwyMDE1ODM1NTI2LC0xODkwMjI1OTMwLDE5ODQ5
-NjkxMzcsOTYwODAxNDIsLTEwMTQ0NTI3MCwxNDAzMDUyMzgyLC
-0xNjQzMzU5NzMxLC0yMDU1NzAwOTQxLC0xNTg2Mjc0NjcxLC0x
-MjIyNzU3NjQzXX0=
+eyJoaXN0b3J5IjpbLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMsMT
+kxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUx
+NDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LD
+E5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0
+OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4Mi
+wtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MSwt
+MTIyMjc1NzY0M119
 -->
