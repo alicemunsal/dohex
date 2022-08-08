@@ -106,7 +106,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts only writing unit test for provided service with test driven development techniques. In this way, we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these parts by writing unit test for provided service with test driven development techniques. In this way, we can decouple unit tests from their internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
 ## Project Structure
 
@@ -250,11 +250,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDk2OTEzNyw5NjA4MDE0MiwtMTAxND
-Q1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLTIwNTU3MDA5
-NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3MjYzNjkzMi
-wzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5ODAwLC00Mjg4
-NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3NzgyMjI5ND
-ksMTgzMDEzMDAwMiwxNTkwMTM5OTc2LC0xOTA5MjI4OTk1LC0x
-ODIxMjg2NTRdfQ==
+eyJoaXN0b3J5IjpbLTIyOTAyNjA3NCwxOTg0OTY5MTM3LDk2MD
+gwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4MiwtMTY0MzM1OTcz
+MSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MSwtMTIyMjc1NzY0My
+wtMjcyNjM2OTMyLDM5ODU0OTY5OSwxNDk2NjY5OTA0LDEzODc5
+MTk4MDAsLTQyODg1MTQyNiwtOTk1OTQ3MjY5LC01OTg1NjA0Mz
+MsMTc3ODIyMjk0OSwxODMwMTMwMDAyLDE1OTAxMzk5NzYsLTE5
+MDkyMjg5OTVdfQ==
 -->
