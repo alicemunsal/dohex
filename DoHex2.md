@@ -132,7 +132,7 @@ components
 libs				--> shared libraries
 ```
 **components:** This is where we put each component as a folder.  
-**libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components.  
+**libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be very cautious about using shared libraries. 
 **acl:** Anti corruption layer[^12] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 ```
 acl	
@@ -257,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTkzMDA4LC0xODE3MTA1OTkzLC0xOD
-A4NzU3MzUxLC0xODc5MzE4MDEzLDE5MTU0NjI4ODYsMTA5NTY5
-MjA4NSwxMjM5NjY0NDI4LC0yNjk1MTQ2ODQsLTEyMzY0MTc1NT
-UsLTU3MDEwNDIsMTI1OTI1NDM1OCwxOTIyMzk3ODMyLDIwMTU4
-MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5NjA4MDE0Mi
-wtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLTIw
-NTU3MDA5NDFdfQ==
+eyJoaXN0b3J5IjpbMTU4MDE2MDM4OSwxNjE1OTMwMDgsLTE4MT
+cxMDU5OTMsLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMsMTkxNTQ2
+Mjg4NiwxMDk1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUxNDY4NC
+wtMTIzNjQxNzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LDE5MjIz
+OTc4MzIsMjAxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0OTY5MT
+M3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4MiwtMTY0
+MzM1OTczMV19
 -->
