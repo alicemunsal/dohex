@@ -171,7 +171,7 @@ libs
 ```
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
-lib may have models and/or transformers folder. models folder contains data models named DTOs, POCOs, POJOs, Records or Structs depends on what language you are using. transformers folder contains transformation functions for these data models.    
+
 
 ## Key Points
 
@@ -222,6 +222,8 @@ Software Architecture is the blueprint of the software system. It is about makin
 
 One of the reason of the invention of the CQRS Pattern[^13] is, domain entities are not suitable for complex queries. So we decided to separate queries from the domain. Query part of this pattern is not obey the Object Oriented Design, it's Data Driven.
 
+lib may have models and/or transformers folder. models folder contains data models named DTOs, POCOs, POJOs, Records or Structs depends on what language you are using. transformers folder contains transformation functions for these data models.    
+
 
 ## Conclusion
  
@@ -244,11 +246,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ0NTI3MCwxNDAzMDUyMzgyLC0xNj
-QzMzU5NzMxLC0yMDU1NzAwOTQxLC0xNTg2Mjc0NjcxLC0xMjIy
-NzU3NjQzLC0yNzI2MzY5MzIsMzk4NTQ5Njk5LDE0OTY2Njk5MD
-QsMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC05OTU5NDcyNjksLTU5
-ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAxMzAwMDIsMTU5MDEzOT
-k3NiwtMTkwOTIyODk5NSwtMTgyMTI4NjU0LC0xODIxMjg2NTQs
-MTA2OTIzNzAzOF19
+eyJoaXN0b3J5IjpbOTYwODAxNDIsLTEwMTQ0NTI3MCwxNDAzMD
+UyMzgyLC0xNjQzMzU5NzMxLC0yMDU1NzAwOTQxLC0xNTg2Mjc0
+NjcxLC0xMjIyNzU3NjQzLC0yNzI2MzY5MzIsMzk4NTQ5Njk5LD
+E0OTY2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxNDI2LC05OTU5
+NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4MzAxMzAwMD
+IsMTU5MDEzOTk3NiwtMTkwOTIyODk5NSwtMTgyMTI4NjU0LC0x
+ODIxMjg2NTRdfQ==
 -->
