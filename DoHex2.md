@@ -176,7 +176,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 ## Notes
 
 * DoHex is not depended on any programming language.
-* Event bus and a scheduler systems are essential for this architecture. 
+* Messaging and scheduling are the essentials for this architecture.  
 
 
 ```java
@@ -254,7 +254,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjM4MDkzNiwtMTg5MDIyNTkzMCwxOT
+eyJoaXN0b3J5IjpbMTUzMTA3NDI3OCwtMTg5MDIyNTkzMCwxOT
 g0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4
 MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MS
 wtMTIyMjc1NzY0MywtMjcyNjM2OTMyLDM5ODU0OTY5OSwxNDk2
