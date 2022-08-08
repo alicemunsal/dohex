@@ -106,7 +106,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the program for easier refactoring and we make deeper classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make deeper classes[^11] as a bonus.
 
 ### Messaging And Scheduling
 
@@ -257,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEsLT
-E4NzkzMTgwMTMsMTkxNTQ2Mjg4NiwxMDk1NjkyMDg1LDEyMzk2
-NjQ0MjgsLTI2OTUxNDY4NCwtMTIzNjQxNzU1NSwtNTcwMTA0Mi
-wxMjU5MjU0MzU4LDE5MjIzOTc4MzIsMjAxNTgzNTUyNiwtMTg5
-MDIyNTkzMCwxOTg0OTY5MTM3LDk2MDgwMTQyLC0xMDE0NDUyNz
-AsMTQwMzA1MjM4MiwtMTY0MzM1OTczMSwtMjA1NTcwMDk0MSwt
-MTU4NjI3NDY3MV19
+eyJoaXN0b3J5IjpbMTYxNTkzMDA4LC0xODE3MTA1OTkzLC0xOD
+A4NzU3MzUxLC0xODc5MzE4MDEzLDE5MTU0NjI4ODYsMTA5NTY5
+MjA4NSwxMjM5NjY0NDI4LC0yNjk1MTQ2ODQsLTEyMzY0MTc1NT
+UsLTU3MDEwNDIsMTI1OTI1NDM1OCwxOTIyMzk3ODMyLDIwMTU4
+MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5NjA4MDE0Mi
+wtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLTIw
+NTU3MDA5NDFdfQ==
 -->
