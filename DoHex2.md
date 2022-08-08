@@ -108,7 +108,7 @@ Each component can have a different complexity, we can omit unnecessary parts an
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make deeper classes[^11] as a bonus.
 
-### Messaging And Scheduling
+### Event Bus And Scheduler
 
 Messaging and scheduling are essential concepts for this architecture. Event bus is the most preferred communication model for components and scheduler incentives developers to think asynchronously  Therefore they should be directly injected to the **app** constructor instead of an adapter. 
 
@@ -257,11 +257,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNT
-gwMTYwMzg5LDE2MTU5MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1
-NzM1MSwtMTg3OTMxODAxMywxOTE1NDYyODg2LDEwOTU2OTIwOD
-UsMTIzOTY2NDQyOCwtMjY5NTE0Njg0LC0xMjM2NDE3NTU1LC01
-NzAxMDQyLDEyNTkyNTQzNTgsMTkyMjM5NzgzMiwyMDE1ODM1NT
-I2LC0xODkwMjI1OTMwLDE5ODQ5NjkxMzcsOTYwODAxNDIsLTEw
-MTQ0NTI3MF19
+eyJoaXN0b3J5IjpbLTY5NTU4MjA4MywxMjE5NDgwNzYyLC0xNj
+IwMTUzMTY0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0xODE3MTA1
+OTkzLC0xODA4NzU3MzUxLC0xODc5MzE4MDEzLDE5MTU0NjI4OD
+YsMTA5NTY5MjA4NSwxMjM5NjY0NDI4LC0yNjk1MTQ2ODQsLTEy
+MzY0MTc1NTUsLTU3MDEwNDIsMTI1OTI1NDM1OCwxOTIyMzk3OD
+MyLDIwMTU4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5
+NjA4MDE0Ml19
 -->
