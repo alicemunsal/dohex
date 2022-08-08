@@ -108,6 +108,10 @@ Each component can have a different complexity, we can omit unnecessary parts an
 
 Component parts and libraries provide facade interfaces as a service for usability and testability. Only adapters have **Side Effects**[^10]; app, core, lib does not. Thus we can develop internal functionalities of these services by test driven development techniques. In this way, we can decouple unit tests and internal implementations for easier refactoring and we make deeper classes[^11] as a bonus.
 
+### Messaging And Scheduling
+
+
+
 ## Project Structure
 
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
@@ -254,11 +258,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjM5NzgzMiwyMDE1ODM1NTI2LC0xOD
-kwMjI1OTMwLDE5ODQ5NjkxMzcsOTYwODAxNDIsLTEwMTQ0NTI3
-MCwxNDAzMDUyMzgyLC0xNjQzMzU5NzMxLC0yMDU1NzAwOTQxLC
-0xNTg2Mjc0NjcxLC0xMjIyNzU3NjQzLC0yNzI2MzY5MzIsMzk4
-NTQ5Njk5LDE0OTY2Njk5MDQsMTM4NzkxOTgwMCwtNDI4ODUxND
-I2LC05OTU5NDcyNjksLTU5ODU2MDQzMywxNzc4MjIyOTQ5LDE4
-MzAxMzAwMDJdfQ==
+eyJoaXN0b3J5IjpbMjAyNDYzMzgwMiwxOTIyMzk3ODMyLDIwMT
+U4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5NjA4MDE0
+MiwtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLT
+IwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3
+MjYzNjkzMiwzOTg1NDk2OTksMTQ5NjY2OTkwNCwxMzg3OTE5OD
+AwLC00Mjg4NTE0MjYsLTk5NTk0NzI2OSwtNTk4NTYwNDMzLDE3
+NzgyMjI5NDldfQ==
 -->
