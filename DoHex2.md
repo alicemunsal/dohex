@@ -110,7 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ### Event Bus And Scheduler
 
-Event bus and scheduler are the essential concepts for this architecture. They both incentives developers to think asynchronously. Event bus is the implementation of the **Pub-Sub Design Pattern**[^12] 
+Event bus and scheduler are the essential concepts for this architecture. They both incentives developers to think asynchronously. Event bus is the implementation of the **Pub-Sub Design Pattern**[^12] and it is the way to enable efficient, real-time communication between different components without them being aware of one another. 
 
 Event bus is the most preferred communication model between different components without them being aware of one another. and scheduler incentives developers to think asynchronously.  Therefore they should be directly injected to the **app** constructor instead of an adapter. 
 
@@ -133,7 +133,7 @@ components
     shipping
 libs				--> shared libraries
 ```
-**acl:** Anti corruption layer[^12] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+**acl:** Anti corruption layer[^13] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 **components:** This is where we put each component as a folder.  
 **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
 ```
@@ -256,12 +256,13 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
-[^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^13]: CQRS https://martinfowler.com/bliki/CQRS.html
+[^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
+[^13]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^14]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTYyNTQ0MiwtNTgxODAzMzY2LDE4OD
+eyJoaXN0b3J5IjpbLTU1NTIxNzY3MywtNTgxODAzMzY2LDE4OD
 A3MjAwOTksNjkyNDM4ODc5LDEyMTk0ODA3NjIsLTE2MjAxNTMx
 NjQsMTU4MDE2MDM4OSwxNjE1OTMwMDgsLTE4MTcxMDU5OTMsLT
 E4MDg3NTczNTEsLTE4NzkzMTgwMTMsMTkxNTQ2Mjg4NiwxMDk1
