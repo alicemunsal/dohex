@@ -195,37 +195,21 @@ Direct writing instead of thinking about structring your classes and naming
 
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
-If we use Hexagonal Architecture and Data Oriented Design principles together with  
-encourage programmers
-encourage reactivity 
-lib incentives developers to think for data and transformation
+
 Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
-we can still use oop in core. 
-cognitive load
-least resistance path
-least effort
+
 organizational project structure
 portable code
 u can use go, rust, c, c++, java with the same structure
 
-component oriented is natural fit for hexagonal architecture
-
 Immutable data types
-side effect free
-data behavior 
 DTOs, CQRS
 Different langs. and Modern langs.
 Threading
 
-testing is easier, changing is easier
-
-We don't need a library, if implicit transformation provided by the external frameworks or data is passed directly to the inner layers or our data model is a simple data type like int, double, string.  
-
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
 
-we can add lib if we need model or transformation
-sample app design, folder structure graphs and model code gap  
 
 Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
 
@@ -259,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNT
-gzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5
-OSw2OTI0Mzg4NzksMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNT
-gwMTYwMzg5LDE2MTU5MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1
-NzM1MSwtMTg3OTMxODAxMywxOTE1NDYyODg2LDEwOTU2OTIwOD
-UsMTIzOTY2NDQyOCwtMjY5NTE0Njg0LC0xMjM2NDE3NTU1LC01
-NzAxMDQyXX0=
+eyJoaXN0b3J5IjpbLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxOD
+QxNTY2ODIwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMz
+NjYsMTg4MDcyMDA5OSw2OTI0Mzg4NzksMTIxOTQ4MDc2MiwtMT
+YyMDE1MzE2NCwxNTgwMTYwMzg5LDE2MTU5MzAwOCwtMTgxNzEw
+NTk5MywtMTgwODc1NzM1MSwtMTg3OTMxODAxMywxOTE1NDYyOD
+g2LDEwOTU2OTIwODUsMTIzOTY2NDQyOCwtMjY5NTE0Njg0LC0x
+MjM2NDE3NTU1XX0=
 -->
