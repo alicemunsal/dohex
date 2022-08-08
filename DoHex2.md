@@ -110,6 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ### Messaging And Scheduling
 
+Messaging and scheduling are essential concepts for this architecture. 
 
 
 ## Project Structure
@@ -258,7 +259,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDYzMzgwMiwxOTIyMzk3ODMyLDIwMT
+eyJoaXN0b3J5IjpbMTI1OTI1NDM1OCwxOTIyMzk3ODMyLDIwMT
 U4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2OTEzNyw5NjA4MDE0
 MiwtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLTE2NDMzNTk3MzEsLT
 IwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEyMjI3NTc2NDMsLTI3
