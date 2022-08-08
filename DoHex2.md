@@ -110,7 +110,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 ### Messaging And Scheduling
 
-Messaging and scheduling are essential concepts for this architecture. 
+Messaging and scheduling are essential concepts for this architecture. There
 
 ```java
 public ComponentAppService(IEventBus eventBus, IScheduler scheduler) 
@@ -261,11 +261,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^13]: CQRS https://martinfowler.com/bliki/CQRS.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkzMTgwMTMsMTkxNTQ2Mjg4NiwxMD
-k1NjkyMDg1LDEyMzk2NjQ0MjgsLTI2OTUxNDY4NCwtMTIzNjQx
-NzU1NSwtNTcwMTA0MiwxMjU5MjU0MzU4LDE5MjIzOTc4MzIsMj
-AxNTgzNTUyNiwtMTg5MDIyNTkzMCwxOTg0OTY5MTM3LDk2MDgw
-MTQyLC0xMDE0NDUyNzAsMTQwMzA1MjM4MiwtMTY0MzM1OTczMS
-wtMjA1NTcwMDk0MSwtMTU4NjI3NDY3MSwtMTIyMjc1NzY0Mywt
-MjcyNjM2OTMyXX0=
+eyJoaXN0b3J5IjpbLTMzODM4MjA1LC0xODc5MzE4MDEzLDE5MT
+U0NjI4ODYsMTA5NTY5MjA4NSwxMjM5NjY0NDI4LC0yNjk1MTQ2
+ODQsLTEyMzY0MTc1NTUsLTU3MDEwNDIsMTI1OTI1NDM1OCwxOT
+IyMzk3ODMyLDIwMTU4MzU1MjYsLTE4OTAyMjU5MzAsMTk4NDk2
+OTEzNyw5NjA4MDE0MiwtMTAxNDQ1MjcwLDE0MDMwNTIzODIsLT
+E2NDMzNTk3MzEsLTIwNTU3MDA5NDEsLTE1ODYyNzQ2NzEsLTEy
+MjI3NTc2NDNdfQ==
 -->
