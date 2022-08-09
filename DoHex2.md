@@ -185,7 +185,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 * DoHex is not depended on any programming language.
 * Event bus is the most preferred communication type for components, but there others. And 
 
-     
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
 
 
@@ -245,7 +245,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjMxOTMzMSwtMTEwMjQ5MjYwMywtMT
+eyJoaXN0b3J5IjpbLTg0MTM5Njc0OSwtMTEwMjQ5MjYwMywtMT
 UyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1NjY4MjAsMTA1ODM2
 OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMDk5LD
 Y5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1ODAx
