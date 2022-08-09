@@ -183,7 +183,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 ## Notes
 
 * DoHex is not depended on any programming language.
-* Messaging and scheduling are essential for this architecture. Therefore   
+* Event bus is    
 
 
 
@@ -243,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI0OTI2MDMsLTE1Mjg3NjQxNzMsMj
-EwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNTgzNjkwODUsMzU4OTA3
-MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5OSw2OTI0Mzg4NzksMT
-IxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNTgwMTYwMzg5LDE2MTU5
-MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1NzM1MSwtMTg3OTMxOD
-AxMywxOTE1NDYyODg2LDEwOTU2OTIwODUsMTIzOTY2NDQyOCwt
-MjY5NTE0Njg0XX0=
+eyJoaXN0b3J5IjpbLTE4MDY0OTY2NjIsLTExMDI0OTI2MDMsLT
+E1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNTgz
+NjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5OS
+w2OTI0Mzg4NzksMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNTgw
+MTYwMzg5LDE2MTU5MzAwOCwtMTgxNzEwNTk5MywtMTgwODc1Nz
+M1MSwtMTg3OTMxODAxMywxOTE1NDYyODg2LDEwOTU2OTIwODUs
+MTIzOTY2NDQyOF19
 -->
