@@ -191,7 +191,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * DoHex allows us to develop and test our application as a monolith and deploy it as a microservices application as needed by reasonable effort. 
 
-* Single thread per request or event loop thread models can be used 
+* Single thread per request or event loop thread models can be used with DoHex architecture.
 
 Developers dont much to learn about
 
@@ -246,11 +246,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzA5Mjc0MSwzODI5MDQ4OTYsLTIxMz
-kwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1
-NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC
-00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEw
-MjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1Nj
-Y4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Niwx
-ODgwNzIwMDk5XX0=
+eyJoaXN0b3J5IjpbLTEwMDk3Nzg4MjgsMzgyOTA0ODk2LC0yMT
+M5MDc1MTkyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4
+NTQ1LC0xNjQ3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNy
+wtNDU3NjYzMDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTEx
+MDI0OTI2MDMsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNT
+Y2ODIwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYs
+MTg4MDcyMDA5OV19
 -->
