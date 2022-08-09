@@ -187,6 +187,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
  * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
+* 
 
 
 
@@ -239,16 +240,16 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
 [^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[
-[^15]: CQRS https://martinfowler.com/bliki/CQRS.html
+[^15]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
+[^16]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzA2NDk4LC0yODc1NTg1NDUsLTE2ND
-c2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC00NTc2NjMw
-NjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEwMjQ5MjYwMy
-wtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1NjY4MjAsMTA1
-ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMD
-k5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1
-ODAxNjAzODldfQ==
+eyJoaXN0b3J5IjpbMTg3ODY0MzA3MiwtMjg3NTU4NTQ1LC0xNj
+Q3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywtNDU3NjYz
+MDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTExMDI0OTI2MD
+MsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEw
+NTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMD
+A5OSw2OTI0Mzg4NzksMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwx
+NTgwMTYwMzg5XX0=
 -->
