@@ -197,7 +197,6 @@ Direct writing instead of thinking about structring your classes and naming
 we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
 
-Messaging and scheduling incentives and directing developers to think async and create loosely coupled system. 
 
 organizational project structure
 portable code
@@ -244,7 +243,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDczNDY0NTQsLTg0MTM5Njc0OSwtMT
+eyJoaXN0b3J5IjpbLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMT
 EwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1
 NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Ni
 wxODgwNzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIw
