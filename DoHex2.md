@@ -189,6 +189,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Hexagonal Architecture is already used in embedded systems. [^15] We can use DoHex architecture for frontend, backend and embeded applications. 
 
+* 
 
 
 Developers dont much to learn about
@@ -245,11 +246,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk1NTAwNzMsLTI4NzU1ODU0NSwtMT
-Y0NzY1Nzc0Nyw5NjAzMjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2
-MzA2OCwtMTA2MjM0Njg1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNj
-AzLC0xNTI4NzY0MTczLDIxMDQ0NjUzNzAsMTg0MTU2NjgyMCwx
-MDU4MzY5MDg1LDM1ODkwNzMzMSwtNTgxODAzMzY2LDE4ODA3Mj
-AwOTksNjkyNDM4ODc5LDEyMTk0ODA3NjIsLTE2MjAxNTMxNjQs
-MTU4MDE2MDM4OV19
+eyJoaXN0b3J5IjpbNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yOD
+c1NTg1NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4
+MzM3LC00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OS
+wtMTEwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4
+NDE1NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMz
+M2NiwxODgwNzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0x
+NjIwMTUzMTY0XX0=
 -->
