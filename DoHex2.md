@@ -238,15 +238,14 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
 [^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
 [^15]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
-[^16]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzc5Mjk3NywzODI5MDQ4OTYsLTIxMz
-kwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1
-NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC
-00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEw
-MjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1Nj
-Y4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Niwx
-ODgwNzIwMDk5XX0=
+eyJoaXN0b3J5IjpbLTEyNjgzMjE5MTAsMTgyMzc5Mjk3NywzOD
+I5MDQ4OTYsLTIxMzkwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUw
+MDczLC0yODc1NTg1NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC
+0xMTQ4NzA4MzM3LC00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0
+MTM5Njc0OSwtMTEwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0ND
+Y1MzcwLDE4NDE1NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEs
+LTU4MTgwMzM2Nl19
 -->
