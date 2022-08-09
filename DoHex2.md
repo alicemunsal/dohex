@@ -189,15 +189,12 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Hexagonal Architecture is already used in embedded systems. [^15] We can use DoHex architecture for frontend, backend and embeded applications. 
 
-* DoHex allows us to develop and test our application as a monolith and deploy it as a microservices application as needed by re 
-* DoHex enable us to start implementation of our application as a monolith then refactor it to microservices application by reasonable effort.   
-
+* DoHex allows us to develop and test our application as a monolith and deploy it as a microservices application as needed by reasonable effort. 
 
 Developers dont much to learn about
 
 Direct writing instead of thinking about structring your classes and naming
 
-we can start with monolith and split them into microservices
 programming is organizing thinking with diagrams, bunch of boxes and lines.
 
 
@@ -247,7 +244,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxODMzMDMwLC0yMTM5MDc1MTkyLDY3Mz
+eyJoaXN0b3J5IjpbMzgyOTA0ODk2LC0yMTM5MDc1MTkyLDY3Mz
 M2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1LC0xNjQ3NjU3
 NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywtNDU3NjYzMDY4LC
 0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTExMDI0OTI2MDMsLTE1
