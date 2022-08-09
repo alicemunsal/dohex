@@ -186,7 +186,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-DoHex is not depended on any programming language.
+DoHex is language agnostic .
 
 
 
@@ -243,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMT
-EwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1
-NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Ni
-wxODgwNzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIw
-MTUzMTY0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0xODE3MTA1OT
-kzLC0xODA4NzU3MzUxLC0xODc5MzE4MDEzLDE5MTU0NjI4ODYs
-MTA5NTY5MjA4NV19
+eyJoaXN0b3J5IjpbLTMzMjAxODEzOCwtMTA2MjM0Njg1MiwtOD
+QxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MTczLDIxMDQ0
+NjUzNzAsMTg0MTU2NjgyMCwxMDU4MzY5MDg1LDM1ODkwNzMzMS
+wtNTgxODAzMzY2LDE4ODA3MjAwOTksNjkyNDM4ODc5LDEyMTk0
+ODA3NjIsLTE2MjAxNTMxNjQsMTU4MDE2MDM4OSwxNjE1OTMwMD
+gsLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMs
+MTkxNTQ2Mjg4Nl19
 -->
