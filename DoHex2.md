@@ -204,9 +204,6 @@ organizational project structure
 portable code
 
 Immutable data types
-DTOs, CQRS
-Different langs. and Modern langs.
-Threading
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. 
 > --Phil Karlton
@@ -241,7 +238,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgzMjE5MTAsMTgyMzc5Mjk3NywzOD
+eyJoaXN0b3J5IjpbLTIwMTQ3NzYwOTIsMTgyMzc5Mjk3NywzOD
 I5MDQ4OTYsLTIxMzkwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUw
 MDczLC0yODc1NTg1NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC
 0xMTQ4NzA4MzM3LC00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0
