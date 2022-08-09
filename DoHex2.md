@@ -186,7 +186,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from the programming language. Hence we can use Java, JavaScript, C++, C#; modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C. 
+* DoHex only expects polymorphic behavior from the programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C. 
 
 
 
@@ -243,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMDk2MTgsOTYwMzI3MTg4LC0xMTQ4Nz
-A4MzM3LC00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0
-OSwtMTEwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLD
-E4NDE1NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgw
-MzM2NiwxODgwNzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC
-0xNjIwMTUzMTY0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0xODE3
-MTA1OTkzXX0=
+eyJoaXN0b3J5IjpbLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMT
+Q4NzA4MzM3LC00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5
+Njc0OSwtMTEwMjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1Mz
+cwLDE4NDE1NjY4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4
+MTgwMzM2NiwxODgwNzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNz
+YyLC0xNjIwMTUzMTY0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0x
+ODE3MTA1OTkzXX0=
 -->
