@@ -179,7 +179,6 @@ libs
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
 
-
 ## Notes
 
 * Event bus is the most preferred communication type for components but there are others. Design of your system might look like this:
@@ -243,11 +242,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA5NDU4NTksLTE2NDc2NTc3NDcsOT
-YwMzI3MTg4LC0xMTQ4NzA4MzM3LC00NTc2NjMwNjgsLTEwNjIz
-NDY4NTIsLTg0MTM5Njc0OSwtMTEwMjQ5MjYwMywtMTUyODc2ND
-E3MywyMTA0NDY1MzcwLDE4NDE1NjY4MjAsMTA1ODM2OTA4NSwz
-NTg5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMDk5LDY5MjQzOD
-g3OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1ODAxNjAzODks
-MTYxNTkzMDA4XX0=
+eyJoaXN0b3J5IjpbLTQxNzM2NjYxLC0xNjQ3NjU3NzQ3LDk2MD
+MyNzE4OCwtMTE0ODcwODMzNywtNDU3NjYzMDY4LC0xMDYyMzQ2
+ODUyLC04NDEzOTY3NDksLTExMDI0OTI2MDMsLTE1Mjg3NjQxNz
+MsMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNTgzNjkwODUsMzU4
+OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5OSw2OTI0Mzg4Nz
+ksMTIxOTQ4MDc2MiwtMTYyMDE1MzE2NCwxNTgwMTYwMzg5LDE2
+MTU5MzAwOF19
 -->
