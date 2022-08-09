@@ -182,7 +182,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Notes
 
-* Event bus is the most preferred communication type for components but there are others. Design of your system might be look like this:
+* Event bus is the most preferred communication type for components but there are others. Design of your system might look like this:
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
@@ -243,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzY2MzA2OCwtMTA2MjM0Njg1MiwtOD
-QxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MTczLDIxMDQ0
-NjUzNzAsMTg0MTU2NjgyMCwxMDU4MzY5MDg1LDM1ODkwNzMzMS
-wtNTgxODAzMzY2LDE4ODA3MjAwOTksNjkyNDM4ODc5LDEyMTk0
-ODA3NjIsLTE2MjAxNTMxNjQsMTU4MDE2MDM4OSwxNjE1OTMwMD
-gsLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEsLTE4NzkzMTgwMTMs
-MTkxNTQ2Mjg4Nl19
+eyJoaXN0b3J5IjpbLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwtMT
+A2MjM0Njg1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4
+NzY0MTczLDIxMDQ0NjUzNzAsMTg0MTU2NjgyMCwxMDU4MzY5MD
+g1LDM1ODkwNzMzMSwtNTgxODAzMzY2LDE4ODA3MjAwOTksNjky
+NDM4ODc5LDEyMTk0ODA3NjIsLTE2MjAxNTMxNjQsMTU4MDE2MD
+M4OSwxNjE1OTMwMDgsLTE4MTcxMDU5OTMsLTE4MDg3NTczNTEs
+LTE4NzkzMTgwMTNdfQ==
 -->
