@@ -39,7 +39,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (aka Open-Closed Principle[^6])
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (a.k.a. Open-Closed Principle[^6])
 
 ## Data Oriented Design
 
@@ -239,15 +239,16 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
 [^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[
 [^15]: CQRS https://martinfowler.com/bliki/CQRS.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzU1ODU0NSwtMTY0NzY1Nzc0Nyw5Nj
-AzMjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwtMTA2MjM0
-Njg1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MT
-czLDIxMDQ0NjUzNzAsMTg0MTU2NjgyMCwxMDU4MzY5MDg1LDM1
-ODkwNzMzMSwtNTgxODAzMzY2LDE4ODA3MjAwOTksNjkyNDM4OD
-c5LDEyMTk0ODA3NjIsLTE2MjAxNTMxNjQsMTU4MDE2MDM4OSwx
-NjE1OTMwMDhdfQ==
+eyJoaXN0b3J5IjpbMjEwMzA2NDk4LC0yODc1NTg1NDUsLTE2ND
+c2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC00NTc2NjMw
+NjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEwMjQ5MjYwMy
+wtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1NjY4MjAsMTA1
+ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2NiwxODgwNzIwMD
+k5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIwMTUzMTY0LDE1
+ODAxNjAzODldfQ==
 -->
