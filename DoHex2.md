@@ -181,7 +181,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Notes
 
-* Explaneing 
+* DoHex has a few moving  
 
 * Event bus is the most preferred communication type for components but there are others. Design of your system might look like this:
 
@@ -240,11 +240,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTUwMTA0MywtMjAxNDc3NjA5MiwxOD
-IzNzkyOTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Miw2NzMzNjAx
-OTEsLTIwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0NzY1Nzc0Ny
-w5NjAzMjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwtMTA2
-MjM0Njg1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4Nz
-Y0MTczLDIxMDQ0NjUzNzAsMTg0MTU2NjgyMCwxMDU4MzY5MDg1
-LDM1ODkwNzMzMV19
+eyJoaXN0b3J5IjpbNzAwNDI1NDA3LC0yMDE0Nzc2MDkyLDE4Mj
+M3OTI5NzcsMzgyOTA0ODk2LC0yMTM5MDc1MTkyLDY3MzM2MDE5
+MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1LC0xNjQ3NjU3NzQ3LD
+k2MDMyNzE4OCwtMTE0ODcwODMzNywtNDU3NjYzMDY4LC0xMDYy
+MzQ2ODUyLC04NDEzOTY3NDksLTExMDI0OTI2MDMsLTE1Mjg3Nj
+QxNzMsMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNTgzNjkwODUs
+MzU4OTA3MzMxXX0=
 -->
