@@ -212,11 +212,8 @@ Threading
 > --Phil Karlton
 
 
-Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
 
-One of the reason of the invention of the CQRS Pattern[^13] is, domain entities are not suitable for complex queries. So we decided to separate queries from the domain. Query part of this pattern is not obey the Object Oriented Design, it's Data Driven.
 
-lib may have models and/or transformers folder. models folder contains data models named DTOs, POCOs, POJOs, Records or Structs depends on what language you are using. transformers folder contains transformation functions for these data models.    
 
 
 ## Conclusion
@@ -245,11 +242,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjcxMjIsMzgyOTA0ODk2LC0yMTM5MD
-c1MTkyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1
-LC0xNjQ3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywtND
-U3NjYzMDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTExMDI0
-OTI2MDMsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNTY2OD
-IwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4
-MDcyMDA5OV19
+eyJoaXN0b3J5IjpbMTgyMzc5Mjk3NywzODI5MDQ4OTYsLTIxMz
+kwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1
+NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC
+00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEw
+MjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1Nj
+Y4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Niwx
+ODgwNzIwMDk5XX0=
 -->
