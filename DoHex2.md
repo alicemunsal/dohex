@@ -186,7 +186,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from the programming language. 
+* DoHex only expects polymorphic behavior from the programming language. Hence we can use Java, C++, C#,  
 
 
 
@@ -243,11 +243,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC00NT
-c2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEwMjQ5
-MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1NjY4Mj
-AsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2NiwxODgw
-NzIwMDk5LDY5MjQzODg3OSwxMjE5NDgwNzYyLC0xNjIwMTUzMT
-Y0LDE1ODAxNjAzODksMTYxNTkzMDA4LC0xODE3MTA1OTkzLC0x
-ODA4NzU3MzUxXX0=
+eyJoaXN0b3J5IjpbNjI5OTc0MjQ1LDk2MDMyNzE4OCwtMTE0OD
+cwODMzNywtNDU3NjYzMDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3
+NDksLTExMDI0OTI2MDMsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MC
+wxODQxNTY2ODIwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4
+MDMzNjYsMTg4MDcyMDA5OSw2OTI0Mzg4NzksMTIxOTQ4MDc2Mi
+wtMTYyMDE1MzE2NCwxNTgwMTYwMzg5LDE2MTU5MzAwOCwtMTgx
+NzEwNTk5M119
 -->
