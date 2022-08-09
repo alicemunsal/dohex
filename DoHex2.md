@@ -202,7 +202,6 @@ programming is organizing thinking with diagrams, bunch of boxes and lines.
 
 organizational project structure
 portable code
-u can use go, rust, c, c++, java with the same structure
 
 Immutable data types
 DTOs, CQRS
@@ -246,11 +245,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk3Nzg4MjgsMzgyOTA0ODk2LC0yMT
-M5MDc1MTkyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4
-NTQ1LC0xNjQ3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNy
-wtNDU3NjYzMDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTEx
-MDI0OTI2MDMsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNT
-Y2ODIwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYs
-MTg4MDcyMDA5OV19
+eyJoaXN0b3J5IjpbODUyNjcxMjIsMzgyOTA0ODk2LC0yMTM5MD
+c1MTkyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1
+LC0xNjQ3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywtND
+U3NjYzMDY4LC0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTExMDI0
+OTI2MDMsLTE1Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNTY2OD
+IwLDEwNTgzNjkwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4
+MDcyMDA5OV19
 -->
