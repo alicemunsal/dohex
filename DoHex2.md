@@ -191,6 +191,8 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * DoHex allows us to develop and test our application as a monolith and deploy it as a microservices application as needed by reasonable effort. 
 
+* Single thread per request or event loop thread models can be used 
+
 Developers dont much to learn about
 
 Direct writing instead of thinking about structring your classes and naming
@@ -244,11 +246,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyOTA0ODk2LC0yMTM5MDc1MTkyLDY3Mz
-M2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1LC0xNjQ3NjU3
-NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywtNDU3NjYzMDY4LC
-0xMDYyMzQ2ODUyLC04NDEzOTY3NDksLTExMDI0OTI2MDMsLTE1
-Mjg3NjQxNzMsMjEwNDQ2NTM3MCwxODQxNTY2ODIwLDEwNTgzNj
-kwODUsMzU4OTA3MzMxLC01ODE4MDMzNjYsMTg4MDcyMDA5OSw2
-OTI0Mzg4NzldfQ==
+eyJoaXN0b3J5IjpbMTUxMzA5Mjc0MSwzODI5MDQ4OTYsLTIxMz
+kwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1
+NDUsLTE2NDc2NTc3NDcsOTYwMzI3MTg4LC0xMTQ4NzA4MzM3LC
+00NTc2NjMwNjgsLTEwNjIzNDY4NTIsLTg0MTM5Njc0OSwtMTEw
+MjQ5MjYwMywtMTUyODc2NDE3MywyMTA0NDY1MzcwLDE4NDE1Nj
+Y4MjAsMTA1ODM2OTA4NSwzNTg5MDczMzEsLTU4MTgwMzM2Niwx
+ODgwNzIwMDk5XX0=
 -->
