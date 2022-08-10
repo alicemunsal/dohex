@@ -157,14 +157,14 @@ libs
 ```
     customer
         adapters
-	        InMemoryCustomerRepository.java
-	        SqliteCustomerRepository
-		        SqliteCustomerRepository.java
-		        lib
+            InMemoryCustomerRepository.java
+            SqliteCustomerRepository
+                SqliteCustomerRepository.java
+	            lib
         app
             CustomerAppService.java                  --> Test
             lib
-	            CustomerAppLibService.java           --> Test
+               CustomerAppLibService.java           --> Test
 	            models
 	                AddCustomerRequest.java
 	                AddCustomerResponse.java
@@ -229,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NjkwMDkyLC0xNDAyMzgxMjgsLTE1MT
-U5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3
-NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLT
-E2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2Mjcx
-OTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUwMywxMDYyNTc5Mj
-QzLDY2MzM4NTk4NSwxMTk2NzYyNjE4LC0xMTc3OTQzMjIzLDk5
-MzM4MzMzMV19
+eyJoaXN0b3J5IjpbLTUzMzg0ODgyNiwtMTQwMjM4MTI4LC0xNT
+E1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5
+NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3NjU3NTQ3LC
+0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwODc0LC05NjI3
+MTk2ODEsLTE1MzM5ODY0MjksLTE0OTIxMDI1MDMsMTA2MjU3OT
+I0Myw2NjMzODU5ODUsMTE5Njc2MjYxOCwtMTE3Nzk0MzIyMyw5
+OTMzODMzMzFdfQ==
 -->
