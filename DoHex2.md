@@ -106,7 +106,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Except adapters, component parts (app,core,lib) are **Side Effects**[^10]. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make deeper classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Except adapters, component parts (app,core,lib) are **Side Effects**[^10] free. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make deeper classes[^11] as a bonus.
 
 ### Event Bus And Scheduler
 
@@ -222,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMDI2NTM1LDIwNTUyMjc0MjksLTE5MT
-k1MDQ1NDMsNTA3NjQyMDc1LC03NDY3MDQwMjksMzMyOTE1OTE2
-LC03NDY3MDQwMjksLTE3MTIxMTIwMDYsLTkyODA0Nzg1MiwtMT
-g4NjU4NDQ1LDg2MjM3MDQxMywtMzgzNDU3MzMxLDUzMzI0MzI0
-NywxODI2Mzc4Nzk5LC0xNjQ3NTcxODYxLC0xMDAyNDU3MTMzLC
-0xNDg3MDE1OTM1LDE3NDk2NDkyOTYsMTIzNTk2ODA1NSw3MDA0
-MjU0MDddfQ==
+eyJoaXN0b3J5IjpbLTE3NjE1MTkyNDcsMjA1NTIyNzQyOSwtMT
+kxOTUwNDU0Myw1MDc2NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5
+MTYsLTc0NjcwNDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3ODUyLC
+0xODg2NTg0NDUsODYyMzcwNDEzLC0zODM0NTczMzEsNTMzMjQz
+MjQ3LDE4MjYzNzg3OTksLTE2NDc1NzE4NjEsLTEwMDI0NTcxMz
+MsLTE0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMjM1OTY4MDU1LDcw
+MDQyNTQwN119
 -->
