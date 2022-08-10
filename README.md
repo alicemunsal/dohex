@@ -100,7 +100,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-OO.png)
+![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-OO.png)
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -122,7 +122,7 @@ Event bus and scheduler should be directly injected to the app constructor inste
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the model-code gap[^5]
 
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
+![Project Structure](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Structure.png)
 
 ```
 acl             --> anti corruption layer for external dependencies (implement facade or adapter)
@@ -184,7 +184,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Event bus is the preferred communication type for components but there are others. Design of your system might look like this:
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
+![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Hybrid.png)     
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
 
@@ -196,7 +196,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * When out-process robust communication is needed, **Event Sourcing** can be used. We can directly connect necessary components to a event streaming platform through its adapters, or we can connect our event bus to a event streaming platform.  
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Deployment.png)
+![Deployment](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Deployment.png)
 
 ## Conclusion
 
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjU0MzIxMCwxNzg2MDA4NTA4LC0xND
+eyJoaXN0b3J5IjpbLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xND
 AyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5
 NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC
 00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMx
