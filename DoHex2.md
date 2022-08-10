@@ -203,7 +203,7 @@ This is the expanded view of the customer component. Structuring and naming conv
  
 I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Concurrency and thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
 ### References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
@@ -224,11 +224,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMzg1OTg1LDExOTY3NjI2MTgsLTExNz
-c5NDMyMjMsOTkzMzgzMzMxLC0yMDc0NDI1MjIxLC0yMDc0NDI1
-MjIxLDQ3MDEwNzgwNiwxMTQ2MzgwMDAzLC0yMDAyMDg0NTA3LD
-IwNTUyMjc0MjksLTE5MTk1MDQ1NDMsNTA3NjQyMDc1LC03NDY3
-MDQwMjksMzMyOTE1OTE2LC03NDY3MDQwMjksLTE3MTIxMTIwMD
-YsLTkyODA0Nzg1MiwtMTg4NjU4NDQ1LDg2MjM3MDQxMywtMzgz
-NDU3MzMxXX0=
+eyJoaXN0b3J5IjpbMTA2MjU3OTI0Myw2NjMzODU5ODUsMTE5Nj
+c2MjYxOCwtMTE3Nzk0MzIyMyw5OTMzODMzMzEsLTIwNzQ0MjUy
+MjEsLTIwNzQ0MjUyMjEsNDcwMTA3ODA2LDExNDYzODAwMDMsLT
+IwMDIwODQ1MDcsMjA1NTIyNzQyOSwtMTkxOTUwNDU0Myw1MDc2
+NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5MTYsLTc0NjcwNDAyOS
+wtMTcxMjExMjAwNiwtOTI4MDQ3ODUyLC0xODg2NTg0NDUsODYy
+MzcwNDEzXX0=
 -->
