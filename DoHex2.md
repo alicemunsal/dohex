@@ -193,8 +193,6 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * DoHex is quite suitable for organization-wide usage . 
 
-
-
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
 
@@ -244,7 +242,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODUyOTkwNSw1MzMyNDMyNDcsMTgyNj
+eyJoaXN0b3J5IjpbLTM4MzQ1NzMzMSw1MzMyNDMyNDcsMTgyNj
 M3ODc5OSwtMTY0NzU3MTg2MSwtMTAwMjQ1NzEzMywtMTQ4NzAx
 NTkzNSwxNzQ5NjQ5Mjk2LDEyMzU5NjgwNTUsNzAwNDI1NDA3LC
 0yMDE0Nzc2MDkyLDE4MjM3OTI5NzcsMzgyOTA0ODk2LC0yMTM5
