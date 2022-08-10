@@ -191,7 +191,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embeded applications. 
 
-* DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although they have been developed in different languages and platforms. It enables those projects to communicate with each other.
+* DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. It enables those projects to communicate with each other.
 
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
@@ -242,11 +242,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY1ODQ0NSw4NjIzNzA0MTMsLTM4Mz
-Q1NzMzMSw1MzMyNDMyNDcsMTgyNjM3ODc5OSwtMTY0NzU3MTg2
-MSwtMTAwMjQ1NzEzMywtMTQ4NzAxNTkzNSwxNzQ5NjQ5Mjk2LD
-EyMzU5NjgwNTUsNzAwNDI1NDA3LC0yMDE0Nzc2MDkyLDE4MjM3
-OTI5NzcsMzgyOTA0ODk2LC0yMTM5MDc1MTkyLDY3MzM2MDE5MS
-wtMjA4OTU1MDA3MywtMjg3NTU4NTQ1LC0xNjQ3NjU3NzQ3LDk2
-MDMyNzE4OF19
+eyJoaXN0b3J5IjpbLTU4MDA5ODU0LC0xODg2NTg0NDUsODYyMz
+cwNDEzLC0zODM0NTczMzEsNTMzMjQzMjQ3LDE4MjYzNzg3OTks
+LTE2NDc1NzE4NjEsLTEwMDI0NTcxMzMsLTE0ODcwMTU5MzUsMT
+c0OTY0OTI5NiwxMjM1OTY4MDU1LDcwMDQyNTQwNywtMjAxNDc3
+NjA5MiwxODIzNzkyOTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Mi
+w2NzMzNjAxOTEsLTIwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0
+NzY1Nzc0N119
 -->
