@@ -128,6 +128,14 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 ### Scaling
 
+### Notes
+
+Software Architecture is the blueprint of the software system. It is about making fundamental choices that are hard to change. Selecting languages, paradigms, tools, frameworks, methodologies and drawing large number of boxes and lines at the board are the parts of the architectural process.  
+
+One of the reason of the invention of the CQRS Pattern[^13] is, domain entities are not suitable for complex queries. So we decided to separate queries from the domain. Query part of this pattern is not obey the Object Oriented Design, it's Data Driven.
+
+lib may have models and/or transformers folder. models folder contains data models named DTOs, POCOs, POJOs, Records or Structs depends on what language you are using. transformers folder contains transformation functions for these data models.    
+
 ## References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
@@ -155,11 +163,11 @@ Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDgxMDUyMCwtMTY5NDc1NDg3MiwtMT
-E1MjY3ODA3OSw5MDUyMTEzOTQsLTIwOTk4ODE0MDEsNzczMDIz
-NDMyLDU3NDk1MTIzMiwxMzk1Njc2MjU5LC01MDI5MDUwODIsMT
-kxMjMxODkzOCw1MDI5NjMxNyw0Mjk4Mzc4NzUsNjM0NzIzMDUs
-MTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1NjQzMjI2NDEsLTkyND
-gyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIzOSwtMjEyMjU4NzUz
-NV19
+eyJoaXN0b3J5IjpbLTE0Njc5NjkzNzksLTc0NDgxMDUyMCwtMT
+Y5NDc1NDg3MiwtMTE1MjY3ODA3OSw5MDUyMTEzOTQsLTIwOTk4
+ODE0MDEsNzczMDIzNDMyLDU3NDk1MTIzMiwxMzk1Njc2MjU5LC
+01MDI5MDUwODIsMTkxMjMxODkzOCw1MDI5NjMxNyw0Mjk4Mzc4
+NzUsNjM0NzIzMDUsMTg2MDMyNDA5NiwtMTM1MzM1NjI2Miw1Nj
+QzMjI2NDEsLTkyNDgyOTg4LC02NDE4NzkyMjcsMTgyMzM1MTIz
+OV19
 -->
