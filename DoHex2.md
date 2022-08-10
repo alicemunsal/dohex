@@ -186,7 +186,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
 
 * Hexagonal Architecture is already used in embedded systems.[^16] DoHex architecture can be used for frontend, backend and embedded applications. 
 
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTgzODk1OCwzMDE2Nzk1MjksODg2Mz
-A5OTc1LC0xNTM1NDc1NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0
-NywtMTY5NTIxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOT
-YyNzE5NjgxLC0xNTMzOTg2NDI5LC0xNDkyMTAyNTAzLDEwNjI1
-NzkyNDMsNjYzMzg1OTg1LDExOTY3NjI2MTgsLTExNzc5NDMyMj
-MsOTkzMzgzMzMxLC0yMDc0NDI1MjIxLC0yMDc0NDI1MjIxLDQ3
-MDEwNzgwNl19
+eyJoaXN0b3J5IjpbLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4Nj
+MwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1
+NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLT
+k2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUwMywxMDYy
+NTc5MjQzLDY2MzM4NTk4NSwxMTk2NzYyNjE4LC0xMTc3OTQzMj
+IzLDk5MzM4MzMzMSwtMjA3NDQyNTIyMSwtMjA3NDQyNTIyMSw0
+NzAxMDc4MDZdfQ==
 -->
