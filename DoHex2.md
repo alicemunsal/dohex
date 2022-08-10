@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Libraries can be put into any part of the program and do exactly the same thing; transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions which are stateless and deterministic. Libraries can be put into any part of the program and do exactly the same thing; transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -240,11 +240,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMj
-M1OTY4MDU1LDcwMDQyNTQwNywtMjAxNDc3NjA5MiwxODIzNzky
-OTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Miw2NzMzNjAxOTEsLT
-IwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0NzY1Nzc0Nyw5NjAz
-MjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwtMTA2MjM0Nj
-g1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MTcz
-LDIxMDQ0NjUzNzBdfQ==
+eyJoaXN0b3J5IjpbLTEzMzMxODM5MDcsLTE0ODcwMTU5MzUsMT
+c0OTY0OTI5NiwxMjM1OTY4MDU1LDcwMDQyNTQwNywtMjAxNDc3
+NjA5MiwxODIzNzkyOTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Mi
+w2NzMzNjAxOTEsLTIwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0
+NzY1Nzc0Nyw5NjAzMjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2Mz
+A2OCwtMTA2MjM0Njg1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAz
+LC0xNTI4NzY0MTczXX0=
 -->
