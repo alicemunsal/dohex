@@ -155,7 +155,7 @@ components
 libs
 ```
 ```
-	customer
+customer
         adapters
 	        InMemoryCustomerRepository.java
 	        SqliteCustomerRepository
@@ -229,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIzODEyOCwtMTUxNTkzMTEzOCwtMT
-M4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0xNTM1NDc1
-NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NTIxMjY1Ni
-wxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5NjgxLC0xNTMz
-OTg2NDI5LC0xNDkyMTAyNTAzLDEwNjI1NzkyNDMsNjYzMzg1OT
-g1LDExOTY3NjI2MTgsLTExNzc5NDMyMjMsOTkzMzgzMzMxLC0y
-MDc0NDI1MjIxXX0=
+eyJoaXN0b3J5IjpbNjczNjIwNDU2LC0xNDAyMzgxMjgsLTE1MT
+U5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3
+NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLT
+E2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2Mjcx
+OTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUwMywxMDYyNTc5Mj
+QzLDY2MzM4NTk4NSwxMTk2NzYyNjE4LC0xMTc3OTQzMjIzLDk5
+MzM4MzMzMV19
 -->
