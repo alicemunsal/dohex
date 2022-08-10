@@ -186,9 +186,9 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't considered as OO like Rust and Go or old structural programming languages like C (with vtables).
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't considered as OO like Rust and Go or old structural programming languages like C (with vtables[^15]).
 
-* Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embedded applications. 
+* Hexagonal Architecture is already used in embedded systems. [^1] DoHex architecture can be used for frontend, backend and embedded applications. 
 
 * DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, it enables those projects to communicate with each other easier.
 
@@ -221,15 +221,16 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
 [^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^15]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
+[^15]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
+[^16]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUzMTE1NDUsLTE2OTUyMTI2NTYsMT
-EyOTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4
-NjQyOSwtMTQ5MjEwMjUwMywxMDYyNTc5MjQzLDY2MzM4NTk4NS
-wxMTk2NzYyNjE4LC0xMTc3OTQzMjIzLDk5MzM4MzMzMSwtMjA3
-NDQyNTIyMSwtMjA3NDQyNTIyMSw0NzAxMDc4MDYsMTE0NjM4MD
-AwMywtMjAwMjA4NDUwNywyMDU1MjI3NDI5LC0xOTE5NTA0NTQz
-LDUwNzY0MjA3NV19
+eyJoaXN0b3J5IjpbMTIzNzMyMzI1MCwtMTY5NTIxMjY1NiwxMT
+I5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5NjgxLC0xNTMzOTg2
+NDI5LC0xNDkyMTAyNTAzLDEwNjI1NzkyNDMsNjYzMzg1OTg1LD
+ExOTY3NjI2MTgsLTExNzc5NDMyMjMsOTkzMzgzMzMxLC0yMDc0
+NDI1MjIxLC0yMDc0NDI1MjIxLDQ3MDEwNzgwNiwxMTQ2MzgwMD
+AzLC0yMDAyMDg0NTA3LDIwNTUyMjc0MjksLTE5MTk1MDQ1NDMs
+NTA3NjQyMDc1XX0=
 -->
