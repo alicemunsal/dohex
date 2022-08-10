@@ -197,18 +197,6 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 
 
-Developers dont much to learn about
-
-Direct writing instead of thinking about structring your classes and naming
-
-programming is organizing thinking with diagrams, bunch of boxes and lines.
-
-portable code
-
-Immutable data types
-
-> There are only two hard things in Computer Science: cache invalidation and naming things. 
-> --Phil Karlton
 
 
 
@@ -240,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mjc3MjE5NywtMTg4NjU4NDQ1LDg2Mj
-M3MDQxMywtMzgzNDU3MzMxLDUzMzI0MzI0NywxODI2Mzc4Nzk5
-LC0xNjQ3NTcxODYxLC0xMDAyNDU3MTMzLC0xNDg3MDE1OTM1LD
-E3NDk2NDkyOTYsMTIzNTk2ODA1NSw3MDA0MjU0MDcsLTIwMTQ3
-NzYwOTIsMTgyMzc5Mjk3NywzODI5MDQ4OTYsLTIxMzkwNzUxOT
-IsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1NDUsLTE2
-NDc2NTc3NDddfQ==
+eyJoaXN0b3J5IjpbLTEyMjI5NDQ2MzYsLTE4ODY1ODQ0NSw4Nj
+IzNzA0MTMsLTM4MzQ1NzMzMSw1MzMyNDMyNDcsMTgyNjM3ODc5
+OSwtMTY0NzU3MTg2MSwtMTAwMjQ1NzEzMywtMTQ4NzAxNTkzNS
+wxNzQ5NjQ5Mjk2LDEyMzU5NjgwNTUsNzAwNDI1NDA3LC0yMDE0
+Nzc2MDkyLDE4MjM3OTI5NzcsMzgyOTA0ODk2LC0yMTM5MDc1MT
+kyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NTQ1LC0x
+NjQ3NjU3NzQ3XX0=
 -->
