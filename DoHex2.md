@@ -181,13 +181,13 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Notes
 
- * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
-
-* Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embeded applications. 
-
 * Event bus is the most preferred communication type for components but there are others. Design of your system might look like this:
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
+
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
+
+* Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embeded applications. 
 
 * Single thread per request or event loop thread models can be used with DoHex architecture.
 
@@ -240,11 +240,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc1NzE4NjEsLTEwMDI0NTcxMzMsLT
-E0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMjM1OTY4MDU1LDcwMDQy
-NTQwNywtMjAxNDc3NjA5MiwxODIzNzkyOTc3LDM4MjkwNDg5Ni
-wtMjEzOTA3NTE5Miw2NzMzNjAxOTEsLTIwODk1NTAwNzMsLTI4
-NzU1ODU0NSwtMTY0NzY1Nzc0Nyw5NjAzMjcxODgsLTExNDg3MD
-gzMzcsLTQ1NzY2MzA2OCwtMTA2MjM0Njg1MiwtODQxMzk2NzQ5
-LC0xMTAyNDkyNjAzXX0=
+eyJoaXN0b3J5IjpbMTgyNjM3ODc5OSwtMTY0NzU3MTg2MSwtMT
+AwMjQ1NzEzMywtMTQ4NzAxNTkzNSwxNzQ5NjQ5Mjk2LDEyMzU5
+NjgwNTUsNzAwNDI1NDA3LC0yMDE0Nzc2MDkyLDE4MjM3OTI5Nz
+csMzgyOTA0ODk2LC0yMTM5MDc1MTkyLDY3MzM2MDE5MSwtMjA4
+OTU1MDA3MywtMjg3NTU4NTQ1LC0xNjQ3NjU3NzQ3LDk2MDMyNz
+E4OCwtMTE0ODcwODMzNywtNDU3NjYzMDY4LC0xMDYyMzQ2ODUy
+LC04NDEzOTY3NDldfQ==
 -->
