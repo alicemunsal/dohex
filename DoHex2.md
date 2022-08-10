@@ -191,7 +191,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Hexagonal Architecture is already used in embedded systems. [^15] We can use DoHex architecture for frontend, backend and embeded applications. 
 
-* DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application by reasonable effort. 
+* DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
 * Single thread per request or event loop thread models can be used with DoHex architecture.
 
@@ -240,11 +240,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTY0OTI5NiwxMjM1OTY4MDU1LDcwMD
-QyNTQwNywtMjAxNDc3NjA5MiwxODIzNzkyOTc3LDM4MjkwNDg5
-NiwtMjEzOTA3NTE5Miw2NzMzNjAxOTEsLTIwODk1NTAwNzMsLT
-I4NzU1ODU0NSwtMTY0NzY1Nzc0Nyw5NjAzMjcxODgsLTExNDg3
-MDgzMzcsLTQ1NzY2MzA2OCwtMTA2MjM0Njg1MiwtODQxMzk2Nz
-Q5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MTczLDIxMDQ0NjUzNzAs
-MTg0MTU2NjgyMF19
+eyJoaXN0b3J5IjpbLTE0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMj
+M1OTY4MDU1LDcwMDQyNTQwNywtMjAxNDc3NjA5MiwxODIzNzky
+OTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Miw2NzMzNjAxOTEsLT
+IwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0NzY1Nzc0Nyw5NjAz
+MjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwtMTA2MjM0Nj
+g1MiwtODQxMzk2NzQ5LC0xMTAyNDkyNjAzLC0xNTI4NzY0MTcz
+LDIxMDQ0NjUzNzBdfQ==
 -->
