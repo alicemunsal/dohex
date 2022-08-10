@@ -200,7 +200,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Conclusion
 
-In summary, DoHex changes developer's focus to components and component communication, data and data transformation instead of layers, entities. Additionally it provides simple and consistent way to structure your components in 4 parts: **app** handles application logic, **core** handles business logic, **adapters** connects IO devices and manages states, **lib** provides data transformation functionalities.  
+In summary, DoHex shifts developer's focus to components and component communication, data and data transformation instead of layers, entities. Additionally it provides simple and consistent way to structure your components in 4 parts: **app** handles application logic, **core** handles business logic, **adapters** connects IO devices and manages states, **lib** provides data transformation functionalities.  
  
 I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
@@ -225,11 +225,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMT
-Q5MjEwMjUwMywxMDYyNTc5MjQzLDY2MzM4NTk4NSwxMTk2NzYy
-NjE4LC0xMTc3OTQzMjIzLDk5MzM4MzMzMSwtMjA3NDQyNTIyMS
-wtMjA3NDQyNTIyMSw0NzAxMDc4MDYsMTE0NjM4MDAwMywtMjAw
-MjA4NDUwNywyMDU1MjI3NDI5LC0xOTE5NTA0NTQzLDUwNzY0Mj
-A3NSwtNzQ2NzA0MDI5LDMzMjkxNTkxNiwtNzQ2NzA0MDI5LC0x
-NzEyMTEyMDA2XX0=
+eyJoaXN0b3J5IjpbNjE5MTE0MjQ3LC05NjI3MTk2ODEsLTE1Mz
+M5ODY0MjksLTE0OTIxMDI1MDMsMTA2MjU3OTI0Myw2NjMzODU5
+ODUsMTE5Njc2MjYxOCwtMTE3Nzk0MzIyMyw5OTMzODMzMzEsLT
+IwNzQ0MjUyMjEsLTIwNzQ0MjUyMjEsNDcwMTA3ODA2LDExNDYz
+ODAwMDMsLTIwMDIwODQ1MDcsMjA1NTIyNzQyOSwtMTkxOTUwND
+U0Myw1MDc2NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5MTYsLTc0
+NjcwNDAyOV19
 -->
