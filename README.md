@@ -125,7 +125,7 @@ Well organized and consistent project structure reduces developer cognitive load
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
 
 ```
-acl					--> anti corruption layer for external dependencies (implement facade or adapter)
+acl             --> anti corruption layer for external dependencies (implement facade or adapter)
 components
     customer
     notification
@@ -133,7 +133,7 @@ components
     payment
     product
     shipping
-libs				--> shared libraries
+libs          --> shared libraries
 ```
 **acl:** Anti corruption layer[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 **components:** This is where we put each component as a folder.  
@@ -162,9 +162,9 @@ libs
 		        SqliteCustomerRepository.java
 		        lib
         app
-            CustomerAppService.java 						--> Test
+            CustomerAppService.java                  --> Test
             lib
-	            CustomerAppLibService.java					--> Test
+	            CustomerAppLibService.java           --> Test
 	            models
 	                AddCustomerRequest.java
 	                AddCustomerResponse.java
@@ -172,9 +172,9 @@ libs
             ports
                 ICustomerRepository.java
         core
-	        CustomerCoreService.java						--> Test
+	        CustomerCoreService.java                  --> Test
 	        lib
-		        CustomerCoreLibService.java					--> Test
+		        CustomerCoreLibService.java           --> Test
 	            models
 		            Customer.java
 ```
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIzODEyOCwtMTQwMjM4MTI4LC0xNT
+eyJoaXN0b3J5IjpbMTY1NDMwNjE4MCwtMTQwMjM4MTI4LC0xNT
 E1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5
 NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3NjU3NTQ3LC
 0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwODc0LC05NjI3
