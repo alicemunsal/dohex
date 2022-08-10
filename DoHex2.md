@@ -204,7 +204,7 @@ In summary; DoHex changes developer's focus to components and component communic
 
 DoHex also provides simple and consistent way to structure your components in 3 parts: **app** handles application logic and provides ports for adapters, **core** handles business logic, **adapters** handles side effects; connects IO devices and manages states, and **lib** provides data transformation functionalities for these parts.  
  
-Finally; I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
+I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Concurrency and thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NzAxNzEzLC00NzAzNjg0ODIsLTQzNz
-Y1NzU0NywtMTY5NTIxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3
-NCwtOTYyNzE5NjgxLC0xNTMzOTg2NDI5LC0xNDkyMTAyNTAzLD
-EwNjI1NzkyNDMsNjYzMzg1OTg1LDExOTY3NjI2MTgsLTExNzc5
-NDMyMjMsOTkzMzgzMzMxLC0yMDc0NDI1MjIxLC0yMDc0NDI1Mj
-IxLDQ3MDEwNzgwNiwxMTQ2MzgwMDAzLC0yMDAyMDg0NTA3LDIw
-NTUyMjc0MjldfQ==
+eyJoaXN0b3J5IjpbLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtND
+M3NjU3NTQ3LC0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgw
+ODc0LC05NjI3MTk2ODEsLTE1MzM5ODY0MjksLTE0OTIxMDI1MD
+MsMTA2MjU3OTI0Myw2NjMzODU5ODUsMTE5Njc2MjYxOCwtMTE3
+Nzk0MzIyMyw5OTMzODMzMzEsLTIwNzQ0MjUyMjEsLTIwNzQ0Mj
+UyMjEsNDcwMTA3ODA2LDExNDYzODAwMDMsLTIwMDIwODQ1MDcs
+MjA1NTIyNzQyOV19
 -->
