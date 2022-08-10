@@ -86,7 +86,7 @@ DOD's standpoint is to separate data and behavior. Thus we can achieve; simplifi
 
  DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and Data Oriented. 
 
-![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Architecture.png)
+![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Architecture.png)
 
 The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
@@ -94,13 +94,13 @@ The architecture is made up of components that communicate with each other. Each
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 
-![Component](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Component.png)
+![Component](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Component.png)
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
-![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-OO.png)
+![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -122,7 +122,7 @@ Event bus and scheduler should be directly injected to the app constructor inste
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the model-code gap[^5]
 
 
-![Project Structure](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Structure.png)
+![Project Structure](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Structure.png)
 
 ```
 acl             --> anti corruption layer for external dependencies (implement facade or adapter)
@@ -184,7 +184,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * Event bus is the preferred communication type for components but there are others. Design of your system might look like this:
 
-![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Hybrid.png)     
+![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Hybrid.png)     
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
 
@@ -196,7 +196,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * When out-process robust communication is needed, **Event Sourcing** can be used. We can directly connect necessary components to a event streaming platform through its adapters, or we can connect our event bus to a event streaming platform.  
 
-![Deployment](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Deployment.png)
+![Deployment](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Deployment.png)
 
 ## Conclusion
 
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjkyMDQzMjAsLTExODU1NDMwMzYsLT
+eyJoaXN0b3J5IjpbLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLT
 Q5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5
 MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NS
 wtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2
