@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T19:46:25.172Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GLL7Vj321q7x7Jp-BdfV" version="20.2.3" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-08-10T20:03:55.801Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Jy7w1TThXzGr8b3m8ady" version="20.2.3" type="github" pages="17">
   <diagram id="197FKwCF_T1x4Uy-kO40" name="App">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="x_vT3Bfe5vnsbRUxAPgn" name="Event Bus">
+  <diagram id="x_vT3Bfe5vnsbRUxAPgn" name="EventBus">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -303,7 +303,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eS2bIxUvSSr4cI70RPKJ" name="Shared Data">
+  <diagram id="eS2bIxUvSSr4cI70RPKJ" name="SharedData">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -870,7 +870,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6ELXSGDfXa7wz36hdUW_" name="Adapter Organization">
+  <diagram id="6ELXSGDfXa7wz36hdUW_" name="AdapterOrganization">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1501,7 +1501,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="xM1E1HOAlClmRlenN2jr" name="component">
+  <diagram id="xM1E1HOAlClmRlenN2jr" name="Component">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1590,7 +1590,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="qIe-TdOIqIyqVPZGmfIJ" name="structure">
+  <diagram id="qIe-TdOIqIyqVPZGmfIJ" name="Structure">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
