@@ -185,13 +185,15 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
+* Single thread per request or event loop thread models can be used with DoHex architecture.
+
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
 * Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embeded applications. 
 
-* DoHex is suitable for organization-wide usage. 
+* DoHex is quite suitable for organization-wide usage . 
 
-* Single thread per request or event loop thread models can be used with DoHex architecture.
+
 
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
@@ -242,11 +244,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMjQzMjQ3LDE4MjYzNzg3OTksLTE2ND
-c1NzE4NjEsLTEwMDI0NTcxMzMsLTE0ODcwMTU5MzUsMTc0OTY0
-OTI5NiwxMjM1OTY4MDU1LDcwMDQyNTQwNywtMjAxNDc3NjA5Mi
-wxODIzNzkyOTc3LDM4MjkwNDg5NiwtMjEzOTA3NTE5Miw2NzMz
-NjAxOTEsLTIwODk1NTAwNzMsLTI4NzU1ODU0NSwtMTY0NzY1Nz
-c0Nyw5NjAzMjcxODgsLTExNDg3MDgzMzcsLTQ1NzY2MzA2OCwt
-MTA2MjM0Njg1Ml19
+eyJoaXN0b3J5IjpbMTMzODUyOTkwNSw1MzMyNDMyNDcsMTgyNj
+M3ODc5OSwtMTY0NzU3MTg2MSwtMTAwMjQ1NzEzMywtMTQ4NzAx
+NTkzNSwxNzQ5NjQ5Mjk2LDEyMzU5NjgwNTUsNzAwNDI1NDA3LC
+0yMDE0Nzc2MDkyLDE4MjM3OTI5NzcsMzgyOTA0ODk2LC0yMTM5
+MDc1MTkyLDY3MzM2MDE5MSwtMjA4OTU1MDA3MywtMjg3NTU4NT
+Q1LC0xNjQ3NjU3NzQ3LDk2MDMyNzE4OCwtMTE0ODcwODMzNywt
+NDU3NjYzMDY4XX0=
 -->
