@@ -185,10 +185,6 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* Non-Blocking or Asynchronous  --> Actor style, Akka, go goroutines, kotlin corutines
-* Non-Blocking or Asynchronous concurrency models like Earlang Actor, Java Akka, Go Goroutines or Kotlin coroutines  of
-* Single thread per request or event loop thread models can be used with DoHex architecture. 
-
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
 * Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embedded applications. 
@@ -228,11 +224,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Njc2MjYxOCwtMTE3Nzk0MzIyMyw5OT
-MzODMzMzEsLTIwNzQ0MjUyMjEsLTIwNzQ0MjUyMjEsNDcwMTA3
-ODA2LDExNDYzODAwMDMsLTIwMDIwODQ1MDcsMjA1NTIyNzQyOS
-wtMTkxOTUwNDU0Myw1MDc2NDIwNzUsLTc0NjcwNDAyOSwzMzI5
-MTU5MTYsLTc0NjcwNDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3OD
-UyLC0xODg2NTg0NDUsODYyMzcwNDEzLC0zODM0NTczMzEsNTMz
-MjQzMjQ3XX0=
+eyJoaXN0b3J5IjpbLTEwNTgyMzg3NjAsMTE5Njc2MjYxOCwtMT
+E3Nzk0MzIyMyw5OTMzODMzMzEsLTIwNzQ0MjUyMjEsLTIwNzQ0
+MjUyMjEsNDcwMTA3ODA2LDExNDYzODAwMDMsLTIwMDIwODQ1MD
+csMjA1NTIyNzQyOSwtMTkxOTUwNDU0Myw1MDc2NDIwNzUsLTc0
+NjcwNDAyOSwzMzI5MTU5MTYsLTc0NjcwNDAyOSwtMTcxMjExMj
+AwNiwtOTI4MDQ3ODUyLC0xODg2NTg0NDUsODYyMzcwNDEzLC0z
+ODM0NTczMzFdfQ==
 -->
