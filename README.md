@@ -51,12 +51,12 @@ In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon,
   
 ### Transformation
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-DOD.png)
+![transformer](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-DOD.png)
 
 
 We are developing software systems with logical parts (or layers). Each part may need different data models and/or transformation functions.     
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Transformer.png)
+![parts](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Transformer.png)
 
 For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
 
@@ -86,7 +86,7 @@ DOD's standpoint is to separate data and behavior. Thus we can achieve; simplifi
 
  DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and Data Oriented. 
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Architecture.png)
+![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Architecture.png)
 
 The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
@@ -94,13 +94,13 @@ The architecture is made up of components that communicate with each other. Each
 
 A component can contain 1 App, 1 Core and many Adapters as needed.
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-component.png)
+![Component](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Component.png)
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
 * **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-OO.png)
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-OO.png)
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTEwNTYwMCwxNzg2MDA4NTA4LC0xND
+eyJoaXN0b3J5IjpbMTU0MjU0MzIxMCwxNzg2MDA4NTA4LC0xND
 AyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5
 NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC
 00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMx
