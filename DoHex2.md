@@ -193,7 +193,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
-* When out-process robust communication for our components is needed, **Event Sourcing** can be used. We can directly connect necessary components to event streaming platform through its adapters, or we can connect our event bus to event streaming platform.  
+* When out-process robust communication is needed, **Event Sourcing** can be used. We can directly connect necessary components to a event streaming platform through its adapters, or we can connect our event bus to event streaming platform.  
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Deployment.png)
 
@@ -224,11 +224,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgyMzg3NjAsMTE5Njc2MjYxOCwtMT
-E3Nzk0MzIyMyw5OTMzODMzMzEsLTIwNzQ0MjUyMjEsLTIwNzQ0
-MjUyMjEsNDcwMTA3ODA2LDExNDYzODAwMDMsLTIwMDIwODQ1MD
-csMjA1NTIyNzQyOSwtMTkxOTUwNDU0Myw1MDc2NDIwNzUsLTc0
-NjcwNDAyOSwzMzI5MTU5MTYsLTc0NjcwNDAyOSwtMTcxMjExMj
-AwNiwtOTI4MDQ3ODUyLC0xODg2NTg0NDUsODYyMzcwNDEzLC0z
-ODM0NTczMzFdfQ==
+eyJoaXN0b3J5IjpbLTU3NzM2NjU1OCwxMTk2NzYyNjE4LC0xMT
+c3OTQzMjIzLDk5MzM4MzMzMSwtMjA3NDQyNTIyMSwtMjA3NDQy
+NTIyMSw0NzAxMDc4MDYsMTE0NjM4MDAwMywtMjAwMjA4NDUwNy
+wyMDU1MjI3NDI5LC0xOTE5NTA0NTQzLDUwNzY0MjA3NSwtNzQ2
+NzA0MDI5LDMzMjkxNTkxNiwtNzQ2NzA0MDI5LC0xNzEyMTEyMD
+A2LC05MjgwNDc4NTIsLTE4ODY1ODQ0NSw4NjIzNzA0MTMsLTM4
+MzQ1NzMzMV19
 -->
