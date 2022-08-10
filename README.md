@@ -142,12 +142,12 @@ libs            --> shared libraries
 acl	
 components
     customer
-	    adapters
-	    app
-	    core
+        adapters
+        app
+        core
     notification
-	    adapters
-	    app
+        adapters
+        app
     orders
     payment
     product
@@ -164,19 +164,19 @@ libs
         app
             CustomerAppService.java                  --> Test
             lib
-               CustomerAppLibService.java           --> Test
-	            models
-	                AddCustomerRequest.java
-	                AddCustomerResponse.java
-	            transformers
+                CustomerAppLibService.java           --> Test
+                models
+                    AddCustomerRequest.java
+                    AddCustomerResponse.java
+                transformers
             ports
                 ICustomerRepository.java
         core
-	        CustomerCoreService.java                  --> Test
-	        lib
-		        CustomerCoreLibService.java           --> Test
-	            models
-		            Customer.java
+            CustomerCoreService.java                  --> Test
+            lib
+                CustomerCoreLibService.java           --> Test
+                models
+                    Customer.java
 ```
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzg0ODgyNiwtMTQwMjM4MTI4LC0xNT
+eyJoaXN0b3J5IjpbMTc4NjAwODUwOCwtMTQwMjM4MTI4LC0xNT
 E1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5
 NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3NjU3NTQ3LC
 0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwODc0LC05NjI3
