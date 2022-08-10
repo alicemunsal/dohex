@@ -209,7 +209,6 @@ I believe, there are no silver bullets. Every project is different and we always
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Concurrency and thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
 
-
 ### References
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
@@ -230,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMz
-AxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4
-NDgyLC00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC
-02OTMxODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMTQ5
-MjEwMjUwMywxMDYyNTc5MjQzLDY2MzM4NTk4NSwxMTk2NzYyNj
-E4LC0xMTc3OTQzMjIzLDk5MzM4MzMzMSwtMjA3NDQyNTIyMSwt
-MjA3NDQyNTIyMV19
+eyJoaXN0b3J5IjpbLTE0MDIzODEyOCwtMTUxNTkzMTEzOCwtMT
+M4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0xNTM1NDc1
+NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NTIxMjY1Ni
+wxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5NjgxLC0xNTMz
+OTg2NDI5LC0xNDkyMTAyNTAzLDEwNjI1NzkyNDMsNjYzMzg1OT
+g1LDExOTY3NjI2MTgsLTExNzc5NDMyMjMsOTkzMzgzMzMxLC0y
+MDc0NDI1MjIxXX0=
 -->
