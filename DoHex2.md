@@ -185,13 +185,13 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* Components are stateless. States are pushed outside of the component to the adapters. Thus components are thread safe and single thread per request or event loop thread models can be used with DoHex architecture. 
+* Single thread per request or event loop thread models can be used with DoHex architecture. 
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
 * Hexagonal Architecture is already used in embedded systems. [^15] DoHex architecture can be used for frontend, backend and embeded applications. 
 
-* DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, It enables those projects to communicate with each other easier.
+* DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, it enables those projects to communicate with each other easier.
 
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
@@ -222,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMTA3ODA2LDExNDYzODAwMDMsLTIwMD
-IwODQ1MDcsMjA1NTIyNzQyOSwtMTkxOTUwNDU0Myw1MDc2NDIw
-NzUsLTc0NjcwNDAyOSwzMzI5MTU5MTYsLTc0NjcwNDAyOSwtMT
-cxMjExMjAwNiwtOTI4MDQ3ODUyLC0xODg2NTg0NDUsODYyMzcw
-NDEzLC0zODM0NTczMzEsNTMzMjQzMjQ3LDE4MjYzNzg3OTksLT
-E2NDc1NzE4NjEsLTEwMDI0NTcxMzMsLTE0ODcwMTU5MzUsMTc0
-OTY0OTI5Nl19
+eyJoaXN0b3J5IjpbMTY5ODk3NTQ5MSw0NzAxMDc4MDYsMTE0Nj
+M4MDAwMywtMjAwMjA4NDUwNywyMDU1MjI3NDI5LC0xOTE5NTA0
+NTQzLDUwNzY0MjA3NSwtNzQ2NzA0MDI5LDMzMjkxNTkxNiwtNz
+Q2NzA0MDI5LC0xNzEyMTEyMDA2LC05MjgwNDc4NTIsLTE4ODY1
+ODQ0NSw4NjIzNzA0MTMsLTM4MzQ1NzMzMSw1MzMyNDMyNDcsMT
+gyNjM3ODc5OSwtMTY0NzU3MTg2MSwtMTAwMjQ1NzEzMywtMTQ4
+NzAxNTkzNV19
 -->
