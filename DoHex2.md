@@ -185,7 +185,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* Components are stateless and thread s Single thread per request or event loop thread models can be used with DoHex architecture. 
+* Components are stateless and thread safe. States and concurrency requirements are handled at the adapters.  Single thread per request or event loop thread models can be used with DoHex architecture. 
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
@@ -226,11 +226,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTc0NDY1MSw5OTMzODMzMzEsLTIwNz
-Q0MjUyMjEsLTIwNzQ0MjUyMjEsNDcwMTA3ODA2LDExNDYzODAw
-MDMsLTIwMDIwODQ1MDcsMjA1NTIyNzQyOSwtMTkxOTUwNDU0My
-w1MDc2NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5MTYsLTc0Njcw
-NDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3ODUyLC0xODg2NTg0ND
-UsODYyMzcwNDEzLC0zODM0NTczMzEsNTMzMjQzMjQ3LDE4MjYz
-Nzg3OTldfQ==
+eyJoaXN0b3J5IjpbLTExNzc5NDMyMjMsOTkzMzgzMzMxLC0yMD
+c0NDI1MjIxLC0yMDc0NDI1MjIxLDQ3MDEwNzgwNiwxMTQ2Mzgw
+MDAzLC0yMDAyMDg0NTA3LDIwNTUyMjc0MjksLTE5MTk1MDQ1ND
+MsNTA3NjQyMDc1LC03NDY3MDQwMjksMzMyOTE1OTE2LC03NDY3
+MDQwMjksLTE3MTIxMTIwMDYsLTkyODA0Nzg1MiwtMTg4NjU4ND
+Q1LDg2MjM3MDQxMywtMzgzNDU3MzMxLDUzMzI0MzI0NywxODI2
+Mzc4Nzk5XX0=
 -->
