@@ -199,7 +199,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 
  
-I am a software engineer actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
+I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
@@ -222,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk1MDQ1NDMsNTA3NjQyMDc1LC03ND
-Y3MDQwMjksMzMyOTE1OTE2LC03NDY3MDQwMjksLTE3MTIxMTIw
-MDYsLTkyODA0Nzg1MiwtMTg4NjU4NDQ1LDg2MjM3MDQxMywtMz
-gzNDU3MzMxLDUzMzI0MzI0NywxODI2Mzc4Nzk5LC0xNjQ3NTcx
-ODYxLC0xMDAyNDU3MTMzLC0xNDg3MDE1OTM1LDE3NDk2NDkyOT
-YsMTIzNTk2ODA1NSw3MDA0MjU0MDcsLTIwMTQ3NzYwOTIsMTgy
-Mzc5Mjk3N119
+eyJoaXN0b3J5IjpbMjA1NTIyNzQyOSwtMTkxOTUwNDU0Myw1MD
+c2NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5MTYsLTc0NjcwNDAy
+OSwtMTcxMjExMjAwNiwtOTI4MDQ3ODUyLC0xODg2NTg0NDUsOD
+YyMzcwNDEzLC0zODM0NTczMzEsNTMzMjQzMjQ3LDE4MjYzNzg3
+OTksLTE2NDc1NzE4NjEsLTEwMDI0NTcxMzMsLTE0ODcwMTU5Mz
+UsMTc0OTY0OTI5NiwxMjM1OTY4MDU1LDcwMDQyNTQwNywtMjAx
+NDc3NjA5Ml19
 -->
