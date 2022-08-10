@@ -18,7 +18,7 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 
 Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control).   
 
-![App and oursite world](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-App.png)
+![App and outside world](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-App.png)
  
 
 Our application does not know anything about IO devices and should not depend on them. But an IO device must implement an adapter for connecting to our application through its ports. 
@@ -29,11 +29,11 @@ Our application does not know anything about IO devices and should not depend on
 > 
 > -- Alistair Cockburn  
 
-![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hex.png)
+![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Hex.png)
 
 This is our application written in TypeScript and driven by a test. It uses in memory repository to save users.  
 
-![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Code.png)
+![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Code.png)
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
@@ -51,12 +51,12 @@ In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon,
   
 ### Transformation
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-DOD.png)
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-DOD.png)
 
 
 We are developing software systems with logical parts (or layers). Each part may need different data models and/or transformation functions.     
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Transformer.png)
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Transformer.png)
 
 For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
 
@@ -86,7 +86,7 @@ DOD's standpoint is to separate data and behavior. Thus we can achieve; simplifi
 
  DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and Data Oriented. 
 
-![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Architecture.png)
+![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Architecture.png)
 
 The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
 
@@ -229,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjAwODUwOCwtMTQwMjM4MTI4LC0xNT
-E1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5
-NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3NjU3NTQ3LC
-0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwODc0LC05NjI3
-MTk2ODEsLTE1MzM5ODY0MjksLTE0OTIxMDI1MDMsMTA2MjU3OT
-I0Myw2NjMzODU5ODUsMTE5Njc2MjYxOCwtMTE3Nzk0MzIyMyw5
-OTMzODMzMzFdfQ==
+eyJoaXN0b3J5IjpbMTIxOTEwNTYwMCwxNzg2MDA4NTA4LC0xND
+AyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5
+NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC
+00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMx
+ODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMj
+UwMywxMDYyNTc5MjQzLDY2MzM4NTk4NSwxMTk2NzYyNjE4LC0x
+MTc3OTQzMjIzXX0=
 -->
