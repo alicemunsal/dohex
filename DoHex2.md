@@ -2,7 +2,7 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development such as Frontend, Backend and Embedded. 
+Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
 
 By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity better and consistent project structure to reduce the model-code gap[^5] .
 
@@ -220,11 +220,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODA0Nzg1MiwtMTg4NjU4NDQ1LDg2Mj
-M3MDQxMywtMzgzNDU3MzMxLDUzMzI0MzI0NywxODI2Mzc4Nzk5
-LC0xNjQ3NTcxODYxLC0xMDAyNDU3MTMzLC0xNDg3MDE1OTM1LD
-E3NDk2NDkyOTYsMTIzNTk2ODA1NSw3MDA0MjU0MDcsLTIwMTQ3
-NzYwOTIsMTgyMzc5Mjk3NywzODI5MDQ4OTYsLTIxMzkwNzUxOT
-IsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0yODc1NTg1NDUsLTE2
-NDc2NTc3NDddfQ==
+eyJoaXN0b3J5IjpbLTE3MTIxMTIwMDYsLTkyODA0Nzg1MiwtMT
+g4NjU4NDQ1LDg2MjM3MDQxMywtMzgzNDU3MzMxLDUzMzI0MzI0
+NywxODI2Mzc4Nzk5LC0xNjQ3NTcxODYxLC0xMDAyNDU3MTMzLC
+0xNDg3MDE1OTM1LDE3NDk2NDkyOTYsMTIzNTk2ODA1NSw3MDA0
+MjU0MDcsLTIwMTQ3NzYwOTIsMTgyMzc5Mjk3NywzODI5MDQ4OT
+YsLTIxMzkwNzUxOTIsNjczMzYwMTkxLC0yMDg5NTUwMDczLC0y
+ODc1NTg1NDVdfQ==
 -->
