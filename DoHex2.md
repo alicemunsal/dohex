@@ -196,8 +196,10 @@ This is the expanded view of the customer component. Structuring and naming conv
 * DoHex allows us to develop and test our application as a monolith and if it is needed, deploy it also as a microservices application with reasonable effort. 
 
 ## Conclusion
+
+
  
-I am a software architect actively developing softwares over two decades. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
+I am a software engineer actively developing softwares. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
@@ -220,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQxMTAwNjIsLTc0NjcwNDAyOSwzMz
-I5MTU5MTYsLTc0NjcwNDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3
-ODUyLC0xODg2NTg0NDUsODYyMzcwNDEzLC0zODM0NTczMzEsNT
-MzMjQzMjQ3LDE4MjYzNzg3OTksLTE2NDc1NzE4NjEsLTEwMDI0
-NTcxMzMsLTE0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMjM1OTY4MD
-U1LDcwMDQyNTQwNywtMjAxNDc3NjA5MiwxODIzNzkyOTc3LDM4
-MjkwNDg5Nl19
+eyJoaXN0b3J5IjpbNTA3NjQyMDc1LC03NDY3MDQwMjksMzMyOT
+E1OTE2LC03NDY3MDQwMjksLTE3MTIxMTIwMDYsLTkyODA0Nzg1
+MiwtMTg4NjU4NDQ1LDg2MjM3MDQxMywtMzgzNDU3MzMxLDUzMz
+I0MzI0NywxODI2Mzc4Nzk5LC0xNjQ3NTcxODYxLC0xMDAyNDU3
+MTMzLC0xNDg3MDE1OTM1LDE3NDk2NDkyOTYsMTIzNTk2ODA1NS
+w3MDA0MjU0MDcsLTIwMTQ3NzYwOTIsMTgyMzc5Mjk3NywzODI5
+MDQ4OTZdfQ==
 -->
