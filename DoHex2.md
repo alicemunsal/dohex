@@ -185,7 +185,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-Hybrid.png)     
 
-* Single thread per request or event loop thread models can be used with DoHex architecture.
+* Single thread per request or event loop thread models can be used with DoHex architecture. 
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that don't have direct support for OO like Rust and Go or old structural programming languages like C.
 
@@ -222,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIwODQ1MDcsMjA1NTIyNzQyOSwtMT
-kxOTUwNDU0Myw1MDc2NDIwNzUsLTc0NjcwNDAyOSwzMzI5MTU5
-MTYsLTc0NjcwNDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3ODUyLC
-0xODg2NTg0NDUsODYyMzcwNDEzLC0zODM0NTczMzEsNTMzMjQz
-MjQ3LDE4MjYzNzg3OTksLTE2NDc1NzE4NjEsLTEwMDI0NTcxMz
-MsLTE0ODcwMTU5MzUsMTc0OTY0OTI5NiwxMjM1OTY4MDU1LDcw
-MDQyNTQwN119
+eyJoaXN0b3J5IjpbMTE0NjM4MDAwMywtMjAwMjA4NDUwNywyMD
+U1MjI3NDI5LC0xOTE5NTA0NTQzLDUwNzY0MjA3NSwtNzQ2NzA0
+MDI5LDMzMjkxNTkxNiwtNzQ2NzA0MDI5LC0xNzEyMTEyMDA2LC
+05MjgwNDc4NTIsLTE4ODY1ODQ0NSw4NjIzNzA0MTMsLTM4MzQ1
+NzMzMSw1MzMyNDMyNDcsMTgyNjM3ODc5OSwtMTY0NzU3MTg2MS
+wtMTAwMjQ1NzEzMywtMTQ4NzAxNTkzNSwxNzQ5NjQ5Mjk2LDEy
+MzU5NjgwNTVdfQ==
 -->
