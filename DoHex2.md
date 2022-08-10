@@ -188,7 +188,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 * DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
 
-* Hexagonal Architecture is already used in embedded systems. [^16] DoHex architecture can be used for frontend, backend and embedded applications. 
+* Hexagonal Architecture is already used in embedded systems.[^16] DoHex architecture can be used for frontend, backend and embedded applications. 
 
 * DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, it enables those projects to communicate with each other easier.
 
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MzA5OTc1LC0xNTM1NDc1NjY3LC00Nz
-AzNjg0ODIsLTQzNzY1NzU0NywtMTY5NTIxMjY1NiwxMTI5MjEy
-NTcsLTY5MzE4MDg3NCwtOTYyNzE5NjgxLC0xNTMzOTg2NDI5LC
-0xNDkyMTAyNTAzLDEwNjI1NzkyNDMsNjYzMzg1OTg1LDExOTY3
-NjI2MTgsLTExNzc5NDMyMjMsOTkzMzgzMzMxLC0yMDc0NDI1Mj
-IxLC0yMDc0NDI1MjIxLDQ3MDEwNzgwNiwxMTQ2MzgwMDAzLC0y
-MDAyMDg0NTA3XX0=
+eyJoaXN0b3J5IjpbMzAxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNT
+Q3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OTUyMTI2
+NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4MSwtMT
+UzMzk4NjQyOSwtMTQ5MjEwMjUwMywxMDYyNTc5MjQzLDY2MzM4
+NTk4NSwxMTk2NzYyNjE4LC0xMTc3OTQzMjIzLDk5MzM4MzMzMS
+wtMjA3NDQyNTIyMSwtMjA3NDQyNTIyMSw0NzAxMDc4MDYsMTE0
+NjM4MDAwM119
 -->
