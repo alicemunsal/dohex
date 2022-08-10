@@ -117,7 +117,7 @@ Event bus and scheduler should be directly injected to the app constructor inste
 
 ## Project Structure
 
-Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Thus it can help you to reduce the model-code gap[^5]
+Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the model-code gap[^5]
 
 
 ![enter image description here](https://raw.githubusercontent.com/alicemunsal/dohex/master/diagrams/1-structure.png)
@@ -222,11 +222,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3NjQyMDc1LC03NDY3MDQwMjksMzMyOT
-E1OTE2LC03NDY3MDQwMjksLTE3MTIxMTIwMDYsLTkyODA0Nzg1
-MiwtMTg4NjU4NDQ1LDg2MjM3MDQxMywtMzgzNDU3MzMxLDUzMz
-I0MzI0NywxODI2Mzc4Nzk5LC0xNjQ3NTcxODYxLC0xMDAyNDU3
-MTMzLC0xNDg3MDE1OTM1LDE3NDk2NDkyOTYsMTIzNTk2ODA1NS
-w3MDA0MjU0MDcsLTIwMTQ3NzYwOTIsMTgyMzc5Mjk3NywzODI5
-MDQ4OTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTk1MDQ1NDMsNTA3NjQyMDc1LC03ND
+Y3MDQwMjksMzMyOTE1OTE2LC03NDY3MDQwMjksLTE3MTIxMTIw
+MDYsLTkyODA0Nzg1MiwtMTg4NjU4NDQ1LDg2MjM3MDQxMywtMz
+gzNDU3MzMxLDUzMzI0MzI0NywxODI2Mzc4Nzk5LC0xNjQ3NTcx
+ODYxLC0xMDAyNDU3MTMzLC0xNDg3MDE1OTM1LDE3NDk2NDkyOT
+YsMTIzNTk2ODA1NSw3MDA0MjU0MDcsLTIwMTQ3NzYwOTIsMTgy
+Mzc5Mjk3N119
 -->
