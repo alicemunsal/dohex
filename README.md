@@ -18,7 +18,7 @@ This is one of the most important and profound concepts in Stoicism. The dichoto
 
 Hexagonal Architecture has the same idea, we must separate our application code (within our control), and IO Devices (outside of our control).   
 
-![App and outside world](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-App.png)
+![App and outside world](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-App.png)
  
 
 Our application does not know anything about IO devices and should not depend on them. But an IO device must implement an adapter for connecting to our application through its ports. 
@@ -29,11 +29,11 @@ Our application does not know anything about IO devices and should not depend on
 > 
 > -- Alistair Cockburn  
 
-![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Hex.png)
+![Application](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Hex.png)
 
 This is our application written in TypeScript and driven by a test. It uses in memory repository to save users.  
 
-![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Code.png)
+![code](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Code.png)
 
 "addUser" is the only **Use Case** of our application. The use case has a **Business Logic** that checks whether name is empty and save this user to the repository.   
 
@@ -51,12 +51,12 @@ In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon,
   
 ### Transformation
 
-![transformer](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-DOD.png)
+![transformer](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-DOD.png)
 
 
 We are developing software systems with logical parts (or layers). Each part may need different data models and/or transformation functions.     
 
-![parts](https://raw.githubusercontent.com/alicemunsal/dohex/master/1-Transformer.png)
+![parts](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Transformer.png)
 
 For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
 
@@ -229,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNz
-g2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEy
-NjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2Ny
-wtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEy
-OTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4Nj
-QyOSwtMTQ5MjEwMjUwMywxMDYyNTc5MjQzLDY2MzM4NTk4NSwx
-MTk2NzYyNjE4XX0=
+eyJoaXN0b3J5IjpbLTEzNjkyMDQzMjAsLTExODU1NDMwMzYsLT
+Q5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5
+MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NS
+wtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2
+OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOT
+Y4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUwMywxMDYyNTc5MjQz
+LDY2MzM4NTk4NV19
 -->
