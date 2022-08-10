@@ -197,7 +197,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Conclusion
  
-I am a software architect actively developing softwares over two decades and I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
+I am a software architect actively developing softwares over two decades. I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this post as an inspiration for your future projects.
 
 This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
@@ -220,7 +220,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI1MzIxNTMsLTc0NjcwNDAyOSwzMz
+eyJoaXN0b3J5IjpbLTE0NDQxMTAwNjIsLTc0NjcwNDAyOSwzMz
 I5MTU5MTYsLTc0NjcwNDAyOSwtMTcxMjExMjAwNiwtOTI4MDQ3
 ODUyLC0xODg2NTg0NDUsODYyMzcwNDEzLC0zODM0NTczMzEsNT
 MzMjQzMjQ3LDE4MjYzNzg3OTksLTE2NDc1NzE4NjEsLTEwMDI0
