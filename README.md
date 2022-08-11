@@ -81,7 +81,7 @@ Data-oriented design forces you to think about your data first and foremost: wha
 > -- Mike Acton
 
 ## DoHex  
-
+  
  DoHex is yet another Hexagonal Architecture that [Component based](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)[^8], [Event Driven](https://en.wikipedia.org/wiki/Event-driven_architecture)[^9] and Data Oriented. 
 
 ![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Architecture.png)
@@ -118,8 +118,8 @@ Event bus and scheduler should be directly injected to the app constructor inste
 ## Project Structure
 
 Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the [model-code gap](https://www.georgefairbanks.com/software-architecture/model-code-gap/)[^5]
-
-
+  
+  
 ![Project Structure](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Structure.png)
 
 ```
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2ND
-c3Nzg1LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUx
-NiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkzNjU5Nzk2LD
-E3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMTEzOCwtMTM4
-MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0xNTM1NDc1Nj
-Y3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NTIxMjY1Niwx
-MTI5MjEyNTddfQ==
+eyJoaXN0b3J5IjpbLTcwNjQyNDI5LDMzNTIxMTM5NSwzMzUyMT
+EzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNzYwMjU1Nzcs
+LTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLT
+Q5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5
+MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NS
+wtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2
+OTUyMTI2NTZdfQ==
 -->
