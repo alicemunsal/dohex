@@ -10,7 +10,7 @@ By bringing these two paradigms together, we can create testable, scalable, modu
 
 ### Philosophy  
 
-> The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.  
+> *The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.*  
 > 
 > -- Epictetus
 
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MD
-QxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYw
-NjA4LC0xMTg1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOC
-wtMTQwMjM4MTI4LC0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMw
-MTY3OTUyOSw4ODYzMDk5NzUsLTE1MzU0NzU2NjcsLTQ3MDM2OD
-Q4MiwtNDM3NjU3NTQ3LC0xNjk1MjEyNjU2LDExMjkyMTI1Nywt
-NjkzMTgwODc0XX0=
+eyJoaXN0b3J5IjpbMzc2MzI3MDYzLDMzNTIxMTM5NSwxMTU2ND
+c3Nzg1LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUx
+NiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkzNjU5Nzk2LD
+E3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMTEzOCwtMTM4
+MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0xNTM1NDc1Nj
+Y3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NTIxMjY1Niwx
+MTI5MjEyNTddfQ==
 -->
