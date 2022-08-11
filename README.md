@@ -200,13 +200,13 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ## Conclusion
 
-In summary; DoHex changes developer's focus to components-component communication and data-data transformation instead of layers and entities. 
+In summary; DoHex changes developer's focus to components and component communication, data and data transformation instead of layers, entities. 
 
 DoHex provides simple and consistent way to structure your components in 3 parts: **app** handles application logic and provides ports for adapters, **core** handles business logic, **adapters** handles side effects; connects IO devices and manages states, and **lib** provides data transformation functionalities for these parts.  
  
 I believe, there are no silver bullets. Every project is different and we always need to evaluate the context before implementing any ideas. Take this article as an inspiration for your future projects.
 
-This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple post.  Concurrency and thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
+This is my second attempt to write about DoHex Architecture. The first one was getting too long and complicated. I decided  to split into multiple parts.  Concurrency and thread models, transactions, component communications, adapter organization, scaling, testing, refactoring, deployment are the remaining topics.
 
 
 ### References
@@ -229,11 +229,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4ODE3NTgsLTEwMzQ5NjA2MDgsLTExOD
-U1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgx
-MjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LD
-g4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2
-NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4Nz
-QsLTk2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUwMywx
-MDYyNTc5MjQzXX0=
+eyJoaXN0b3J5IjpbMTIwNzEzNzU2LC0xMDM0OTYwNjA4LC0xMT
+g1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4
+MTI4LC0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOS
+w4ODYzMDk5NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3
+NjU3NTQ3LC0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwOD
+c0LC05NjI3MTk2ODEsLTE1MzM5ODY0MjksLTE0OTIxMDI1MDMs
+MTA2MjU3OTI0M119
 -->
