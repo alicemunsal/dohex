@@ -1,10 +1,10 @@
 # DoHex - Data Oriented Hexagonal Architecture  
 
-Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
+Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) [^1], [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) [^2], [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)[^3] all circle around the same simple but efficient concept.
 
-Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
+[Data Oriented Design (DOD)](https://www.dataorienteddesign.com/dodmain/)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
 
-By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity better and consistent project structure to reduce the model-code gap[^5] .
+By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity better and consistent project structure to reduce the [model-code gap](https://www.georgefairbanks.com/software-architecture/model-code-gap/)[^5] .
 
 ## Hexagonal Architecture 
 
@@ -230,11 +230,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLT
-EwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2
-MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNj
-MzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2Nywt
-NDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOT
-IxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4NjQy
-OSwtMTQ5MjEwMjUwM119
+eyJoaXN0b3J5IjpbLTExMDM2MDgwMSwtMTA3NjAyNTU3NywtMT
+E3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkz
+NjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMT
+EzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0x
+NTM1NDc1NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NT
+IxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5Njgx
+LC0xNTMzOTg2NDI5XX0=
 -->
