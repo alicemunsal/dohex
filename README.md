@@ -1,6 +1,6 @@
 # DoHex - Data Oriented Hexagonal Architecture  
 
-Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, Hexagonal Architecture [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
+Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) [^1], Onion Architecture [^2], Clean Architecture[^3] all circle around the same simple but efficient concept.
 
 Data Oriented Design (DOD)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
 
@@ -230,7 +230,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY2NzYyMTQsLTExNzgyNTI1MTYsLT
+eyJoaXN0b3J5IjpbLTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLT
 EwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2
 MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNj
 MzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2Nywt
