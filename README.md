@@ -74,7 +74,7 @@ For the perspective of the DOD; repositories, gateways or UI patterns like MVC, 
 
 Today, Software developers try to create abstract model of the problem domain by focusing on classes and their relationships as taught in school. Hence, they tend to neglect to understand the properties of data. 
 
-Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. Thus we can achieve; simplified thinking, better performance, better testability. 
+Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. Therefore we can achieve; simplified thinking, better performance, better testability. 
 
   
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
@@ -229,7 +229,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjQ5MDgwMSw1ODYwNDEyNTUsLTEwNz
+eyJoaXN0b3J5IjpbLTM1MDQ3NjMwOSw1ODYwNDEyNTUsLTEwNz
 YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
 NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
 gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
