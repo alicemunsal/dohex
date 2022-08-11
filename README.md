@@ -108,13 +108,13 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Except adapters, component parts are **Side Effects**[^10] free. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make deeper classes[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. Except adapters, component parts are [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^10] free. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
 
 ### Event Bus And Scheduler
 
-Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the **Pub-Sub Design Pattern**[^12] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
+Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^12] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
 
-Event bus and scheduler should be directly injected to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and **Reactive**[^13] systems with less effort. 
+Event bus and scheduler should be directly injected to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^13] systems with less effort. 
 
 
 ## Project Structure
@@ -230,11 +230,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM2NzY0MTksLTEwNzYwMjU1NzcsLT
-ExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5
-MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5Mz
-ExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwt
-MTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OT
-UyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4
-MSwtMTUzMzk4NjQyOV19
+eyJoaXN0b3J5IjpbLTYxNjA3MDkzNSwtMTA3NjAyNTU3NywtMT
+E3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkz
+NjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMT
+EzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0x
+NTM1NDc1NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NT
+IxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5Njgx
+LC0xNTMzOTg2NDI5XX0=
 -->
