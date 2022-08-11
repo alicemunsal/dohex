@@ -76,7 +76,6 @@ Today, Software developers try to create abstract model of the problem domain by
 
 Data-oriented design forces you to think about your data first and foremost: what it is, what is its shape and size, how it is processed and how it flows between the different stages of your program. Therefore we can achieve; simplified thinking, better performance, better testability. 
 
-  
 > Programmer's job is not the write code; Programmer's job is to solve (data transformation) problems.  
 > 
 > -- Mike Acton
@@ -229,7 +228,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDQ3NjMwOSw1ODYwNDEyNTUsLTEwNz
+eyJoaXN0b3J5IjpbMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNz
 YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
 NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
 gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
