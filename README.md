@@ -198,6 +198,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![Deployment](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Deployment.png)
 
+
 ## Conclusion
 
 In summary; DoHex changes developer's focus to components and component communication, data and data transformation instead of layers, entities. 
@@ -229,11 +230,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLT
-ExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAy
-MzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NT
-I5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00
-Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxOD
-A4NzQsLTk2MjcxOTY4MSwtMTUzMzk4NjQyOSwtMTQ5MjEwMjUw
-MywxMDYyNTc5MjQzXX0=
+eyJoaXN0b3J5IjpbLTE4NDY2NzYyMTQsLTExNzgyNTI1MTYsLT
+EwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2
+MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNj
+MzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2Nywt
+NDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OTUyMTI2NTYsMTEyOT
+IxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4MSwtMTUzMzk4NjQy
+OSwtMTQ5MjEwMjUwM119
 -->
