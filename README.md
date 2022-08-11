@@ -119,7 +119,7 @@ Event bus and scheduler should be directly injected to the app constructor inste
 
 ## Project Structure
 
-Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the model-code gap[^5]
+Well organized and consistent project structure reduces developer cognitive load and development time, increases readability and maintainability. Also it reflects your architectural decisions and designs. Therefore it can help you to reduce the [model-code gap](https://www.georgefairbanks.com/software-architecture/model-code-gap/)[^5]
 
 
 ![Project Structure](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Structure.png)
@@ -135,7 +135,7 @@ components
     shipping
 libs            --> shared libraries
 ```
-**acl:** Anti corruption layer[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+**acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 **components:** This is where we put each component as a folder.  
 **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
 ```
@@ -186,7 +186,7 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by vtable[^15]).
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by [vtable](https://en.wikipedia.org/wiki/Virtual_method_table)[^15]).
 
 * Hexagonal Architecture is already used in embedded systems.[^16] DoHex architecture can be used for frontend, backend and embedded applications. 
 
@@ -230,11 +230,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjA3MDkzNSwtMTA3NjAyNTU3NywtMT
-E3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkz
-NjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMT
-EzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0x
-NTM1NDc1NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NT
-IxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5Njgx
-LC0xNTMzOTg2NDI5XX0=
+eyJoaXN0b3J5IjpbNTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMT
+c4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMTg1NTQzMDM2LC00OTM2
+NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4MTI4LC0xNTE1OTMxMT
+M4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5NzUsLTE1
+MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3NjU3NTQ3LC0xNjk1Mj
+EyNjU2LDExMjkyMTI1NywtNjkzMTgwODc0LC05NjI3MTk2ODEs
+LTE1MzM5ODY0MjldfQ==
 -->
