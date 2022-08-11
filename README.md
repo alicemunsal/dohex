@@ -2,7 +2,7 @@
 
 Over a decade, we are continuously reviving a particular style of software architecture with different names ,interpretations and nuances. Ports And Adapters, [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) [^1], [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) [^2], [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)[^3] all circle around the same simple but efficient concept.
 
-[Data Oriented Design (DOD)](https://www.dataorienteddesign.com/dodmain/)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
+[Data Oriented Design (DOD)](https://www.dataorienteddesign.com/dodbook/)[^4] is gaining traction mainly in video game development. Some of its fundamental principles can be applicable to other areas of software development. 
 
 By bringing these two paradigms together, we can create testable, scalable, modular architecture to handle complexity better and consistent project structure to reduce the [model-code gap](https://www.georgefairbanks.com/software-architecture/model-code-gap/)[^5] .
 
@@ -212,7 +212,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^1]: Hexagonal architecture https://alistair.cockburn.us/hexagonal-architecture/
 [^2]: Onion architecture https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 [^3]: Clean architecture https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
-[^4]: Data Oriented Design https://www.dataorienteddesign.com/dodmain/
+[^4]: Data Oriented Design https://www.dataorienteddesign.com/dodbook/
 [^5]: Model-code gap https://www.georgefairbanks.com/software-architecture/model-code-gap/
 [^6]: Open-Closed Principle https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjQyNDI5LDMzNTIxMTM5NSwzMzUyMT
-EzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNzYwMjU1Nzcs
-LTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLT
-Q5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5
-MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NS
-wtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2
-OTUyMTI2NTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNT
+IxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUs
+LTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLT
+ExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAy
+MzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NT
+I5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00
+Mzc2NTc1NDddfQ==
 -->
