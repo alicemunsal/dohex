@@ -39,7 +39,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (a.k.a. Open-Closed Principle[^6])
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (a.k.a. https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle[^6])
 
 ## Data Oriented Design
 
@@ -84,7 +84,7 @@ DOD's standpoint is to separate data and behavior. Thus we can achieve; simplifi
 
 ## DoHex  
 
- DoHex is yet another Hexagonal Architecture that **Component based**[^8], **Event Driven**[^9] and Data Oriented. 
+ DoHex is yet another Hexagonal Architecture that [Component based](http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html)[^8], [Event Driven](https://en.wikipedia.org/wiki/Event-driven_architecture)[^9] and Data Oriented. 
 
 ![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Architecture.png)
 
@@ -230,11 +230,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM2MDgwMSwtMTA3NjAyNTU3NywtMT
-E3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkz
-NjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMT
-EzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0x
-NTM1NDc1NjY3LC00NzAzNjg0ODIsLTQzNzY1NzU0NywtMTY5NT
-IxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MDg3NCwtOTYyNzE5Njgx
-LC0xNTMzOTg2NDI5XX0=
+eyJoaXN0b3J5IjpbLTE1NTM2NzY0MTksLTEwNzYwMjU1NzcsLT
+ExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5
+MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5Mz
+ExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4NjMwOTk3NSwt
+MTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NTc1NDcsLTE2OT
+UyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQsLTk2MjcxOTY4
+MSwtMTUzMzk4NjQyOV19
 -->
