@@ -133,9 +133,12 @@ components
     shipping
 libs            --> shared libraries
 ```
-**acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
-**components:** This is where we put each component as a folder.  
-**libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
+* **acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+
+* **components:** This is where we put each component as a folder.  
+
+* **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
+
 ```
 acl	
 components
@@ -228,11 +231,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNT
-IxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUs
-LTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLT
-ExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAy
-MzgxMjgsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NT
-I5LDg4NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00
-Mzc2NTc1NDddfQ==
+eyJoaXN0b3J5IjpbLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNz
+A2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1
+LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUxNiwtMT
+AzNDk2MDYwOCwtMTE4NTU0MzAzNiwtNDkzNjU5Nzk2LDE3ODYw
+MDg1MDgsLTE0MDIzODEyOCwtMTUxNTkzMTEzOCwtMTM4MTI2Mz
+MyNiwzMDE2Nzk1MjksODg2MzA5OTc1LC0xNTM1NDc1NjY3LC00
+NzAzNjg0ODJdfQ==
 -->
