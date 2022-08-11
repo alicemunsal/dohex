@@ -48,7 +48,8 @@ Our test, the **Driving Adapter** calls our application use cases. We can swap i
 >  -- Mike Acton  
 
 In his famous [talk](https://www.youtube.com/watch?v=rX0ItVEVjHc)[^7] at CppCon, Mike Acton describes data oriented design principles. Data Oriented Design (DOD) approach is to focus on the data and to think about transformation of data.  
-  
+
+    
 ### Transformation
 
 ![transformer](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-DOD.png)
@@ -59,7 +60,8 @@ We are developing software systems with logical parts (or layers). Each part may
 ![parts](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Transformer.png)
 
 For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
-
+  
+  
 ### Solving Problems
 
 > - If you don't understand the data you don't understand the problem.  
@@ -229,11 +231,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzEzNzU2LC0xMDM0OTYwNjA4LC0xMT
-g1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4
-MTI4LC0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOS
-w4ODYzMDk5NzUsLTE1MzU0NzU2NjcsLTQ3MDM2ODQ4MiwtNDM3
-NjU3NTQ3LC0xNjk1MjEyNjU2LDExMjkyMTI1NywtNjkzMTgwOD
-c0LC05NjI3MTk2ODEsLTE1MzM5ODY0MjksLTE0OTIxMDI1MDMs
-MTA2MjU3OTI0M119
+eyJoaXN0b3J5IjpbMTU3ODEyNTkxNiwtMTAzNDk2MDYwOCwtMT
+E4NTU0MzAzNiwtNDkzNjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIz
+ODEyOCwtMTUxNTkzMTEzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1Mj
+ksODg2MzA5OTc1LC0xNTM1NDc1NjY3LC00NzAzNjg0ODIsLTQz
+NzY1NzU0NywtMTY5NTIxMjY1NiwxMTI5MjEyNTcsLTY5MzE4MD
+g3NCwtOTYyNzE5NjgxLC0xNTMzOTg2NDI5LC0xNDkyMTAyNTAz
+LDEwNjI1NzkyNDNdfQ==
 -->
