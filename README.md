@@ -39,7 +39,7 @@ This is our application written in TypeScript and driven by a test. It uses in m
 
 We can build our entire use cases with all business logic inside, using only unit tests. We don't need databases or external interfaces or UI. We can then add the infrastructure elements and other things necessary to make it a functional application.  
 
-Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (a.k.a. https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle[^6])
+Our test, the **Driving Adapter** calls our application use cases. We can swap it with a CLI application or  a REST service.  Similarly we can swap the **Driven Adapter** with the MongoDB, PostgreSQL or a Web Service call. We can do that without modifying application's original source code, we only need to add new adapters. (a.k.a. [Open-closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)[^6])
 
 ## Data Oriented Design
 
@@ -228,11 +228,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNz
-YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
-NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
-gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
-NjMwOTk3NSwtMTUzNTQ3NTY2NywtNDcwMzY4NDgyLC00Mzc2NT
-c1NDcsLTE2OTUyMTI2NTYsMTEyOTIxMjU3LC02OTMxODA4NzQs
-LTk2MjcxOTY4MV19
+eyJoaXN0b3J5IjpbMzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MD
+QxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYw
+NjA4LC0xMTg1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOC
+wtMTQwMjM4MTI4LC0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMw
+MTY3OTUyOSw4ODYzMDk5NzUsLTE1MzU0NzU2NjcsLTQ3MDM2OD
+Q4MiwtNDM3NjU3NTQ3LC0xNjk1MjEyNjU2LDExMjkyMTI1Nywt
+NjkzMTgwODc0XX0=
 -->
