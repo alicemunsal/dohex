@@ -100,7 +100,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
-Application logic and business logic are separated like The Functional Core, Imperative Shell Pattern
+Application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NzgxNTc3LDIxMDM4MjU5OTksLTU2Mz
-c4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1MjExMzk1
-LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MTI1NSwtMTA3Nj
-AyNTU3NywtMTE3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0
-MzAzNiwtNDkzNjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIzODEyOC
-wtMTUxNTkzMTEzOCwtMTM4MTI2MzMyNiwzMDE2Nzk1MjksODg2
-MzA5OTc1XX0=
+eyJoaXN0b3J5IjpbLTY4Mjc0MzcxMiwyMTAzODI1OTk5LC01Nj
+M3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5
+NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNz
+YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
+NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
+gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
+NjMwOTk3NV19
 -->
