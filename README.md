@@ -100,6 +100,8 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
+Application logic and business logic separated 
+
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are stateless and deterministic. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
@@ -231,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzgyNTk5OSwtNTYzNzg0MDgxLC0xOD
-UxNDk5Njc3LC03MDY0MjQyOSwzMzUyMTEzOTUsMzM1MjExMzk1
-LDExNTY0Nzc3ODUsNTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMT
-c4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMTg1NTQzMDM2LC00OTM2
-NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4MTI4LC0xNTE1OTMxMT
-M4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYzMDk5NzUsLTE1
-MzU0NzU2NjddfQ==
+eyJoaXN0b3J5IjpbLTM3MzQ0MTk5MSwyMTAzODI1OTk5LC01Nj
+M3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5
+NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNz
+YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
+NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
+gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
+NjMwOTk3NV19
 -->
