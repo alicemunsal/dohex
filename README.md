@@ -104,7 +104,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are stateless and deterministic. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
-In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Moreover app doesn't contain  
+In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Moreover IO device connections and states are pushed to the edge of the 
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgyOTUsMjEwMzgyNTk5OSwtNTYzNz
-g0MDgxLC0xODUxNDk5Njc3LC03MDY0MjQyOSwzMzUyMTEzOTUs
-MzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MDQxMjU1LC0xMDc2MD
-I1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMTg1NTQz
-MDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4MTI4LC
-0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4ODYz
-MDk5NzVdfQ==
+eyJoaXN0b3J5IjpbODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4Mj
+U5OTksLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0Mjks
+MzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MT
+I1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUxNiwtMTAzNDk2MDYw
+OCwtMTE4NTU0MzAzNiwtNDkzNjU5Nzk2LDE3ODYwMDg1MDgsLT
+E0MDIzODEyOCwtMTUxNTkzMTEzOCwtMTM4MTI2MzMyNiwzMDE2
+Nzk1MjldfQ==
 -->
