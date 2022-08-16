@@ -176,10 +176,8 @@ libs
                 ICustomerRepository.java
         core
             CustomerCoreService.java                  --> Test
-            lib
-                CustomerCoreLibService.java           --> Test
-                models
-                    Customer.java
+            models
+                Customer.java
 ```
 This is the expanded view of the customer component. Structuring and naming conventions are visible. "Service" keyword is added at the end of the each facade classes that you should write unit tests. 
 
@@ -235,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5ND
-Y5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5NzM0
-NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0xNj
-Y4Mjk1LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3
-NywtNzA2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2ND
-c3Nzg1LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUx
-Nl19
+eyJoaXN0b3J5IjpbMTg0NTg2OTM2LDE3MDQ0OTk2MzAsMTcwOT
+MyMDk0Miw3OTQ2OTY4NjIsMTU2Mzg0ODMyNywtMTM5MjI4MTg0
+OCw1ODE0OTczNDQsMTQzMjU5NTQxMCwxNjY3OTI2MTY5LDgyMT
+U2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5LC01NjM3ODQwODEs
+LTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5NSwzMzUyMT
+EzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNzYwMjU1Nzdd
+fQ==
 -->
