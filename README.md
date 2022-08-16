@@ -223,7 +223,8 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
-[^10]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+[^10]: Pure function https://en.wikipedia.org/wiki/Pure_function
+[^11]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
@@ -233,11 +234,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjU5NTQxMCwxNjY3OTI2MTY5LDgyMT
-U2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5LC01NjM3ODQwODEs
-LTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5NSwzMzUyMT
-EzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNzYwMjU1Nzcs
-LTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLT
-Q5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMjgsLTE1MTU5
-MzExMzhdfQ==
+eyJoaXN0b3J5IjpbLTEwNTMzODE4ODAsMTQzMjU5NTQxMCwxNj
+Y3OTI2MTY5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5
+LC01NjM3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNT
+IxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUs
+LTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLT
+ExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAy
+MzgxMjhdfQ==
 -->
