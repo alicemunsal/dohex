@@ -108,7 +108,7 @@ In the component, application logic (app) and business logic (core) are separate
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. Except adapters, component parts are [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^10] free. Thus we can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
 
 ### Event Bus And Scheduler
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIyODE4NDgsNTgxNDk3MzQ0LDE0Mz
-I1OTU0MTAsMTY2NzkyNjE2OSw4MjE1NjkwMzQsLTE2NjgyOTUs
-MjEwMzgyNTk5OSwtNTYzNzg0MDgxLC0xODUxNDk5Njc3LC03MD
-Y0MjQyOSwzMzUyMTEzOTUsMzM1MjExMzk1LDExNTY0Nzc3ODUs
-NTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMD
-M0OTYwNjA4LC0xMTg1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAw
-ODUwOF19
+eyJoaXN0b3J5IjpbMTU2Mzg0ODMyNywtMTM5MjI4MTg0OCw1OD
+E0OTczNDQsMTQzMjU5NTQxMCwxNjY3OTI2MTY5LDgyMTU2OTAz
+NCwtMTY2ODI5NSwyMTAzODI1OTk5LC01NjM3ODQwODEsLTE4NT
+E0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5NSwzMzUyMTEzOTUs
+MTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNzYwMjU1NzcsLTExNz
+gyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1NDMwMzYsLTQ5MzY1
+OTc5Nl19
 -->
