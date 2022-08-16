@@ -225,7 +225,8 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Pure function https://en.wikipedia.org/wiki/Pure_function
 [^11]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
-[^11]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
+[^12]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
+[^13]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
 [^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
 [^13]: Reactive Manifesto https://www.reactivemanifesto.org/
 [^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
@@ -234,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTMzODE4ODAsMTQzMjU5NTQxMCwxNj
-Y3OTI2MTY5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5
-LC01NjM3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNT
-IxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUs
-LTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLT
-ExODU1NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAy
-MzgxMjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNjAyMDA0OSwxNDMyNTk1NDEwLDE2Nj
+c5MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTks
+LTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1Mj
+ExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MTI1NSwt
+MTA3NjAyNTU3NywtMTE3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMT
+E4NTU0MzAzNiwtNDkzNjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIz
+ODEyOF19
 -->
