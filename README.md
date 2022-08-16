@@ -189,9 +189,9 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by [vtable](https://en.wikipedia.org/wiki/Virtual_method_table)[^15]).
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python; or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by [vtable](https://en.wikipedia.org/wiki/Virtual_method_table)[^17]).
 
-* Hexagonal Architecture is already used in embedded systems.[^16] DoHex architecture can be used for frontend, backend and embedded applications. 
+* Hexagonal Architecture is already used in embedded systems.[^18] DoHex architecture can be used for frontend, backend and embedded applications. 
 
 * DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, it enables those projects to communicate with each other easier.
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMjI4MDc0LDE3MDkzMjA5NDIsNzk0Nj
-k2ODYyLDE1NjM4NDgzMjcsLTEzOTIyODE4NDgsNTgxNDk3MzQ0
-LDE0MzI1OTU0MTAsMTY2NzkyNjE2OSw4MjE1NjkwMzQsLTE2Nj
-gyOTUsMjEwMzgyNTk5OSwtNTYzNzg0MDgxLC0xODUxNDk5Njc3
-LC03MDY0MjQyOSwzMzUyMTEzOTUsMzM1MjExMzk1LDExNTY0Nz
-c3ODUsNTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2
-XX0=
+eyJoaXN0b3J5IjpbMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5ND
+Y5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5NzM0
+NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0xNj
+Y4Mjk1LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3
+NywtNzA2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2ND
+c3Nzg1LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUx
+Nl19
 -->
