@@ -100,7 +100,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
-Application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Morevoer app doesn't have 
+In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Moreover app doesn't contain  
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODcxMzY0MCwyMTAzODI1OTk5LC01Nj
-M3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNTIxMTM5
-NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTUsLTEwNz
-YwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2MDgsLTExODU1
-NDMwMzYsLTQ5MzY1OTc5NiwxNzg2MDA4NTA4LC0xNDAyMzgxMj
-gsLTE1MTU5MzExMzgsLTEzODEyNjMzMjYsMzAxNjc5NTI5LDg4
-NjMwOTk3NV19
+eyJoaXN0b3J5IjpbLTE0NTY5MjQyOTUsMjEwMzgyNTk5OSwtNT
+YzNzg0MDgxLC0xODUxNDk5Njc3LC03MDY0MjQyOSwzMzUyMTEz
+OTUsMzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MDQxMjU1LC0xMD
+c2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMTg1
+NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4MT
+I4LC0xNTE1OTMxMTM4LC0xMzgxMjYzMzI2LDMwMTY3OTUyOSw4
+ODYzMDk5NzVdfQ==
 -->
