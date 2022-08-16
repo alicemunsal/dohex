@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10] They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^12]. Moreover, unlike this pattern app does not know anything about IO devices.
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNDk3MzQ0LDE0MzI1OTU0MTAsMTY2Nz
-kyNjE2OSw4MjE1NjkwMzQsLTE2NjgyOTUsMjEwMzgyNTk5OSwt
-NTYzNzg0MDgxLC0xODUxNDk5Njc3LC03MDY0MjQyOSwzMzUyMT
-EzOTUsMzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MDQxMjU1LC0x
-MDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMT
-g1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4
-MTI4XX0=
+eyJoaXN0b3J5IjpbLTEzOTIyODE4NDgsNTgxNDk3MzQ0LDE0Mz
+I1OTU0MTAsMTY2NzkyNjE2OSw4MjE1NjkwMzQsLTE2NjgyOTUs
+MjEwMzgyNTk5OSwtNTYzNzg0MDgxLC0xODUxNDk5Njc3LC03MD
+Y0MjQyOSwzMzUyMTEzOTUsMzM1MjExMzk1LDExNTY0Nzc3ODUs
+NTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMD
+M0OTYwNjA4LC0xMTg1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAw
+ODUwOF19
 -->
