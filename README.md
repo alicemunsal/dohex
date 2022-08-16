@@ -102,9 +102,9 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10] They are stateless, deterministic and Side Effects free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10] They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
-In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Moreover, unlike this pattern app does not know anything about IO devices.
+In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^12]. Moreover, unlike this pattern app does not know anything about IO devices.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTI5Mzg4MSwxNDMyNTk1NDEwLDE2Nj
-c5MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTks
-LTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1Mj
-ExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MTI1NSwt
-MTA3NjAyNTU3NywtMTE3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMT
-E4NTU0MzAzNiwtNDkzNjU5Nzk2LDE3ODYwMDg1MDgsLTE0MDIz
-ODEyOF19
+eyJoaXN0b3J5IjpbNTgxNDk3MzQ0LDE0MzI1OTU0MTAsMTY2Nz
+kyNjE2OSw4MjE1NjkwMzQsLTE2NjgyOTUsMjEwMzgyNTk5OSwt
+NTYzNzg0MDgxLC0xODUxNDk5Njc3LC03MDY0MjQyOSwzMzUyMT
+EzOTUsMzM1MjExMzk1LDExNTY0Nzc3ODUsNTg2MDQxMjU1LC0x
+MDc2MDI1NTc3LC0xMTc4MjUyNTE2LC0xMDM0OTYwNjA4LC0xMT
+g1NTQzMDM2LC00OTM2NTk3OTYsMTc4NjAwODUwOCwtMTQwMjM4
+MTI4XX0=
 -->
