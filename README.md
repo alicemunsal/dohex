@@ -108,7 +108,7 @@ In the component, application logic (app) and business logic (core) are separate
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. These services are the integration units of the [The Integration Operation Segregation Principal](https://www.deepakrb.com/blog/integration-operation-principal-en20180422/)[^13]. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
 
 ### Event Bus And Scheduler
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTMyMDk0MiwxNTYzODQ4MzI3LC0xMz
-kyMjgxODQ4LDU4MTQ5NzM0NCwxNDMyNTk1NDEwLDE2Njc5MjYx
-NjksODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTksLTU2Mz
-c4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1MjExMzk1
-LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MTI1NSwtMTA3Nj
-AyNTU3NywtMTE3ODI1MjUxNiwtMTAzNDk2MDYwOCwtMTE4NTU0
-MzAzNl19
+eyJoaXN0b3J5IjpbNzk0Njk2ODYyLDE3MDkzMjA5NDIsMTU2Mz
+g0ODMyNywtMTM5MjI4MTg0OCw1ODE0OTczNDQsMTQzMjU5NTQx
+MCwxNjY3OTI2MTY5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAzOD
+I1OTk5LC01NjM3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5
+LDMzNTIxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwND
+EyNTUsLTEwNzYwMjU1NzcsLTExNzgyNTI1MTYsLTEwMzQ5NjA2
+MDhdfQ==
 -->
