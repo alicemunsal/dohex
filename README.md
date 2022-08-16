@@ -108,13 +108,13 @@ In the component, application logic (app) and business logic (core) are separate
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^11] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^13] as a bonus.
 
 ### Event Bus And Scheduler
 
-Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^12] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
+Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^14] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
 
-You may want to directly inject event bus and scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^13] systems with less effort. 
+You may want to directly inject event bus and scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^15] systems with less effort. 
 
 
 ## Project Structure
@@ -135,7 +135,7 @@ components
     shipping
 libs            --> shared libraries
 ```
-* **acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^14] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+* **acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^16] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 
 * **components:** This is where we put each component as a folder.  
 
@@ -235,11 +235,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTMyMDk0Miw3OTQ2OTY4NjIsMTcwOT
-MyMDk0MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5NzM0
-NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0xNj
-Y4Mjk1LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3
-NywtNzA2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2ND
-c3Nzg1LDU4NjA0MTI1NSwtMTA3NjAyNTU3NywtMTE3ODI1MjUx
-Nl19
+eyJoaXN0b3J5IjpbMzExMjI4MDc0LDE3MDkzMjA5NDIsNzk0Nj
+k2ODYyLDE1NjM4NDgzMjcsLTEzOTIyODE4NDgsNTgxNDk3MzQ0
+LDE0MzI1OTU0MTAsMTY2NzkyNjE2OSw4MjE1NjkwMzQsLTE2Nj
+gyOTUsMjEwMzgyNTk5OSwtNTYzNzg0MDgxLC0xODUxNDk5Njc3
+LC03MDY0MjQyOSwzMzUyMTEzOTUsMzM1MjExMzk1LDExNTY0Nz
+c3ODUsNTg2MDQxMjU1LC0xMDc2MDI1NTc3LC0xMTc4MjUyNTE2
+XX0=
 -->
