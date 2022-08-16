@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are stateless and deterministic. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10] They are stateless, deterministic and Side Effects free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 In the component, application logic (app) and business logic (core) are separated as in The Functional Core, Imperative Shell Pattern[^10]. Moreover, unlike this pattern app does not know anything about IO devices.
 
@@ -227,15 +227,15 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^11]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
 [^12]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
 [^13]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
-[^12]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
-[^13]: Reactive Manifesto https://www.reactivemanifesto.org/
-[^14]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^15]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
-[^16]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
+[^14]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
+[^15]: Reactive Manifesto https://www.reactivemanifesto.org/
+[^16]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^17]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
+[^18]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAyMDA0OSwxNDMyNTk1NDEwLDE2Nj
+eyJoaXN0b3J5IjpbMTQ4NTI5Mzg4MSwxNDMyNTk1NDEwLDE2Nj
 c5MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTks
 LTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1Mj
 ExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1LDU4NjA0MTI1NSwt
