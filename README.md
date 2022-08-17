@@ -102,7 +102,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions.  Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are also pure functions. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 In the component, application logic (app) and business logic (core) are separated as in [The Functional Core, Imperative Shell Pattern](https://www.destroyallsoftware.com/talks/boundaries)[^12]. Moreover, unlike this pattern app does not know anything about IO devices.
 
@@ -233,7 +233,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODM1MDc5NSwtMTA1NDE1NDg2NywxOD
+eyJoaXN0b3J5IjpbMTQ1MTU3NTM0NywtMTA1NDE1NDg2NywxOD
 Q1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5NDY5Njg2
 MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5NzM0NCwxND
 MyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1
