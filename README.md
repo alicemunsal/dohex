@@ -96,13 +96,13 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
-* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
+* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. Core functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Transformation functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions.  Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 In the component, application logic (app) and business logic (core) are separated as in [The Functional Core, Imperative Shell Pattern](https://www.destroyallsoftware.com/talks/boundaries)[^12]. Moreover, unlike this pattern app does not know anything about IO devices.
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxNTQ4NjcsMTg0NTg2OTM2LDE3MD
-Q0OTk2MzAsMTcwOTMyMDk0Miw3OTQ2OTY4NjIsMTU2Mzg0ODMy
-NywtMTM5MjI4MTg0OCw1ODE0OTczNDQsMTQzMjU5NTQxMCwxNj
-Y3OTI2MTY5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5
-LC01NjM3ODQwODEsLTE4NTE0OTk2NzcsLTcwNjQyNDI5LDMzNT
-IxMTM5NSwzMzUyMTEzOTUsMTE1NjQ3Nzc4NSw1ODYwNDEyNTVd
-fQ==
+eyJoaXN0b3J5IjpbMTMzODM1MDc5NSwtMTA1NDE1NDg2NywxOD
+Q1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5NDY5Njg2
+MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5NzM0NCwxND
+MyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1
+LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNz
+A2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5NSwxMTU2NDc3Nzg1
+XX0=
 -->
