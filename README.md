@@ -100,7 +100,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
-* **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. Core functions are also pure functions. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
+* **Core**: This is the business logic or domain logic part of the component. It comprises real world business rules. Core functions are also pure functions. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg2ODIyNTUsMTQ1MTU3NTM0NywtMT
-A1NDE1NDg2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIw
-OTQyLDc5NDY5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LD
-U4MTQ5NzM0NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5
-MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMT
-g1MTQ5OTY3NywtNzA2NDI0MjksMzM1MjExMzk1LDMzNTIxMTM5
-NV19
+eyJoaXN0b3J5IjpbLTIwODEyNjMxMjEsLTIxMDg2ODIyNTUsMT
+Q1MTU3NTM0NywtMTA1NDE1NDg2NywxODQ1ODY5MzYsMTcwNDQ5
+OTYzMCwxNzA5MzIwOTQyLDc5NDY5Njg2MiwxNTYzODQ4MzI3LC
+0xMzkyMjgxODQ4LDU4MTQ5NzM0NCwxNDMyNTk1NDEwLDE2Njc5
+MjYxNjksODIxNTY5MDM0LC0xNjY4Mjk1LDIxMDM4MjU5OTksLT
+U2Mzc4NDA4MSwtMTg1MTQ5OTY3NywtNzA2NDI0MjksMzM1MjEx
+Mzk1XX0=
 -->
