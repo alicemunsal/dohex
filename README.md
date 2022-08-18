@@ -187,9 +187,9 @@ This is the expanded view of the customer component. Structuring and naming conv
 
 ![design](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Hybrid.png)     
 
-* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python, etc. or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by [vtable](https://en.wikipedia.org/wiki/Virtual_method_table)[^17]).
+* DoHex only expects polymorphic behavior from a programming language. Hence we can use Java, JavaScript, C++, C#, Python, etc. or modern languages that are not considered as OO like Rust and Go or old structural programming languages like C (by [vtable](https://en.wikipedia.org/wiki/Virtual_method_table)[^18]).
 
-* Hexagonal Architecture is already used in embedded systems.[^18] DoHex architecture can be used for frontend, backend and embedded applications. 
+* Hexagonal Architecture is already used in embedded systems.[^19] DoHex architecture can be used for frontend, backend and embedded applications. 
 
 * DoHex is quite suitable for organization-wide usage. It enables technical ubiquitous language among teams and projects although these projects have been developed in different languages and platforms. Furthermore, it enables those projects to communicate with each other easier.
 
@@ -222,22 +222,23 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
 [^10]: Pure function https://en.wikipedia.org/wiki/Pure_function
-[^11]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
-[^12]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
-[^13]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
-[^14]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
-[^15]: Reactive Manifesto https://www.reactivemanifesto.org/
-[^16]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^17]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
-[^18]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
+[^11]: Deterministic algorithm https://en.wikipedia.org/wiki/Deterministic_algorithm
+[^12]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+[^13]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
+[^14]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
+[^15]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
+[^16]: Reactive Manifesto https://www.reactivemanifesto.org/
+[^17]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^18]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
+[^19]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU2MDY0MiwtMTEwMzEwMTgwMCwtMT
-Q0ODg5ODgyMiwtMjA4MTI2MzEyMSwtMjEwODY4MjI1NSwxNDUx
-NTc1MzQ3LC0xMDU0MTU0ODY3LDE4NDU4NjkzNiwxNzA0NDk5Nj
-MwLDE3MDkzMjA5NDIsNzk0Njk2ODYyLDE1NjM4NDgzMjcsLTEz
-OTIyODE4NDgsNTgxNDk3MzQ0LDE0MzI1OTU0MTAsMTY2NzkyNj
-E2OSw4MjE1NjkwMzQsLTE2NjgyOTUsMjEwMzgyNTk5OSwtNTYz
-Nzg0MDgxXX0=
+eyJoaXN0b3J5IjpbLTkwNDczNzE0LC0xMTAzMTAxODAwLC0xND
+Q4ODk4ODIyLC0yMDgxMjYzMTIxLC0yMTA4NjgyMjU1LDE0NTE1
+NzUzNDcsLTEwNTQxNTQ4NjcsMTg0NTg2OTM2LDE3MDQ0OTk2Mz
+AsMTcwOTMyMDk0Miw3OTQ2OTY4NjIsMTU2Mzg0ODMyNywtMTM5
+MjI4MTg0OCw1ODE0OTczNDQsMTQzMjU5NTQxMCwxNjY3OTI2MT
+Y5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAzODI1OTk5LC01NjM3
+ODQwODFdfQ==
 -->
