@@ -98,23 +98,23 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
-* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
+* **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, [Deterministic](https://en.wikipedia.org/wiki/Deterministic_algorithm)[^11] and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^12] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
 * **Core**: Core is actually a library. It has just a different and special responsibility. It contains business logic or domain logic of the component. It comprises real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
-In the component, application logic (app) and business logic (core) are separated as in [The Functional Core, Imperative Shell Pattern](https://www.destroyallsoftware.com/talks/boundaries)[^12]. Moreover, unlike this pattern app does not know anything about IO devices.
+In the component, application logic (app) and business logic (core) are separated as in [The Functional Core, Imperative Shell Pattern](https://www.destroyallsoftware.com/talks/boundaries)[^13]. Moreover, unlike this pattern app does not know anything about IO devices.
 
 Each component can have a different complexity, we can omit unnecessary parts and libraries. Also we don't need to pass data to deepest part of the component if it is not necessary. A part might decides to directly return its response to the caller part but we should try to be consistent for part responsibilities. 
 
-Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^13] as a bonus.
+Component parts and libraries provide facade interfaces as a service for usability and testability. We can develop internal functionalities of these services by test driven development(TDD) techniques. In this way, we can decouple unit tests and internal implementations of the component for easier refactoring and we make [deeper classes](https://akshaykhot.com/classes-should-be-deep/)[^14] as a bonus.
 
 ### Event Bus And Scheduler
 
-Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^14] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
+Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^15] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
 
-You may want to directly inject event bus and scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^15] systems with less effort. 
+You may want to directly inject event bus and scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^16] systems with less effort. 
 
 
 ## Project Structure
@@ -135,7 +135,7 @@ components
     shipping
 libs            --> shared libraries
 ```
-* **acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^16] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
+* **acl:** [Anti corruption layer](https://deviq.com/domain-driven-design/anti-corruption-layer)[^17] for external dependencies and legacy applications. Instead of directly using them, we should implement facade or adapter pattern for these dependencies.  
 
 * **components:** This is where we put each component as a folder.  
 
@@ -233,11 +233,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMxMDE4MDAsLTE0NDg4OTg4MjIsLT
-IwODEyNjMxMjEsLTIxMDg2ODIyNTUsMTQ1MTU3NTM0NywtMTA1
-NDE1NDg2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOT
-QyLDc5NDY5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4
-MTQ5NzM0NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MD
-M0LC0xNjY4Mjk1LDIxMDM4MjU5OTksLTU2Mzc4NDA4MSwtMTg1
-MTQ5OTY3N119
+eyJoaXN0b3J5IjpbLTQ0NzU2MDY0MiwtMTEwMzEwMTgwMCwtMT
+Q0ODg5ODgyMiwtMjA4MTI2MzEyMSwtMjEwODY4MjI1NSwxNDUx
+NTc1MzQ3LC0xMDU0MTU0ODY3LDE4NDU4NjkzNiwxNzA0NDk5Nj
+MwLDE3MDkzMjA5NDIsNzk0Njk2ODYyLDE1NjM4NDgzMjcsLTEz
+OTIyODE4NDgsNTgxNDk3MzQ0LDE0MzI1OTU0MTAsMTY2NzkyNj
+E2OSw4MjE1NjkwMzQsLTE2NjgyOTUsMjEwMzgyNTk5OSwtNTYz
+Nzg0MDgxXX0=
 -->
