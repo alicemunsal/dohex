@@ -100,7 +100,7 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts (adapter, app, core) may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^10]. They are stateless, deterministic and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^11] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
 
-* **Core**: Core is actually a special type of lib that contains business logic or domain logic of the component. It comprises real world business rules. Core functions are also pure functions like libraries. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
+* **Core**: Core is actually a special type of lib that contains business logic or domain logic of the component. It comprises real world business rules. Like libraries, it consist of data models and/or transformation functions and Core functions are also pure functions. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use **Object Oriented Design** for some of your components business logic. In this case, change this part's name to **Domain** and put your domain entities here.     
 
 ![OOD](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-OO.png)
 
@@ -233,7 +233,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTE5MzA5NSwtMjA4MTI2MzEyMSwtMj
+eyJoaXN0b3J5IjpbMTY4NjQyNDM0NiwtMjA4MTI2MzEyMSwtMj
 EwODY4MjI1NSwxNDUxNTc1MzQ3LC0xMDU0MTU0ODY3LDE4NDU4
 NjkzNiwxNzA0NDk5NjMwLDE3MDkzMjA5NDIsNzk0Njk2ODYyLD
 E1NjM4NDgzMjcsLTEzOTIyODE4NDgsNTgxNDk3MzQ0LDE0MzI1
