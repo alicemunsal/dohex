@@ -86,7 +86,7 @@ Data-oriented design forces you to think about your data first and foremost: wha
 
 ![DoHex](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Architecture.png)
 
-The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices**.  
+The architecture is made up of components that communicate with each other. Each component is developed separately; is encapsulated in its own package and has its own ports, adapters and all the implementation details inside. Component functionalities can only be used through its own ports. We can think components like in memory **Microservices** or DDD Bounded Context[^10].  
 
 ### Component
 
@@ -234,11 +234,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjcxNzQxNDIsLTkwNDczNzE0LC0xMT
-AzMTAxODAwLC0xNDQ4ODk4ODIyLC0yMDgxMjYzMTIxLC0yMTA4
-NjgyMjU1LDE0NTE1NzUzNDcsLTEwNTQxNTQ4NjcsMTg0NTg2OT
-M2LDE3MDQ0OTk2MzAsMTcwOTMyMDk0Miw3OTQ2OTY4NjIsMTU2
-Mzg0ODMyNywtMTM5MjI4MTg0OCw1ODE0OTczNDQsMTQzMjU5NT
-QxMCwxNjY3OTI2MTY5LDgyMTU2OTAzNCwtMTY2ODI5NSwyMTAz
-ODI1OTk5XX0=
+eyJoaXN0b3J5IjpbLTUzNDg2MzAzMCwtMTEyNzE3NDE0MiwtOT
+A0NzM3MTQsLTExMDMxMDE4MDAsLTE0NDg4OTg4MjIsLTIwODEy
+NjMxMjEsLTIxMDg2ODIyNTUsMTQ1MTU3NTM0NywtMTA1NDE1ND
+g2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5
+NDY5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4LDU4MTQ5Nz
+M0NCwxNDMyNTk1NDEwLDE2Njc5MjYxNjksODIxNTY5MDM0LC0x
+NjY4Mjk1XX0=
 -->
