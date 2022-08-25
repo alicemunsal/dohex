@@ -221,21 +221,21 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 [^7]: Data-Oriented Design and C++ https://www.youtube.com/watch?v=rX0ItVEVjHc
 [^8]: Package by component http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 [^9]: Event driven architecture https://en.wikipedia.org/wiki/Event-driven_architecture
-[^10]: 
-[^10]: Pure function https://en.wikipedia.org/wiki/Pure_function
-[^11]: Deterministic algorithm https://en.wikipedia.org/wiki/Deterministic_algorithm
-[^12]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
-[^13]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
-[^14]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
-[^15]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
-[^16]: Reactive Manifesto https://www.reactivemanifesto.org/
-[^17]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
-[^18]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
-[^19]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
+[^10]: Bounded Context https://www.martinfowler.com/bliki/BoundedContext.html
+[^11]: Pure function https://en.wikipedia.org/wiki/Pure_function
+[^12]: Deterministic algorithm https://en.wikipedia.org/wiki/Deterministic_algorithm
+[^13]: Side effects https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+[^14]: Functional core, imperative shell https://www.destroyallsoftware.com/talks/boundaries
+[^15]: Classes should be deep https://akshaykhot.com/classes-should-be-deep/
+[^16]: Pub-Sub Design Pattern https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern
+[^17]: Reactive Manifesto https://www.reactivemanifesto.org/
+[^18]: Anti-corruption Layer (ACL) https://deviq.com/domain-driven-design/anti-corruption-layer
+[^19]: Virtual method table https://en.wikipedia.org/wiki/Virtual_method_table
+[^20]: Hexagonal Architecture for Qt Embedded Applications https://embeddeduse.com/2021/11/07/my-talk-hexagonal-architecture-the-standard-for-qt-embedded-applications-at-meeting-embedded-2021/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDM0ODc3MiwtMTEyNzE3NDE0MiwtOT
+eyJoaXN0b3J5IjpbLTY4MjQyMzgyNCwtMTEyNzE3NDE0MiwtOT
 A0NzM3MTQsLTExMDMxMDE4MDAsLTE0NDg4OTg4MjIsLTIwODEy
 NjMxMjEsLTIxMDg2ODIyNTUsMTQ1MTU3NTM0NywtMTA1NDE1ND
 g2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOTQyLDc5
