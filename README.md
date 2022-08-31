@@ -96,8 +96,6 @@ A component can contain 1 App, 1 Core and many Adapters as needed.
 
 * **App**: It's the essential part of the component. Other parts are optional but all components must have one app. This is the application logic of the component. It coordinates other parts and contains automation functionalities. App also contains Ports. **Ports** are interfaces that define contracts between app and adapters.  Use cases of the component are exposed to driving adapters as a function in this part.  
 
--   **Core**: This is the business logic or domain logic part of the component. It contains real world business rules. If domain logic of the component is very simple, we can omit this part and combine application and business logic into use cases of the app part. You may still want to use  **Object Oriented Design**  for some of your components business logic. In this case, change this part's name to  **Domain**  and put your domain entities here.
-
 * **Adapters**: Adapters are the connection point of the IO devices. Driving adapters call app use cases and Driven adapter functionalities are called by use cases of the app based on the application logic of the component.  
 
 * **Lib**: Library is the transformation unit of the containing part of the component. The purpose of all parts of a program is to transform data. Therefore, all parts may need this transformation unit. A library consist of data models and/or transformation functions. Library functions are [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) [^11]. They are stateless, [Deterministic](https://en.wikipedia.org/wiki/Deterministic_algorithm)[^12] and [Side Effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29)[^13] free. Libraries can be put into any part of the program and do exactly the same thing, transform data: JSON to an object, an object to another type of object (mapping), an object to a boolean (validation), an object to a SQL string, etc.  
@@ -237,7 +235,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODk0Nzk0NCwtNjgyNDIzODI0LC0xMT
+eyJoaXN0b3J5IjpbLTY4MjQyMzgyNCwtNjgyNDIzODI0LC0xMT
 I3MTc0MTQyLC05MDQ3MzcxNCwtMTEwMzEwMTgwMCwtMTQ0ODg5
 ODgyMiwtMjA4MTI2MzEyMSwtMjEwODY4MjI1NSwxNDUxNTc1Mz
 Q3LC0xMDU0MTU0ODY3LDE4NDU4NjkzNiwxNzA0NDk5NjMwLDE3
