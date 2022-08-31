@@ -139,7 +139,7 @@ libs            --> shared libraries
 
 * **components:** This is where we put each component as a folder.  
 
-* **libs:**  It contains shared libraries. In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
+* **libs:**  It contains shared libraries (lib). In case of we need shared model and/or transformation functions among the components. However you should be cautious about using shared libraries, because they create coupling.
 
 ```
 acl	
@@ -236,11 +236,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTY3NDk4NCwtOTM3MjczOTkwLC0xNj
-c4MDAzMjg5LC02ODI0MjM4MjQsLTY4MjQyMzgyNCwtMTEyNzE3
-NDE0MiwtOTA0NzM3MTQsLTExMDMxMDE4MDAsLTE0NDg4OTg4Mj
-IsLTIwODEyNjMxMjEsLTIxMDg2ODIyNTUsMTQ1MTU3NTM0Nywt
-MTA1NDE1NDg2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5Mz
-IwOTQyLDc5NDY5Njg2MiwxNTYzODQ4MzI3LC0xMzkyMjgxODQ4
-LDU4MTQ5NzM0NF19
+eyJoaXN0b3J5IjpbLTExMzUyMTQ2MjAsLTkzNzI3Mzk5MCwtMT
+Y3ODAwMzI4OSwtNjgyNDIzODI0LC02ODI0MjM4MjQsLTExMjcx
+NzQxNDIsLTkwNDczNzE0LC0xMTAzMTAxODAwLC0xNDQ4ODk4OD
+IyLC0yMDgxMjYzMTIxLC0yMTA4NjgyMjU1LDE0NTE1NzUzNDcs
+LTEwNTQxNTQ4NjcsMTg0NTg2OTM2LDE3MDQ0OTk2MzAsMTcwOT
+MyMDk0Miw3OTQ2OTY4NjIsMTU2Mzg0ODMyNywtMTM5MjI4MTg0
+OCw1ODE0OTczNDRdfQ==
 -->
