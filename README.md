@@ -114,7 +114,7 @@ Component parts and libraries provide facade interfaces as a service for usabili
 
 Event bus and scheduler are the essential concepts for this architecture. Event bus is the implementation of the [Pub-Sub Design Pattern](https://www.enjoyalgorithms.com/blog/publisher-subscriber-pattern)[^16] and it is the way to enable efficient communication between different components without them being aware of one another. Scheduler let you run functions periodically at pre-determined intervals and incentives developers to think asynchronously.
 
-You may want to directly inject event bus and/or scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^17] systems with less effort. 
+You may want to add an event bus and/or a scheduler to the app constructor instead of an adapter. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^17] systems with less effort. 
 
 
 ## Project Structure
@@ -236,11 +236,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUyMTQ2MjAsLTkzNzI3Mzk5MCwtMT
-Y3ODAwMzI4OSwtNjgyNDIzODI0LC02ODI0MjM4MjQsLTExMjcx
-NzQxNDIsLTkwNDczNzE0LC0xMTAzMTAxODAwLC0xNDQ4ODk4OD
-IyLC0yMDgxMjYzMTIxLC0yMTA4NjgyMjU1LDE0NTE1NzUzNDcs
-LTEwNTQxNTQ4NjcsMTg0NTg2OTM2LDE3MDQ0OTk2MzAsMTcwOT
-MyMDk0Miw3OTQ2OTY4NjIsMTU2Mzg0ODMyNywtMTM5MjI4MTg0
-OCw1ODE0OTczNDRdfQ==
+eyJoaXN0b3J5IjpbNDg3NDg3OTk2LC0xMTM1MjE0NjIwLC05Mz
+cyNzM5OTAsLTE2NzgwMDMyODksLTY4MjQyMzgyNCwtNjgyNDIz
+ODI0LC0xMTI3MTc0MTQyLC05MDQ3MzcxNCwtMTEwMzEwMTgwMC
+wtMTQ0ODg5ODgyMiwtMjA4MTI2MzEyMSwtMjEwODY4MjI1NSwx
+NDUxNTc1MzQ3LC0xMDU0MTU0ODY3LDE4NDU4NjkzNiwxNzA0ND
+k5NjMwLDE3MDkzMjA5NDIsNzk0Njk2ODYyLDE1NjM4NDgzMjcs
+LTEzOTIyODE4NDhdfQ==
 -->
