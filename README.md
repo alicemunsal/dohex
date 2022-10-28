@@ -58,7 +58,7 @@ We are developing software systems with logical parts (or layers). Each part may
 
 ![parts](https://raw.githubusercontent.com/alicemunsal/dohex/master/img/1-Transformer.png)
 
-For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns are transformation mechanisms.  
+For the perspective of the DOD; repositories, gateways or UI patterns like MVC, MVVM or MVP; all the patterns and layers are transformation mechanisms.  
   
 ### Solving Problems
 
@@ -236,11 +236,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc5ODI0Miw0ODc0ODc5OTYsLTExMz
-UyMTQ2MjAsLTkzNzI3Mzk5MCwtMTY3ODAwMzI4OSwtNjgyNDIz
-ODI0LC02ODI0MjM4MjQsLTExMjcxNzQxNDIsLTkwNDczNzE0LC
-0xMTAzMTAxODAwLC0xNDQ4ODk4ODIyLC0yMDgxMjYzMTIxLC0y
-MTA4NjgyMjU1LDE0NTE1NzUzNDcsLTEwNTQxNTQ4NjcsMTg0NT
-g2OTM2LDE3MDQ0OTk2MzAsMTcwOTMyMDk0Miw3OTQ2OTY4NjIs
-MTU2Mzg0ODMyN119
+eyJoaXN0b3J5IjpbLTM0NTQ2NjY3OSwtMTE5Nzk4MjQyLDQ4Nz
+Q4Nzk5NiwtMTEzNTIxNDYyMCwtOTM3MjczOTkwLC0xNjc4MDAz
+Mjg5LC02ODI0MjM4MjQsLTY4MjQyMzgyNCwtMTEyNzE3NDE0Mi
+wtOTA0NzM3MTQsLTExMDMxMDE4MDAsLTE0NDg4OTg4MjIsLTIw
+ODEyNjMxMjEsLTIxMDg2ODIyNTUsMTQ1MTU3NTM0NywtMTA1ND
+E1NDg2NywxODQ1ODY5MzYsMTcwNDQ5OTYzMCwxNzA5MzIwOTQy
+LDc5NDY5Njg2Ml19
 -->
