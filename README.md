@@ -118,7 +118,7 @@ You may want to add an event bus and/or a scheduler to an easily accessible loca
 
 > If you want to get somebody to do something, make it easy
 > 
-> .. Richard Thaler 
+> -- Richard Thaler 
 
 ## Project Structure
 
@@ -239,7 +239,7 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzM5MTY1MCwtMzQ1NDY2Njc5LC0xMT
+eyJoaXN0b3J5IjpbLTYxOTExMDE0MiwtMzQ1NDY2Njc5LC0xMT
 k3OTgyNDIsNDg3NDg3OTk2LC0xMTM1MjE0NjIwLC05MzcyNzM5
 OTAsLTE2NzgwMDMyODksLTY4MjQyMzgyNCwtNjgyNDIzODI0LC
 0xMTI3MTc0MTQyLC05MDQ3MzcxNCwtMTEwMzEwMTgwMCwtMTQ0
