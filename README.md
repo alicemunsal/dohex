@@ -116,7 +116,7 @@ Event bus and scheduler are the essential concepts for this architecture. Event 
 
 You may want to add an event bus and/or a scheduler to an easily accessible location of your codebase. This will create path of least resistance for developers and encourage them to write loosely coupled, asynchronous components and [Reactive](https://www.reactivemanifesto.org/)[^17] systems with less effort. 
 
-> ... if you want to get somebody to do something, make it easy
+> If you want to get somebody to do something, make it easy
 > 
 > .. Richard Thaler 
 
@@ -239,11 +239,11 @@ This is my second attempt to write about DoHex Architecture. The first one was g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyNTIyMjU2LC0zNDU0NjY2NzksLTExOT
-c5ODI0Miw0ODc0ODc5OTYsLTExMzUyMTQ2MjAsLTkzNzI3Mzk5
-MCwtMTY3ODAwMzI4OSwtNjgyNDIzODI0LC02ODI0MjM4MjQsLT
-ExMjcxNzQxNDIsLTkwNDczNzE0LC0xMTAzMTAxODAwLC0xNDQ4
-ODk4ODIyLC0yMDgxMjYzMTIxLC0yMTA4NjgyMjU1LDE0NTE1Nz
-UzNDcsLTEwNTQxNTQ4NjcsMTg0NTg2OTM2LDE3MDQ0OTk2MzAs
-MTcwOTMyMDk0Ml19
+eyJoaXN0b3J5IjpbMTU1NzM5MTY1MCwtMzQ1NDY2Njc5LC0xMT
+k3OTgyNDIsNDg3NDg3OTk2LC0xMTM1MjE0NjIwLC05MzcyNzM5
+OTAsLTE2NzgwMDMyODksLTY4MjQyMzgyNCwtNjgyNDIzODI0LC
+0xMTI3MTc0MTQyLC05MDQ3MzcxNCwtMTEwMzEwMTgwMCwtMTQ0
+ODg5ODgyMiwtMjA4MTI2MzEyMSwtMjEwODY4MjI1NSwxNDUxNT
+c1MzQ3LC0xMDU0MTU0ODY3LDE4NDU4NjkzNiwxNzA0NDk5NjMw
+LDE3MDkzMjA5NDJdfQ==
 -->
